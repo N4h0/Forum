@@ -1,5 +1,5 @@
-﻿using System;
-namespace MyShop.Models
+using System;
+namespace Forum.Models
 {
 	public class Item
 	{
