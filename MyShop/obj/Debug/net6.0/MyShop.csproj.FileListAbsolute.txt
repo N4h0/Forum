@@ -1,0 +1,88 @@
+/Users/baifanz/Projects/ITPE32-23H/WIP/MyShop/MyShop/bin/Debug/net6.0/appsettings.Development.json
+/Users/baifanz/Projects/ITPE32-23H/WIP/MyShop/MyShop/bin/Debug/net6.0/appsettings.json
+/Users/baifanz/Projects/ITPE32-23H/WIP/MyShop/MyShop/bin/Debug/net6.0/MyShop
+/Users/baifanz/Projects/ITPE32-23H/WIP/MyShop/MyShop/bin/Debug/net6.0/MyShop.deps.json
+/Users/baifanz/Projects/ITPE32-23H/WIP/MyShop/MyShop/bin/Debug/net6.0/MyShop.runtimeconfig.json
+/Users/baifanz/Projects/ITPE32-23H/WIP/MyShop/MyShop/bin/Debug/net6.0/MyShop.dll
+/Users/baifanz/Projects/ITPE32-23H/WIP/MyShop/MyShop/bin/Debug/net6.0/MyShop.pdb
+/Users/baifanz/Projects/ITPE32-23H/WIP/MyShop/MyShop/obj/Debug/net6.0/MyShop.csproj.AssemblyReference.cache
+/Users/baifanz/Projects/ITPE32-23H/WIP/MyShop/MyShop/obj/Debug/net6.0/MyShop.GeneratedMSBuildEditorConfig.editorconfig
+/Users/baifanz/Projects/ITPE32-23H/WIP/MyShop/MyShop/obj/Debug/net6.0/MyShop.AssemblyInfoInputs.cache
+/Users/baifanz/Projects/ITPE32-23H/WIP/MyShop/MyShop/obj/Debug/net6.0/MyShop.AssemblyInfo.cs
+/Users/baifanz/Projects/ITPE32-23H/WIP/MyShop/MyShop/obj/Debug/net6.0/MyShop.csproj.CoreCompileInputs.cache
+/Users/baifanz/Projects/ITPE32-23H/WIP/MyShop/MyShop/obj/Debug/net6.0/MyShop.MvcApplicationPartsAssemblyInfo.cache
+/Users/baifanz/Projects/ITPE32-23H/WIP/MyShop/MyShop/obj/Debug/net6.0/MyShop.RazorAssemblyInfo.cache
+/Users/baifanz/Projects/ITPE32-23H/WIP/MyShop/MyShop/obj/Debug/net6.0/MyShop.RazorAssemblyInfo.cs
+/Users/baifanz/Projects/ITPE32-23H/WIP/MyShop/MyShop/obj/Debug/net6.0/staticwebassets/msbuild.MyShop.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/baifanz/Projects/ITPE32-23H/WIP/MyShop/MyShop/obj/Debug/net6.0/staticwebassets/msbuild.build.MyShop.props
+/Users/baifanz/Projects/ITPE32-23H/WIP/MyShop/MyShop/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.MyShop.props
+/Users/baifanz/Projects/ITPE32-23H/WIP/MyShop/MyShop/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.MyShop.props
+/Users/baifanz/Projects/ITPE32-23H/WIP/MyShop/MyShop/obj/Debug/net6.0/staticwebassets.pack.json
+/Users/baifanz/Projects/ITPE32-23H/WIP/MyShop/MyShop/obj/Debug/net6.0/staticwebassets.build.json
+/Users/baifanz/Projects/ITPE32-23H/WIP/MyShop/MyShop/obj/Debug/net6.0/staticwebassets.development.json
+/Users/baifanz/Projects/ITPE32-23H/WIP/MyShop/MyShop/obj/Debug/net6.0/scopedcss/bundle/MyShop.styles.css
+/Users/baifanz/Projects/ITPE32-23H/WIP/MyShop/MyShop/obj/Debug/net6.0/MyShop.dll
+/Users/baifanz/Projects/ITPE32-23H/WIP/MyShop/MyShop/obj/Debug/net6.0/refint/MyShop.dll
+/Users/baifanz/Projects/ITPE32-23H/WIP/MyShop/MyShop/obj/Debug/net6.0/MyShop.pdb
+/Users/baifanz/Projects/ITPE32-23H/WIP/MyShop/MyShop/obj/Debug/net6.0/MyShop.genruntimeconfig.cache
+/Users/baifanz/Projects/ITPE32-23H/WIP/MyShop/MyShop/obj/Debug/net6.0/ref/MyShop.dll
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-1/MyShop/bin/Debug/net6.0/appsettings.Development.json
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-1/MyShop/bin/Debug/net6.0/appsettings.json
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-1/MyShop/bin/Debug/net6.0/MyShop
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-1/MyShop/bin/Debug/net6.0/MyShop.deps.json
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-1/MyShop/bin/Debug/net6.0/MyShop.runtimeconfig.json
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-1/MyShop/bin/Debug/net6.0/MyShop.dll
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-1/MyShop/bin/Debug/net6.0/MyShop.pdb
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-1/MyShop/obj/Debug/net6.0/MyShop.csproj.AssemblyReference.cache
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-1/MyShop/obj/Debug/net6.0/MyShop.GeneratedMSBuildEditorConfig.editorconfig
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-1/MyShop/obj/Debug/net6.0/MyShop.AssemblyInfoInputs.cache
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-1/MyShop/obj/Debug/net6.0/MyShop.AssemblyInfo.cs
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-1/MyShop/obj/Debug/net6.0/MyShop.csproj.CoreCompileInputs.cache
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-1/MyShop/obj/Debug/net6.0/MyShop.MvcApplicationPartsAssemblyInfo.cache
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-1/MyShop/obj/Debug/net6.0/MyShop.RazorAssemblyInfo.cache
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-1/MyShop/obj/Debug/net6.0/MyShop.RazorAssemblyInfo.cs
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-1/MyShop/obj/Debug/net6.0/staticwebassets/msbuild.MyShop.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-1/MyShop/obj/Debug/net6.0/staticwebassets/msbuild.build.MyShop.props
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-1/MyShop/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.MyShop.props
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-1/MyShop/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.MyShop.props
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-1/MyShop/obj/Debug/net6.0/staticwebassets.pack.json
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-1/MyShop/obj/Debug/net6.0/staticwebassets.build.json
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-1/MyShop/obj/Debug/net6.0/staticwebassets.development.json
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-1/MyShop/obj/Debug/net6.0/scopedcss/bundle/MyShop.styles.css
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-1/MyShop/obj/Debug/net6.0/MyShop.dll
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-1/MyShop/obj/Debug/net6.0/refint/MyShop.dll
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-1/MyShop/obj/Debug/net6.0/MyShop.pdb
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-1/MyShop/obj/Debug/net6.0/MyShop.genruntimeconfig.cache
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-1/MyShop/obj/Debug/net6.0/ref/MyShop.dll
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/bin/Debug/net6.0/appsettings.Development.json
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/bin/Debug/net6.0/appsettings.json
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/bin/Debug/net6.0/libman.json
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/bin/Debug/net6.0/MyShop.staticwebassets.runtime.json
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/bin/Debug/net6.0/MyShop
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/bin/Debug/net6.0/MyShop.deps.json
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/bin/Debug/net6.0/MyShop.runtimeconfig.json
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/bin/Debug/net6.0/MyShop.dll
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/bin/Debug/net6.0/MyShop.pdb
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/MyShop.csproj.AssemblyReference.cache
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/MyShop.GeneratedMSBuildEditorConfig.editorconfig
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/MyShop.AssemblyInfoInputs.cache
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/MyShop.AssemblyInfo.cs
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/MyShop.csproj.CoreCompileInputs.cache
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/MyShop.MvcApplicationPartsAssemblyInfo.cache
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/MyShop.RazorAssemblyInfo.cache
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/MyShop.RazorAssemblyInfo.cs
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/staticwebassets/msbuild.MyShop.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/staticwebassets/msbuild.build.MyShop.props
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.MyShop.props
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.MyShop.props
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/staticwebassets.pack.json
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/staticwebassets.build.json
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/staticwebassets.development.json
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/scopedcss/bundle/MyShop.styles.css
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/scopedcss/projectbundle/MyShop.bundle.scp.css
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/MyShop.dll
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/refint/MyShop.dll
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/MyShop.pdb
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/MyShop.genruntimeconfig.cache
+/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/ref/MyShop.dll

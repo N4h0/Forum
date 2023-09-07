@@ -1,0 +1,55 @@
+﻿<Properties StartupConfiguration="{EED2ED93-54AD-48E9-9C4E-7F60C7D8DCA7}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyShop/Program.cs">
+    <Files>
+      <File FileName="MyShop/Views/Shared/_Layout.cshtml" />
+      <File FileName="MyShop/Views/Shared/_Layout.cshtml.css" />
+      <File FileName="MyShop/Views/_ViewImports.cshtml" />
+      <File FileName="MyShop/Views/_ViewStart.cshtml" />
+      <File FileName="MyShop/Views/Home/Index.cshtml" />
+      <File FileName="MyShop/Views/Item/Table.cshtml" Line="12" Column="7" />
+      <File FileName="MyShop/Controllers/HomeController.cs" />
+      <File FileName="MyShop/appsettings.json" Line="1" Column="1" />
+      <File FileName="MyShop/Properties/launchSettings.json" Line="28" Column="2" />
+      <File FileName="MyShop/Program.cs" Line="10" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MyShop" expanded="True">
+            <Node name="MyShop" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Item" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>"Cheese Cake".IndexOf("cake", StringComparison.OrdinalIgnoreCase)</Value>
+          <Value>_pieShopDbContext.Pies</Value>
+          <Value>_pieShopDbContext.Pies.Where(p =&gt; p.Name.ToUpper().Contains(searchQuery.ToUpper()))</Value>
+          <Value>searchQuery.ToUpper()</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MyShop PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

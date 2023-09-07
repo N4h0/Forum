@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "A5Uhn3r3glywmLBqR2lhdcgxUbi6XHktd+PokB/Kq10=",
+  "Source": "MyShop",
+  "BasePath": "_content/MyShop",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MyShop/wwwroot",
+      "Source": "MyShop",
+      "ContentRoot": "/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/wwwroot/",
+      "BasePath": "_content/MyShop",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/scopedcss/bundle/MyShop.styles.css",
+      "SourceId": "MyShop",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/scopedcss/bundle/",
+      "BasePath": "_content/MyShop",
+      "RelativePath": "MyShop.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/scopedcss/bundle/MyShop.styles.css"
+    },
+    {
+      "Identity": "/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/scopedcss/projectbundle/MyShop.bundle.scp.css",
+      "SourceId": "MyShop",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/scopedcss/projectbundle/",
+      "BasePath": "_content/MyShop",
+      "RelativePath": "MyShop.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/scopedcss/projectbundle/MyShop.bundle.scp.css"
+    }
+  ]
+}
