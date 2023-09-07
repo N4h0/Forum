@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Johan\\.nuget\\packages\\": {}
+    "C:\\Users\\mahwi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Johan\\source\\repos\\N4h0\\Forum\\MyShop\\Forum.csproj",
+      "projectUniqueName": "E:\\git prosjekt\\Forum\\MyShop\\Forum.csproj",
       "projectName": "Forum",
-      "projectPath": "C:\\Users\\Johan\\source\\repos\\N4h0\\Forum\\MyShop\\Forum.csproj",
-      "packagesPath": "C:\\Users\\Johan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Johan\\source\\repos\\N4h0\\Forum\\MyShop\\obj\\",
+      "projectPath": "E:\\git prosjekt\\Forum\\MyShop\\Forum.csproj",
+      "packagesPath": "C:\\Users\\mahwi\\.nuget\\packages\\",
+      "outputPath": "E:\\git prosjekt\\Forum\\MyShop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Johan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mahwi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Controllers\ThreadsController1.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Models\" />
     <None Remove="Views\" />
     <None Remove="Controllers\" />
@@ -15,8 +19,6 @@
     <None Remove="Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Views\" />
-    <Folder Include="Views\Home\" />
     <Folder Include="Views\Shared\" />
   </ItemGroup>
 </Project>
