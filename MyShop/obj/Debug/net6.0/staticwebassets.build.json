@@ -1,26 +1,18 @@
 {
   "Version": 1,
-  "Hash": "A5Uhn3r3glywmLBqR2lhdcgxUbi6XHktd+PokB/Kq10=",
+  "Hash": "XFLvv2ihNZz60WMyWckb30aQ8HlQeUkj8ieexDgL6ms=",
   "Source": "MyShop",
   "BasePath": "_content/MyShop",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [
-    {
-      "Name": "MyShop/wwwroot",
-      "Source": "MyShop",
-      "ContentRoot": "/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/wwwroot/",
-      "BasePath": "_content/MyShop",
-      "Pattern": "**"
-    }
-  ],
+  "DiscoveryPatterns": [],
   "Assets": [
     {
-      "Identity": "/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/scopedcss/bundle/MyShop.styles.css",
+      "Identity": "C:\\Users\\Johan\\source\\repos\\N4h0\\Forum\\MyShop\\obj\\Debug\\net6.0\\scopedcss\\bundle\\MyShop.styles.css",
       "SourceId": "MyShop",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/scopedcss/bundle/",
+      "ContentRoot": "C:\\Users\\Johan\\source\\repos\\N4h0\\Forum\\MyShop\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/MyShop",
       "RelativePath": "MyShop.styles.css",
       "AssetKind": "All",
@@ -31,13 +23,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/scopedcss/bundle/MyShop.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Johan\\source\\repos\\N4h0\\Forum\\MyShop\\obj\\Debug\\net6.0\\scopedcss\\bundle\\MyShop.styles.css"
     },
     {
-      "Identity": "/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/scopedcss/projectbundle/MyShop.bundle.scp.css",
+      "Identity": "C:\\Users\\Johan\\source\\repos\\N4h0\\Forum\\MyShop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MyShop.bundle.scp.css",
       "SourceId": "MyShop",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/scopedcss/projectbundle/",
+      "ContentRoot": "C:\\Users\\Johan\\source\\repos\\N4h0\\Forum\\MyShop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/MyShop",
       "RelativePath": "MyShop.bundle.scp.css",
       "AssetKind": "All",
@@ -48,7 +40,7 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/scopedcss/projectbundle/MyShop.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Johan\\source\\repos\\N4h0\\Forum\\MyShop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MyShop.bundle.scp.css"
     }
   ]
 }

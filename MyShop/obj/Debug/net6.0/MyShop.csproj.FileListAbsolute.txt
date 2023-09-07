@@ -86,3 +86,34 @@
 /Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/MyShop.pdb
 /Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/MyShop.genruntimeconfig.cache
 /Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/obj/Debug/net6.0/ref/MyShop.dll
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\bin\Debug\net6.0\appsettings.json
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\bin\Debug\net6.0\libman.json
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\bin\Debug\net6.0\MyShop.staticwebassets.runtime.json
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\bin\Debug\net6.0\MyShop.exe
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\bin\Debug\net6.0\MyShop.deps.json
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\bin\Debug\net6.0\MyShop.runtimeconfig.json
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\bin\Debug\net6.0\MyShop.dll
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\bin\Debug\net6.0\MyShop.pdb
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\obj\Debug\net6.0\MyShop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\obj\Debug\net6.0\MyShop.AssemblyInfoInputs.cache
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\obj\Debug\net6.0\MyShop.AssemblyInfo.cs
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\obj\Debug\net6.0\MyShop.csproj.CoreCompileInputs.cache
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\obj\Debug\net6.0\MyShop.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\obj\Debug\net6.0\MyShop.RazorAssemblyInfo.cache
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\obj\Debug\net6.0\MyShop.RazorAssemblyInfo.cs
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\obj\Debug\net6.0\staticwebassets\msbuild.MyShop.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\obj\Debug\net6.0\staticwebassets\msbuild.build.MyShop.props
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.MyShop.props
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.MyShop.props
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\obj\Debug\net6.0\scopedcss\bundle\MyShop.styles.css
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\obj\Debug\net6.0\scopedcss\projectbundle\MyShop.bundle.scp.css
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\obj\Debug\net6.0\MyShop.dll
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\obj\Debug\net6.0\refint\MyShop.dll
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\obj\Debug\net6.0\MyShop.pdb
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\obj\Debug\net6.0\MyShop.genruntimeconfig.cache
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\obj\Debug\net6.0\ref\MyShop.dll

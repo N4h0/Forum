@@ -9,29 +9,29 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MyShop
 build_property.RootNamespace = MyShop
-build_property.ProjectDir = /Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/
+build_property.ProjectDir = C:\Users\Johan\source\repos\N4h0\Forum\MyShop\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop
+build_property.MSBuildProjectDirectory = C:\Users\Johan\source\repos\N4h0\Forum\MyShop
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/Views/Item/Table.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbS9UYWJsZS5jc2h0bWw=
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Item/Table.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxUYWJsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/baifanz/Projects/ITPE32-23H/2-MVC /MyShop-2/MyShop/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-axnuj3c1xz
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-yeuxn7t2ft

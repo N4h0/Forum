@@ -1,0 +1,7 @@
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\obj\Debug\net6.0\Forum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\obj\Debug\net6.0\Forum.AssemblyInfoInputs.cache
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\obj\Debug\net6.0\Forum.AssemblyInfo.cs
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\obj\Debug\net6.0\Forum.csproj.CoreCompileInputs.cache
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\obj\Debug\net6.0\Forum.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\obj\Debug\net6.0\Forum.RazorAssemblyInfo.cache
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\obj\Debug\net6.0\Forum.RazorAssemblyInfo.cs
