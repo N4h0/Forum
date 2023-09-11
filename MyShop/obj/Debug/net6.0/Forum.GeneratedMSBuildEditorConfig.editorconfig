@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\git prosjekt\Forum\MyShop
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/git prosjekt/Forum/MyShop/Views/Category/Table.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcVGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/git prosjekt/Forum/MyShop/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
