@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System;
+using Microsoft.AspNetCore.Mvc;
 using Forum.Models;
 using Forum.ViewModels;
 
@@ -7,44 +8,37 @@ namespace Forum.Controllers
     public class CategoryController : Controller
 
     {
-        private readonly ItemDbContext _itemDbContext;
+        private readonly CategoryDbContext _categoryDbContext;
 
-        public CategoryController(ItemDbContext itemDbContext)
+        public CategoryController(CategoryDbContext categoryDbContext)
         {
-            _itemDbContext = itemDbContext;
+            _categoryDbContext = categoryDbContext;
         }
 
         public IActionResult Table()
         {
-            List<Category> categories = _itemDbContext.Categories.ToList();
-            //var categories = GetCategories();
+            List<Category> categories = _categoryDbContext.Categories.ToList();
             var categoryListViewModel = new CategoryListViewModel(categories, "Table");
             return View(categoryListViewModel);
-
-            // List<Category> categories = new _itemDbContext.Categories.ToList();
-            //var items = new List<Category>();
-            //var item1 = new Category();
-
-            //item1.Name = "Sport";
-
-
-            //var item2 = new Category
-            /*{
-
-                Name = "Mat",
-
-            };
-
-            items.Add(item1);
-            items.Add(item2);
-
-            ViewBag.CurrentViewName = "List of Category";
-            return View(items);
-        }
-            */
         }
 
+        public IActionResult Grid() 
+        {
+            List<Category> categories = _categoryDbContext.Categories.ToList();
+            var categoryListViewModel = new CategoryListViewModel(categories, "Grid");
+            return View(categoryListViewModel);
+        }
 
+        public IActionResult Details(int id) 
+        {
+            List<Category> categories = _categoryDbContext.Categories.ToList();
+            var category = categories.FirstOrDefault(i => i.CategoryId == id);
+            if (categories == null) 
+            {
+                return NotFound();
+            }
+            return View(categories);
+        }
     }
 
 }

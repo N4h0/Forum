@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Forum.Models;
 
-public class ItemDbContext : DbContext
+public class CategoryDbContext : DbContext
 {
-    public ItemDbContext(DbContextOptions<ItemDbContext> options) : base(options)
+    public CategoryDbContext(DbContextOptions<CategoryDbContext> options) : base(options)
     {
         Database.EnsureCreated();
     }

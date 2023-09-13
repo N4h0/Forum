@@ -1,19 +1,6 @@
-﻿@model IEnumerable<Category>
+﻿@model CategoryListViewModel
 
-<h1>List of Shop Items (@ViewBag.CurrentViewName View)</h1>
+<h1>List of Categories (@Model.CurrentViewName View)</h1>
 <a href="/Category/Grid">Grid View</a>
 
-<div class="container">
-    <table class='table table-striped'>
-        <tr><th>Id</th><th>Name</th><th>Price</th><th>Description</th></tr>
-        @foreach (var item in Model)
-        {
-            <tr>
-           
-                <td>@item.Name</td>
-               
-                <td></td>
-            </tr>
-        }
-    </table>
-</div>
+<partial name="_CategoryTable" model="Model.Categories" />
