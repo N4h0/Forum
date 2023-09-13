@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Forum.Models;
 using Forum.ViewModels;
 using Microsoft.EntityFrameworkCore.Query;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace Forum.Controllers
 {
@@ -40,8 +41,73 @@ namespace Forum.Controllers
             }
             return View(categories);
         }
+
+
+    [HttpGet]
+    public IActionResult CreateCategory()
+    {
+        return View();
     }
 
+    [HttpPost]
+    public IActionResult CreateCategory(Category category)
+    {
+        if (ModelState.IsValid)
+        {
+            _categoryDbContext.Categories.Add(category);
+            _categoryDbContext.SaveChanges();
+                return RedirectToAction(nameof(Table));
+        }
+        return View(category);
+    }
+
+    [HttpGet]
+    public IActionResult UpdateCategory(int id)
+        {
+            var item = _categoryDbContext.Categories.Find(id);
+            if (item == null)
+            {
+                return NotFound();
+            }
+            return View(item);
+        }
+
+    [HttpPost]
+    public IActionResult UpdateCategory(Category category)
+        {
+            if (ModelState.IsValid)
+            {
+                _categoryDbContext.Categories.Update(category);
+                _categoryDbContext.SaveChanges();
+                return RedirectToAction(nameof(Table));
+            }
+            return View(category);
+        }
 
 
+
+    [HttpGet]
+    public IActionResult DeleteCategory(int id)
+        {
+            var item = _categoryDbContext.Categories.Find(id);
+            if (item == null)
+            {
+                return NotFound();
+            }
+            return View(item);
+        }
+
+    [HttpPost]
+    public IActionResult DeleteConfirmedCategory(int id)
+    {
+        var item = _categoryDbContext.Categories.Find(id);
+        if (item == null)
+        {
+            return NotFound();
+        }
+            _categoryDbContext.Categories.Remove(item);
+            _categoryDbContext.SaveChanges();
+            return RedirectToAction(nameof(Table));
+    }
+}
 }

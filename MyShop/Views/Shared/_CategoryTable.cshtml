@@ -16,8 +16,8 @@
                        asp-route-id="@categogy.CategoryId">@categogy.Name</a>
                 </td>              
                 <td>
-                    <a asp-action="Update" asp-route-id="@categogy.CategoryId">Update</a>
-                    <a asp-action="Delete" asp-route-id="@categogy.CategoryId">Delete</a>
+                    <a asp-action="UpdateCategory" asp-route-id="@categogy.CategoryId">Update</a>
+                    <a asp-action="DeleteCategory" asp-route-id="@categogy.CategoryId">Delete</a>
                 </td>
             </tr>
         }
@@ -25,6 +25,6 @@
     <p>
         <a class="btn btn-secondary"
            asp-controller="Category"
-           asp-action="Create">Create New Category </a>
+           asp-action="CreateCategory">Create New Category </a>
     </p>
 </div>
