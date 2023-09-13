@@ -5,7 +5,6 @@
         <tr>
             <th>Id</th>
             <th>Name</th>
-            <th>Description</th>
         </tr>
         @foreach (var categogy in Model)
         {
@@ -15,10 +14,7 @@
                     <a asp-controller="Category"
                        asp-action="Details"
                        asp-route-id="@categogy.CategoryId">@categogy.Name</a>
-                </td>
-
-                <td>@categogy.Description</td>
-               
+                </td>              
                 <td>
                     <a asp-action="Update" asp-route-id="@categogy.CategoryId">Update</a>
                     <a asp-action="Delete" asp-route-id="@categogy.CategoryId">Delete</a>

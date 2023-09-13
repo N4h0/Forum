@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Forum.Models;
 using Forum.ViewModels;
+using Microsoft.EntityFrameworkCore.Query;
 
 namespace Forum.Controllers
 {
@@ -40,5 +41,7 @@ namespace Forum.Controllers
             return View(categories);
         }
     }
+
+
 
 }

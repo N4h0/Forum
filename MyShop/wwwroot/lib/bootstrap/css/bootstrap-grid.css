@@ -250,7 +250,8 @@
   --bs-gutter-y: 1rem;
 }
 
-.g-4,
+.g-
+
 .gx-4 {
   --bs-gutter-x: 1.5rem;
 }
