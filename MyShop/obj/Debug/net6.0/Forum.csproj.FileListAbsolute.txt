@@ -122,3 +122,4 @@ C:\Users\latif\source\repos\pro1_web\Forum\MyShop\obj\Debug\net6.0\refint\Forum.
 C:\Users\latif\source\repos\pro1_web\Forum\MyShop\obj\Debug\net6.0\Forum.pdb
 C:\Users\latif\source\repos\pro1_web\Forum\MyShop\obj\Debug\net6.0\Forum.genruntimeconfig.cache
 C:\Users\latif\source\repos\pro1_web\Forum\MyShop\obj\Debug\net6.0\ref\Forum.dll
+C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\obj\Debug\net6.0\Forum.csproj.AssemblyReference.cache
