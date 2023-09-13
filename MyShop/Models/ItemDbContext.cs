@@ -10,6 +10,6 @@ public class ItemDbContext : DbContext
         Database.EnsureCreated();
     }
 
-    public DbSet<Category> categories { get; set; }
+    public DbSet<Category> Categories { get; set; }
     
 }
