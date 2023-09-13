@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4tcWCjp5vadvKAP3+fcdYgzhsMzMx6LkNGvnxz1Hyqg=",
+  "Hash": "+kXNqFL6rK/gToVLlaOxpV3sii9Ah9kLh00VBcgUYcE=",
   "Source": "Forum",
   "BasePath": "_content/Forum",
   "Mode": "Default",
@@ -9,10 +9,10 @@
   "DiscoveryPatterns": [],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Pette\\OneDrive\\Dokumenter\\GitHub\\Forum\\N4h0\\Forum\\MyShop\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Forum.styles.css",
+      "Identity": "C:\\Users\\latif\\source\\repos\\pro1_web\\Forum\\MyShop\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Forum.styles.css",
       "SourceId": "Forum",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Pette\\OneDrive\\Dokumenter\\GitHub\\Forum\\N4h0\\Forum\\MyShop\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\latif\\source\\repos\\pro1_web\\Forum\\MyShop\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Forum",
       "RelativePath": "Forum.styles.css",
       "AssetKind": "All",
@@ -23,13 +23,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Pette\\OneDrive\\Dokumenter\\GitHub\\Forum\\N4h0\\Forum\\MyShop\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Forum.styles.css"
+      "OriginalItemSpec": "C:\\Users\\latif\\source\\repos\\pro1_web\\Forum\\MyShop\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Forum.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Pette\\OneDrive\\Dokumenter\\GitHub\\Forum\\N4h0\\Forum\\MyShop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Forum.bundle.scp.css",
+      "Identity": "C:\\Users\\latif\\source\\repos\\pro1_web\\Forum\\MyShop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Forum.bundle.scp.css",
       "SourceId": "Forum",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Pette\\OneDrive\\Dokumenter\\GitHub\\Forum\\N4h0\\Forum\\MyShop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\latif\\source\\repos\\pro1_web\\Forum\\MyShop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Forum",
       "RelativePath": "Forum.bundle.scp.css",
       "AssetKind": "All",
@@ -40,7 +40,7 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Pette\\OneDrive\\Dokumenter\\GitHub\\Forum\\N4h0\\Forum\\MyShop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Forum.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\latif\\source\\repos\\pro1_web\\Forum\\MyShop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Forum.bundle.scp.css"
     }
   ]
 }

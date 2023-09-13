@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Pette\\.nuget\\packages\\": {}
+    "C:\\Users\\latif\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pette\\OneDrive\\Dokumenter\\GitHub\\Forum\\N4h0\\Forum\\MyShop\\Forum.csproj",
+      "projectUniqueName": "C:\\Users\\latif\\source\\repos\\pro1_web\\Forum\\MyShop\\Forum.csproj",
       "projectName": "Forum",
-      "projectPath": "C:\\Users\\Pette\\OneDrive\\Dokumenter\\GitHub\\Forum\\N4h0\\Forum\\MyShop\\Forum.csproj",
-      "packagesPath": "C:\\Users\\Pette\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pette\\OneDrive\\Dokumenter\\GitHub\\Forum\\N4h0\\Forum\\MyShop\\obj\\",
+      "projectPath": "C:\\Users\\latif\\source\\repos\\pro1_web\\Forum\\MyShop\\Forum.csproj",
+      "packagesPath": "C:\\Users\\latif\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\latif\\source\\repos\\pro1_web\\Forum\\MyShop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Pette\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\latif\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

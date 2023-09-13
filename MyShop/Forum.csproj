@@ -19,6 +19,7 @@
     <None Remove="Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="wwwroot\" />
     <Folder Include="Views\Shared\" />
   </ItemGroup>
 </Project>
