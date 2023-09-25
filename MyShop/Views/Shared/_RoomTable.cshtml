@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Room>
+
+<div class="container">
+    <table class='table table-striped'>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+        </tr>
+        @foreach (var room in Model)
+        {
+            <tr>
+                <td>@room.RoomName</td>
+                <td>
+                    <a asp-controller="Room"
+                       asp-action="RoomDetails"
+                       asp-route-id="@room.RoomId">@room.RoomName</a>
+                </td>
+            </tr>
+        }
+    </table>
+    <p>
+        <a class="btn btn-secondary"
+           asp-controller="Room"
+           asp-action="CreateRoom">Create New Room</a>
+    </p>
+</div>

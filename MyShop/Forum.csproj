@@ -7,11 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Controllers\ForumController.cs" />
     <Compile Remove="Controllers\ThreadsController1.cs" />
+    <Compile Remove="Models\Forum.cs" />
+    <Compile Remove="Models\ForumDbContext.cs" />
+    <Compile Remove="ViewModels\ForumListViewModel.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Remove="Views\Category\Update.cshtml" />
+    <Content Remove="Views\Room\CreateForum.cshtml" />
+    <Content Remove="Views\Room\ForumTable.cshtml" />
     <Content Remove="Views\Shared\Card.cshtml" />
     <Content Remove="Views\Shared\CategoryTable.cshtml" />
     <Content Remove="Views\Shared\_Card.cshtml" />
@@ -19,11 +25,15 @@
 
   <ItemGroup>
     <None Remove="Models\" />
+    <None Remove="ViewModels\NewFile.txt" />
     <None Remove="Views\" />
     <None Remove="Controllers\" />
+    <None Remove="Views\Room\NewFile.txt" />
     <None Remove="Views\Item\" />
     <None Remove="Views\Home\" />
     <None Remove="Views\Shared\" />
+    <None Remove="Views\Shared\NewFile.txt" />
+    <None Remove="Views\Shared\_RoomTable.vshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\" />

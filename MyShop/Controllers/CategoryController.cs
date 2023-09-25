@@ -17,21 +17,21 @@ namespace Forum.Controllers
             _categoryDbContext = categoryDbContext;
         }
 
-        public IActionResult Table()
+        public IActionResult CategoryTable()
         {
             List<Category> categories = _categoryDbContext.Categories.ToList();
             var categoryListViewModel = new CategoryListViewModel(categories, "Table");
             return View(categoryListViewModel);
         }
 
-        public IActionResult Grid() 
+        public IActionResult CategoryGrid() 
         {
             List<Category> categories = _categoryDbContext.Categories.ToList();
             var categoryListViewModel = new CategoryListViewModel(categories, "Grid");
             return View(categoryListViewModel);
         }
 
-        public IActionResult Details(int id) 
+        public IActionResult CategoryDetails(int id) 
         {
             var category = _categoryDbContext.Categories.FirstOrDefault(i => i.CategoryId == id);
             if (category == null) 
@@ -55,7 +55,7 @@ namespace Forum.Controllers
         {
             _categoryDbContext.Categories.Add(category);
             _categoryDbContext.SaveChanges();
-                return RedirectToAction(nameof(Table));
+                return RedirectToAction(nameof(CategoryTable));
         }
         return View(category);
     }
@@ -78,7 +78,7 @@ namespace Forum.Controllers
             {
                 _categoryDbContext.Categories.Update(category);
                 _categoryDbContext.SaveChanges();
-                return RedirectToAction(nameof(Table));
+                return RedirectToAction(nameof(CategoryTable));
             }
             return View(category);
         }
@@ -106,7 +106,7 @@ namespace Forum.Controllers
         }
             _categoryDbContext.Categories.Remove(item);
             _categoryDbContext.SaveChanges();
-            return RedirectToAction(nameof(Table));
+            return RedirectToAction(nameof(CategoryTable));
     }
 }
 }

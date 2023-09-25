@@ -1,0 +1,13 @@
+﻿@model Room
+
+<h2>Create new Room</h2>
+
+<form asp-action="CreateRoom">
+    <div class="form-group">
+        <label asp-for="RoomName"></label><span class="text-danger">*</span>
+        <input asp-for="RoomName" class="form-control" />
+        <span asp-valiation-fro="RoomName" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Create</button>
+    <a asp-action="Table" class="btn btn-secondary">Back to Table View</a>
+</form>
