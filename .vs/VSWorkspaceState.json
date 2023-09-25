@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Forum",
+    "\\MyShop",
+    "\\MyShop\\Models",
+    "\\MyShop\\Views"
   ],
   "SelectedNode": "\\MyShop.sln",
   "PreviewInSolutionExplorer": false

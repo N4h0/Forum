@@ -3,13 +3,15 @@
 	public class Room
 	{
 		public int RoomId { get; set; } //PK
-		public string Category { get; set; } = string.Empty;   //FK
 		public string RoomName { get; set; } = string.Empty;
 
-		//Navigaiton property:
+        public int CategoryId { get; set; } //FK
 
-		//public virtual Category category { get; set; } // Kan ikke være null 
 
-		//public virtual List<Thread>? threads { get; set; }
+        //Navigaiton property:
+
+        public virtual Category Category { get; set; } // Can't be zero. Virtual enables lazy loading. 
+
+		public virtual List<Thread>? Threads { get; set; } // One room can have many threads, or zero. ? means it can have zero threads.
 	}
 }

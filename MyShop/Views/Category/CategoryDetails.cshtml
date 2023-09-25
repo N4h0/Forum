@@ -10,3 +10,9 @@
         <!-- Her Skal vi ha partial med der vi henter ut listen av rooms i denne kategorien: <partial model="Model.Rooms.RoomId" -->
     </div>
 </div>
+
+
+<a class="btn btn-secondary"
+   asp-controller="Room"
+   asp-action="CreateRoom"
+   asp-route-categoryId="@Model.CategoryId">Create New Room </a>

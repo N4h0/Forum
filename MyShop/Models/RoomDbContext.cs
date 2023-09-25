@@ -5,7 +5,7 @@ namespace Forum.Models;
 
 public class RoomDbContext : DbContext
 {
-    public RoomDbContext(DbContextOptions<CategoryDbContext> options) : base(options)
+    public RoomDbContext(DbContextOptions<RoomDbContext> options) : base(options)
     {
         Database.EnsureCreated();
     }

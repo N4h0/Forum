@@ -12,6 +12,12 @@ builder.Services.AddDbContext<CategoryDbContext>(options =>
 
 });
 
+builder.Services.AddDbContext<RoomDbContext>(options =>
+{
+    options.UseSqlite(
+        builder.Configuration.GetConnectionString("RoomDbContextConnection"));
+});
+
 var app = builder.Build();
 
 if(app.Environment.IsDevelopment())
