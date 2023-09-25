@@ -9,57 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Forum
 build_property.RootNamespace = Forum
-build_property.ProjectDir = C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\
+build_property.ProjectDir = C:\Users\Johan\source\repos\N4h0\Forum\MyShop\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop
+build_property.MSBuildProjectDirectory = C:\Users\Johan\source\repos\N4h0\Forum\MyShop
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Category/CreateCategory.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Category/CreateCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Category/DeleteCategory.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Category/DeleteCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Category/Grid.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Category/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Category/Grid.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcR3JpZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Category/Table.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Category/Table.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcVGFibGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Category/UpdateCategory.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Category/UpdateCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcVXBkYXRlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Home/Index.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Shared/_CategoryCard.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Shared/_CategoryCard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXRlZ29yeUNhcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Shared/_CategoryTable.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Shared/_CategoryTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXRlZ29yeVRhYmxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/User/UserLogInn.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/User/UserLogInn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyTG9nSW5uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/_ViewImports.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/_ViewStart.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Shared/_Layout.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-fjdg2wquwm

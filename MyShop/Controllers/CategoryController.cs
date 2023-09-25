@@ -33,13 +33,12 @@ namespace Forum.Controllers
 
         public IActionResult Details(int id) 
         {
-            List<Category> categories = _categoryDbContext.Categories.ToList();
-            var category = categories.FirstOrDefault(i => i.CategoryId == id);
-            if (categories == null) 
+            var category = _categoryDbContext.Categories.FirstOrDefault(i => i.CategoryId == id);
+            if (category == null) 
             {
                 return NotFound();
             }
-            return View(categories);
+            return View(category);
         }
 
 

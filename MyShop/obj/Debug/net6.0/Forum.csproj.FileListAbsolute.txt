@@ -221,3 +221,4 @@ C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\bin\Debug\net6.0\runtimes\win-x86\
 C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\obj\Debug\net6.0\Forum.csproj.AssemblyReference.cache
 C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\obj\Debug\net6.0\Forum.csproj.CopyComplete
+C:\Users\Johan\source\repos\N4h0\Forum\MyShop\bin\Debug\net6.0\ViewModels\Properties\launchSettings.json
