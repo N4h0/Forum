@@ -1,0 +1,24 @@
+﻿@model IEnumerable<Thread>
+
+<div class="container">
+    <table class='table table-striped'>
+        <tr>
+            <th>Name</th>
+        </tr>
+        @foreach (var thread in Model)
+        {
+            <tr>
+                <td>
+                    <a asp-controller="Thread"
+                       asp-action="ThreadDetails"
+                       asp-route-id="@thread.ThreadId">@thread.ThreadName</a>
+                </td>
+            </tr>
+        }
+    </table>
+    <p>
+        <a class="btn btn-secondary"
+           asp-controller="Thread"
+           asp-action="CreateThread">Create New Thread</a>
+    </p>
+</div>

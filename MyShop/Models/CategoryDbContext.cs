@@ -11,5 +11,7 @@ public class CategoryDbContext : DbContext
     }
 
     public DbSet<Category> Categories { get; set; }
-    
+    public DbSet<Room> Rooms { get; set; }
+    public DbSet<Thread> Threads { get; set; }
+
 }

@@ -1,9 +1,15 @@
-﻿namespace Forum.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Forum.Models
 {
 	public class Thread
 	{
 		public int ThreadId { get; set; } //PK
-		public int ForumId { get; set; } //FK
-		public string ForumName { get; set; } = string.Empty;
-	}
+		public int RoomId { get; set; } //FK
+
+		[Required]
+		public string ThreadName { get; set; } = string.Empty; //Gir ingen mening å kunne opprette en tråd uten å gi den et navn
+
+
+    }
 }

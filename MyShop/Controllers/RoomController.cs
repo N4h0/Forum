@@ -10,9 +10,9 @@ namespace Forum.Controllers
     public class RoomController : Controller
 
     {
-        private readonly RoomDbContext _roomDbContext;
+        private readonly CategoryDbContext _roomDbContext;
 
-        public RoomController(RoomDbContext roomDbContext)
+        public RoomController(CategoryDbContext roomDbContext)
         {
             _roomDbContext = roomDbContext;
         }

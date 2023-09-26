@@ -1,0 +1,13 @@
+﻿@model Thread
+
+<h2>Create new Thread</h2>
+
+<form asp-action="CreateThread">
+    <div class="form-group">
+        <label asp-for="ThreadName"></label><span class="text-danger">*</span>
+        <input asp-for="ThreadName" class="form-control" />
+        <span asp-validation-for="ThreadName" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Create</button>
+    <a asp-action="RoomDetails" class="btn btn-secondary">Back to Room View</a>
+</form>

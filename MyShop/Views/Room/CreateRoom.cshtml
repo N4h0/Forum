@@ -9,5 +9,5 @@
         <span asp-validation-for="RoomName" class="text-danger"></span>
     </div>
     <button type="submit" class="btn btn-primary">Create</button>
-    <a asp-action="CategoryDetails" class="btn btn-secondary">Back to Category View</a>
+    <a asp-controller="Category" asp-action="CategoryDetails" asp-route-id="@Model.CategoryId" class="btn btn-secondary">Back to Category Details</a>
 </form>

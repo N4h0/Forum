@@ -1,9 +1,12 @@
-﻿namespace Forum.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Forum.Models
 {
 	public class Room
 	{
 		public int RoomId { get; set; } //PK
-		public string RoomName { get; set; } = string.Empty;
+        [Required]
+        public string RoomName { get; set; } = string.Empty; //Gir ingen mening å kunne opprette et forum uten å gi det et navn
 
         public int CategoryId { get; set; } //FK
 
