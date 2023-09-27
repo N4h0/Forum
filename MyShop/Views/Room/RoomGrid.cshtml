@@ -1,0 +1,11 @@
+﻿@model RoomListViewModel
+
+<h1>List of rooms (@Model.CurrentViewName View)</h1>
+<a href="/Room/RoomTable">Table View</a>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    @foreach (var room in Model.Rooms)
+    {
+        <partial name="_RoomCard" model="room" />
+    }
+</div>

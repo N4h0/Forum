@@ -17,21 +17,21 @@ namespace Forum.Controllers
             _categoryDbContext = categoryDbContext;
         }
 
-        public IActionResult CategoryTable()
+        public async Task< IActionResult> CategoryTable()
         {
             List<Category> categories = _categoryDbContext.Categories.ToList();
             var categoryListViewModel = new CategoryListViewModel(categories, "Table");
             return View(categoryListViewModel);
         }
 
-        public IActionResult CategoryGrid() 
+        public async Task< IActionResult> CategoryGrid() 
         {
             List<Category> categories = _categoryDbContext.Categories.ToList();
             var categoryListViewModel = new CategoryListViewModel(categories, "Grid");
             return View(categoryListViewModel);
         }
 
-        public IActionResult CategoryDetails(int id) 
+        public async Task<IActionResult> CategoryDetails(int id) 
         {
             var category = _categoryDbContext.Categories.FirstOrDefault(i => i.CategoryId == id);
             if (category == null) 
@@ -49,7 +49,7 @@ namespace Forum.Controllers
     }
 
     [HttpPost]
-    public IActionResult CreateCategory(Category category)
+        public async Task<IActionResult> CreateCategory(Category category)
     {
         if (ModelState.IsValid)
         {
@@ -61,7 +61,7 @@ namespace Forum.Controllers
     }
 
     [HttpGet]
-    public IActionResult UpdateCategory(int id)
+        public async Task<IActionResult> UpdateCategory(int id)
         {
             var item = _categoryDbContext.Categories.Find(id);
             if (item == null)
@@ -72,7 +72,7 @@ namespace Forum.Controllers
         }
 
     [HttpPost]
-    public IActionResult UpdateCategory(Category category)
+        public async Task<IActionResult> UpdateCategory(Category category)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace Forum.Controllers
 
 
     [HttpGet]
-    public IActionResult DeleteCategory(int id)
+        public async Task<IActionResult> DeleteCategory(int id)
         {
             var item = _categoryDbContext.Categories.Find(id);
             if (item == null)
@@ -97,7 +97,7 @@ namespace Forum.Controllers
         }
 
     [HttpPost]
-    public IActionResult DeleteConfirmedCategory(int id)
+        public async Task<IActionResult> DeleteConfirmedCategory(int id)
     {
         var item = _categoryDbContext.Categories.Find(id);
         if (item == null)

@@ -10,6 +10,10 @@ namespace Forum.Models
 		[Required]
 		public string ThreadName { get; set; } = string.Empty; //Gir ingen mening å kunne opprette en tråd uten å gi den et navn
 
+        //Navigaiton property:
 
+        public virtual Room room { get; set; } // Can't be zero. Virtual enables lazy loading. 
+
+        public virtual List<Post>? Posts { get; set; } // O
     }
 }

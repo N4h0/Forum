@@ -1,0 +1,15 @@
+﻿@model Room
+
+<div class="col">
+    <div>
+        <div>
+            <div class="d-flex justify-content-between mt-2">
+                <h5 class="text-start">
+                    <a asp-controller="Item"
+                       asp-action="Details"
+                       asp-route-id="@Model.RoomId">@Model.RoomName</a>
+                </h5>
+            </div>
+        </div>
+    </div>
+</div>

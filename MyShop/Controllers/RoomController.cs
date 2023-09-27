@@ -17,7 +17,7 @@ namespace Forum.Controllers
             _roomDbContext = roomDbContext;
         }
 
-        public IActionResult RoomTable()
+        public async Task<IActionResult>RoomTable()
         {
             List<Room> rooms = _roomDbContext.Rooms.ToList();
             var roomListViewModel = new RoomListViewModel(rooms, "Table");
@@ -30,7 +30,7 @@ namespace Forum.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateRoom(Room room)
+        public async Task< IActionResult> CreateRoom(Room room)
         {
             if (ModelState.IsValid)
             {
