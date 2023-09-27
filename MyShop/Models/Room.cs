@@ -15,6 +15,6 @@ namespace Forum.Models
 
         public virtual Category Category { get; set; } // Can't be zero. Virtual enables lazy loading. 
 
-		public virtual List<Thread>? Threads { get; set; } // One room can have many threads, or zero. ? means it can have zero threads.
+		public virtual List<Topic>? Topics { get; set; } // One room can have many threads, or zero. ? means it can have zero threads.
 	}
 }

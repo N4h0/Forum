@@ -4,13 +4,13 @@ namespace Forum.ViewModels
 {
     public class ThreadListViewModel
     {
-        //Thread kan referere til både System.Thread og Models.Thread, derfor må vi klarere ...:
-        public IEnumerable<Models.Thread> Threads { get; set; }
+        //Topic kan referere til både System.Topic og Models.Topic, derfor må vi klarere ...:
+        public IEnumerable<Models.Topic> Topics { get; set; }
         public string? CurrentViewName;
 
-        public ThreadListViewModel(IEnumerable<Models.Thread> threads, string? currentViewName)
+        public ThreadListViewModel(IEnumerable<Models.Topic> topics, string? currentViewName)
         {
-            Threads = threads;
+            Topics = topics;
             CurrentViewName = currentViewName;
         }
     }

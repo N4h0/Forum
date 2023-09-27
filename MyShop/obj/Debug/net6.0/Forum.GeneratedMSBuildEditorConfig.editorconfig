@@ -80,16 +80,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Sb29tVGFibGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Shared/_ThreadTable.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9UaHJlYWRUYWJsZS5jc2h0bWw=
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Shared/_TopicTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ub3BpY1RhYmxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Thread/CreateThread.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhyZWFkXENyZWF0ZVRocmVhZC5jc2h0bWw=
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Topic/CreateTopic.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNcQ3JlYXRlVG9waWMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Thread/ThreadTable.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhyZWFkXFRocmVhZFRhYmxlLmNzaHRtbA==
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Topic/TopicTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNcVG9waWNUYWJsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/User/UserLogInn.cshtml]

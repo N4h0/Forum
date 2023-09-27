@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace Forum.Models;
 
@@ -12,7 +11,7 @@ public class CategoryDbContext : DbContext
 
     public DbSet<Category> Categories { get; set; }
     public DbSet<Room> Rooms { get; set; }
-    public DbSet<Thread> Threads { get; set; }
+    public DbSet<Topic> Topics{ get; set; }
     public DbSet<Post> Posts { get; set; }
     public DbSet<PostHistory> PostHistories { get; set; }
 

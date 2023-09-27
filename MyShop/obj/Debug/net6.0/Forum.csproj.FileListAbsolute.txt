@@ -390,3 +390,7 @@ C:\Users\latif\source\repos\project1_web\Forum\MyShop\obj\Debug\net6.0\refint\Fo
 C:\Users\latif\source\repos\project1_web\Forum\MyShop\obj\Debug\net6.0\Forum.pdb
 C:\Users\latif\source\repos\project1_web\Forum\MyShop\obj\Debug\net6.0\Forum.genruntimeconfig.cache
 C:\Users\latif\source\repos\project1_web\Forum\MyShop\obj\Debug\net6.0\ref\Forum.dll
+C:\Users\latif\source\repos\project1_web\Forum\MyShop\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\latif\source\repos\project1_web\Forum\MyShop\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\latif\source\repos\project1_web\Forum\MyShop\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\latif\source\repos\project1_web\Forum\MyShop\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

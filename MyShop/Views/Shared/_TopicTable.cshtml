@@ -1,17 +1,17 @@
-﻿@model IEnumerable<Thread>
+﻿@model IEnumerable<Topic>
 
 <div class="container">
     <table class='table table-striped'>
         <tr>
             <th>Name</th>
         </tr>
-        @foreach (var thread in Model)
+        @foreach (var topic in Model)
         {
             <tr>
                 <td>
-                    <a asp-controller="Thread"
-                       asp-action="ThreadDetails"
-                       asp-route-id="@thread.ThreadId">@thread.ThreadName</a>
+                    <a asp-controller="Topic"
+                       asp-action="TopicDetails"
+                       asp-route-id="@topic.TopicId">@topic.TopicName</a>
                 </td>
             </tr>
         }
@@ -19,6 +19,6 @@
     <p>
         <a class="btn btn-secondary"
            asp-controller="Thread"
-           asp-action="CreateThread">Create New Thread</a>
+           asp-action="CreateTopic">Create New Topic</a>
     </p>
 </div>

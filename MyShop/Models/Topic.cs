@@ -2,13 +2,13 @@
 
 namespace Forum.Models
 {
-	public class Thread
+	public class Topic
 	{
-		public int ThreadId { get; set; } //PK
+		public int TopicId { get; set; } //PK
 		public int RoomId { get; set; } //FK
 
 		[Required]
-		public string ThreadName { get; set; } = string.Empty; //Gir ingen mening å kunne opprette en tråd uten å gi den et navn
+		public string TopicName { get; set; } = string.Empty; //Gir ingen mening å kunne opprette en tråd uten å gi den et navn
 
         //Navigaiton property:
 

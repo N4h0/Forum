@@ -4,22 +4,24 @@ using Forum.Models;
 using Forum.ViewModels;
 using Microsoft.EntityFrameworkCore.Query;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
+using Forum.DAL;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace Forum.Controllers
 {
     public class RoomController : Controller
 
     {
-        private readonly CategoryDbContext _roomDbContext;
+        private readonly IRoomRepository _roomRepository;
 
-        public RoomController(CategoryDbContext roomDbContext)
+        public RoomController(IRoomRepository roomRepository)
         {
-            _roomDbContext = roomDbContext;
+            _roomRepository = roomRepository;
         }
 
         public async Task<IActionResult>RoomTable()
         {
-            List<Room> rooms = _roomDbContext.Rooms.ToList();
+            var rooms = await _roomRepository.GetAll();
             var roomListViewModel = new RoomListViewModel(rooms, "Table");
             return View(roomListViewModel);
         }
@@ -34,9 +36,8 @@ namespace Forum.Controllers
         {
             if (ModelState.IsValid)
             {
-                _roomDbContext.Rooms.Add(room);
-                _roomDbContext.SaveChanges();
-                return RedirectToAction(nameof(RoomTable));
+                await _roomRepository.Create(room);
+                return RedirectToAction(nameof(Table));
             }
             return View(room);
         }

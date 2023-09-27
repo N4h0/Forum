@@ -1,9 +1,14 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Forum.Models;
+using Forum.DAL;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddControllers().AddNewtonsoftJson(options =>
+{
+    options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+});
 
 builder.Services.AddDbContext<CategoryDbContext>(options =>
 {
@@ -11,6 +16,10 @@ builder.Services.AddDbContext<CategoryDbContext>(options =>
         builder.Configuration["ConnectionStrings:CategoryDbContextConnection"]);
 
 });
+
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<IRoomRepository, RoomRepository>();
+builder.Services.AddScoped<ITopicRepository, TopicRepository>();
 
 var app = builder.Build();
 

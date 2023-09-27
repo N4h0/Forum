@@ -4,39 +4,43 @@ using Forum.Models;
 using Forum.ViewModels;
 using Microsoft.EntityFrameworkCore.Query;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
+using Forum.DAL;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace Forum.Controllers
 {
     public class CategoryController : Controller
 
     {
-        private readonly CategoryDbContext _categoryDbContext;
+        private readonly ICategoryRepository _categoryRepository;
 
-        public CategoryController(CategoryDbContext categoryDbContext)
+        public CategoryController(CategoryRepository categoryRepository)
         {
-            _categoryDbContext = categoryDbContext;
+            _categoryRepository = categoryRepository;
         }
 
         public async Task< IActionResult> CategoryTable()
         {
-            List<Category> categories = _categoryDbContext.Categories.ToList();
+            var categories = await _categoryRepository.GetAll();
             var categoryListViewModel = new CategoryListViewModel(categories, "Table");
             return View(categoryListViewModel);
         }
 
         public async Task< IActionResult> CategoryGrid() 
         {
-            List<Category> categories = _categoryDbContext.Categories.ToList();
+
+            var categories = await _categoryRepository.GetAll();
             var categoryListViewModel = new CategoryListViewModel(categories, "Grid");
             return View(categoryListViewModel);
         }
 
         public async Task<IActionResult> CategoryDetails(int id) 
         {
-            var category = _categoryDbContext.Categories.FirstOrDefault(i => i.CategoryId == id);
+
+            var category = await _categoryRepository.GetItemById( id);
             if (category == null) 
             {
-                return NotFound();
+                return BadRequest("Item not found. ");
             }
             return View(category);
         }
@@ -53,22 +57,21 @@ namespace Forum.Controllers
     {
         if (ModelState.IsValid)
         {
-            _categoryDbContext.Categories.Add(category);
-            _categoryDbContext.SaveChanges();
+                await _categoryRepository.Create(category);
                 return RedirectToAction(nameof(CategoryTable));
-        }
+            }
         return View(category);
     }
 
     [HttpGet]
         public async Task<IActionResult> UpdateCategory(int id)
         {
-            var item = _categoryDbContext.Categories.Find(id);
-            if (item == null)
+            var category = await _categoryRepository.GetItemById(id);
+            if (category == null)
             {
                 return NotFound();
             }
-            return View(item);
+            return View(category);
         }
 
     [HttpPost]
@@ -76,8 +79,7 @@ namespace Forum.Controllers
         {
             if (ModelState.IsValid)
             {
-                _categoryDbContext.Categories.Update(category);
-                _categoryDbContext.SaveChanges();
+                await _categoryRepository.Update(category);
                 return RedirectToAction(nameof(CategoryTable));
             }
             return View(category);
@@ -88,25 +90,19 @@ namespace Forum.Controllers
     [HttpGet]
         public async Task<IActionResult> DeleteCategory(int id)
         {
-            var item = _categoryDbContext.Categories.Find(id);
-            if (item == null)
+            var category = await _categoryRepository.GetItemById(id);
+            if (category == null)
             {
                 return NotFound();
             }
-            return View(item);
+            return View(category);
         }
 
     [HttpPost]
         public async Task<IActionResult> DeleteConfirmedCategory(int id)
     {
-        var item = _categoryDbContext.Categories.Find(id);
-        if (item == null)
-        {
-            return NotFound();
-        }
-            _categoryDbContext.Categories.Remove(item);
-            _categoryDbContext.SaveChanges();
+            await _categoryRepository.Delete(id);
             return RedirectToAction(nameof(CategoryTable));
-    }
+        }
 }
 }
