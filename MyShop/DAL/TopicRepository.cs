@@ -20,7 +20,7 @@ public class TopicRepository : ITopicRepository
 
     public async Task<Topic?> GetItemById(int id)
     {
-        return await _db.topics.FindAsync(id);
+        return await _db.Topics.FindAsync(id);
     }
 
     public async Task Create(Topic topic)
@@ -31,7 +31,7 @@ public class TopicRepository : ITopicRepository
 
     public async Task Update(Topic topic)
     {
-        _db.Rooms.Update(topic);
+        _db.Topics.Update(topic);
         await _db.SaveChangesAsync();
     }
 

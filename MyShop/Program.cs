@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Forum.DAL;
+using Forum.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
