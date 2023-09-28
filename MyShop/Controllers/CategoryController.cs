@@ -19,6 +19,8 @@ namespace Forum.Controllers
             _categoryRepository = categoryRepository;
         }
 
+       
+
         public async Task< IActionResult> CategoryTable()
         {
             var categories = await _categoryRepository.GetAll();
