@@ -19,33 +19,33 @@ namespace Forum.Controllers
             _roomRepository = roomRepository;
         }
 
-        public async Task<IActionResult>RoomTable()
+        public async Task<IActionResult> RoomTable()
         {
             var rooms = await _roomRepository.GetAll();
             var roomListViewModel = new RoomListViewModel(rooms, "Table");
             return View(roomListViewModel);
         }
         [HttpGet]
-        public IActionResult CreateRoom(int categoryId)
+        public IActionResult CreateRoom(int categoryId)  //la til at man kan lage forum 
+
         {
             var room = new Room
             {
-                CategoryId = categoryId //setter CategoryID på categoryId parameter
-
+                CategoryId = categoryId // Set the CategoryId based on the categoryId parameter.
             };
             return View(room);
-      
         }
 
         [HttpPost]
-        public async Task< IActionResult> CreateRoom(Room room)
+        public async Task<IActionResult> CreateRoom(Room room)
         {
             if (ModelState.IsValid)
             {
                 await _roomRepository.Create(room);
-                return RedirectToAction(nameof(RoomTable)); //Endret fra Table til RoomTable fordi det er den som viser Room
+                return RedirectToAction(nameof(RoomTable));
             }
             return View(room);
         }
+
     }
 }

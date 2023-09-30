@@ -1,13 +1,19 @@
 ﻿@model Forum.Models.Category
 
 <h3 class="my-5">
-   @Model.Name
+    @Model.Name
 </h3>
 
 <div class="row gx-5">
     <div class="col-7">
-        <h4>Her kommer forumene </h4> 
+        <h4>Her kommer forumene </h4>
         <!-- Her Skal vi ha partial med der vi henter ut listen av rooms i denne kategorien: <partial model="Model.Rooms.RoomId" -->
+        <ul>
+            @foreach (var room in Model.Rooms)
+            {
+                <li>@room.RoomName</li>
+            }
+        </ul>
     </div>
 </div>
 

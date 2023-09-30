@@ -11,7 +11,7 @@
         "projectName": "Forum",
         "projectPath": "C:\\Users\\abdik\\source\\repos\\Forum\\MyShop\\Forum.csproj",
         "packagesPath": "C:\\Users\\abdik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abdik\\Source\\Repos\\Forum\\MyShop\\obj\\",
+        "outputPath": "C:\\Users\\abdik\\source\\repos\\Forum\\MyShop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\abdik\\AppData\\Roaming\\NuGet\\NuGet.Config",
