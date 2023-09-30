@@ -26,9 +26,15 @@ namespace Forum.Controllers
             return View(roomListViewModel);
         }
         [HttpGet]
-        public IActionResult CreateRoom()
+        public IActionResult CreateRoom(int categoryId)
         {
-            return View();
+            var room = new Room
+            {
+                CategoryId = categoryId //setter CategoryID på categoryId parameter
+
+            };
+            return View(room);
+      
         }
 
         [HttpPost]
@@ -37,7 +43,7 @@ namespace Forum.Controllers
             if (ModelState.IsValid)
             {
                 await _roomRepository.Create(room);
-                return RedirectToAction(nameof(Table));
+                return RedirectToAction(nameof(RoomTable)); //Endret fra Table til RoomTable fordi det er den som viser Room
             }
             return View(room);
         }
