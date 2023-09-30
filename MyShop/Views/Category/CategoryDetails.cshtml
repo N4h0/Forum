@@ -1,22 +1,24 @@
 ﻿@model Forum.Models.Category
 
-<div class="category-container">
-    <h3 class="category-title">@Model.Name</h3>
-    <div class="category-content">
-        <ul class="room-list">
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <h3 class="category-title">@Model.Name</h3>
             @foreach (var room in Model.Rooms)
             {
-                <li class="room-item">
-                    <a href="@Url.Action("RoomAction", "RoomController", new { roomId = room.RoomId })">
-                        @room.RoomName
-                    </a>
-                </li>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <a href="@Url.Action("RoomAction", "Room", new { roomId = room.RoomId })">
+                            @room.RoomName
+                        </a>
+                    </div>
+                </div>
             }
-        </ul>
+        </div>
     </div>
 </div>
 
 <a class="btn btn-primary"
    asp-controller="Room"
    asp-action="CreateRoom"
-   asp-route-categoryId="@Model.CategoryId">Create New Room </a>
+   asp-route-categoryId="@Model.CategoryId">Create New Room</a>

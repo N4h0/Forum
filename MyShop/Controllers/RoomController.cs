@@ -27,7 +27,6 @@ namespace Forum.Controllers
         }  
         
         //detalje for Room 
-        [HttpGet]
         public async Task<IActionResult> RoomDetails(int roomId)
         {
             // Hent rommet fra databasen basert på rom-IDen

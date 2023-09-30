@@ -23,9 +23,13 @@ namespace Forum.Controllers
         }
 
         [HttpGet]
-        public IActionResult CreateTopic()
+        public IActionResult CreateTopic(int roomId)
         {
-            return View();
+            var topic = new Topic
+            {
+                RoomId = roomId
+            };
+            return View(topic);
         }
 
         [HttpPost]
@@ -38,5 +42,20 @@ namespace Forum.Controllers
             }
             return View(topic);
         }
+
+        public async Task<IActionResult> TopicDetails(int topicId)
+        {
+            var topic = await _topicRepository.GetItemById(topicId);
+
+            if (topic== null)
+            {
+                return NotFound(); // Returner 404 hvis rommet ikke finnes
+            }
+
+            // Send rommet til visningen for romdetaljer
+            return View(topic);
+        }
+
+
     }
 }
