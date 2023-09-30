@@ -1,5 +1,15 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model Forum.Models.Room
+<div class="category-container">
+    <h3 class="Topic-title">@Model.RoomName</h3>
+    <div class="category-content">
+        <ul class="room-list">
+            @foreach (var topics in Model.Topics)
+            {
+                <li class="room-item">
+                        @topics.TopicName
+                    
+                </li>
+            }
+        </ul>
+    </div>
+</div>
