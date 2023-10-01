@@ -3,15 +3,21 @@
 <div class="container">
     <table class='table table-striped'>
         <tr>
+            <th>Id</th>
             <th>Name</th>
         </tr>
         @foreach (var room in Model)
         {
             <tr>
+                <td>@room.RoomId</td>
                 <td>
                     <a asp-controller="Room"
                        asp-action="RoomDetails"
                        asp-route-id="@room.RoomId">@room.RoomName</a>
+                </td>
+                <td>
+                    <a asp-action="UpdateRoom" asp-route-id="@room.RoomId">Update</a>
+                    <a asp-action="DeleteRoom" asp-route-id="@room.RoomId">Delete</a>
                 </td>
             </tr>
         }

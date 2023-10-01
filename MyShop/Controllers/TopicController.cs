@@ -56,6 +56,62 @@ namespace Forum.Controllers
             return View(topic);
         }
 
+        // POST: Topic
 
+        public async Task<IActionResult> UpdateTopic(int topicId, Topic topic)
+        {
+            if (topicId != topic.TopicId)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    await _topicRepository.Update(topic);
+                }
+                catch
+                {
+                }
+
+                return RedirectToAction(nameof(TopicTable));
+            }
+
+            return View(topic);
+        }
+
+        // GET
+        [HttpGet]
+        public async Task<IActionResult> DeleteTopic(int topicId)
+        {
+            var topic = await _topicRepository.GetItemById(topicId);
+
+            if (topic == null)
+            {
+                return NotFound();
+            }
+
+            return View(topic);
+        }
+
+        // POST
+        [HttpPost]
+        public async Task<IActionResult> DeleteConfirmedRoom(int topicId)
+        {
+            try
+            {
+                await _topicRepository.Delete(topicId);
+                return RedirectToAction(nameof(TopicTable));
+            }
+            catch
+            {
+                // Handle exceptions, if any
+                return RedirectToAction(nameof(TopicTable)); //Blir sendt tilbake til topic table i tilfelle feil 
+            }
+        }
     }
+
+
 }
+
