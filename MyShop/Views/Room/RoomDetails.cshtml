@@ -1,0 +1,24 @@
+﻿@model Forum.Models.Room
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <h3 class="room-title">@Model.RoomName</h3>
+            @foreach (var topic in Model.Topics)
+            {
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <a href="@Url.Action("TopicAction", "Topic", new { topicId = topic.TopicId })">
+                            @topic.TopicName
+                        </a>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<a class="btn btn-primary"
+   asp-controller="Topic"
+   asp-action="CreateTopic"
+   asp-route-categoryId="@Model.RoomId">Create New Topic</a>

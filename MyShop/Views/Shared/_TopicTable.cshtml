@@ -2,8 +2,10 @@
 
 <div class="container">
     <table class='table table-striped'>
-        <tr>
-            <th>Name</th>
+        <tr >
+            <th class="bg-dark text-light">Name</th>
+            <th class="bg-dark text-light"> </th>
+            <th class="bg-dark text-light"> </th>
         </tr>
         @foreach (var topic in Model)
         {
@@ -13,12 +15,17 @@
                        asp-action="TopicDetails"
                        asp-route-id="@topic.TopicId">@topic.TopicName</a>
                 </td>
+                <a href="c:\users\latif\source\repos\kopi_project1_web\forum\myshop\views\shared\_userlayout.cshtml">c:\users\latif\source\repos\kopi_project1_web\forum\myshop\views\shared\_userlayout.cshtml</a>
+                <td>
+                    <a asp-action="UpdateCategory" asp-route-id="@topic.TopicId">Update</a>
+                    <a asp-action="DeleteCategory" asp-route-id="@topic.TopicId">Delete</a>
+                </td>
             </tr>
         }
     </table>
     <p>
         <a class="btn btn-secondary"
-           asp-controller="Thread"
+           asp-controller="Topic"
            asp-action="CreateTopic">Create New Topic</a>
     </p>
 </div>

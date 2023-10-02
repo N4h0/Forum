@@ -2,9 +2,11 @@
 
 <div class="container">
     <table class='table table-striped'>
-        <tr>
-            <th>Id</th>
-            <th>Name</th>
+        <tr >
+            <th class="bg-dark text-light">Id</th>
+            <th class="bg-dark text-light">Name</th>
+            <th class="bg-dark text-light"> </th>
+            <th class="bg-dark text-light"> </th>
         </tr>
         @foreach (var categogy in Model)
         {
@@ -16,8 +18,8 @@
                        asp-route-id="@categogy.CategoryId">@categogy.Name</a>
                 </td>              
                 <td>
-                    <a asp-action="UpdateCategory" asp-route-id="@categogy.CategoryId">Update</a>
-                    <a asp-action="DeleteCategory" asp-route-id="@categogy.CategoryId">Delete</a>
+                    <a asp-action="UpdateCategory" asp-route-id="@categogy.CategoryId" class="btn btn-success">Update</a>
+                    <a asp-action="DeleteCategory" asp-route-id="@categogy.CategoryId" class="btn btn-danger">Delete</a>
                 </td>
             </tr>
         }

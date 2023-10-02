@@ -8,6 +8,8 @@
         <input asp-for="TopicName" class="form-control" />
         <span asp-validation-for="TopicName" class="text-danger"></span>
     </div>
+    <input type="hidden" asp-for="RoomId" />
+
     <button type="submit" class="btn btn-primary">Create</button>
-    <a asp-action="RoomDetails" class="btn btn-secondary">Back to Room View</a>
+    <a asp-controller="Room" asp-action="RoomDetails" asp-route-id="@Model.RoomId" class="btn btn-secondary">Back to Room Details</a>
 </form>

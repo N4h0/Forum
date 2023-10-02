@@ -78,8 +78,8 @@ public static class DBInit
         {
             var topics = new List<Topic>
             {
-                new Topic { TopicName = "Fotball", RoomId= 1 },
-                new Topic { TopicName = "operatingsystem", RoomId= 2},
+                new Topic { TopicName = "Liverpool", RoomId= 1 },
+                new Topic { TopicName = "Linux", RoomId= 2},
             };
             context.AddRange(topics);
             context.SaveChanges();
