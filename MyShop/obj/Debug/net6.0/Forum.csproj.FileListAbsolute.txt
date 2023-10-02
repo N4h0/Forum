@@ -482,3 +482,10 @@ C:\Users\latif\source\repos\project1_web\Forum\MyShop\obj\Debug\net6.0\refint\Fo
 C:\Users\latif\source\repos\project1_web\Forum\MyShop\obj\Debug\net6.0\Forum.pdb
 C:\Users\latif\source\repos\project1_web\Forum\MyShop\obj\Debug\net6.0\Forum.genruntimeconfig.cache
 C:\Users\latif\source\repos\project1_web\Forum\MyShop\obj\Debug\net6.0\ref\Forum.dll
+C:\Users\abdik\Source\Repos\Forum\MyShop\bin\Debug\net6.0\Serilog.dll
+C:\Users\abdik\Source\Repos\Forum\MyShop\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\Users\abdik\Source\Repos\Forum\MyShop\bin\Debug\net6.0\Serilog.Extensions.Logging.File.dll
+C:\Users\abdik\Source\Repos\Forum\MyShop\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\Users\abdik\Source\Repos\Forum\MyShop\bin\Debug\net6.0\Serilog.Sinks.Async.dll
+C:\Users\abdik\Source\Repos\Forum\MyShop\bin\Debug\net6.0\Serilog.Sinks.File.dll
+C:\Users\abdik\Source\Repos\Forum\MyShop\bin\Debug\net6.0\Serilog.Sinks.RollingFile.dll

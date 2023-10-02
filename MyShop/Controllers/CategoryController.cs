@@ -14,15 +14,21 @@ namespace Forum.Controllers
     {
         private readonly ICategoryRepository _categoryRepository;
 
-        public CategoryController(ICategoryRepository categoryRepository)
+        private readonly ILogger<CategoryController> _logger;
+
+        public CategoryController(ICategoryRepository categoryRepository, ILogger<CategoryController> logger)
         {
+
             _categoryRepository = categoryRepository;
+            _logger = logger;
         }
 
-       
 
         public async Task< IActionResult> CategoryTable()
         {
+            _logger.LogInformation("This is an information message");
+            _logger.LogWarning("This is a warning message");
+            _logger.LogError("This is an error message");
             var categories = await _categoryRepository.GetAll();
             var categoryListViewModel = new CategoryListViewModel(categories, "Table");
             return View(categoryListViewModel);
