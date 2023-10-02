@@ -23,6 +23,7 @@ builder.Services.AddDbContext<CategoryDbContext>(options =>
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<IRoomRepository, RoomRepository>();
 builder.Services.AddScoped<ITopicRepository, TopicRepository>();
+
 var loggerConfiguration = new LoggerConfiguration()
     .MinimumLevel.Information()
     .WriteTo.File($"Logs/app_{DateTime.Now}:yyy.MMdd_HHmmss).Log");

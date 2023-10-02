@@ -9,117 +9,117 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Forum
 build_property.RootNamespace = Forum
-build_property.ProjectDir = C:\Users\abdik\Source\Repos\Forum\MyShop\
+build_property.ProjectDir = C:\Users\latif\source\repos\project1_web\Forum\MyShop\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\abdik\Source\Repos\Forum\MyShop
+build_property.MSBuildProjectDirectory = C:\Users\latif\source\repos\project1_web\Forum\MyShop
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/abdik/Source/Repos/Forum/MyShop/Views/Category/CategoryDetails.cshtml]
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Category/CategoryDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ2F0ZWdvcnlEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdik/Source/Repos/Forum/MyShop/Views/Category/CategoryGrid.cshtml]
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Category/CategoryGrid.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ2F0ZWdvcnlHcmlkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdik/Source/Repos/Forum/MyShop/Views/Category/CategoryTable.cshtml]
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Category/CategoryTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ2F0ZWdvcnlUYWJsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdik/Source/Repos/Forum/MyShop/Views/Category/CreateCategory.cshtml]
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Category/CreateCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdik/Source/Repos/Forum/MyShop/Views/Category/DeleteCategory.cshtml]
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Category/DeleteCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdik/Source/Repos/Forum/MyShop/Views/Category/UpdateCategory.cshtml]
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Category/UpdateCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcVXBkYXRlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdik/Source/Repos/Forum/MyShop/Views/Home/Index.cshtml]
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdik/Source/Repos/Forum/MyShop/Views/Room/CreateRoom.cshtml]
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Room/CreateRoom.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxDcmVhdGVSb29tLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdik/Source/Repos/Forum/MyShop/Views/Room/DeleteRoom.cshtml]
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Room/DeleteRoom.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxEZWxldGVSb29tLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdik/Source/Repos/Forum/MyShop/Views/Room/RoomDetailscshtml.cshtml]
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Room/RoomDetailscshtml.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxSb29tRGV0YWlsc2NzaHRtbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdik/Source/Repos/Forum/MyShop/Views/Room/RoomGrid.cshtml]
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Room/RoomGrid.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxSb29tR3JpZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdik/Source/Repos/Forum/MyShop/Views/Room/RoomTable.cshtml]
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Room/RoomTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxSb29tVGFibGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdik/Source/Repos/Forum/MyShop/Views/Room/UpdateRoom.cshtml]
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Room/UpdateRoom.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxVcGRhdGVSb29tLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdik/Source/Repos/Forum/MyShop/Views/Shared/_CategoryCard.cshtml]
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Shared/_CategoryCard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXRlZ29yeUNhcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdik/Source/Repos/Forum/MyShop/Views/Shared/_CategoryTable.cshtml]
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Shared/_CategoryTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXRlZ29yeVRhYmxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdik/Source/Repos/Forum/MyShop/Views/Shared/_Roomcard.cshtml]
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Shared/_Roomcard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Sb29tY2FyZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdik/Source/Repos/Forum/MyShop/Views/Shared/_RoomTable.cshtml]
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Shared/_RoomTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Sb29tVGFibGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdik/Source/Repos/Forum/MyShop/Views/Shared/_TopicTable.cshtml]
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Shared/_TopicTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ub3BpY1RhYmxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdik/Source/Repos/Forum/MyShop/Views/Topic/CreateTopic.cshtml]
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Topic/CreateTopic.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNcQ3JlYXRlVG9waWMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdik/Source/Repos/Forum/MyShop/Views/Topic/DeleteTopic.cshtml]
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Topic/DeleteTopic.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNcRGVsZXRlVG9waWMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdik/Source/Repos/Forum/MyShop/Views/Topic/TopicDetails.cshtml]
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Topic/TopicDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNcVG9waWNEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdik/Source/Repos/Forum/MyShop/Views/Topic/TopicTable.cshtml]
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Topic/TopicTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNcVG9waWNUYWJsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdik/Source/Repos/Forum/MyShop/Views/Topic/UpdateTopic.cshtml]
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Topic/UpdateTopic.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNcVXBkYXRlVG9waWMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdik/Source/Repos/Forum/MyShop/Views/User/UserLogInn.cshtml]
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/User/UserLogInn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyTG9nSW5uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdik/Source/Repos/Forum/MyShop/Views/_ViewImports.cshtml]
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdik/Source/Repos/Forum/MyShop/Views/_ViewStart.cshtml]
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdik/Source/Repos/Forum/MyShop/Views/Shared/_Layout.cshtml]
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-fjdg2wquwm

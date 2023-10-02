@@ -5,8 +5,8 @@ namespace Forum.DAL
     {
         Task<IEnumerable<Category>> GetAll();
         Task<Category?> GetItemById(int id);
-        Task Create(Category category);
-        Task Update(Category category);
+        Task<bool> Create(Category category);
+        Task<bool> Update(Category category);
         Task<bool> Delete(int id);
     }
 }

@@ -7,45 +7,97 @@ namespace Forum.DAL;
 public class CategoryRepository : ICategoryRepository
 {
     private readonly CategoryDbContext _db;
+    private readonly ILogger<CategoryRepository> _logger;
 
-    public CategoryRepository(CategoryDbContext db)
+    public CategoryRepository(CategoryDbContext db, ILogger<CategoryRepository> logger)
     {
         _db = db;
+        _logger = logger;
     }
 
-    public async Task<IEnumerable<Category>> GetAll()
+    public async Task<IEnumerable<Category>?> GetAll()
     {
-        return await _db.Categories.ToListAsync();
+        try
+        {
+            return await _db.Categories.ToListAsync();
+        }
+        catch (Exception e)
+        {
+
+            _logger.LogError("[CategoryRepository] items ToListAsync() failed when GetAll(), error message: {e}", e.Message);
+            return null;
+        }
+
     }
 
     public async Task<Category?> GetItemById(int id)
     {
-        return await _db.Categories.FindAsync(id);
+        try
+        {
+            return await _db.Categories.FindAsync(id);
+        }
+        catch (Exception e)
+        {
+            _logger.LogError("[CategoryRepository] category FindAsync(id) failed when GetItemById for CategoryId {CategoryId:0000}, error message: {e}", id, e.Message);
+            return null;
+        }
+
     }
 
-    public async Task Create(Category category)
+    public async Task<bool> Create(Category category)
     {
-        _db.Categories.Add(category);
-        await _db.SaveChangesAsync();
+        try
+        {
+            _db.Categories.Add(category);
+            await _db.SaveChangesAsync();
+            return true;
+        }
+        catch (Exception e)
+        {
+            _logger.LogError("[CategoryRepository] category creation failed for item {@category}, error message: {e}", category, e.Message);
+            return false;
+
+        }
+
     }
 
-    public async Task Update(Category category)
+    public async Task<bool> Update(Category category)
     {
-        _db.Categories.Update(category);
-        await _db.SaveChangesAsync();
+        try
+        {
+            _db.Categories.Update(category);
+            await _db.SaveChangesAsync();
+            return true;
+        }
+        catch (Exception e)
+        {
+            _logger.LogError("[CategoryRepository] category FindAsync(id) failed when updating the CategoryId {CategoryId:0000}, error message: {e}", category, e.Message);
+            return false;
+        }
+
     }
 
     public async Task<bool> Delete(int id)
     {
-        var item = await _db.Categories.FindAsync(id);
-        if (item == null)
+        try
         {
+            var item = await _db.Categories.FindAsync(id);
+            if (item == null)
+            {
+                _logger.LogError("[CategoryRepository] category not found for the CategoryId {CategoryId:0000}", id);
+                return false;
+            }
+
+            _db.Categories.Remove(item);
+            await _db.SaveChangesAsync();
+            return true;
+        }
+        catch (Exception e)
+        {
+            _logger.LogError("[CategoryRepository] category deletion failed for the CategoryId {CategoryId:0000}, error message: {e}", id, e.Message);
             return false;
         }
 
-        _db.Categories.Remove(item);
-        await _db.SaveChangesAsync();
-        return true;
     }
 }
 
