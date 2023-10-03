@@ -1,5 +1,8 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model Forum.Models.Topic
+
+<partial name="_PostTable" model="Model.Posts" />
+
+<a class="btn btn-primary"
+   asp-controller="Post"
+   asp-action="CreatePost"
+   asp-route-categoryId="@Model.TopicId">Create New Post</a>

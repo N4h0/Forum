@@ -12,6 +12,7 @@
     <Compile Remove="Models\Forum.cs" />
     <Compile Remove="Models\ForumDbContext.cs" />
     <Compile Remove="ViewModels\ForumListViewModel.cs" />
+    <Compile Remove="Views\Post\PostTable.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,10 +25,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="DAL\NewFile.txt" />
     <None Remove="Models\" />
     <None Remove="ViewModels\NewFile.txt" />
     <None Remove="Views\" />
     <None Remove="Controllers\" />
+    <None Remove="Views\Post\DeletePost" />
+    <None Remove="Views\Post\NewFile.txt" />
     <None Remove="Views\Room\NewFile.txt" />
     <None Remove="Views\Item\" />
     <None Remove="Views\Home\" />

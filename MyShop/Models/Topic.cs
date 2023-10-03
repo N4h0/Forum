@@ -14,6 +14,6 @@ namespace Forum.Models
 
         public virtual Room room { get; set; } // Can't be zero. Virtual enables lazy loading. 
 
-        public virtual List<Post>? Posts { get; set; } // O
+        public virtual List<Post>? Posts { get; set; }
     }
 }

@@ -15,10 +15,9 @@
                        asp-action="TopicDetails"
                        asp-route-id="@topic.TopicId">@topic.TopicName</a>
                 </td>
-                <a href="c:\users\latif\source\repos\kopi_project1_web\forum\myshop\views\shared\_userlayout.cshtml">c:\users\latif\source\repos\kopi_project1_web\forum\myshop\views\shared\_userlayout.cshtml</a>
                 <td>
-                    <a asp-action="UpdateCategory" asp-route-id="@topic.TopicId">Update</a>
-                    <a asp-action="DeleteCategory" asp-route-id="@topic.TopicId">Delete</a>
+                    <a asp-action="UpdateTopic" asp-route-id="@topic.TopicId">Update</a>
+                    <a asp-action="DeleteTopic" asp-route-id="@topic.TopicId">Delete</a>
                 </td>
             </tr>
         }

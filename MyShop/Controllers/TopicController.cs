@@ -117,21 +117,16 @@ namespace Forum.Controllers
 
         // POST
         [HttpPost]
-        public async Task<IActionResult> DeleteConfirmedRoom(int topicId)
+        public async Task<IActionResult> DeleteConfirmedTopic(int topicId)
         {
             bool returnOk = await _topicRepository.Delete(topicId);
             if (!returnOk)
             {
                 _logger.LogError("[TopicController] Topic deletion failed for the TopicId {TopicId:0000}", topicId);
                 return BadRequest("topic deletion failed");
-
             }
-            
-                return RedirectToAction(nameof(TopicTable));
-            
+                return RedirectToAction(nameof(TopicTable));       
         }
     }
-
-
 }
 
