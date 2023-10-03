@@ -1,1 +1,16 @@
-﻿
+﻿@model Post
+
+<h2>Create new Post</h2>
+
+<form asp-action="Createpost">
+    <div class="form-group">
+        <label asp-for="PostId"></label><span class="text-danger">*</span>
+        <input asp-for="PostId" class="form-control" />
+        <span asp-validation-for="PostId" class="text-danger"></span>
+    </div>
+    <input type="hidden" asp-for="TopicId" value="@Model.TopicId" />
+
+    <button type="submit" class="btn btn-primary">Create</button>
+
+    <a asp-controller="Room" asp-action="RoomDetails" asp-route-id="@Model.TopicId" class="btn btn-secondary">Back to Room Details</a>
+</form>

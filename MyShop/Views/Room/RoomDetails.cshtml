@@ -1,7 +1,10 @@
 ﻿@model Forum.Models.Room
+
+
+
 <partial name="_TopicTable" model="Model.Topics" />
 
 <a class="btn btn-primary"
    asp-controller="Topic"
    asp-action="CreateTopic"
-   asp-route-categoryId="@Model.RoomId">Create New Topic</a>
+   asp-route-roomId="@Model.RoomId">Create New Topic</a>

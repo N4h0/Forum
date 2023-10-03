@@ -36,7 +36,7 @@ namespace Forum.Controllers
             {
                 var topic = new Topic
                 {
-                    RoomId = Id // Set the CategoryId based on the categoryId parameter.
+                    RoomId = Id 
                 };
                 return View(topic);
             }
@@ -53,21 +53,21 @@ namespace Forum.Controllers
             if (ModelState.IsValid)
             {
                 await _topicRepository.Create(topic);
-                return RedirectToAction(nameof(TopicTable));
+                return RedirectToAction("TopicDetails", "Topic", new { id = topic.RoomId }); ;
             }
             _logger.LogWarning("[TopicController] Topic creation failed {@topic}", topic);
             return View(topic);
         }
 
         [HttpGet]
-        public async Task<IActionResult> TopicDetails(int topicId)
+        public async Task<IActionResult> TopicDetails(int Id)
         {
-            var topic = await _topicRepository.GetItemById(topicId);
+            var topic = await _topicRepository.GetItemById(Id);
 
             if (topic== null)
             {
-                _logger.LogError("[TopicController] Topic not found for the TopicId {TopicId:0000}", topicId);
-            
+                _logger.LogError("[TopicController] Topic not found for the TopicId {TopicId:0000}", Id);
+                return NotFound("Topic not found."); //This page will popup only if we try to access a page where topic is null
             }
 
             // Send rommet til visningen for topicetaljer
@@ -88,11 +88,10 @@ namespace Forum.Controllers
                 }
                 catch
                 {
+                    //TODO: Add catch here
                 }
-
                 return RedirectToAction(nameof(TopicTable));
             }
-
             return View(topic);
         }
 
@@ -105,7 +104,7 @@ namespace Forum.Controllers
             if (topic == null)
             {
                 _logger.LogError("[TopicController] topic not found for the TopicId {TopicId:0000}", topicId);
-                return BadRequest("Category not found for the CategoryId");
+                return BadRequest("Room not found for the RoomId");
             }
 
             return View(topic);

@@ -113,7 +113,6 @@ namespace Forum.Controllers
                 _logger.LogError("[PostController] post not found for the PostId {PostId:0000}", postId);
                 return BadRequest("Category not found for the CategoryId");
             }
-
             return View(topic);
         }
 

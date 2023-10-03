@@ -60,7 +60,7 @@ namespace Forum.Controllers
             if (ModelState.IsValid)
             {
                 await _roomRepository.Create(room);
-                return RedirectToAction(nameof(RoomTable));
+                return RedirectToAction("CategoryDetails", "Category", new {id = room.CategoryId}); //Return to Category/CategoryDetails/CategoryId after create.
             }
             return View(room);
         }

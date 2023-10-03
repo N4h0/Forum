@@ -91,21 +91,11 @@ public class TopicRepository : ITopicRepository
             _db.Topics.Remove(topic);
             await _db.SaveChangesAsync();
             return true;
-
         }
         catch (Exception e)
-
         {
             _logger.LogError("[TopicRepository] topic deletion failed for the TopicId {TopicId:0000}, error message: {e}", id, e.Message);
             return false;
         }
-      
-
-       
     }
 }
-
-
-
-
-

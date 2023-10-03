@@ -15,6 +15,8 @@ public class CategoryDbContext : DbContext
     public DbSet<Post> Posts { get; set; }
     public DbSet<PostHistory> PostHistories { get; set; }
 
+
+
     public DbSet<User> Users { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
