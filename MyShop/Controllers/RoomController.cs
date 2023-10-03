@@ -27,10 +27,10 @@ namespace Forum.Controllers
         }  
         
         //detalje for Room 
-        public async Task<IActionResult> RoomDetails(int roomId)
+        public async Task<IActionResult> RoomDetails(int Id)
         {
             // Hent rommet fra databasen basert på rom-IDen
-            var room = await _roomRepository.GetItemById(roomId);
+            var room = await _roomRepository.GetItemById(Id);
 
             if (room == null)
             {

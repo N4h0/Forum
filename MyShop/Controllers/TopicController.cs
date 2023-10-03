@@ -24,22 +24,19 @@ namespace Forum.Controllers
             if (topics == null)
             {
                 _logger.LogError("[TopicController] Topic list not found while executing _topicRepository.GetAll()");
-                return NotFound("Topic list not found");
             }
                 var threadListViewModel = new ThreadListViewModel(topics, "Table");
                 return View(threadListViewModel);
         }
 
         [HttpGet]
-        public IActionResult CreateTopic(int roomId )
+        public IActionResult CreateTopic(int Id )
         {
-
-
             try
             {
                 var topic = new Topic
                 {
-                    RoomId = roomId // Set the CategoryId based on the categoryId parameter.
+                    RoomId = Id // Set the CategoryId based on the categoryId parameter.
                 };
                 return View(topic);
             }
@@ -70,7 +67,7 @@ namespace Forum.Controllers
             if (topic== null)
             {
                 _logger.LogError("[TopicController] Topic not found for the TopicId {TopicId:0000}", topicId);
-                return NotFound("Item not found for the ItemId"); // Returner 404 hvis rommet ikke finnes
+            
             }
 
             // Send rommet til visningen for topicetaljer
