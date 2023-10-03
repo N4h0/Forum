@@ -496,3 +496,14 @@ C:\Users\latif\source\repos\project1_web\Forum\MyShop\obj\Debug\net6.0\refint\Fo
 C:\Users\latif\source\repos\project1_web\Forum\MyShop\obj\Debug\net6.0\Forum.pdb
 C:\Users\latif\source\repos\project1_web\Forum\MyShop\obj\Debug\net6.0\Forum.genruntimeconfig.cache
 C:\Users\latif\source\repos\project1_web\Forum\MyShop\obj\Debug\net6.0\ref\Forum.dll
+C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\bin\Debug\net6.0\Serilog.dll
+C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\bin\Debug\net6.0\Serilog.Extensions.Logging.File.dll
+C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\bin\Debug\net6.0\Serilog.Sinks.Async.dll
+C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\bin\Debug\net6.0\Serilog.Sinks.File.dll
+C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\bin\Debug\net6.0\Serilog.Sinks.RollingFile.dll
