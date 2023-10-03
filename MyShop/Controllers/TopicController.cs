@@ -79,10 +79,6 @@ namespace Forum.Controllers
         [HttpPost]
         public async Task<IActionResult> UpdateTopic(int topicId, Topic topic)
         {
-            if (topicId != topic.TopicId)
-            {
-                return NotFound();
-            }
 
             if (ModelState.IsValid)
             {
