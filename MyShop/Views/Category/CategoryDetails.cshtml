@@ -1,22 +1,7 @@
 ﻿@model Forum.Models.Category
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-8">
-            <h3 class="category-title">@Model.Name</h3>
-            @foreach (var room in Model.Rooms)
-            {
-                <div class="card mb-3">
-                    <div class="card-body">
-                        <a href="@Url.Action("RoomAction", "Room", new { roomId = room.RoomId })">
-                            @room.RoomName
-                        </a>
-                    </div>
-                </div>
-            }
-        </div>
-    </div>
-</div>
+<partial name="_RoomTable" model="Model.Rooms" />
+
 
 <a class="btn btn-primary"
    asp-controller="Room"

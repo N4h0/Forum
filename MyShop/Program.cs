@@ -17,7 +17,6 @@ builder.Services.AddDbContext<CategoryDbContext>(options =>
 {
     options.UseSqlite(
         builder.Configuration["ConnectionStrings:CategoryDbContextConnection"]);
-
 });
 
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
@@ -35,7 +34,6 @@ var logger = loggerConfiguration.CreateLogger();
 builder.Logging.AddSerilog(logger);
 
 var app = builder.Build();
-
 if(app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
