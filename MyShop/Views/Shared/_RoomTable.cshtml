@@ -18,8 +18,9 @@
                        asp-route-id="@room.RoomId">@room.RoomName</a>
                 </td>
                 <td>
-                    <a asp-action="UpdateRoom" asp-route-id="@room.RoomId" class="btn btn-success">Update</a>
-                    <a asp-action="DeleteRoom" asp-route-id="@room.RoomId" class="btn btn-danger">Delete</a>
+                    <!--We need the asp-controller to be set as "Room" to make the route be port/Room/XXX, not port/Category/XXX, which is the default -->
+                    <a asp-action="UpdateRoom" asp-controller="Room" asp-route-id="@room.RoomId" class="btn btn-success">Update</a>
+                    <a asp-action="DeleteRoom" asp-controller="Room" asp-route-id="@room.RoomId" class="btn btn-danger">Delete</a>
                 </td>
             </tr>
         }

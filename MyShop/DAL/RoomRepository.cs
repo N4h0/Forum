@@ -42,7 +42,6 @@ public class RoomRepository : IRoomRepository
         {
             return false;
         }
-
         _db.Rooms.Remove(room);
         await _db.SaveChangesAsync();
         return true;

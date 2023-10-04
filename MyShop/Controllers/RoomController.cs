@@ -95,9 +95,10 @@ namespace Forum.Controllers
                 }
                 catch
                 {
+                    //TODO fill out this catch
                 }
 
-                return RedirectToAction(nameof(RoomTable));
+                return RedirectToAction("CategoryDetails", "Category", new { id = room.CategoryId }); //Return to Category/CategoryDetails/CategoryId after create.
             }
 
             return View(room);
@@ -105,9 +106,9 @@ namespace Forum.Controllers
 
         // GET
         [HttpGet]
-        public async Task<IActionResult> DeleteRoom(int roomId)
+        public async Task<IActionResult> DeleteRoom(int Id)
         {
-            var room = await _roomRepository.GetItemById(roomId);
+            var room = await _roomRepository.GetItemById(Id);
 
             if (room == null)
             {
@@ -121,20 +122,18 @@ namespace Forum.Controllers
         [HttpPost]
         public async Task<IActionResult> DeleteConfirmedRoom(int roomId)
         {
+            int categoryId = await _roomRepository.Delete(roomId);
             try
             {
                 await _roomRepository.Delete(roomId);
-                return RedirectToAction(nameof(RoomTable));
+                return RedirectToAction("CategoryDetails", "Category", new { id = roomId}); //Return to Category/CategoryDetails/CategoryId after create.
             }
             catch
             {
                 // Handle exceptions, if any
                 return RedirectToAction(nameof(RoomTable)); //Blir sendt tilbake til room table hvis noe skjer feil 
             }
+
         }
-
-
-
-
     }
 }
