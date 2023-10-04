@@ -98,4 +98,10 @@ public class TopicRepository : ITopicRepository
             return false;
         }
     }
+
+    public async Task<List<Topic>> GetTopicByRoom(int id)
+    {
+        var room = await _db.Rooms.Include(r => r.Topics).FirstOrDefaultAsync(r => r.RoomId == id);
+        return room?.Topics.ToList() ?? new List<Topic>();
+    }
 }

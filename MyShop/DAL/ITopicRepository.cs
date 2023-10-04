@@ -9,5 +9,7 @@ namespace Forum.DAL
         Task<bool> Create(Topic topic);
         Task<bool> Update(Topic topic);
         Task<bool> Delete(int id);
+
+        Task<List<Topic?>> GetTopicByRoom(int id);
     }
 }

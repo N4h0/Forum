@@ -13,10 +13,12 @@ namespace Forum.Controllers
 
     {
         private readonly IRoomRepository _roomRepository;
+        private readonly ITopicRepository _topicRepository;
 
-        public RoomController(IRoomRepository roomRepository)
+        public RoomController(IRoomRepository roomRepository, ITopicRepository topicRepository)
         {
             _roomRepository = roomRepository;
+            _topicRepository = topicRepository;
         }
 
         public async Task<IActionResult> RoomTable()
@@ -31,14 +33,27 @@ namespace Forum.Controllers
         {
             // Hent rommet fra databasen basert på rom-IDen
             var room = await _roomRepository.GetItemById(Id);
+            var topics = await _topicRepository.GetTopicByRoom(Id);
+
 
             if (room == null)
             {
-                return NotFound(); // Returner 404 hvis rommet ikke finnes
+                return NotFound(); //return 404 if the room does not exist
+            }
+            if (topics == null || !topics.Any())
+            {
+                topics = new List<Topic>();
             }
 
-            // Send rommet til visningen for romdetaljer
-            return View(room);
+            {
+                var roomListViewModel = new RoomListViewModel(
+                 rooms: new List<Room> { room }, // Add the room to the list
+                topicsByRoom: new Dictionary<int, List<Topic>> { { room.RoomId, topics.ToList() } }, // Legg emnene for rommet i dictionary
+                currentViewName: "Details" // Set display name
+    );
+
+                return View(room);
+            }
         }
 
 
