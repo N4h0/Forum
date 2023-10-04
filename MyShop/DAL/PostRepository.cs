@@ -5,11 +5,11 @@ using Microsoft.Extensions.Hosting;
 
 namespace Forum.DAL;
 
-public class postRepository : IPostRepository
+public class PostRepository : IPostRepository
 {
     private readonly CategoryDbContext _db;
 
-    public postRepository(CategoryDbContext db)
+    public PostRepository(CategoryDbContext db)
     {
         _db = db;
     }

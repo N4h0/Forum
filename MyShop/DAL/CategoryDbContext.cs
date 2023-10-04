@@ -13,11 +13,6 @@ public class CategoryDbContext : DbContext
     public DbSet<Room> Rooms { get; set; }
     public DbSet<Topic> Topics{ get; set; }
     public DbSet<Post> Posts { get; set; }
-    public DbSet<PostHistory> PostHistories { get; set; }
-
-
-
-    public DbSet<User> Users { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

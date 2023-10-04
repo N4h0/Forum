@@ -10,6 +10,8 @@ namespace Forum.Models
 		[Required]
 		public string TopicName { get; set; } = string.Empty; //Gir ingen mening å kunne opprette en tråd uten å gi den et navn
 
+        public string Description { get; set; } = string.Empty;
+
         //Navigaiton property:
 
         public virtual Room room { get; set; } // Can't be zero. Virtual enables lazy loading. 
