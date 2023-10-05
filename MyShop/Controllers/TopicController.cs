@@ -30,15 +30,15 @@ namespace Forum.Controllers
         }
 
         [HttpGet]
-        public IActionResult CreateTopic(int Id )
+        public IActionResult CreateTopic(int roomId)
         {
             try
             {
-                var topic = new Topic
+                var createTopicViewModel = new CreateTopicViewModel
                 {
-                    RoomId = Id 
+                    RoomId = roomId
                 };
-                return View(topic);
+                return View(createTopicViewModel);
             }
             catch (Exception ex)
             {
@@ -48,15 +48,33 @@ namespace Forum.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateTopic(Topic topic)
+        public async Task<IActionResult> CreateTopic(CreateTopicViewModel createTopicViewModel)
         {
-            if (ModelState.IsValid)
+            try
             {
-                await _topicRepository.Create(topic);
-                return RedirectToAction("TopicDetails", "Topic", new { id = topic.RoomId }); ;
+                if (ModelState.IsValid)
+                {
+                    // Convert CreateTopicViewModel til Topic-entity
+                    var topic = new Topic
+                    {
+                        RoomId = createTopicViewModel.RoomId,
+                        TopicName = createTopicViewModel.TopicName,
+                        // Add other fields necessary for the Topic entity
+                    };
+
+                    // Save Topic entity
+                    await _topicRepository.Create(topic);
+
+                    return RedirectToAction("RoomDetails", "Room", new { id = topic.RoomId });
+                }
+                _logger.LogWarning("[TopicController] Topic creation failed {@createTopicViewModel}", createTopicViewModel);
+                return View(createTopicViewModel);
             }
-            _logger.LogWarning("[TopicController] Topic creation failed {@topic}", topic);
-            return View(topic);
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "An error occurred while creating a topic");
+                throw;
+            }
         }
 
         [HttpGet]
