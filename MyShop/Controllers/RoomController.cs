@@ -24,21 +24,21 @@ namespace Forum.Controllers
         public async Task<IActionResult> RoomTable()
         {
             var rooms = await _roomRepository.GetAll();
-            var roomListViewModel = new RoomListViewModel(rooms, "Table");
+            var roomListViewModel = new RoomListViewModel(rooms);
             return View(roomListViewModel);
         }  
         
-        //detalje for Room 
+        //details for room
         public async Task<IActionResult> RoomDetails(int Id)
         {
-            // Hent rommet fra databasen basert på rom-IDen
+            // Get the room from the database based on the room-ID
             var room = await _roomRepository.GetItemById(Id);
             var topics = await _topicRepository.GetTopicByRoom(Id);
 
 
             if (room == null)
             {
-                return NotFound(); //return 404 if the room does not exist
+                return NotFound(); //returns 404 if the room is not found
             }
             if (topics == null || !topics.Any())
             {
@@ -49,14 +49,10 @@ namespace Forum.Controllers
                 var roomListViewModel = new RoomListViewModel(
                  rooms: new List<Room> { room }, // Add the room to the list
                 topicsByRoom: new Dictionary<int, List<Topic>> { { room.RoomId, topics.ToList() } }, // Legg emnene for rommet i dictionary
-                currentViewName: "Details" // Set display name
-    );
-
+                currentViewName: "Details");  // Set display name
                 return View(room);
             }
         }
-
-
 
         [HttpGet]
         public IActionResult CreateRoom(int categoryId)  //la til at man kan lage forum 
@@ -137,7 +133,6 @@ namespace Forum.Controllers
         [HttpPost]
         public async Task<IActionResult> DeleteConfirmedRoom(int roomId)
         {
-            int categoryId = await _roomRepository.Delete(roomId);
             try
             {
                 await _roomRepository.Delete(roomId);
