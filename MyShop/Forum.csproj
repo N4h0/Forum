@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\NewFolder\**" />
+    <Content Remove="Views\NewFolder\**" />
+    <EmbeddedResource Remove="Views\NewFolder\**" />
+    <None Remove="Views\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Remove="Controllers\ForumController.cs" />
     <Compile Remove="Controllers\ThreadsController1.cs" />
     <Compile Remove="Models\Forum.cs" />
@@ -40,6 +47,7 @@
     <None Remove="Views\Shared\_RoomTable.vshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="DAL\NewFolder\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
   <ItemGroup>

@@ -3,7 +3,6 @@
 using Forum.DAL;
 using Forum.Models;
 using Forum.ViewModels;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace Forum.Controllers
@@ -38,7 +37,7 @@ namespace Forum.Controllers
             {
                 var post = new Post
                 {
-                    TopicId = Id // Set the CategoryId based on the categoryId parameter.
+                    TopicId = Id // Set the TopicId based on the topicId parameter.
                 };
                 return View(post);
             }
@@ -62,14 +61,14 @@ namespace Forum.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> PostDetails(int postId)
+        public async Task<IActionResult> PostDetails(int Id)
         {
-            var post = await _postRepository.GetItemById(postId);
+            var post = await _postRepository.GetItemById(Id);
 
             if (post == null)
             {
-                _logger.LogError("[PostController] post not found for the TopicId {PostId:0000}", postId);
-
+                _logger.LogError("[PostController] post not found for the TopicId {PostId:0000}", Id);
+                return NotFound("Post not found!");
             }
 
             // Send rommet til visningen for topicetaljer

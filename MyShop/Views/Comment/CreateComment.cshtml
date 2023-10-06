@@ -1,0 +1,16 @@
+﻿@model Comment
+
+<h2>Reply</h2>
+
+<form asp-action="CreateComment">
+    <div class="form-group">
+        <label asp-for="CommentDescription">Comment description</label><span class="text-danger">*</span>
+        <input asp-for="CommentDescription" class="form-control"/>
+        <span asp-validation-for="CommentDescription" class="text-danger"></span>
+    </div>
+    <input type="hidden" asp-for="PostId" value="@Model.PostId" />
+
+    <button type="submit" class="btn btn-primary">Create</button>
+
+    <a asp-controller="Post" asp-action="PostDetails" asp-route-id="@Model.PostId" class="btn btn-secondary">Back to Post Details</a>
+</form>

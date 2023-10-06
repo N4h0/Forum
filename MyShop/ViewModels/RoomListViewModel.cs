@@ -10,7 +10,6 @@ namespace Forum.ViewModels
         public IEnumerable<Room> Rooms { get; set; }
         public Dictionary<int, List<Topic>> TopicsByRoom { get; set; }
         public string? CurrentViewName;
-        private string v;
 
         public RoomListViewModel(IEnumerable<Room> rooms, Dictionary<int, List<Topic>> topicsByRoom, string? currentViewName)
         {

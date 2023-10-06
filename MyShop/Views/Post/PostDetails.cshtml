@@ -1,0 +1,9 @@
+﻿@model Forum.Models.Post
+
+Hei, her kommer diskusjonen, hiv og ho!!!
+
+
+<a class="btn btn-primary"
+   asp-controller="Comment"
+   asp-action="CreateComment"
+   asp-route-postId="@Model.PostId">Reply</a>

@@ -84,16 +84,20 @@ public static class DBInit
             context.AddRange(topics);
             context.SaveChanges();
         }
-        if (!context.Topics.Any())
+        if (!context.Posts.Any())
         {
-            var topics = new List<Topic>
+            var posts = new List<Post>
             {
-                new Topic { TopicName = "Liverpool", RoomId= 1 },
-                new Topic { TopicName = "Linux", RoomId= 2},
+                new Post { PostTitle = "Liverpool sucks, why does it even have it's own forum?", TopicId= 1 },
+                new Post { PostTitle = "\tLiverpool sucks, why does it even have it's own forum?", TopicId= 1 },
+                new Post { PostTitle = "Linux is the best", TopicId= 2 },
+                new Post { PostTitle = "Linux is subpar", TopicId= 2 },
+                new Post { PostTitle = "Should I switch to Linux", TopicId= 2 },
+                new Post { PostTitle = "Linux for gaming?", TopicId= 2 },
+                new Post { PostTitle = "I switched back to windows from Linux, AMA", TopicId= 2 },
             };
-            context.AddRange(topics);
+            context.AddRange(posts);
             context.SaveChanges();
         }
-
     }
 }

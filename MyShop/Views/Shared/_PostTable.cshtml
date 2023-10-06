@@ -1,4 +1,6 @@
-﻿<div class="container">
+﻿@model IEnumerable<Post>
+
+<div class="container">
     <table class='table table-striped'>
         <tr>
             <th class="bg-dark text-light">Id</th>
@@ -13,7 +15,7 @@
                 <td>
                     <a asp-controller="Post"
                        asp-action="PostDetails"
-                       asp-route-id="@post.PostId">@post.Name</a>
+                       asp-route-id="@post.PostId">@post.PostTitle</a>
                 </td>
                 <td>
                     <a asp-action="UpdatePost" asp-route-id="@post.PostId" class="btn btn-success">Update</a>

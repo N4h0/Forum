@@ -21,8 +21,6 @@ namespace Forum.Controllers
             _logger = logger;
         }
 
-
-
         public async Task<IActionResult> CategoryTable()
 
 

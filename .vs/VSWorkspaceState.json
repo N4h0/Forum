@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MyShop",
+    "\\MyShop\\DAL",
+    "\\MyShop\\Views",
+    "\\MyShop\\Views\\Room",
+    "\\MyShop\\Views\\Shared"
   ],
+  "SelectedNode": "\\MyShop.sln",
   "PreviewInSolutionExplorer": false
 }

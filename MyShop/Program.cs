@@ -19,11 +19,11 @@ builder.Services.AddDbContext<CategoryDbContext>(options =>
         builder.Configuration["ConnectionStrings:CategoryDbContextConnection"]);
 });
 
-builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
-builder.Services.AddScoped<IRoomRepository, RoomRepository>();
-builder.Services.AddScoped<ITopicRepository, TopicRepository>();
-builder.Services.AddScoped<IPostRepository, PostRepository>();
-
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>(); //A category has zero or multiple 
+builder.Services.AddScoped<IRoomRepository, RoomRepository>(); //Rooms which have zero or many
+builder.Services.AddScoped<ITopicRepository, TopicRepository>(); //Topics which have zero or several
+builder.Services.AddScoped<IPostRepository, PostRepository>(); //posts which have one or a bunch of
+builder.Services.AddScoped<ICommentRepository, CommentRepository>(); //Comments
 
 var loggerConfiguration = new LoggerConfiguration()
     .MinimumLevel.Information()

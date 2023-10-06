@@ -25,7 +25,7 @@ namespace Forum.Controllers
             {
                 _logger.LogError("[TopicController] Topic list not found while executing _topicRepository.GetAll()");
             }
-                var threadListViewModel = new ThreadListViewModel(topics, "Table");
+                var threadListViewModel = new TopicListViewModel(topics, "Table");
                 return View(threadListViewModel);
         }
 
