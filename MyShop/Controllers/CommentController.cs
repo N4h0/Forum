@@ -59,23 +59,13 @@ namespace Forum.Controllers
         [HttpPost] //HttpPost is responsible for submitting the form.
         public async Task<IActionResult> CreateComment(Comment comment)
         {
-            var commentJson = System.Text.Json.JsonSerializer.Serialize(comment);
-            _logger.LogInformation($"Attempting to create comment: {commentJson}"); //Turning the comment to a Json object in order to log it.
-            if (comment == null) { _logger.LogError("Recieved comment equal to null");}
-            foreach (var modelState in ModelState.Values)
-            {
-                foreach (var error in modelState.Errors)
-                {
-                    _logger.LogError(error.ErrorMessage); //Logging all the errors if the modelstate is wrong.
-                }
-            }
 
             try
             { 
             if (ModelState.IsValid)
             {
                 await _commentRepository.Create(comment);
-                return RedirectToAction("CategoryDetails", "Category", new { id = comment.PostId }); //Return to Post/PostDetails/PostId after create.
+                return RedirectToAction("PostDetails", "Post", new { id = comment.PostId }); //Return to Post/PostDetails/PostId after create.
             }
             _logger.LogWarning("Comment creation failed, ModelState is invalid.");
             return View(comment);
