@@ -116,8 +116,6 @@ namespace Forum.Controllers
 
         // GET
         [HttpGet]
-        // GET
-        [HttpGet]
         public async Task<IActionResult> DeleteTopic(int id)
         {
             var topic = await _topicRepository.GetItemById(id);

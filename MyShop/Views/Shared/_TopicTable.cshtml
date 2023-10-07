@@ -17,19 +17,12 @@
                        asp-route-id="@topic.TopicId">@topic.TopicName</a>
                 </td>
                 <td>
-                    <a asp-action="UpdateTopic" asp-route-id="@topic.TopicId">Update</a>
-                    <a asp-action="DeleteTopic" asp-route-id="@topic.TopicId">Delete</a>
+                    <a asp-action="UpdateTopic" asp-controller="Topic" asp-route-id="@topic.TopicId">Update</a>
+                    <a asp-action="DeleteTopic" asp-controller="Topic" asp-route-id="@topic.TopicId">Delete</a>
+
                 </td>
             </tr>
         }
     </table>
-    <p>
-        <a class="btn btn-secondary"
-           asp-controller="Topic"
-           asp-action="CreateTopic">
-            Create New Topic
-        </a>
-    </p>
-
 </div>
 

@@ -136,7 +136,7 @@ namespace Forum.Controllers
             try
             {
                 await _roomRepository.Delete(roomId);
-                return RedirectToAction("CategoryDetails", "Category", new { id = roomId}); //Return to Category/CategoryDetails/CategoryId after create.
+                return RedirectToAction("CategoryDetails", "Category", new { id = roomId}); //Return to Category/CategoryDetails/CategoryId after create. TODO fiks
             }
             catch
             {
