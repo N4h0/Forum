@@ -77,10 +77,11 @@ namespace Forum.Controllers
             }
         }
 
-        [HttpGet]
+        [HttpGet] //Displays the details of a topic with a given Id. 
         public async Task<IActionResult> TopicDetails(int Id)
         {
             var topic = await _topicRepository.GetItemById(Id);
+
 
             if (topic== null)
             {
@@ -88,7 +89,7 @@ namespace Forum.Controllers
                 return NotFound("Topic not found."); //This page will popup only if we try to access a page where topic is null
             }
 
-            // Send rommet til visningen for topicetaljer
+            // Sends the given topic to the view.
             return View(topic);
         }
 

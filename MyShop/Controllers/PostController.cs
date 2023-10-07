@@ -4,6 +4,7 @@ using Forum.DAL;
 using Forum.Models;
 using Forum.ViewModels;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System.Text;
 
 namespace Forum.Controllers
 {
@@ -30,31 +31,38 @@ namespace Forum.Controllers
             return View(postListViewModel);
         }
 
-        [HttpGet]
-        public IActionResult CreatePost(int Id)
+        [HttpGet] //Called when clicking on the CreatePost hypelink under TopicDetails. CreatePost is the name of the method (here) and view (CreatePost.cshtml).
+        public IActionResult CreatePost(int topicId) //Create a post with a given Id, which is (should be) passed  when the method is called.
         {
             try
-            {
-                var post = new Post
-                {
-                    TopicId = Id // Set the TopicId based on the topicId parameter.
-                };
-                return View(post);
-            }
+            {   var post = new Post { TopicId = topicId }; // Set the post TopicId based on the topicId parameter.
+                return View(post);} //returns the view with the initialized post.
             catch (Exception ex)
-            {
-                _logger.LogError(ex, "An error occurred while creating a post");
-                throw;
-            }
-        }
+            {   _logger.LogError(ex, "An error occurred while creating a post");
+                throw;}}
 
         [HttpPost]
         public async Task<IActionResult> CreatePost(Post post)
         {
+            if (!ModelState.IsValid)
+            {
+                var modelStateErrors = new StringBuilder();
+
+                foreach (var modelStateKey in ModelState.Keys)
+                {
+                    var modelStateVal = ModelState[modelStateKey];
+                    foreach (var error in modelStateVal.Errors)
+                    {
+                        modelStateErrors.AppendLine($"{modelStateKey}: {error.ErrorMessage}");
+                    }
+                }
+
+                _logger.LogWarning("Model validation failed. Errors: {@ModelErrors}", modelStateErrors.ToString());
+            }
             if (ModelState.IsValid)
             {
                 await _postRepository.Create(post);
-                return RedirectToAction(nameof(PostTable));
+                return RedirectToAction("TopicDetails", "Topic", new { id = post.TopicId });//Return to Topic/TopicDetails/TopicId after create.
             }
             _logger.LogWarning("[PostController] Post creation failed {@post}", post);
             return View(post);
@@ -70,13 +78,11 @@ namespace Forum.Controllers
                 _logger.LogError("[PostController] post not found for the TopicId {PostId:0000}", Id);
                 return NotFound("Post not found!");
             }
-
             // Send rommet til visningen for topicetaljer
             return View(post);
         }
 
         // POST: Topic
-
         [HttpPost]
         public async Task<IActionResult> UpdatePost(int postId, Post post)
         {

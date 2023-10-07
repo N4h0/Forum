@@ -2,15 +2,22 @@
 
 <h2>Create new Post</h2>
 
-<form asp-action="Createpost">
+<!--When the button is clicked, the HttpPost createpost is called in the current controller (PostController)-->
+<!-- the added asp-route ensures that we get returned to CreatePost/Topic id when we reach the topicId-page. 
+    This was added because by default, if there's an error when creating a post, it get's returned to Craetepost without a topicId-->
+<form asp-action="Createpost" asp-route-topicId="@Model.TopicId"> 
     <div class="form-group">
         <label asp-for="PostTitle"></label><span class="text-danger">*</span>
+        <!--Input for the PostTitle part of the model-->
         <input asp-for="PostTitle" class="form-control" />
+        <!--A field for validation-->
         <span asp-validation-for="PostTitle" class="text-danger"></span>
     </div>
-    <input type="hidden" asp-for="PostId" value="@Model.PostId" />
-
+    <!--Input for the TopicId, it get's automatically generated.-->
+    <input type="hidden" asp-for="TopicId" value="@Model.TopicId" />
+    <!--When clicked, the button will send a post request to the CreatePost action (controller [HttpPost] CreatePost).-->
     <button type="submit" class="btn btn-primary">Create</button>
 
+    <!--Return button, which returns the user to the previous page (Topic/TopicDetails/TopicId)-->
     <a asp-controller="Topic" asp-action="TopicDetails" asp-route-id="@Model.TopicId" class="btn btn-secondary">Back to Topic Details</a>
 </form>

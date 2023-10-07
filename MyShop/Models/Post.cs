@@ -10,7 +10,9 @@ namespace Forum.Models
 		[Required]
 		public string PostTitle { get; set; }
 		//Navigaiton property:
+
+		//The error is here
         public virtual Topic Topic  { get; set; } // Can't be zero. Virtual enables lazy loading. 
-		public virtual Comment Comment { get; set; }
+		// public virtual Comment Comment { get; set; }
     }
 }
