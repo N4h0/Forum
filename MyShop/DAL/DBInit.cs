@@ -89,7 +89,7 @@ public static class DBInit
             var posts = new List<Post>
             {
                 new Post { PostTitle = "Liverpool sucks, why does it even have it's own forum?", TopicId= 1 },
-                new Post { PostTitle = "\tLiverpool sucks, why does it even have it's own forum?", TopicId= 1 },
+                new Post { PostTitle = "I love Liverpool, it's the best team ever", TopicId= 1 },
                 new Post { PostTitle = "Linux is the best", TopicId= 2 },
                 new Post { PostTitle = "Linux is subpar", TopicId= 2 },
                 new Post { PostTitle = "Should I switch to Linux", TopicId= 2 },
@@ -97,6 +97,24 @@ public static class DBInit
                 new Post { PostTitle = "I switched back to windows from Linux, AMA", TopicId= 2 },
             };
             context.AddRange(posts);
+            context.SaveChanges();
+        }
+        if (!context.Comments.Any())
+        {
+            var comments = new List<Comment>
+            {
+                new Comment { CommentDescription = "See title!", PostId= 1 },
+                new Comment { CommentDescription = "Go away!", PostId= 1 },
+                new Comment { CommentDescription = "You are so mean!", PostId= 1 },
+                new Comment { CommentDescription = "Also, please ignore the hater in the last post", PostId= 2 },
+                new Comment { CommentDescription = "Liiinux is love Linux is liiiife!!!!", PostId= 3 },
+                new Comment { CommentDescription = "Linux is bad", PostId= 4 },
+                new Comment { CommentDescription = "No", PostId= 5 },
+                new Comment { CommentDescription = "Yes, it's 2023", PostId= 6 },
+                new Comment { CommentDescription = "Shut up", PostId= 7 },
+
+            };
+            context.AddRange(comments);
             context.SaveChanges();
         }
     }
