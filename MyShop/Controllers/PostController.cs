@@ -35,37 +35,38 @@ namespace Forum.Controllers
         public IActionResult CreatePost(int topicId) //Create a post with a given Id, which is (should be) passed  when the method is called.
         {
             try
-            {   var post = new Post { TopicId = topicId }; // Set the post TopicId based on the topicId parameter.
-                return View(post);} //returns the view with the initialized post.
+            {
+                var postCommentViewModel = new PostCommentViewModel
+                {
+                    Post = new Post { TopicId = topicId }, //Setting the ViewModels post and comment, and the Post inside the viewmodels TopicId.
+                    Comment = new Comment()
+                };
+                return View(postCommentViewModel); // Returns the view with the initialized post and comment.
+            }
             catch (Exception ex)
-            {   _logger.LogError(ex, "An error occurred while creating a post");
-                throw;}}
+            {
+                _logger.LogError(ex, "An error occurred while creating a post");
+                throw;
+            }
+        }
+
 
         [HttpPost]
-        public async Task<IActionResult> CreatePost(Post post)
+        public async Task<IActionResult> CreatePost(PostCommentViewModel postCommentViewModel)
         {
-            if (!ModelState.IsValid)
-            {
-                var modelStateErrors = new StringBuilder();
+            ModelState.Remove("Topic.Room");
+            ModelState.Remove("Post.Topic"); //Decided to remove Topic (nav property) from validation. It is not properly set at this point,
+            // and the validation is most important to check user inputs. In addition, having to validate Topics due to the link
+            // might cause unnecessary loading time. Same for room.
 
-                foreach (var modelStateKey in ModelState.Keys)
-                {
-                    var modelStateVal = ModelState[modelStateKey];
-                    foreach (var error in modelStateVal.Errors)
-                    {
-                        modelStateErrors.AppendLine($"{modelStateKey}: {error.ErrorMessage}");
-                    }
-                }
-
-                _logger.LogWarning("Model validation failed. Errors: {@ModelErrors}", modelStateErrors.ToString());
-            }
             if (ModelState.IsValid)
             {
-                await _postRepository.Create(post);
-                return RedirectToAction("TopicDetails", "Topic", new { id = post.TopicId });//Return to Topic/TopicDetails/TopicId after create.
+                //Need to figure out how to create the comment here
+                await _postRepository.Create(postCommentViewModel.Post);
+                return RedirectToAction("TopicDetails", "Topic", new { id = postCommentViewModel.Post.TopicId });//Return to Topic/TopicDetails/TopicId after create.
             }
-            _logger.LogWarning("[PostController] Post creation failed {@post}", post);
-            return View(post);
+            _logger.LogWarning("[PostController] Post creation failed {@post}", postCommentViewModel.Post);
+            return View(postCommentViewModel);
         }
 
         [HttpGet]

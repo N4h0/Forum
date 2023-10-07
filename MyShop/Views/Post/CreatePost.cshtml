@@ -1,23 +1,25 @@
-﻿@model Post
+﻿@model PostCommentViewModel //We created a new view for this action as we need to create a comment and post at the same time
 
 <h2>Create new Post</h2>
 
 <!--When the button is clicked, the HttpPost createpost is called in the current controller (PostController)-->
 <!-- the added asp-route ensures that we get returned to CreatePost/Topic id when we reach the topicId-page. 
     This was added because by default, if there's an error when creating a post, it get's returned to Craetepost without a topicId-->
-<form asp-action="Createpost" asp-route-topicId="@Model.TopicId"> 
+<form asp-action="Createpost" asp-route-topicId="@Model.Post.TopicId"> 
     <div class="form-group">
-        <label asp-for="PostTitle"></label><span class="text-danger">*</span>
+        <label asp-for="Post.PostTitle"></label><span class="text-danger">*</span>
         <!--Input for the PostTitle part of the model-->
-        <input asp-for="PostTitle" class="form-control" />
+        <input asp-for="Post.PostTitle" class="form-control" />
         <!--A field for validation-->
-        <span asp-validation-for="PostTitle" class="text-danger"></span>
+        <label asp-for="Comment.CommentDescription"></label><span class="text-danger">*</span>
+        <input asp-for="Comment.CommentDescription" class="form-control" />
+        <span asp-validation-for="Comment.CommentDescription" class="text-danger"></span>
     </div>
     <!--Input for the TopicId, it get's automatically generated.-->
-    <input type="hidden" asp-for="TopicId" value="@Model.TopicId" />
+    <input type="hidden" asp-for="Post.TopicId" value="@Model.Post.TopicId" />
     <!--When clicked, the button will send a post request to the CreatePost action (controller [HttpPost] CreatePost).-->
     <button type="submit" class="btn btn-primary">Create</button>
 
     <!--Return button, which returns the user to the previous page (Topic/TopicDetails/TopicId)-->
-    <a asp-controller="Topic" asp-action="TopicDetails" asp-route-id="@Model.TopicId" class="btn btn-secondary">Back to Topic Details</a>
+    <a asp-controller="Topic" asp-action="TopicDetails" asp-route-id="@Model.Post.TopicId" class="btn btn-secondary">Back to Topic Details</a>
 </form>

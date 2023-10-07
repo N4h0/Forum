@@ -16,150 +16,150 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Category/CategoryDetails.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Category/CategoryDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ2F0ZWdvcnlEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Category/CategoryGrid.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Category/CategoryGrid.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ2F0ZWdvcnlHcmlkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Category/CategoryTable.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Category/CategoryTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ2F0ZWdvcnlUYWJsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Category/CreateCategory.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Category/CreateCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Category/DeleteCategory.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Category/DeleteCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Category/UpdateCategory.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Category/UpdateCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcVXBkYXRlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Comment/CommentTable.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Comment/CommentTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxDb21tZW50VGFibGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Comment/CreateComment.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Comment/CreateComment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxDcmVhdGVDb21tZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Home/Index.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Post/CreatePost.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Post/CreatePost.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxDcmVhdGVQb3N0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Post/DeletePost.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Post/DeletePost.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxEZWxldGVQb3N0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Post/PostDetails.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Post/PostDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxQb3N0RGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Post/PostTable.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Post/PostTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxQb3N0VGFibGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Post/UpdatePost.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Post/UpdatePost.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxVcGRhdGVQb3N0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Room/CreateRoom.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Room/CreateRoom.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxDcmVhdGVSb29tLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Room/DeleteRoom.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Room/DeleteRoom.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxEZWxldGVSb29tLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Room/RoomDetails.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Room/RoomDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxSb29tRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Room/RoomGrid.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Room/RoomGrid.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxSb29tR3JpZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Room/RoomTable.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Room/RoomTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxSb29tVGFibGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Room/UpdateRoom.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Room/UpdateRoom.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxVcGRhdGVSb29tLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Shared/_CategoryCard.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Shared/_CategoryCard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXRlZ29yeUNhcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Shared/_CategoryTable.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Shared/_CategoryTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXRlZ29yeVRhYmxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Shared/_Footer.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Shared/_Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Shared/_Navbar.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Shared/_Navbar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZiYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Shared/_PostTable.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Shared/_PostTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qb3N0VGFibGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Shared/_Roomcard.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Shared/_Roomcard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Sb29tY2FyZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Shared/_RoomTable.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Shared/_RoomTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Sb29tVGFibGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Shared/_TopicTable.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Shared/_TopicTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ub3BpY1RhYmxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Shared/_UserLayout.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Shared/_UserLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Vc2VyTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Topic/CreateTopic.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Topic/CreateTopic.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNcQ3JlYXRlVG9waWMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Topic/DeleteTopic.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Topic/DeleteTopic.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNcRGVsZXRlVG9waWMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Topic/TopicDetails.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Topic/TopicDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNcVG9waWNEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Topic/TopicTable.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Topic/TopicTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNcVG9waWNUYWJsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Topic/UpdateTopic.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Topic/UpdateTopic.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNcVXBkYXRlVG9waWMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/_ViewImports.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/_ViewStart.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Shared/_Layout.cshtml]
+[C:/Users/Johan/source/repos/N4h0/Forum/MyShop/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-fjdg2wquwm
