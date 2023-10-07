@@ -116,14 +116,16 @@ namespace Forum.Controllers
 
         // GET
         [HttpGet]
-        public async Task<IActionResult> DeleteTopic(int topicId)
+        // GET
+        [HttpGet]
+        public async Task<IActionResult> DeleteTopic(int id)
         {
-            var topic = await _topicRepository.GetItemById(topicId);
+            var topic = await _topicRepository.GetItemById(id);
 
             if (topic == null)
             {
-                _logger.LogError("[TopicController] topic not found for the TopicId {TopicId:0000}", topicId);
-                return BadRequest("Room not found for the RoomId");
+                _logger.LogError("[TopicController] topic not found for the TopicId {TopicId:0000}", id);
+                return BadRequest("Topic not found for the TopicId");
             }
 
             return View(topic);
@@ -131,15 +133,15 @@ namespace Forum.Controllers
 
         // POST
         [HttpPost]
-        public async Task<IActionResult> DeleteConfirmedTopic(int topicId)
+        public async Task<IActionResult> DeleteConfirmedTopic(int id)
         {
-            bool returnOk = await _topicRepository.Delete(topicId);
+            bool returnOk = await _topicRepository.Delete(id);
             if (!returnOk)
             {
-                _logger.LogError("[TopicController] Topic deletion failed for the TopicId {TopicId:0000}", topicId);
+                _logger.LogError("[TopicController] Topic deletion failed for the TopicId {TopicId:0000}", id);
                 return BadRequest("topic deletion failed");
             }
-                return RedirectToAction(nameof(TopicTable));       
+            return RedirectToAction(nameof(TopicTable));
         }
     }
 }

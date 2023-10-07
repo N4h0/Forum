@@ -2,7 +2,7 @@
 
 <div class="container">
     <table class='table table-striped'>
-        <tr >
+        <tr>
             <th class="bg-dark text-light">Name</th>
             <th class="bg-dark text-light"> </th>
             <th class="bg-dark text-light"> </th>
@@ -10,6 +10,7 @@
         @foreach (var topic in Model)
         {
             <tr>
+                <td>@topic.TopicId</td>
                 <td>
                     <a asp-controller="Topic"
                        asp-action="TopicDetails"
@@ -22,5 +23,13 @@
             </tr>
         }
     </table>
-  
+    <p>
+        <a class="btn btn-secondary"
+           asp-controller="Topic"
+           asp-action="CreateTopic">
+            Create New Topic
+        </a>
+    </p>
+
 </div>
+
