@@ -2,25 +2,17 @@
 using System.Collections.Generic;
 using Forum.Models;
 
-
 namespace Forum.ViewModels
 {
     public class CommentListViewModel
     {
         public IEnumerable<Comment> Comments { get; set; }
-        public Dictionary<int, List<Topic>> TopicsByComment { get; set; }
         public string? CurrentViewName;
 
-        public CommentListViewModel(IEnumerable<Comment> Comments, Dictionary<int, List<Topic>> topicsByComment, string? currentViewName)
+        public CommentListViewModel(IEnumerable<Comment> comments, string? currentViewName)
         {
-            Comments = Comments;
-            TopicsByComment = topicsByComment;
+            Comments = comments;
             CurrentViewName = currentViewName;
-        }
-
-        public CommentListViewModel(IEnumerable<Comment> Comments)
-        {
-            Comments = Comments;
         }
     }
 }

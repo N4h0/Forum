@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Comment>
+
+<div class="container">
+    <table class='table table-striped'>
+        <tr>
+            <th class="bg-dark text-light">Id</th>
+            <th class="bg-dark text-light">Name</th>
+            <th class="bg-dark text-light"> </th>
+            <th class="bg-dark text-light"> </th>
+        </tr>
+        @foreach (var Comment in Model)
+        {
+            <tr>
+                <td>@Comment.CommentId</td>
+                <td>
+                    <span>@Comment.CommentDescription</span>
+                </td>
+                <td>
+                    <a asp-action="UpdateComment" asp-route-id="@Comment.CommentId" class="btn btn-success">Update</a>
+                    <a asp-action="DeleteComment" asp-route-id="@Comment.CommentId" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </table>
+
+</div>

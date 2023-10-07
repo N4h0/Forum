@@ -11,12 +11,14 @@ namespace Forum.Controllers
     public class PostController : Controller
     {
         private readonly IPostRepository _postRepository;
+        private readonly ICommentRepository _commentRepository; //We need this so that we can create a comment when we create a post.
         private readonly ILogger<PostController> _logger;
 
 
-        public PostController(IPostRepository postRepository, ILogger<PostController> logger)
+        public PostController(IPostRepository postRepository, ICommentRepository commentRepository, ILogger<PostController> logger)
         {
             _postRepository = postRepository;
+            _commentRepository = commentRepository; //We need this so that we can create a comment when we create a post.
             _logger = logger;
         }
 
@@ -62,11 +64,13 @@ namespace Forum.Controllers
             if (ModelState.IsValid)
             {
                 //Need to figure out how to create the comment here
-                await _postRepository.Create(postCommentViewModel.Post);
+                await _postRepository.Create(postCommentViewModel.Post); //Creating post
+                postCommentViewModel.Comment.PostId = postCommentViewModel.Post.PostId; //Then assigning the Comments postId equal to Posts Postid
+                await _commentRepository.Create(postCommentViewModel.Comment); //Then I can create the post.
                 return RedirectToAction("TopicDetails", "Topic", new { id = postCommentViewModel.Post.TopicId });//Return to Topic/TopicDetails/TopicId after create.
             }
             _logger.LogWarning("[PostController] Post creation failed {@post}", postCommentViewModel.Post);
-            return View(postCommentViewModel);
+            return View(postCommentViewModel.Post);
         }
 
         [HttpGet]
