@@ -7,13 +7,6 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Forum.DAL;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System;
-using Microsoft.AspNetCore.Mvc;
-using Forum.Models;
-using Forum.ViewModels;
-using Microsoft.EntityFrameworkCore.Query;
-using Microsoft.AspNetCore.Mvc.ModelBinding;
-using Forum.DAL;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace Forum.Controllers
 {
@@ -75,6 +68,72 @@ namespace Forum.Controllers
                 _logger.LogError(ex, "An error occurred while creating a comment");
                 throw;
             }
+        }
+        // GET: Comment/
+        [HttpGet]
+        public async Task<IActionResult> UpdateComment(int Id)
+        {
+            var Comment = await _commentRepository.GetItemById(Id);
+
+            if (Comment == null)
+            {
+                return NotFound();
+            }
+
+            return View(Comment);
+        }
+
+        // POST: Comment
+        [HttpPost]
+        public async Task<IActionResult> UpdateComment(Comment Comment)
+        {
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    await _commentRepository.Update(Comment);
+                }
+                catch
+                {
+                    //TODO fill out this catch
+                }
+
+                return RedirectToAction("PostDetails", "Post", new { id = Comment.PostId }); //Return to Post/PostDetails/PostId after create.
+            }
+
+            return View(Comment);
+        }
+
+        // GET
+        [HttpGet]
+        public async Task<IActionResult> DeleteComment(int Id)
+        {
+            var Comment = await _commentRepository.GetItemById(Id);
+
+            if (Comment == null)
+            {
+                return NotFound();
+            }
+
+            return View(Comment);
+        }
+
+        // POST
+        [HttpPost]
+        public async Task<IActionResult> DeleteConfirmedComment(int Id)
+        {
+            var PostId = await _commentRepository.GetPostId(Id);
+            try
+            {
+                await _commentRepository.Delete(Id);
+                return RedirectToAction("PostDetails", "Post", new { id = PostId }); //Return to Post/PostDetails/PostId after create. TODO fiks
+            }
+            catch
+            {
+                // TODO handle exceptions here
+                return RedirectToAction("PostDetails", "Post", new { id = PostId }); 
+            }
+
         }
     }
 }

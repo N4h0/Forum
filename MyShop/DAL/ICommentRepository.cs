@@ -6,6 +6,7 @@ namespace Forum.DAL
     {
         Task<IEnumerable<Comment>> GetAll();
         Task<Comment?> GetItemById(int id);
+        Task<int?> GetPostId(int id);
         Task Create(Comment comment);
         Task Update(Comment comment);
         Task<bool> Delete(int id);

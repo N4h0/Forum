@@ -1,0 +1,22 @@
+﻿@model Comment
+
+<h2>Update Comment</h2>
+
+<form asp-action="UpdateComment">
+    <input type="hidden" asp-for="PostId" />
+    <input type="hidden" asp-for="CommentId" /> <!--Adding the input for CommentId was needed ensured the correct comment was updated-->
+    <!--Before, the comment with id=0 was updated. This cause a new comment to be created, as the update-action creates a new comment for id 0-->
+
+
+    <div>
+        <label asp-for="CommentDescription"></label>
+        <input asp-for="CommentDescription" class="form-control" />
+        <span asp-validation-for="CommentDescription" class="text-danger"></span>
+
+
+    </div>
+    <button type="submit" class="btn btn-primary">Save changes</button>
+    <a asp-controller="Post" asp-action="PostDetails" asp-route-id="@Model.PostId" class="btn btn-secondary">Cancel</a>
+
+
+</form>

@@ -16,8 +16,8 @@
                     <span>@Comment.CommentDescription</span>
                 </td>
                 <td>
-                    <a asp-action="UpdateComment" asp-route-id="@Comment.CommentId" class="btn btn-success">Update</a>
-                    <a asp-action="DeleteComment" asp-route-id="@Comment.CommentId" class="btn btn-danger">Delete</a>
+                    <a asp-action="UpdateComment" asp-controller="Comment"  asp-route-id="@Comment.CommentId" class="btn btn-success">Update</a>
+                    <a asp-action="DeleteComment" asp-controller="Comment" asp-route-id="@Comment.CommentId" class="btn btn-danger">Delete</a>
                 </td>
             </tr>
         }

@@ -12,6 +12,12 @@ public class CommentRepository : ICommentRepository
         _db = db;
     }
 
+    public async Task<int?> GetPostId(int id)
+    {
+        var comment = await _db.Comments.FindAsync(id);
+        return comment.PostId;
+    }
+
     public async Task<IEnumerable<Comment>> GetAll()
     {
         return await _db.Comments.ToListAsync();
