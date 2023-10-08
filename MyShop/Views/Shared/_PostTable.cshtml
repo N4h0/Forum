@@ -18,8 +18,8 @@
                        asp-route-id="@post.PostId">@post.PostTitle</a>
                 </td>
                 <td>
-                    <a asp-action="UpdatePost" asp-route-id="@post.PostId" class="btn btn-success">Update</a>
-                    <a asp-action="DeletePost" asp-route-id="@post.PostId" class="btn btn-danger">Delete</a>
+                    <a asp-action="UpdatePost" asp-controller="Post" asp-route-id="@post.PostId" class="btn btn-success">Update</a>
+                    <a asp-action="DeletePost" asp-controller="Post"  asp-route-id="@post.PostId" class="btn btn-danger">Delete</a>
                 </td>
             </tr>
         }

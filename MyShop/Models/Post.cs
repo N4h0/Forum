@@ -9,11 +9,9 @@ namespace Forum.Models
 		public int TopicId { get; set; } //FK
 		[Required]
 		public string PostTitle { get; set; }
-		//Navigaiton property:
+        //Navigaiton property:
 
-        public virtual Topic Topic  { get; set; } // Can't be zero. Virtual enables lazy loading. 
-                                                  // public virtual Comment Comment { get; set; }
-
+        public virtual Topic? Topic  { get; set; } 
         public virtual List<Comment>? Comments { get; set; }
     }
 }

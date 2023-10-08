@@ -114,6 +114,7 @@ namespace Forum.Controllers
             return View(topic);
         }
 
+
         // GET
         [HttpGet]
         public async Task<IActionResult> DeleteTopic(int id)
@@ -141,7 +142,6 @@ namespace Forum.Controllers
             }
             return RedirectToAction(nameof(TopicTable));
         }
-
     }
 }
 

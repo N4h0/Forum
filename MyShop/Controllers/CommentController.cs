@@ -23,14 +23,6 @@ namespace Forum.Controllers
             _logger = logger;
         }
 
-        /*
-        public async Task<IActionResult> CommentTable()
-        {
-            var comments = await _commentRepository.GetAll();
-            var commentListViewModel = new CommentListViewModel(comments);
-            return View(commentListViewModel);
-        }*/
-
         [HttpGet] //HttpGet is responsible for displaying the form
         public IActionResult CreateComment(int postId) //CreateCommentView with the spesific postId
 

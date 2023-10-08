@@ -56,10 +56,6 @@ namespace Forum.Controllers
         [HttpPost]
         public async Task<IActionResult> CreatePost(PostCommentViewModel postCommentViewModel)
         {
-            ModelState.Remove("Topic.Room");
-            ModelState.Remove("Post.Topic"); //Decided to remove Topic (nav property) from validation. It is not properly set at this point,
-            // and the validation is most important to check user inputs. In addition, having to validate Topics due to the link
-            // might cause unnecessary loading time. Same for room.
 
             if (ModelState.IsValid)
             {
@@ -87,14 +83,23 @@ namespace Forum.Controllers
             return View(post);
         }
 
-        // POST: Topic
-        [HttpPost]
-        public async Task<IActionResult> UpdatePost(int postId, Post post)
+        [HttpGet]
+        public async Task<IActionResult> UpdatePost(int Id)
         {
-            if (postId != post.PostId)
+            var Post = await _postRepository.GetItemById(Id);
+
+            if (Post == null)
             {
                 return NotFound();
             }
+
+            return View(Post);
+        }
+
+        // POST: Topic
+        [HttpPost]
+        public async Task<IActionResult> UpdatePost(Post post)
+        {
 
             if (ModelState.IsValid)
             {
@@ -104,9 +109,19 @@ namespace Forum.Controllers
                 }
                 catch
                 {
+                    //TODO FILL OUT (OR remove???) catch
                 }
 
-                return RedirectToAction(nameof(PostTable));
+                return RedirectToAction("TopicDetails", "Topic", new { id = post.TopicId }); ;
+            }
+            _logger.LogError("Model validation failed for Post");
+
+            foreach (var state in ModelState)
+            {
+                foreach (var error in state.Value.Errors)
+                {
+                    _logger.LogError($"Key: {state.Key}, Error: {error.ErrorMessage}");
+                }
             }
 
             return View(post);
@@ -114,13 +129,13 @@ namespace Forum.Controllers
 
         // GET
         [HttpGet]
-        public async Task<IActionResult> DeletePost(int postId)
+        public async Task<IActionResult> DeletePost(int Id)
         {
-            var topic = await _postRepository.GetItemById(postId);
+            var topic = await _postRepository.GetItemById(Id);
 
             if (topic == null)
             {
-                _logger.LogError("[PostController] post not found for the PostId {PostId:0000}", postId);
+                _logger.LogError("[PostController] post not found for the PostId {PostId:0000}", Id);
                 return BadRequest("Category not found for the CategoryId");
             }
             return View(topic);
@@ -128,17 +143,18 @@ namespace Forum.Controllers
 
         // POST
         [HttpPost]
-        public async Task<IActionResult> DeleteConfirmedPost(int postId)
+        public async Task<IActionResult> DeleteConfirmedPost(int Id)
         {
-            bool returnOk = await _postRepository.Delete(postId);
+            var TopicId = await _postRepository.GetTopicId(Id);
+            bool returnOk = await _postRepository.Delete(Id);
             if (!returnOk)
             {
-                _logger.LogError("[TopicController] Topic deletion failed for the TopicId {TopicId:0000}", postId);
+                _logger.LogError("[TopicController] Topic deletion failed for the TopicId {TopicId:0000}", Id);
                 return BadRequest("topic deletion failed");
 
             }
 
-            return RedirectToAction(nameof(PostTable));
+            return RedirectToAction("TopicDetails", "Topic", new { id = TopicId });
 
         }
     }

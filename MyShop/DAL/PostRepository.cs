@@ -19,6 +19,12 @@ public class PostRepository : IPostRepository
         return await _db.Posts.ToListAsync();
     }
 
+    public async Task<int?> GetTopicId(int id)
+    {
+        var post = await _db.Posts.FindAsync(id);
+        return post.TopicId;
+    }
+
     public async Task<Post?> GetItemById(int id)
     {
         return await _db.Posts.FindAsync(id);
