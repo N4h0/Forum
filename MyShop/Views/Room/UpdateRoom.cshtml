@@ -2,17 +2,18 @@
 
 <h2>Update Room</h2>
 
-<form asp-action="UpdateCategory">
+<form asp-action="UpdateRoom">
     <input type="hidden" asp-for="RoomId" />
+    <input type="hidden" asp-for="CategoryId" />
 
     <div>
         <label asp-for="RoomName"></label>
         <input asp-for="RoomName" class="form-control" />
         <span aps-validation-for="Name" class="text-danger"></span>
-
-
     </div>
+
     <button type="submit" class="btn btn-primary">Save changes</button>
-    <a asp-action="Table" class="btn btn-secondry">Cancel</a>
+    <a asp-controller="Category" asp-action="CategoryDetails" asp-route-id="@Model.CategoryId" class="btn btn-secondary">Cancel</a>
+
 
 </form>

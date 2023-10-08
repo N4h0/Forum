@@ -17,6 +17,12 @@ public class TopicRepository : ITopicRepository
 
     }
 
+    public async Task<int?> GetRoomId(int id)
+    {
+        var topic = await _db.Topics.FindAsync(id);
+        return topic.RoomId;
+    }
+
     public async Task<IEnumerable<Topic>> GetAll()
     {
         try

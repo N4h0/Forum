@@ -14,7 +14,7 @@ namespace Forum.Models
 
         //Navigaiton property:
 
-        public virtual Room room { get; set; } // Can't be zero. Virtual enables lazy loading. 
+        public virtual Room? room { get; set; } // Virtual enables lazy loading. 
 
         public virtual List<Post>? Posts { get; set; }
     }

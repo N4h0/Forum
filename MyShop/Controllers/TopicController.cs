@@ -3,6 +3,7 @@ using Forum.Models;
 using Forum.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Microsoft.Extensions.Logging;
 
 namespace Forum.Controllers
 {
@@ -82,7 +83,6 @@ namespace Forum.Controllers
         {
             var topic = await _topicRepository.GetItemById(Id);
 
-
             if (topic== null)
             {
                 _logger.LogError("[TopicController] Topic not found for the TopicId {TopicId:0000}", Id);
@@ -93,10 +93,24 @@ namespace Forum.Controllers
             return View(topic);
         }
 
+        // GET: Comment/
+        [HttpGet]
+        public async Task<IActionResult> UpdateTopic(int Id)
+        {
+            var Topic = await _topicRepository.GetItemById(Id);
+
+            if (Topic == null)
+            {
+                return NotFound();
+            }
+
+            return View(Topic);
+        }
+
         // POST: Topic
 
         [HttpPost]
-        public async Task<IActionResult> UpdateTopic(int topicId, Topic topic)
+        public async Task<IActionResult> UpdateTopic(Topic topic)
         {
 
             if (ModelState.IsValid)
@@ -107,10 +121,12 @@ namespace Forum.Controllers
                 }
                 catch
                 {
+                    _logger.LogError("Could not update topic");
                     //TODO: Add catch here
                 }
-                return RedirectToAction(nameof(TopicTable));
+                return RedirectToAction("RoomDetails", "Room", new { id = topic.RoomId });
             }
+            else { _logger.LogError("ModeState is not valid for topic"); }
             return View(topic);
         }
 
@@ -132,15 +148,16 @@ namespace Forum.Controllers
 
         // POST
         [HttpPost]
-        public async Task<IActionResult> DeleteConfirmedTopic(int id)
+        public async Task<IActionResult> DeleteConfirmedTopic(int Id)
         {
-            bool returnOk = await _topicRepository.Delete(id);
+            var RoomId = await _topicRepository.GetRoomId(Id);
+            bool returnOk = await _topicRepository.Delete(Id);
             if (!returnOk)
             {
-                _logger.LogError("[TopicController] Topic deletion failed for the TopicId {TopicId:0000}", id);
+                _logger.LogError("[TopicController] Topic deletion failed for the TopicId {TopicId:0000}", Id);
                 return BadRequest("topic deletion failed");
             }
-            return RedirectToAction(nameof(TopicTable));
+            return RedirectToAction("RoomDetails", "Room", new { id = RoomId });
         }
     }
 }

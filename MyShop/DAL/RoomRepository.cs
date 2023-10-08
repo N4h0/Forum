@@ -23,6 +23,12 @@ public class RoomRepository : IRoomRepository
         return await _db.Rooms.FindAsync(id);
     }
 
+    public async Task<int?> GetCategoryId(int id)
+    {
+        var room = await _db.Rooms.FindAsync(id);
+        return room.CategoryId;
+    }
+
     public async Task Create(Room room)
     {
         _db.Rooms.Add(room);

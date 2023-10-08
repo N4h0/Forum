@@ -14,7 +14,6 @@ namespace Forum.Controllers
         
     {
         private readonly ICommentRepository _commentRepository;
-        private readonly IPostRepository _postRepository;
         private readonly ILogger<CommentController> _logger;
 
         public CommentController(ICommentRepository commentRepository, ILogger<CommentController> logger)
@@ -77,23 +76,23 @@ namespace Forum.Controllers
 
         // POST: Comment
         [HttpPost]
-        public async Task<IActionResult> UpdateComment(Comment Comment)
+        public async Task<IActionResult> UpdateComment(Comment comment)
         {
             if (ModelState.IsValid)
             {
                 try
                 {
-                    await _commentRepository.Update(Comment);
+                    await _commentRepository.Update(comment);
                 }
                 catch
                 {
                     //TODO fill out this catch
                 }
 
-                return RedirectToAction("PostDetails", "Post", new { id = Comment.PostId }); //Return to Post/PostDetails/PostId after create.
+                return RedirectToAction("PostDetails", "Post", new { id = comment.PostId }); //Return to Post/PostDetails/PostId after create.
             }
 
-            return View(Comment);
+            return View(comment);
         }
 
         // GET

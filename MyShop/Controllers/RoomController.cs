@@ -26,16 +26,28 @@ namespace Forum.Controllers
             var rooms = await _roomRepository.GetAll();
             var roomListViewModel = new RoomListViewModel(rooms);
             return View(roomListViewModel);
-        }  
-        
+        }
+
+        public async Task<IActionResult> RoomDetails(int Id)
+        {
+            // Get the room from the database based on the room-ID
+            var room = await _roomRepository.GetItemById(Id);
+
+            if (room == null)
+            {
+                return NotFound(); //returns 404 if the room is not found
+            }
+            return View(room);
+        }
+
+        /* TODO::: I don't get this code and changed it to the simpler code above. All we do is retrieve a object, dont get 
+         * why it's so complex? The Details view loops though anyway, so we don't need to bother about that here?
         //details for room
         public async Task<IActionResult> RoomDetails(int Id)
         {
             // Get the room from the database based on the room-ID
             var room = await _roomRepository.GetItemById(Id);
             var topics = await _topicRepository.GetTopicByRoom(Id);
-
-
             if (room == null)
             {
                 return NotFound(); //returns 404 if the room is not found
@@ -52,7 +64,7 @@ namespace Forum.Controllers
                 currentViewName: "Details");  // Set display name
                 return View(room);
             }
-        }
+        } */
 
         [HttpGet]
         public IActionResult CreateRoom(int categoryId)  //la til at man kan lage forum 
@@ -78,9 +90,9 @@ namespace Forum.Controllers
 
         // GET: Room/
         [HttpGet]
-        public async Task<IActionResult> UpdateRoom(int roomId)
+        public async Task<IActionResult> UpdateRoom(int Id)
         {
-            var room = await _roomRepository.GetItemById(roomId);
+            var room = await _roomRepository.GetItemById(Id);
 
             if (room == null)
             {
@@ -91,13 +103,9 @@ namespace Forum.Controllers
         }
 
         // POST: Room
-        public async Task<IActionResult> UpdateRoom(int roomId, Room room)
+        [HttpPost]
+        public async Task<IActionResult> UpdateRoom(Room room)
         {
-            if (roomId != room.RoomId)
-            {
-                return NotFound();
-            }
-
             if (ModelState.IsValid)
             {
                 try
@@ -108,10 +116,8 @@ namespace Forum.Controllers
                 {
                     //TODO fill out this catch
                 }
-
                 return RedirectToAction("CategoryDetails", "Category", new { id = room.CategoryId }); //Return to Category/CategoryDetails/CategoryId after create.
             }
-
             return View(room);
         }
 
@@ -131,17 +137,18 @@ namespace Forum.Controllers
 
         // POST
         [HttpPost]
-        public async Task<IActionResult> DeleteConfirmedRoom(int roomId)
+        public async Task<IActionResult> DeleteConfirmedRoom(int Id)
         {
+            var CategoryId = await _roomRepository.GetCategoryId(Id);
             try
             {
-                await _roomRepository.Delete(roomId);
-                return RedirectToAction("CategoryDetails", "Category", new { id = roomId}); //Return to Category/CategoryDetails/CategoryId after create. TODO fiks
+                await _roomRepository.Delete(Id);
+                return RedirectToAction("CategoryDetails", "Category", new { id = CategoryId}); //Return to Category/CategoryDetails/CategoryId after create. TODO fiks
             }
             catch
             {
                 // Handle exceptions, if any
-                return RedirectToAction(nameof(RoomTable)); //Blir sendt tilbake til room table hvis noe skjer feil 
+                return RedirectToAction("CategoryDetails", "Category", new { id = CategoryId });
             }
 
         }
