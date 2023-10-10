@@ -24,9 +24,28 @@ builder.Services.AddDbContext<CategoryDbContext>(options =>
 
 //This was removed from <identityUser>(...) for simple testing reason (in Baifan tutorial): options => options.SignIn.RequireConfirmedAccount = true 
 
-builder.Services.AddDefaultIdentity<IdentityUser>()
-    .AddRoles<IdentityRole>() //Needed for creating roles to our Identity, if not, we all have defualt role to our identity == no admin, just user.
-    .AddEntityFrameworkStores<CategoryDbContext>();
+builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
+{
+    //Password settings:
+    options.Password.RequireDigit = true;
+    options.Password.RequiredLength = 8;
+    options.Password.RequireNonAlphanumeric = true;
+    options.Password.RequireUppercase = true;
+    options.Password.RequireLowercase = true;
+    options.Password.RequiredUniqueChars = 6;
+
+    //Lockout settings:
+    options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(60);
+    options.Lockout.MaxFailedAccessAttempts = 5;
+    options.Lockout.AllowedForNewUsers = true;
+
+    //User settings:
+    options.User.RequireUniqueEmail = true;
+})
+    .AddRoles<IdentityRole>() //Adding roles to the program
+    .AddDefaultUI()
+    .AddEntityFrameworkStores<CategoryDbContext>()
+    .AddDefaultTokenProviders();
 //Getting an error when adding more security here and changing to AddIdentity instead of AddDefualtIdentity. Dont know the reason.
 
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>(); //A category has zero or multiple 
@@ -36,7 +55,15 @@ builder.Services.AddScoped<IPostRepository, PostRepository>(); //posts which hav
 builder.Services.AddScoped<ICommentRepository, CommentRepository>(); //Comments
 
 builder.Services.AddRazorPages(); //Order of adding services does not matter
-builder.Services.AddSession();
+
+builder.Services.AddDistributedMemoryCache();
+
+builder.Services.AddSession(options =>
+{
+    options.Cookie.Name = ".AdventureWorks.Session";
+    options.IdleTimeout = TimeSpan.FromSeconds(1800); //30 minutes
+    options.Cookie.IsEssential = true;
+});
 
 var loggerConfiguration = new LoggerConfiguration()
     .MinimumLevel.Information()
@@ -66,8 +93,6 @@ app.UseAuthentication();
 app.MapDefaultControllerRoute();
 
 app.MapRazorPages();
-
-//Se fra 7:30 i tutorial for hvordan dependency injecte til en controller slik at man kan sette roller til nye brukere!!!!!!!!!!!!!!!!!!!!!!!!!
 
 using (var scope = app.Services.CreateScope()) //Want to access the services that we have defined above, and set roles to our project:
 {
