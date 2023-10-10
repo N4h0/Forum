@@ -1,8 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace Forum.Models;
 
-public class CategoryDbContext : DbContext
+public class CategoryDbContext : IdentityDbContext
 {
     public CategoryDbContext(DbContextOptions<CategoryDbContext> options) : base(options)
     {
