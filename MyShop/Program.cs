@@ -67,13 +67,25 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
 });
 
+
+// Configure logger service
+var logDirectory = "Logs";
+
+//creates logger
+if (!Directory.Exists(logDirectory))
+{
+    Directory.CreateDirectory(logDirectory);
+}
+
+
 //Configure logger service
 var loggerConfiguration = new LoggerConfiguration()
     .MinimumLevel.Information()
-    .WriteTo.File($"Logs/app_{DateTime.Now}:yyy.MMdd_HHmmss).Log");
+    .WriteTo.File($"Logs/app_{DateTime.Now:yyyy.MMdd_HHmmss}.log");
 loggerConfiguration.Filter.ByExcluding(e => e.Properties.TryGetValue("SourceContext", out var value) &&
                                        e.Level == LogEventLevel.Information &&
-                                        e.MessageTemplate.Text.Contains("Executed DbCommand"));
+                                       e.MessageTemplate.Text.Contains("Executed DbCommand"));
+;
 //creates logger
 var logger = loggerConfiguration.CreateLogger();
 //add logger to builder
