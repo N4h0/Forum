@@ -5,6 +5,8 @@ using Serilog;
 using Serilog.Events;
 using Microsoft.AspNetCore.Identity;
 
+//Nå fungerer programmet
+
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("CategoryDbContextConnection") ?? throw new 
     InvalidOperationException("Connection string 'CategoryDbContextConnection' not found.");
