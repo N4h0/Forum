@@ -12458,11 +12458,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\Johan\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\latif\\.nuget\\packages\\": {}
+>>>>>>> 3bc7625ab67783a6f34b0f172197ca32bbd9e1ec
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Johan\\Source\\Repos\\N4h0\\Forum\\MyShop\\Forum.csproj",
       "projectName": "Forum",
       "projectPath": "C:\\Users\\Johan\\Source\\Repos\\N4h0\\Forum\\MyShop\\Forum.csproj",
@@ -12471,6 +12476,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Johan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\latif\\source\\repos\\project1_web\\Forum\\MyShop\\Forum.csproj",
+      "projectName": "Forum",
+      "projectPath": "C:\\Users\\latif\\source\\repos\\project1_web\\Forum\\MyShop\\Forum.csproj",
+      "packagesPath": "C:\\Users\\latif\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\latif\\source\\repos\\project1_web\\Forum\\MyShop\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\latif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 3bc7625ab67783a6f34b0f172197ca32bbd9e1ec
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
