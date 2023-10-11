@@ -1,12 +1,17 @@
 ﻿@model IEnumerable<Comment>
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
 
 <div class="container">
     <table class='table table-striped'>
         <tr>
             <th class="bg-dark text-light">Id</th>
             <th class="bg-dark text-light">Name</th>
-            <th class="bg-dark text-light"> </th>
-            <th class="bg-dark text-light"> </th>
+            @if (User.IsInRole("SuperAdmin"))
+            {
+                <th class="bg-dark text-light"> </th>
+            }
         </tr>
         @foreach (var Comment in Model)
         {
@@ -15,10 +20,13 @@
                 <td>
                     <span>@Comment.CommentDescription</span>
                 </td>
-                <td>
-                    <a asp-action="UpdateComment" asp-controller="Comment"  asp-route-id="@Comment.CommentId" class="btn btn-success">Update</a>
-                    <a asp-action="DeleteComment" asp-controller="Comment" asp-route-id="@Comment.CommentId" class="btn btn-danger">Delete</a>
-                </td>
+                @if (User.IsInRole("SuperAdmin"))
+                {
+                    <td>
+                        <a asp-action="UpdateComment" asp-controller="Comment" asp-route-id="@Comment.CommentId" class="btn btn-success">Update</a>
+                        <a asp-action="DeleteComment" asp-controller="Comment" asp-route-id="@Comment.CommentId" class="btn btn-danger">Delete</a>
+                    </td>
+                }
             </tr>
         }
     </table>

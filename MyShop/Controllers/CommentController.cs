@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Forum.DAL;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Forum.Controllers
 {
@@ -23,6 +24,7 @@ namespace Forum.Controllers
         }
 
         [HttpGet] //HttpGet is responsible for displaying the form
+        [Authorize]
         public IActionResult CreateComment(int postId) //CreateCommentView with the spesific postId
 
         {
@@ -41,6 +43,7 @@ namespace Forum.Controllers
             }
         }
         [HttpPost] //HttpPost is responsible for submitting the form.
+        [Authorize]
         public async Task<IActionResult> CreateComment(Comment comment)
         {
 
@@ -62,6 +65,7 @@ namespace Forum.Controllers
         }
         // GET: Comment/
         [HttpGet]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> UpdateComment(int Id)
         {
             var Comment = await _commentRepository.GetItemById(Id);
@@ -76,6 +80,7 @@ namespace Forum.Controllers
 
         // POST: Comment
         [HttpPost]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> UpdateComment(Comment comment)
         {
             if (ModelState.IsValid)
@@ -97,6 +102,7 @@ namespace Forum.Controllers
 
         // GET
         [HttpGet]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> DeleteComment(int Id)
         {
             var Comment = await _commentRepository.GetItemById(Id);
@@ -111,6 +117,7 @@ namespace Forum.Controllers
 
         // POST
         [HttpPost]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> DeleteConfirmedComment(int Id)
         {
             var PostId = await _commentRepository.GetPostId(Id);

@@ -4,6 +4,8 @@ using Forum.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Forum.Controllers
 {
@@ -31,6 +33,7 @@ namespace Forum.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "SuperAdmin")]
         public IActionResult CreateTopic(int roomId)
         {
             try
@@ -49,6 +52,7 @@ namespace Forum.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> CreateTopic(CreateTopicViewModel createTopicViewModel)
         {
             try
@@ -95,6 +99,7 @@ namespace Forum.Controllers
 
         // GET: Comment/
         [HttpGet]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> UpdateTopic(int Id)
         {
             var Topic = await _topicRepository.GetItemById(Id);
@@ -110,6 +115,7 @@ namespace Forum.Controllers
         // POST: Topic
 
         [HttpPost]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> UpdateTopic(Topic topic)
         {
 
@@ -133,6 +139,7 @@ namespace Forum.Controllers
 
         // GET
         [HttpGet]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> DeleteTopic(int id)
         {
             var topic = await _topicRepository.GetItemById(id);
@@ -148,6 +155,7 @@ namespace Forum.Controllers
 
         // POST
         [HttpPost]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> DeleteConfirmedTopic(int Id)
         {
             var RoomId = await _topicRepository.GetRoomId(Id);

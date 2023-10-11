@@ -1,9 +1,11 @@
 ﻿@model Forum.Models.Category
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
 
 <partial name="_RoomTable" model="Model.Rooms" />
 
-
-@if (User.IsInRole("Admin"))
+@if (User.IsInRole("SuperAdmin"))
 {
 <a class="btn btn-primary"
    asp-controller="Room"

@@ -1,12 +1,17 @@
 ﻿@model IEnumerable<Post>
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
 
 <div class="container">
     <table class='table table-striped'>
         <tr>
             <th class="bg-dark text-light">Id</th>
             <th class="bg-dark text-light">Name</th>
-            <th class="bg-dark text-light"> </th>
-            <th class="bg-dark text-light"> </th>
+            @if (User.IsInRole("SuperAdmin"))
+            {
+                <th class="bg-dark text-light"> </th>
+            }
         </tr>
         @foreach (var post in Model)
         {
@@ -17,11 +22,14 @@
                        asp-action="PostDetails"
                        asp-route-id="@post.PostId">@post.PostTitle</a>
                 </td>
-                <td>
-                    <a asp-action="UpdatePost" asp-controller="Post" asp-route-id="@post.PostId" class="btn btn-success">Update</a>
-                    <a asp-action="DeletePost" asp-controller="Post"  asp-route-id="@post.PostId" class="btn btn-danger">Delete</a>
-                </td>
+                @if (User.IsInRole("SuperAdmin"))
+                {
+                    <td>
+                        <a asp-action="UpdatePost" asp-controller="Post" asp-route-id="@post.PostId" class="btn btn-success">Update</a>
+                        <a asp-action="DeletePost" asp-controller="Post" asp-route-id="@post.PostId" class="btn btn-danger">Delete</a>
+                    </td>
+                }
             </tr>
-        }
-    </table>
-</div>
+               }
+        </table>
+    </div>
