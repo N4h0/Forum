@@ -1,9 +1,14 @@
 ﻿@model Forum.Models.Post
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
 
-Hei, her kommer diskusjonen, hiv og ho!!!
 <partial name="_CommentTable" model="Model.Comments" />
 
-<a class="btn btn-primary"
-   asp-controller="Comment"
-   asp-action="CreateComment"
-   asp-route-postId="@Model.PostId">Reply</a>
+@if (User.IsInRole("SuperAdmin")|| User.IsInRole("Member"))
+{
+    <a class="btn btn-primary"
+       asp-controller="Comment"
+       asp-action="CreateComment"
+       asp-route-postId="@Model.PostId">Reply</a>
+}
