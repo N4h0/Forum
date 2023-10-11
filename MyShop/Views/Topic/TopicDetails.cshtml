@@ -1,10 +1,16 @@
 ﻿@model Forum.Models.Topic
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
 
 <partial name="_PostTable" model="Model.Posts" />
 
 <!-- <a defines this a as a hyperlink. The controller is "Post", and the action is CreatePost (+[HttpGet] because hyperlink).
 The TopicId from the Topic model gets passed. (TopicController HttpGet TopicDetails action).-->
+@if (User.IsInRole("SuperAdmin"))
+{
 <a class="btn btn-primary"
    asp-controller="Post"
    asp-action="CreatePost"
    asp-route-topicId="@Model.TopicId">Create New Post</a>
+}
