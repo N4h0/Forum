@@ -2,10 +2,12 @@
 using Microsoft.AspNetCore.Mvc;
 using Forum.Models;
 using Forum.ViewModels;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore.Query;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Forum.DAL;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Forum.Controllers
 {
@@ -78,6 +80,7 @@ namespace Forum.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> CreateRoom(Room room)
         {
             if (ModelState.IsValid)
@@ -90,6 +93,7 @@ namespace Forum.Controllers
 
         // GET: Room/
         [HttpGet]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> UpdateRoom(int Id)
         {
             var room = await _roomRepository.GetItemById(Id);
@@ -104,6 +108,7 @@ namespace Forum.Controllers
 
         // POST: Room
         [HttpPost]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> UpdateRoom(Room room)
         {
             if (ModelState.IsValid)
@@ -123,6 +128,7 @@ namespace Forum.Controllers
 
         // GET
         [HttpGet]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> DeleteRoom(int Id)
         {
             var room = await _roomRepository.GetItemById(Id);
@@ -137,6 +143,7 @@ namespace Forum.Controllers
 
         // POST
         [HttpPost]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> DeleteConfirmedRoom(int Id)
         {
             var CategoryId = await _roomRepository.GetCategoryId(Id);

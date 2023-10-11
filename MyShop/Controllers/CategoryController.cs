@@ -63,12 +63,14 @@ namespace Forum.Controllers
 
 
         [HttpGet]
+        [Authorize(Roles = "SuperAdmin")]
         public IActionResult CreateCategory()
         {
             return View();
         }
 
         [HttpPost]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> CreateCategory(Category category)
         {
             if (ModelState.IsValid)
@@ -81,6 +83,7 @@ namespace Forum.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> UpdateCategory(int id)
         {
             var category = await _categoryRepository.GetItemById(id);
@@ -93,6 +96,7 @@ namespace Forum.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> UpdateCategory(Category category)
         {
             if (ModelState.IsValid)
@@ -108,6 +112,7 @@ namespace Forum.Controllers
 
 
         [HttpGet]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> DeleteCategory(int id)
         {
             var category = await _categoryRepository.GetItemById(id);
@@ -120,6 +125,7 @@ namespace Forum.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> DeleteConfirmedCategory(int id)
         {
             bool returnOk = await _categoryRepository.Delete(id);

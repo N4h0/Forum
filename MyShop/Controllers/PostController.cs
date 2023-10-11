@@ -5,6 +5,7 @@ using Forum.Models;
 using Forum.ViewModels;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.Text;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Forum.Controllers
 {
@@ -34,6 +35,7 @@ namespace Forum.Controllers
         }
 
         [HttpGet] //Called when clicking on the CreatePost hypelink under TopicDetails. CreatePost is the name of the method (here) and view (CreatePost.cshtml).
+        [Authorize]
         public IActionResult CreatePost(int topicId) //Create a post with a given Id, which is (should be) passed  when the method is called.
         {
             try
@@ -54,9 +56,9 @@ namespace Forum.Controllers
 
 
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> CreatePost(PostCommentViewModel postCommentViewModel)
         {
-
             if (ModelState.IsValid)
             {
                 //Need to figure out how to create the comment here
@@ -84,6 +86,7 @@ namespace Forum.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> UpdatePost(int Id)
         {
             var Post = await _postRepository.GetItemById(Id);
@@ -98,6 +101,7 @@ namespace Forum.Controllers
 
         // POST: Topic
         [HttpPost]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> UpdatePost(Post post)
         {
 
@@ -129,6 +133,7 @@ namespace Forum.Controllers
 
         // GET
         [HttpGet]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> DeletePost(int Id)
         {
             var topic = await _postRepository.GetItemById(Id);
@@ -143,6 +148,7 @@ namespace Forum.Controllers
 
         // POST
         [HttpPost]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> DeleteConfirmedPost(int Id)
         {
             var TopicId = await _postRepository.GetTopicId(Id);

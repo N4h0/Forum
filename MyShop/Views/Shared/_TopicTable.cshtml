@@ -1,11 +1,17 @@
 ﻿@model IEnumerable<Topic>
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
 
 <div class="container">
     <table class='table table-striped'>
         <tr>
             <th class="bg-dark text-light">Name</th>
             <th class="bg-dark text-light"> </th>
-            <th class="bg-dark text-light"> </th>
+            @if (User.IsInRole("SuperAdmin"))
+            {
+                <th class="bg-dark text-light"> </th>
+            }
         </tr>
         @foreach (var topic in Model)
         {
@@ -16,12 +22,13 @@
                        asp-action="TopicDetails"
                        asp-route-id="@topic.TopicId">@topic.TopicName</a>
                 </td>
-                <td>
-                    <a asp-action="UpdateTopic" asp-controller="Topic" asp-route-id="@topic.TopicId">Update</a>
-                    <a asp-action="DeleteTopic" asp-controller="Topic" asp-route-id="@topic.TopicId">Delete</a>
-
-
-                </td>
+                @if (User.IsInRole("SuperAdmin"))
+                {
+                    <td>
+                        <a asp-action="UpdateTopic" asp-controller="Topic" asp-route-id="@topic.TopicId">Update</a>
+                        <a asp-action="DeleteTopic" asp-controller="Topic" asp-route-id="@topic.TopicId">Delete</a>
+                    </td>
+                }
             </tr>
         }
     </table>
