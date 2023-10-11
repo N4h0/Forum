@@ -9,333 +9,664 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Forum
 build_property.RootNamespace = Forum
-build_property.ProjectDir = C:\Users\Pette\OneDrive\Dokumenter\GitHub\Forum\N4h0\Forum\MyShop\
+<<<<<<< HEAD
+build_property.ProjectDir = C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Pette\OneDrive\Dokumenter\GitHub\Forum\N4h0\Forum\MyShop
+build_property.MSBuildProjectDirectory = C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWxDaGFuZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxFeHRlcm5hbExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Lockout.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Lockout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2Nrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGgyZmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGhSZWNvdmVyeUNvZGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGVsZXRlUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGlzYWJsZTJmYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRG93bmxvYWRQZXJzb25hbERhdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/Email.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW5hYmxlQXV0aGVudGljYXRvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRXh0ZXJuYWxMb2dpbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcR2VuZXJhdGVSZWNvdmVyeUNvZGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUmVzZXRBdXRoZW50aWNhdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2V0UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2hvd1JlY292ZXJ5Q29kZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcVHdvRmFjdG9yQXV0aGVudGljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1N0YXR1c01lc3NhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNlbmRFbWFpbENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfU3RhdHVzTWVzc2FnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/Error.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Category/CategoryDetails.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Category/CategoryDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ2F0ZWdvcnlEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Category/CategoryGrid.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Category/CategoryGrid.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ2F0ZWdvcnlHcmlkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Category/CategoryTable.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Category/CategoryTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ2F0ZWdvcnlUYWJsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Category/CreateCategory.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Category/CreateCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Category/DeleteCategory.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Category/DeleteCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Category/UpdateCategory.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Category/UpdateCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcVXBkYXRlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Comment/CommentTable.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Comment/CommentTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxDb21tZW50VGFibGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Comment/CreateComment.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Comment/CreateComment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxDcmVhdGVDb21tZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Comment/DeleteComment.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Comment/DeleteComment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxEZWxldGVDb21tZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Comment/UpdateComment.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Comment/UpdateComment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxVcGRhdGVDb21tZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Home/Index.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Post/CreatePost.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Post/CreatePost.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxDcmVhdGVQb3N0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Post/DeletePost.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Post/DeletePost.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxEZWxldGVQb3N0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Post/PostDetails.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Post/PostDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxQb3N0RGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Post/PostTable.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Post/PostTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxQb3N0VGFibGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Post/UpdatePost.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Post/UpdatePost.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxVcGRhdGVQb3N0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Room/CreateRoom.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Room/CreateRoom.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxDcmVhdGVSb29tLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Room/DeleteRoom.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Room/DeleteRoom.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxEZWxldGVSb29tLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Room/RoomDetails.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Room/RoomDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxSb29tRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Room/RoomGrid.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Room/RoomGrid.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxSb29tR3JpZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Room/RoomTable.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Room/RoomTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxSb29tVGFibGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Room/UpdateRoom.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Room/UpdateRoom.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxVcGRhdGVSb29tLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Shared/_CategoryCard.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Shared/_CategoryCard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXRlZ29yeUNhcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Shared/_CategoryTable.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Shared/_CategoryTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXRlZ29yeVRhYmxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Shared/_CommentTable.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Shared/_CommentTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Db21tZW50VGFibGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Shared/_Footer.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Shared/_Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Shared/_Navbar.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Shared/_Navbar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZiYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Shared/_PostTable.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Shared/_PostTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qb3N0VGFibGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Shared/_Roomcard.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Shared/_Roomcard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Sb29tY2FyZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Shared/_RoomTable.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Shared/_RoomTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Sb29tVGFibGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Shared/_TopicTable.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Shared/_TopicTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ub3BpY1RhYmxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Shared/_UserLayout.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Shared/_UserLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Vc2VyTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Topic/CreateTopic.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Topic/CreateTopic.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNcQ3JlYXRlVG9waWMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Topic/DeleteTopic.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Topic/DeleteTopic.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNcRGVsZXRlVG9waWMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Topic/TopicDetails.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Topic/TopicDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNcVG9waWNEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Topic/TopicTable.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Topic/TopicTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNcVG9waWNUYWJsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Topic/UpdateTopic.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Topic/UpdateTopic.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNcVXBkYXRlVG9waWMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/_ViewImports.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/_ViewStart.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pette/OneDrive/Dokumenter/GitHub/Forum/N4h0/Forum/MyShop/Views/Shared/_Layout.cshtml]
+[C:/Users/Johan/Source/Repos/N4h0/Forum/MyShop/Views/Shared/_Layout.cshtml]
+=======
+build_property.ProjectDir = C:\Users\latif\source\repos\project1_web\Forum\MyShop\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\latif\source\repos\project1_web\Forum\MyShop
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWxDaGFuZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxFeHRlcm5hbExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/Lockout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2Nrb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGgyZmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGhSZWNvdmVyeUNvZGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGVsZXRlUGVyc29uYWxEYXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGlzYWJsZTJmYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRG93bmxvYWRQZXJzb25hbERhdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW5hYmxlQXV0aGVudGljYXRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRXh0ZXJuYWxMb2dpbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcR2VuZXJhdGVSZWNvdmVyeUNvZGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUGVyc29uYWxEYXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUmVzZXRBdXRoZW50aWNhdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2V0UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2hvd1JlY292ZXJ5Q29kZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcVHdvRmFjdG9yQXV0aGVudGljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1N0YXR1c01lc3NhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNlbmRFbWFpbENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfU3RhdHVzTWVzc2FnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Category/CategoryDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ2F0ZWdvcnlEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Category/CategoryGrid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ2F0ZWdvcnlHcmlkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Category/CategoryTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ2F0ZWdvcnlUYWJsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Category/CreateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Category/DeleteCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Category/UpdateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcVXBkYXRlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Comment/CommentTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxDb21tZW50VGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Comment/CreateComment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxDcmVhdGVDb21tZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Comment/DeleteComment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxEZWxldGVDb21tZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Comment/UpdateComment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxVcGRhdGVDb21tZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Post/CreatePost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxDcmVhdGVQb3N0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Post/DeletePost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxEZWxldGVQb3N0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Post/PostDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxQb3N0RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Post/PostTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxQb3N0VGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Post/UpdatePost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxVcGRhdGVQb3N0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Room/CreateRoom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxDcmVhdGVSb29tLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Room/DeleteRoom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxEZWxldGVSb29tLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Room/RoomDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxSb29tRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Room/RoomGrid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxSb29tR3JpZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Room/RoomTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxSb29tVGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Room/UpdateRoom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxVcGRhdGVSb29tLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Shared/_CategoryCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXRlZ29yeUNhcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Shared/_CategoryTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXRlZ29yeVRhYmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Shared/_CommentTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Db21tZW50VGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Shared/_Navbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZiYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Shared/_PostTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qb3N0VGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Shared/_Roomcard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Sb29tY2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Shared/_RoomTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Sb29tVGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Shared/_TopicTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ub3BpY1RhYmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Shared/_UserLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Vc2VyTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Topic/CreateTopic.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNcQ3JlYXRlVG9waWMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Topic/DeleteTopic.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNcRGVsZXRlVG9waWMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Topic/TopicDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNcVG9waWNEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Topic/TopicTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNcVG9waWNUYWJsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Topic/UpdateTopic.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNcVXBkYXRlVG9waWMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/latif/source/repos/project1_web/Forum/MyShop/Views/Shared/_Layout.cshtml]
+>>>>>>> 3bc7625ab67783a6f34b0f172197ca32bbd9e1ec
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-fjdg2wquwm

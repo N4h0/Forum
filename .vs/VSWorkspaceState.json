@@ -3,10 +3,8 @@
     "",
     "\\MyShop",
     "\\MyShop\\Controllers",
-    "\\MyShop\\DAL",
-    "\\MyShop\\Views",
-    "\\MyShop\\Views\\Comment",
-    "\\MyShop\\Views\\Shared"
+    "\\MyShop\\Migrations",
+    "\\MyShop\\Views"
   ],
   "SelectedNode": "\\MyShop.sln",
   "PreviewInSolutionExplorer": false
