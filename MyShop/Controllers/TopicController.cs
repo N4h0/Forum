@@ -125,9 +125,9 @@ namespace Forum.Controllers
                 {
                     await _topicRepository.Update(topic);
                 }
-                catch
+                catch(Exception e)
                 {
-                    _logger.LogError("Could not update topic");
+                    _logger.LogError("Could not update topic",e);
                     //TODO: Add catch here
                 }
                 return RedirectToAction("RoomDetails", "Room", new { id = topic.RoomId });

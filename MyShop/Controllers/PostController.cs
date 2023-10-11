@@ -93,6 +93,7 @@ namespace Forum.Controllers
 
             if (Post == null)
             {
+                _logger.LogError("The post with ID {PostId} was not found.", Id);
                 return NotFound();
             }
 
@@ -111,9 +112,10 @@ namespace Forum.Controllers
                 {
                     await _postRepository.Update(post);
                 }
-                catch
+                catch(Exception e)
                 {
                     //TODO FILL OUT (OR remove???) catch
+                    _logger.LogError("An error occurred while updating the post", e);
                 }
 
                 return RedirectToAction("TopicDetails", "Topic", new { id = post.TopicId }); ;

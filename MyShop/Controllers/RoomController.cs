@@ -16,11 +16,14 @@ namespace Forum.Controllers
     {
         private readonly IRoomRepository _roomRepository;
         private readonly ITopicRepository _topicRepository;
+        private readonly ILogger<RoomController> _logger;
 
-        public RoomController(IRoomRepository roomRepository, ITopicRepository topicRepository)
+
+        public RoomController(IRoomRepository roomRepository, ITopicRepository topicRepository, ILogger<RoomController> logger)
         {
             _roomRepository = roomRepository;
             _topicRepository = topicRepository;
+            _logger = logger;
         }
 
         public async Task<IActionResult> RoomTable()
@@ -36,7 +39,9 @@ namespace Forum.Controllers
             var room = await _roomRepository.GetItemById(Id);
 
             if (room == null)
+             
             {
+                _logger.LogError("Room with ID not found Room ID: {RoomId}", Id);
                 return NotFound(); //returns 404 if the room is not found
             }
             return View(room);
@@ -72,11 +77,12 @@ namespace Forum.Controllers
         public IActionResult CreateRoom(int categoryId)  //la til at man kan lage forum 
 
         {
-            var room = new Room
-            {
-                CategoryId = categoryId // Set the CategoryId based on the categoryId parameter.
-            };
-            return View(room);
+                var room = new Room
+                {
+                    CategoryId = categoryId // Set the CategoryId based on the categoryId parameter.
+                };
+                return View(room);  
+          
         }
 
         [HttpPost]
@@ -88,6 +94,7 @@ namespace Forum.Controllers
                 await _roomRepository.Create(room);
                 return RedirectToAction("CategoryDetails", "Category", new {id = room.CategoryId}); //Return to Category/CategoryDetails/CategoryId after create.
             }
+            _logger.LogError("[RoomController] Room creation failed  {@room}", room);
             return View(room);
         }
 
@@ -100,6 +107,7 @@ namespace Forum.Controllers
 
             if (room == null)
             {
+                _logger.LogError("Error while updating room with ID {Id}", Id);
                 return NotFound();
             }
 
@@ -117,9 +125,10 @@ namespace Forum.Controllers
                 {
                     await _roomRepository.Update(room);
                 }
-                catch
+                catch(Exception e)
                 {
-                    //TODO fill out this catch
+                    _logger.LogError("An error occured during creating room",e);
+
                 }
                 return RedirectToAction("CategoryDetails", "Category", new { id = room.CategoryId }); //Return to Category/CategoryDetails/CategoryId after create.
             }
@@ -135,7 +144,8 @@ namespace Forum.Controllers
 
             if (room == null)
             {
-                return NotFound();
+                _logger.LogError("[RoomController] Room deletion failed for the Romid {RoomId:0000}", Id);
+                return BadRequest("Room not found for the RoomId");
             }
 
             return View(room);
@@ -152,10 +162,12 @@ namespace Forum.Controllers
                 await _roomRepository.Delete(Id);
                 return RedirectToAction("CategoryDetails", "Category", new { id = CategoryId}); //Return to Category/CategoryDetails/CategoryId after create. TODO fiks
             }
-            catch
+            catch(Exception e)
             {
                 // Handle exceptions, if any
-                return RedirectToAction("CategoryDetails", "Category", new { id = CategoryId });
+                    _logger.LogError("[RoomController] Room deletion failed for the Romid {RoomId:0000}", e);
+
+                    return RedirectToAction("CategoryDetails", "Category", new { id = CategoryId });
             }
 
         }

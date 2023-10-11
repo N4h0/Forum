@@ -8,6 +8,7 @@ using Forum.DAL;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System;
 using Microsoft.AspNetCore.Authorization;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace Forum.Controllers
 {
@@ -36,9 +37,9 @@ namespace Forum.Controllers
             };
             return View(comment); //Returning the view with the created comment (with the postID, importantly)
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
-                _logger.LogError(ex, "An error occured while creating a comment");
+                _logger.LogError(e, "An error occured while creating a comment");
                 throw;
             }
         }
@@ -57,9 +58,9 @@ namespace Forum.Controllers
             _logger.LogWarning("Comment creation failed, ModelState is invalid.");
             return View(comment);
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
-                _logger.LogError(ex, "An error occurred while creating a comment");
+                _logger.LogError(e, "An error occurred while creating a comment");
                 throw;
             }
         }
@@ -72,6 +73,7 @@ namespace Forum.Controllers
 
             if (Comment == null)
             {
+                _logger.LogError("Unable to find comment with ID {Id}", Id);
                 return NotFound();
             }
 
@@ -88,14 +90,19 @@ namespace Forum.Controllers
                 try
                 {
                     await _commentRepository.Update(comment);
+                    // Logging for a successful update
+                    _logger.LogInformation("Comment updated: {comment}", comment);
                 }
-                catch
+                catch(Exception e)
                 {
-                    //TODO fill out this catch
+                    //Logging for an error during update
+                  _logger.LogError(e, "Error updating comment: {CommentId}", comment);
                 }
 
                 return RedirectToAction("PostDetails", "Post", new { id = comment.PostId }); //Return to Post/PostDetails/PostId after create.
             }
+            // Logging for an invalid model state
+            _logger.LogWarning("Invalid model state when attempting to update comment: {Comment}", comment);
 
             return View(comment);
         }
@@ -109,9 +116,11 @@ namespace Forum.Controllers
 
             if (Comment == null)
             {
+                _logger.LogWarning("Comment not found when attempting to delete. Comment ID: {CommentId}", Id);
                 return NotFound();
             }
-
+            // Log that the view for deleting the comment is being displayed
+            _logger.LogInformation("Displaying delete view for Comment ID: {Id}", Id);
             return View(Comment);
         }
 
@@ -124,11 +133,17 @@ namespace Forum.Controllers
             try
             {
                 await _commentRepository.Delete(Id);
+                // Log a message that indicate successful deletion of the comment
+                _logger.LogInformation("Comment with ID {CommentId} deleted successfully.", Id);
+
                 return RedirectToAction("PostDetails", "Post", new { id = PostId }); //Return to Post/PostDetails/PostId after create. TODO fiks
             }
-            catch
+            catch(Exception e) 
             {
-                // TODO handle exceptions here
+         
+                //Log an error message for deleting not working
+                _logger.LogError(e, "Error deleting comment with ID {id]", Id);
+
                 return RedirectToAction("PostDetails", "Post", new { id = PostId }); 
             }
 
