@@ -36,13 +36,13 @@ namespace Forum.Controllers
 
         [HttpGet] //Called when clicking on the CreatePost hypelink under TopicDetails. CreatePost is the name of the method (here) and view (CreatePost.cshtml).
         [Authorize]
-        public IActionResult CreatePost(int topicId) //Create a post with a given Id, which is (should be) passed  when the method is called.
+        public IActionResult CreatePost(int TopicId) //Create a post with a given Id, which is (should be) passed  when the method is called.
         {
             try
             {
                 var postCommentViewModel = new PostCommentViewModel
                 {
-                    Post = new Post { TopicId = topicId }, //Setting the ViewModels post and comment, and the Post inside the viewmodels TopicId.
+                    Post = new Post { TopicId = TopicId }, //Setting the ViewModels post and comment, and the Post inside the viewmodels TopicId.
                     Comment = new Comment()
                 };
                 return View(postCommentViewModel); // Returns the view with the initialized post and comment.
@@ -68,7 +68,7 @@ namespace Forum.Controllers
                 return RedirectToAction("TopicDetails", "Topic", new { id = postCommentViewModel.Post.TopicId });//Return to Topic/TopicDetails/TopicId after create.
             }
             _logger.LogWarning("[PostController] Post creation failed {@post}", postCommentViewModel.Post);
-            return View(postCommentViewModel.Post);
+            return View(postCommentViewModel);
         }
 
         [HttpGet]
