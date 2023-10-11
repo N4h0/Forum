@@ -3,7 +3,10 @@
 <partial name="_RoomTable" model="Model.Rooms" />
 
 
+@if (User.IsInRole("Admin"))
+{
 <a class="btn btn-primary"
    asp-controller="Room"
    asp-action="CreateRoom"
-   asp-route-categoryId="@Model.CategoryId">Create New Room</a>
+    asp-route-categoryId="@Model.CategoryId">Create New Room</a>
+}
