@@ -47,9 +47,9 @@ namespace Forum.Controllers
                 };
                 return View(postCommentViewModel); // Returns the view with the initialized post and comment.
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
-                _logger.LogError(ex, "An error occurred while creating a post");
+                _logger.LogError(e, "An error occurred while creating a post");
                 throw;
             }
         }

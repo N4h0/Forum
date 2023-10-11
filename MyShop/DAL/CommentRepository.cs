@@ -7,9 +7,11 @@ namespace Forum.DAL;
 public class CommentRepository : ICommentRepository
 {
     private readonly CategoryDbContext _db;
-    public CommentRepository(CategoryDbContext db)
+    private readonly ILogger<CommentRepository> _logger;
+    public CommentRepository(CategoryDbContext db, ILogger<CommentRepository> logger)
     {
         _db = db;
+        _logger = logger;
     }
 
     public async Task<int?> GetPostId(int id)
@@ -20,18 +22,45 @@ public class CommentRepository : ICommentRepository
 
     public async Task<IEnumerable<Comment>> GetAll()
     {
-        return await _db.Comments.ToListAsync();
+        try
+        {  
+            return await _db.Comments.ToListAsync();
+
+        }catch (Exception e)
+        {
+            _logger.LogError("[CommentRepository] comment ToListAsync() failed when GetAll(), error message: {e}", e.Message);
+            return null;
+        }
+      
     }
 
     public async Task<Comment?> GetItemById(int id)
     {
-        return await _db.Comments.FindAsync(id);
+        try
+        {
+         return await _db.Comments.FindAsync(id);
+        }catch (Exception e)
+        {
+            _logger.LogError("[CommentRepository] Comment FindAsync(id) failed when GetItemById " +
+                "for CommentId {CommentId:0000}, error message: [e} ", id, e.Message);
+            return null;
+        }
+        
     }
 
     public async Task Create(Comment Comment)
     {
-        _db.Comments.Add(Comment);
-        await _db.SaveChangesAsync();
+        try
+        {
+            _db.Comments.Add(Comment);
+            await _db.SaveChangesAsync();
+            
+        }catch(Exception e)
+        {
+            _logger.LogError("[CommentRepository] comment creation failed for CommentID {@comment}, error message: {e}",Comment, e.Message);
+
+        }
+
     }
 
     public async Task Update(Comment Comment)
@@ -42,13 +71,22 @@ public class CommentRepository : ICommentRepository
 
     public async Task<bool> Delete(int id)
     {
-        var Comment = await _db.Comments.FindAsync(id);
-        if (Comment == null)
+        try
         {
+            var Comment = await _db.Comments.FindAsync(id);
+            if (Comment == null)
+            {
+                return false;
+            }
+            _db.Comments.Remove(Comment);
+            await _db.SaveChangesAsync();
+            return true;
+        }catch (Exception e) {
+
+            _logger.LogError("[CommenRepository] commen deletion failed for the CommentId {CommentId:0000}, error message: {e}", id, e.Message);
             return false;
+
         }
-        _db.Comments.Remove(Comment);
-        await _db.SaveChangesAsync();
-        return true;
+
     }
 }
