@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nvSuaj2lVD6tWXMcpSZNoqyYyg8tA1Nvp0p4rc22m/PJa0nvSGuupPp76AOaTrMYjqjYSV1wN6HOWqr59z+D1w==",
+  "dgSpecHash": "UaW7EmDwYXppuESNYCWV4AExiUQ8R81efqcZEIkbYFZlky0BED2KX7Q3bzB0zyys6Hv41kuo9Q6o5wgEk/xHMg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\abdik\\Source\\Repos\\Web\\MyShop\\Forum.csproj",
+  "projectFilePath": "C:\\Users\\abdik\\source\\repos\\Riktig\\MyShop\\Forum.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abdik\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\abdik\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

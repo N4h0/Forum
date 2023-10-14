@@ -12463,11 +12463,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\abdik\\Source\\Repos\\Web\\MyShop\\Forum.csproj",
+      "projectUniqueName": "C:\\Users\\abdik\\source\\repos\\Riktig\\MyShop\\Forum.csproj",
       "projectName": "Forum",
-      "projectPath": "C:\\Users\\abdik\\Source\\Repos\\Web\\MyShop\\Forum.csproj",
+      "projectPath": "C:\\Users\\abdik\\source\\repos\\Riktig\\MyShop\\Forum.csproj",
       "packagesPath": "C:\\Users\\abdik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\abdik\\Source\\Repos\\Web\\MyShop\\obj\\",
+      "outputPath": "C:\\Users\\abdik\\source\\repos\\Riktig\\MyShop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\abdik\\AppData\\Roaming\\NuGet\\NuGet.Config",

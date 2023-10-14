@@ -1,0 +1,25 @@
+2023-10-14 13:46:20.627 +02:00 [Information] User profile is available. Using '"C:\Users\abdik\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-14 13:46:21.019 +02:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-14 13:46:21.019 +02:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-14 13:46:21.022 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-14 13:46:21.022 +02:00 [Information] Hosting environment: "Development"
+2023-10-14 13:46:21.022 +02:00 [Information] Content root path: "C:\Users\abdik\source\repos\Riktig\MyShop\"
+2023-10-14 13:46:21.138 +02:00 [Information] Request starting HTTP/2 POST https://localhost:7205/Category/CreateCategory application/x-www-form-urlencoded 231
+2023-10-14 13:46:21.180 +02:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CreateCategory (Forum)"'
+2023-10-14 13:46:21.201 +02:00 [Information] Route matched with "{action = \"CreateCategory\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCategory(Forum.Models.Category)" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-14 13:46:21.221 +02:00 [Warning] [CategoryController] Category creation failed Category { CategoryId: 0, Name: null, Rooms: null }
+2023-10-14 13:46:21.226 +02:00 [Information] Executing ViewResult, running view "CreateCategory".
+2023-10-14 13:46:21.314 +02:00 [Information] Executed ViewResult - view "CreateCategory" executed in 89.1513ms.
+2023-10-14 13:46:21.316 +02:00 [Information] Executed action "Forum.Controllers.CategoryController.CreateCategory (Forum)" in 114.6018ms
+2023-10-14 13:46:21.316 +02:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CreateCategory (Forum)"'
+2023-10-14 13:46:21.327 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/lib/jquery/jquery.js - -
+2023-10-14 13:46:21.327 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-14 13:46:21.327 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/lib/bootstrap/js/bootstrap.js - -
+2023-10-14 13:46:21.327 +02:00 [Information] Request finished HTTP/2 POST https://localhost:7205/Category/CreateCategory application/x-www-form-urlencoded 231 - 200 - text/html;+charset=utf-8 191.2848ms
+2023-10-14 13:46:21.328 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 1.8602ms
+2023-10-14 13:46:21.335 +02:00 [Information] The file "/lib/jquery/jquery.js" was not modified
+2023-10-14 13:46:21.335 +02:00 [Information] The file "/lib/bootstrap/js/bootstrap.js" was not modified
+2023-10-14 13:46:21.336 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/lib/jquery/jquery.js - - - 304 - application/javascript 9.2512ms
+2023-10-14 13:46:21.336 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/lib/bootstrap/js/bootstrap.js - - - 304 - application/javascript 9.2415ms
+2023-10-14 13:46:21.339 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-14 13:46:21.345 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5.5777ms
