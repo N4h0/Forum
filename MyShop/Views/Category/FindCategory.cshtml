@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Category>
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<div class="container">
+    <table class='table table-striped'>
+        <tr>
+            <th class="bg-dark text-light">Id</th>
+            <th class="bg-dark text-light">Name</th>
+            @if (User.IsInRole("SuperAdmin"))
+            {
+                <th class="bg-dark text-light"> </th>
+            }
+        </tr>
+        @foreach (var category in Model)
+        {
+            <tr>
+                <td>@category.CategoryId</td>
+                <td>
+                    <a asp-controller="Category"
+                       asp-action="CategoryDetails"
+                       asp-route-id="@category.CategoryId">@category.Name</a>
+                </td>
+                @if (User.IsInRole("SuperAdmin"))
+                {
+                    <td>
+                        <a asp-action="UpdateCategory" asp-route-id="@category.CategoryId" class="btn btn-success">Update</a>
+                        <a asp-action="DeleteCategory" asp-route-id="@category.CategoryId" class="btn btn-danger">Delete</a>
+                    </td>
+                }
+            </tr>
+        }
+    </table>
+    @if (User.IsInRole("SuperAdmin"))
+    {
+        <p>
+            <a class="btn btn-secondary"
+               asp-controller="Category"
+               asp-action="CreateCategory">
+                Create New Category
+            </a>
+        </p>
+    }
+</div>
+
