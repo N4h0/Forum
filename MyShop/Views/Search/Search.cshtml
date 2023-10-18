@@ -1,0 +1,62 @@
+﻿@model SearchResultViewModel
+
+<h1>Søkeresultater</h1>
+
+@if (Model.Categories == null && Model.Posts == null && Model.Topics == null && Model.Rooms == null)
+{
+    <p>Ingen søkeresultater funnet.</p>
+}
+else
+{
+    @if (Model.Categories != null && Model.Categories.Count > 0)
+    {
+        <h2>Kategorier</h2>
+        <ul>
+            @foreach (var category in Model.Categories)
+            {
+                <li>
+                    <a href="@Url.Action("CategoryDetails", "Category", new { id = category.CategoryId })">@category.Name</a>
+                </li>
+            }
+        </ul>
+    }
+
+    @if (Model.Posts != null && Model.Posts.Count > 0)
+    {
+        <h2>Poster</h2>
+        <ul>
+            @foreach (var post in Model.Posts)
+            {
+                <li>
+                    <a href="@Url.Action("PostDetails", "Post", new { id = post.PostId })">@post.PostTitle</a>
+                </li>
+            }
+        </ul>
+    }
+
+    @if (Model.Topics != null && Model.Topics.Count > 0)
+    {
+        <h2>Topic</h2>
+        <ul>
+            @foreach (var topic in Model.Topics)
+            {
+                <li>
+                    <a href="@Url.Action("TopicDetails", "Topic", new { id = topic.TopicId })">@topic.TopicName</a>
+                </li>
+            }
+        </ul>
+    }
+
+    @if (Model.Rooms != null && Model.Rooms.Count > 0)
+    {
+        <h2>Room</h2>
+        <ul>
+            @foreach (var room in Model.Rooms)
+            {
+                <li>
+                    <a href="@Url.Action("RoomDetails", "Room", new { id = room.RoomId })">@room.RoomName</a>
+                </li>
+            }
+        </ul>
+    }
+}
