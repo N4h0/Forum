@@ -1,0 +1,30 @@
+2023-10-18 16:18:47.094 +02:00 [Information] User profile is available. Using '"C:\Users\abdik\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-18 16:18:47.506 +02:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-18 16:18:47.506 +02:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-18 16:18:47.509 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-18 16:18:47.510 +02:00 [Information] Hosting environment: "Development"
+2023-10-18 16:18:47.510 +02:00 [Information] Content root path: "C:\Users\abdik\source\repos\Forum\MyShop\"
+2023-10-18 16:18:47.768 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-18 16:18:47.807 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-18 16:18:47.814 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-18 16:18:47.820 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-18 16:18:47.908 +02:00 [Information] Executed ViewResult - view "Index" executed in 87.7293ms.
+2023-10-18 16:18:47.910 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 95.1658ms
+2023-10-18 16:18:47.910 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-18 16:18:47.922 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 155.9607ms
+2023-10-18 16:18:47.938 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-18 16:18:47.939 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-18 16:18:47.940 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 1.8140ms
+2023-10-18 16:18:47.945 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.1209ms
+2023-10-18 16:18:52.267 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-18 16:18:52.269 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-18 16:18:52.269 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-18 16:18:52.269 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-18 16:18:52.277 +02:00 [Information] Executed ViewResult - view "Index" executed in 7.6837ms.
+2023-10-18 16:18:52.277 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 7.9868ms
+2023-10-18 16:18:52.277 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-18 16:18:52.278 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 11.1074ms
+2023-10-18 16:18:52.289 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-18 16:18:52.290 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-18 16:18:52.290 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3545ms
+2023-10-18 16:18:52.291 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.2462ms

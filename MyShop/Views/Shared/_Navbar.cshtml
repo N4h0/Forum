@@ -15,22 +15,18 @@
                 <a class="nav-link text-dark" asp-area="" asp-controller="Topic" asp-action="TopicTable">Topic</a>
             </li>
         </ul>
-        
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
 
         </button>
-           
-           @*  <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </form> *@
-        <form class="d-flex" method="get" asp-controller="Category" asp-action="FindCategory">
+
+
+        <form class="d-flex">
             <input class="form-control me-2" placeholder="Search" aria-label="Search" name="search">
 
-            <button class="btn btn-outline-success" type="submit">Search</button>
+            <button class="btn btn-white border" type="submit"><i class="fas fa-search"></i></button>
         </form>
-
-        <partial name="_LoginPartial"/>
+        <partial name="_LoginPartial" />
     </div>
 </nav>

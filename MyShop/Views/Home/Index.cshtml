@@ -1,8 +1,7 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
-
+@model Post
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,9 +10,23 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
+
     <style>
 
-        /*Dette snakker vi om side */
+        body {
+            font-family: 'Mulish', sans-serif;
+        }
+
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+
+        /*/ Dette snakker vi om side */
         .col-md-8 {
             border: 1px solid #e0e0e0;
             width: 100%;
@@ -88,7 +101,8 @@
             h2 a {
                 text-decoration: none; /* Fjern understrek fra lenken */
                 color: white; /* Endre farge for lenken */
-                /*Kategori end*/
+            }
+        /*Kategori end*/
     </style>
 </head>
 <body>
@@ -102,29 +116,19 @@
                 <h3>What we're talking about now</h3>
                 <ul class="list-unstyled">
                     <li class="d-flex justify-content-between">
-                        <div>
-                            <h4><a href="#">Valget i Polen - landet tilbake i Vest-Europa?</a></h4>
-                        </div>
-                        <div>
-                            <p>Yakamaru • 1 minutt siden</p>
-                        </div>
+
+                        @if (Model != null)
+                        {
+                            <!-- Vis innholdsstrukturen for siste post -->
+                            <p>@Model.PostTime</p>
+                        }
+                        else
+                        {
+                            <p>Ingen siste post tilgjengelig.</p>
+                        }
+
                     </li>
-                    <li class="d-flex justify-content-between">
-                        <div>
-                            <h4><a href="#">Erfaringer med vaskeautomater?</a></h4>
-                        </div>
-                        <div>
-                            <p>Dragonlove • 5 minutter siden</p>
-                        </div>
-                    </li>
-                    <li class="d-flex justify-content-between">
-                        <div>
-                            <h4><a href="#">En aldeles fortreffelig whiskytråd</a></h4>
-                        </div>
-                        <div>
-                            <p>Sovna • 9 minutter siden</p>
-                        </div>
-                    </li>
+
                     <!-- Legg til flere elementer etter behov -->
                 </ul>
             </div>
