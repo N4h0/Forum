@@ -2,7 +2,7 @@
 
 <h1>Søkeresultater</h1>
 
-@if (Model.Categories == null && Model.Posts == null && Model.Topics == null && Model.Rooms == null)
+@if (Model.Categories == null && Model.Posts == null && Model.Topics == null && Model.Rooms == null && Model.Comments== null)
 {
     <p>Ingen søkeresultater funnet.</p>
 }
@@ -55,6 +55,19 @@ else
             {
                 <li>
                     <a href="@Url.Action("RoomDetails", "Room", new { id = room.RoomId })">@room.RoomName</a>
+                </li>
+            }
+        </ul>
+    }
+    @if (Model.Comments != null && Model.Comments.Count > 0)
+    {
+        <h2>Comment</h2>
+        <ul>
+            @foreach (var comment in Model.Comments)
+            {
+                <!---Denne er litt feil må ende-->
+                <li>
+                    <a href="@Url.Action("PostDetails", "Comment", new { id = comment.CommentId })">@comment.CommentDescription</a>
                 </li>
             }
         </ul>

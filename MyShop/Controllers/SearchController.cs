@@ -35,15 +35,24 @@ namespace Forum.Controllers
                 .Where(post => post.PostTitle.Contains(search, StringComparison.OrdinalIgnoreCase))
                 .ToList();
 
+
+
             var topic = _context.Topics.ToList()
                 .Where(topic => topic.TopicName.Contains(search,StringComparison.OrdinalIgnoreCase)).ToList();
+
+
+            var commment = _context.Comments.ToList()
+                .Where(commment => commment.CommentDescription.Contains(search, StringComparison.OrdinalIgnoreCase))
+                .ToList();
+
 
             var searchResults = new SearchResultViewModel
             {
                 Categories = categories,
                 Posts = posts,
                 Topics= topic,
-                Rooms = room
+                Rooms = room,
+                Comments = commment
             };
 
             return View(searchResults);

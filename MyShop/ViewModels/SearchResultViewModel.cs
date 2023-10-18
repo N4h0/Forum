@@ -7,4 +7,5 @@ public class SearchResultViewModel
 
     public List<Topic> Topics { get; set; }
     public List<Room> Rooms { get; internal set; }
+    public List<Comment> Comments { get; internal set; }
 }
