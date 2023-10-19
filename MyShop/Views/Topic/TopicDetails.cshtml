@@ -9,7 +9,7 @@
 The TopicId from the Topic model gets passed. (TopicController HttpGet TopicDetails action).-->
 @if (User.IsInRole("SuperAdmin"))
 {
-<a class="btn btn-primary"
+    <a class="btn btn-primary" class="create" style="margin-left: 110px;"
    asp-controller="Post"
    asp-action="CreatePost"
    asp-route-topicId="@Model.TopicId">Create New Post</a>

@@ -7,7 +7,7 @@
 
 @if (User.IsInRole("SuperAdmin"))
 {
-<a class="btn btn-primary"
+    <a class="btn btn-primary" class="create" style="margin-left: 110px;"
    asp-controller="Room"
    asp-action="CreateRoom"
     asp-route-categoryId="@Model.CategoryId">Create New Room</a>

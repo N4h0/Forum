@@ -3,34 +3,22 @@
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
 
-<div class="container">
-    <table class='table table-striped'>
-        <tr>
-            <th class="bg-dark text-light">Name</th>
-            <th class="bg-dark text-light"> </th>
-            @if (User.IsInRole("SuperAdmin"))
-            {
-                <th class="bg-dark text-light"> </th>
-            }
-        </tr>
+<div class="category">
+    <ul class="list-group">
         @foreach (var topic in Model)
         {
-            <tr>
-                <td>@topic.TopicId</td>
-                <td>
-                    <a asp-controller="Topic"
-                       asp-action="TopicDetails"
-                       asp-route-id="@topic.TopicId">@topic.TopicName</a>
-                </td>
+            <li class="list-group-item">
+                <a asp-controller="Topic"
+                   asp-action="TopicDetails"
+                   asp-route-id="@topic.TopicId">@topic.TopicName</a>
                 @if (User.IsInRole("SuperAdmin"))
                 {
-                    <td>
-                        <a asp-action="UpdateTopic" asp-controller="Topic" asp-route-id="@topic.TopicId">Update</a>
-                        <a asp-action="DeleteTopic" asp-controller="Topic" asp-route-id="@topic.TopicId">Delete</a>
-                    </td>
+                    <div class="admin-buttons">
+                        <a asp-action="UpdateTopic" asp-controller="Topic" asp-route-id="@topic.TopicId" class=" btn-admin btn btn-success">Update</a>
+                        <a asp-action="DeleteTopic" asp-controller="Topic" asp-route-id="@topic.TopicId" class="btn-admin btn btn-danger">Delete</a>
+                    </div>
                 }
-            </tr>
+            </li>
         }
-    </table>
+    </ul>
 </div>
-

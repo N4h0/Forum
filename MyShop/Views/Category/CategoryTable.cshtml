@@ -1,10 +1,14 @@
 ﻿@model CategoryListViewModel
 
-<h1>List of Categories (@Model.CurrentViewName View)</h1>
-<a href="/Category/CategoryGrid">Grid View</a>
+<div class="heading">
+    <h3>Categories </h3>
+</div>
 
 
 <partial name="_CategoryTable" model="Model.Categories" />
 
 
-@*<a class="btn btn-primary" asp-action="OrderConsole">Console Output</a>*@
+<div class="heading">
+    <i class="fa fa-th"></i>
+    <a style="color:GrayText; " href="/Category/CategoryGrid">Grid View</a>
+</div>

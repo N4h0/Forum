@@ -1,0 +1,192 @@
+2023-10-19 01:04:21.952 +02:00 [Information] User profile is available. Using '"C:\Users\latif\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-19 01:04:22.853 +02:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-19 01:04:22.856 +02:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-19 01:04:22.865 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-19 01:04:22.869 +02:00 [Information] Hosting environment: "Development"
+2023-10-19 01:04:22.872 +02:00 [Information] Content root path: "C:\Users\latif\source\repos\PROJECT_1WEB\Forum\MyShop\"
+2023-10-19 01:04:23.427 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-19 01:04:23.534 +02:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2023-10-19 01:04:23.536 +02:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2023-10-19 01:04:23.538 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-19 01:04:23.550 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-19 01:04:23.601 +02:00 [Information] Executing action method "Forum.Controllers.HomeController.Index (Forum)" - Validation state: Valid
+2023-10-19 01:04:23.606 +02:00 [Information] Executed action method "Forum.Controllers.HomeController.Index (Forum)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.5177ms.
+2023-10-19 01:04:23.615 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-19 01:04:23.841 +02:00 [Information] Executed ViewResult - view "Index" executed in 226.4872ms.
+2023-10-19 01:04:23.846 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 296.2972ms
+2023-10-19 01:04:23.847 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-19 01:04:23.884 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 01:04:23.889 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 4.6915ms
+2023-10-19 01:04:23.905 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 481.5556ms
+2023-10-19 01:04:23.905 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-19 01:04:23.938 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 33.3923ms
+2023-10-19 01:04:33.333 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/CategoryDetails/1 - -
+2023-10-19 01:04:33.339 +02:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2023-10-19 01:04:33.340 +02:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2023-10-19 01:04:33.340 +02:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-19 01:04:33.369 +02:00 [Information] Route matched with "{action = \"CategoryDetails\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CategoryDetails(Int32)" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-19 01:04:33.410 +02:00 [Information] Executing action method "Forum.Controllers.CategoryController.CategoryDetails (Forum)" - Validation state: Valid
+2023-10-19 01:04:33.459 +02:00 [Information] Executed action method "Forum.Controllers.CategoryController.CategoryDetails (Forum)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 48.6346ms.
+2023-10-19 01:04:33.461 +02:00 [Information] Executing ViewResult, running view "CategoryDetails".
+2023-10-19 01:04:33.593 +02:00 [Information] Executed ViewResult - view "CategoryDetails" executed in 133.515ms.
+2023-10-19 01:04:33.593 +02:00 [Information] Executed action "Forum.Controllers.CategoryController.CategoryDetails (Forum)" in 223.6361ms
+2023-10-19 01:04:33.593 +02:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-19 01:04:33.597 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/CategoryDetails/1 - - - 200 - text/html;+charset=utf-8 263.9072ms
+2023-10-19 01:04:33.602 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-19 01:04:33.602 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 01:04:33.602 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.6548ms
+2023-10-19 01:04:33.611 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.2634ms
+2023-10-19 01:04:36.069 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 01:04:36.069 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3027ms
+2023-10-19 01:04:37.756 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/CategoryDetails/4 - -
+2023-10-19 01:04:37.762 +02:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2023-10-19 01:04:37.762 +02:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2023-10-19 01:04:37.762 +02:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-19 01:04:37.762 +02:00 [Information] Route matched with "{action = \"CategoryDetails\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CategoryDetails(Int32)" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-19 01:04:37.786 +02:00 [Information] Executing action method "Forum.Controllers.CategoryController.CategoryDetails (Forum)" - Validation state: Valid
+2023-10-19 01:04:37.790 +02:00 [Information] Executed action method "Forum.Controllers.CategoryController.CategoryDetails (Forum)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 4.7254ms.
+2023-10-19 01:04:37.791 +02:00 [Information] Executing ViewResult, running view "CategoryDetails".
+2023-10-19 01:04:37.813 +02:00 [Information] Executed ViewResult - view "CategoryDetails" executed in 22.0265ms.
+2023-10-19 01:04:37.813 +02:00 [Information] Executed action "Forum.Controllers.CategoryController.CategoryDetails (Forum)" in 50.8767ms
+2023-10-19 01:04:37.813 +02:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-19 01:04:37.814 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/CategoryDetails/4 - - - 200 - text/html;+charset=utf-8 58.3683ms
+2023-10-19 01:04:37.816 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 01:04:37.816 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-19 01:04:37.816 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3182ms
+2023-10-19 01:04:37.819 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.6754ms
+2023-10-19 01:04:39.363 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 01:04:39.363 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3624ms
+2023-10-19 01:04:52.683 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/CategoryDetails/6 - -
+2023-10-19 01:04:52.685 +02:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2023-10-19 01:04:52.685 +02:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2023-10-19 01:04:52.685 +02:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-19 01:04:52.685 +02:00 [Information] Route matched with "{action = \"CategoryDetails\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CategoryDetails(Int32)" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-19 01:04:52.707 +02:00 [Information] Executing action method "Forum.Controllers.CategoryController.CategoryDetails (Forum)" - Validation state: Valid
+2023-10-19 01:04:52.713 +02:00 [Information] Executed action method "Forum.Controllers.CategoryController.CategoryDetails (Forum)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 5.3231ms.
+2023-10-19 01:04:52.713 +02:00 [Information] Executing ViewResult, running view "CategoryDetails".
+2023-10-19 01:04:52.728 +02:00 [Information] Executed ViewResult - view "CategoryDetails" executed in 15.499ms.
+2023-10-19 01:04:52.729 +02:00 [Information] Executed action "Forum.Controllers.CategoryController.CategoryDetails (Forum)" in 43.5796ms
+2023-10-19 01:04:52.729 +02:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-19 01:04:52.730 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/CategoryDetails/6 - - - 200 - text/html;+charset=utf-8 46.7274ms
+2023-10-19 01:04:52.732 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 01:04:52.732 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-19 01:04:52.732 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.4423ms
+2023-10-19 01:04:52.735 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.4088ms
+2023-10-19 01:04:55.717 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 01:04:55.717 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2899ms
+2023-10-19 01:04:57.114 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/CategoryDetails/7 - -
+2023-10-19 01:04:57.115 +02:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2023-10-19 01:04:57.116 +02:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2023-10-19 01:04:57.116 +02:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-19 01:04:57.116 +02:00 [Information] Route matched with "{action = \"CategoryDetails\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CategoryDetails(Int32)" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-19 01:04:57.139 +02:00 [Information] Executing action method "Forum.Controllers.CategoryController.CategoryDetails (Forum)" - Validation state: Valid
+2023-10-19 01:04:57.144 +02:00 [Information] Executed action method "Forum.Controllers.CategoryController.CategoryDetails (Forum)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 5.5672ms.
+2023-10-19 01:04:57.144 +02:00 [Information] Executing ViewResult, running view "CategoryDetails".
+2023-10-19 01:04:57.156 +02:00 [Information] Executed ViewResult - view "CategoryDetails" executed in 11.6778ms.
+2023-10-19 01:04:57.156 +02:00 [Information] Executed action "Forum.Controllers.CategoryController.CategoryDetails (Forum)" in 40.2224ms
+2023-10-19 01:04:57.156 +02:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-19 01:04:57.157 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/CategoryDetails/7 - - - 200 - text/html;+charset=utf-8 43.4436ms
+2023-10-19 01:04:57.160 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 01:04:57.160 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-19 01:04:57.160 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2556ms
+2023-10-19 01:04:57.162 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.5236ms
+2023-10-19 01:04:59.544 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 01:04:59.544 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2827ms
+2023-10-19 01:05:02.081 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/CategoryTable - -
+2023-10-19 01:05:02.083 +02:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2023-10-19 01:05:02.083 +02:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2023-10-19 01:05:02.083 +02:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CategoryTable (Forum)"'
+2023-10-19 01:05:02.087 +02:00 [Information] Route matched with "{action = \"CategoryTable\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CategoryTable()" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-19 01:05:02.109 +02:00 [Information] Executing action method "Forum.Controllers.CategoryController.CategoryTable (Forum)" - Validation state: Valid
+2023-10-19 01:05:02.128 +02:00 [Information] Executed action method "Forum.Controllers.CategoryController.CategoryTable (Forum)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 19.4238ms.
+2023-10-19 01:05:02.129 +02:00 [Information] Executing ViewResult, running view "CategoryTable".
+2023-10-19 01:05:02.148 +02:00 [Information] Executed ViewResult - view "CategoryTable" executed in 20.1589ms.
+2023-10-19 01:05:02.149 +02:00 [Information] Executed action "Forum.Controllers.CategoryController.CategoryTable (Forum)" in 61.8903ms
+2023-10-19 01:05:02.149 +02:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CategoryTable (Forum)"'
+2023-10-19 01:05:02.151 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/CategoryTable - - - 200 - text/html;+charset=utf-8 69.7719ms
+2023-10-19 01:05:02.155 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 01:05:02.155 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-19 01:05:02.155 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3631ms
+2023-10-19 01:05:02.158 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.0418ms
+2023-10-19 01:05:04.298 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Room/RoomTable - -
+2023-10-19 01:05:04.300 +02:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2023-10-19 01:05:04.300 +02:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2023-10-19 01:05:04.300 +02:00 [Information] Executing endpoint '"Forum.Controllers.RoomController.RoomTable (Forum)"'
+2023-10-19 01:05:04.303 +02:00 [Information] Route matched with "{action = \"RoomTable\", controller = \"Room\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RoomTable()" on controller "Forum.Controllers.RoomController" ("Forum").
+2023-10-19 01:05:04.324 +02:00 [Information] Executing action method "Forum.Controllers.RoomController.RoomTable (Forum)" - Validation state: Valid
+2023-10-19 01:05:04.336 +02:00 [Information] Executed action method "Forum.Controllers.RoomController.RoomTable (Forum)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 12.109ms.
+2023-10-19 01:05:04.337 +02:00 [Information] Executing ViewResult, running view "RoomTable".
+2023-10-19 01:05:04.348 +02:00 [Information] Executed ViewResult - view "RoomTable" executed in 12.0442ms.
+2023-10-19 01:05:04.349 +02:00 [Information] Executed action "Forum.Controllers.RoomController.RoomTable (Forum)" in 45.5637ms
+2023-10-19 01:05:04.349 +02:00 [Information] Executed endpoint '"Forum.Controllers.RoomController.RoomTable (Forum)"'
+2023-10-19 01:05:04.351 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Room/RoomTable - - - 200 - text/html;+charset=utf-8 52.9440ms
+2023-10-19 01:05:04.355 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 01:05:04.355 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-19 01:05:04.356 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2745ms
+2023-10-19 01:05:04.359 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.2643ms
+2023-10-19 01:05:05.999 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Topic/TopicTable - -
+2023-10-19 01:05:06.001 +02:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2023-10-19 01:05:06.001 +02:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2023-10-19 01:05:06.001 +02:00 [Information] Executing endpoint '"Forum.Controllers.TopicController.TopicTable (Forum)"'
+2023-10-19 01:05:06.004 +02:00 [Information] Route matched with "{action = \"TopicTable\", controller = \"Topic\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TopicTable()" on controller "Forum.Controllers.TopicController" ("Forum").
+2023-10-19 01:05:06.025 +02:00 [Information] Executing action method "Forum.Controllers.TopicController.TopicTable (Forum)" - Validation state: Valid
+2023-10-19 01:05:06.069 +02:00 [Information] Executed action method "Forum.Controllers.TopicController.TopicTable (Forum)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 44.6335ms.
+2023-10-19 01:05:06.070 +02:00 [Information] Executing ViewResult, running view "TopicTable".
+2023-10-19 01:05:06.094 +02:00 [Information] Executed ViewResult - view "TopicTable" executed in 24.4409ms.
+2023-10-19 01:05:06.094 +02:00 [Information] Executed action "Forum.Controllers.TopicController.TopicTable (Forum)" in 90.4524ms
+2023-10-19 01:05:06.094 +02:00 [Information] Executed endpoint '"Forum.Controllers.TopicController.TopicTable (Forum)"'
+2023-10-19 01:05:06.096 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Topic/TopicTable - - - 200 - text/html;+charset=utf-8 96.7805ms
+2023-10-19 01:05:06.099 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-19 01:05:06.099 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 01:05:06.099 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.4241ms
+2023-10-19 01:05:06.102 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.9743ms
+2023-10-19 01:05:07.406 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/CategoryTable - -
+2023-10-19 01:05:07.407 +02:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2023-10-19 01:05:07.407 +02:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2023-10-19 01:05:07.407 +02:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CategoryTable (Forum)"'
+2023-10-19 01:05:07.407 +02:00 [Information] Route matched with "{action = \"CategoryTable\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CategoryTable()" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-19 01:05:07.433 +02:00 [Information] Executing action method "Forum.Controllers.CategoryController.CategoryTable (Forum)" - Validation state: Valid
+2023-10-19 01:05:07.438 +02:00 [Information] Executed action method "Forum.Controllers.CategoryController.CategoryTable (Forum)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 5.548ms.
+2023-10-19 01:05:07.438 +02:00 [Information] Executing ViewResult, running view "CategoryTable".
+2023-10-19 01:05:07.445 +02:00 [Information] Executed ViewResult - view "CategoryTable" executed in 6.6297ms.
+2023-10-19 01:05:07.445 +02:00 [Information] Executed action "Forum.Controllers.CategoryController.CategoryTable (Forum)" in 38.1045ms
+2023-10-19 01:05:07.445 +02:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CategoryTable (Forum)"'
+2023-10-19 01:05:07.447 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/CategoryTable - - - 200 - text/html;+charset=utf-8 40.8481ms
+2023-10-19 01:05:07.449 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 01:05:07.449 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-19 01:05:07.449 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3420ms
+2023-10-19 01:05:07.451 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.5435ms
+2023-10-19 01:05:09.529 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-19 01:05:09.531 +02:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2023-10-19 01:05:09.531 +02:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2023-10-19 01:05:09.531 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-19 01:05:09.531 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-19 01:05:09.549 +02:00 [Information] Executing action method "Forum.Controllers.HomeController.Index (Forum)" - Validation state: Valid
+2023-10-19 01:05:09.549 +02:00 [Information] Executed action method "Forum.Controllers.HomeController.Index (Forum)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0205ms.
+2023-10-19 01:05:09.549 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-19 01:05:09.562 +02:00 [Information] Executed ViewResult - view "Index" executed in 12.9576ms.
+2023-10-19 01:05:09.562 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 31.0792ms
+2023-10-19 01:05:09.562 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-19 01:05:09.564 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 34.6943ms
+2023-10-19 01:05:09.567 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-19 01:05:09.567 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 01:05:09.567 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3614ms
+2023-10-19 01:05:09.569 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.6970ms
+2023-10-19 01:05:30.838 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Search/Search?search=data - -
+2023-10-19 01:05:30.851 +02:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2023-10-19 01:05:30.851 +02:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2023-10-19 01:05:30.851 +02:00 [Information] Executing endpoint '"Forum.Controllers.SearchController.Search (Forum)"'
+2023-10-19 01:05:30.852 +02:00 [Information] Route matched with "{action = \"Search\", controller = \"Search\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Search(System.String)" on controller "Forum.Controllers.SearchController" ("Forum").
+2023-10-19 01:05:30.889 +02:00 [Information] Executing action method "Forum.Controllers.SearchController.Search (Forum)" - Validation state: Valid
+2023-10-19 01:05:31.014 +02:00 [Information] Executed action method "Forum.Controllers.SearchController.Search (Forum)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 125.3573ms.
+2023-10-19 01:05:31.015 +02:00 [Information] Executing ViewResult, running view "Search".
+2023-10-19 01:05:31.033 +02:00 [Information] Executed ViewResult - view "Search" executed in 18.9276ms.
+2023-10-19 01:05:31.034 +02:00 [Information] Executed action "Forum.Controllers.SearchController.Search (Forum)" in 181.0967ms
+2023-10-19 01:05:31.034 +02:00 [Information] Executed endpoint '"Forum.Controllers.SearchController.Search (Forum)"'
+2023-10-19 01:05:31.042 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Search/Search?search=data - - - 200 - text/html;+charset=utf-8 204.3169ms
+2023-10-19 01:05:31.052 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-19 01:05:31.052 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 01:05:31.052 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3833ms
+2023-10-19 01:05:31.055 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.5465ms
+2023-10-19 01:05:34.645 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 01:05:34.645 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2294ms
