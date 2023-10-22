@@ -2,46 +2,43 @@
     background-color: #e9f0f5;
 }
 
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
 
 .category {
-    background-color: #e9f0f5;
-    justify-content: space-around;
-    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
-/* Remove underline from links */
+
 a {
+    color: #007BFF;
+    font-weight: bold;
     text-decoration: none;
 }
 
-/* Change color and appearance of links */
-a {
-    color: white; /* Modify color as needed */
-    font-weight: bold; /* Modify font weight as needed */
-    /* Add other properties as needed */
-}
-
-    /* Change link color on hover */
     a:hover {
-        color: #FF5733; /* Modify color on hover as needed */
-        /* Add other hover effects as needed */
+        color: #FF5733;
     }
 
-.category ul.list-group {
-    list-style: none;/* Removes the default bullet points for an unordered list */
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.table {
+    width: 100%;
 }
 
-
-.grid {
-    background-color: #7f858d;
+.btn-admin {
     display: flex;
+    margin: auto;
 }
 
-.category ul.list-group li {
-    margin: 10px auto; /* Add margin on all sides of each list item */
-    padding: 5px; /* Add padding to adjust content within the list item */
+.list-group-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
@@ -49,23 +46,11 @@ a {
     width: 80%;
 }
 
-    .category ul.list-group li a {
-        display: block; /* Ensures that the link takes up the entire width of the list item */
+    .list-group-item a {
+        display: block;
         color: white;
-        text-decoration: none;
         font-weight: bold;
     }
-
-.btn-admin {
-    display: flex;
-    margin: auto; /* Add some spacing between the buttons */
-}
-
-
-.list-group-item {
-    display: flex; 
-    align-items: center; 
-}
 
 .fa {
     margin: 10px;
@@ -76,36 +61,13 @@ a {
     margin: auto;
 }
 
-.heading {
-    margin-left: 110px;
+.create {
+    margin-top: 20px;
 }
 
-.pb-3 {
-    margin-top: 30px;
-}
-
-.category-item {
+.category ul.list-group {
+    list-style: none;
     display: flex;
-    align-items: center;
-    margin: 5px; 
-    text-align: center;
-    flex-direction: column;
-}
-
-
-    .category-item img {
-        max-width: 100px;
-        max-height: 100px;
-        border: 2px solid #ccc;
-        margin-bottom: 0;
-    }
-
-    .category-item a{
-        color: white;
-        font-weight: bold;
-        text-decoration: none;
-    }
-
-td a {
-    color: black;
+    justify-content: center;
+    flex-wrap: wrap;
 }

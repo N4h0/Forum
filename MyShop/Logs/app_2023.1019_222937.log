@@ -1,0 +1,262 @@
+2023-10-19 22:29:42.332 +02:00 [Information] User profile is available. Using '"C:\Users\latif\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-19 22:29:44.180 +02:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-19 22:29:44.182 +02:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-19 22:29:44.195 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-19 22:29:44.199 +02:00 [Information] Hosting environment: "Development"
+2023-10-19 22:29:44.201 +02:00 [Information] Content root path: "C:\Users\latif\source\repos\PROJECT_1WEB\Forum\MyShop\"
+2023-10-19 22:29:44.761 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-19 22:29:44.986 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-19 22:29:45.017 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-19 22:29:45.423 +02:00 [Information] Executing action method "Forum.Controllers.HomeController.Index (Forum)" - Validation state: Valid
+2023-10-19 22:29:45.436 +02:00 [Information] Executed action method "Forum.Controllers.HomeController.Index (Forum)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 1.5574ms.
+2023-10-19 22:29:45.450 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-19 22:29:45.968 +02:00 [Information] Executed ViewResult - view "Index" executed in 514.7418ms.
+2023-10-19 22:29:45.984 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 965.9912ms
+2023-10-19 22:29:45.986 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-19 22:29:46.071 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 22:29:46.080 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 8.2270ms
+2023-10-19 22:29:46.099 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-19 22:29:46.149 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 1402.3618ms
+2023-10-19 22:29:46.213 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 114.1473ms
+2023-10-19 22:30:08.913 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/CategoryTable - -
+2023-10-19 22:30:08.920 +02:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CategoryTable (Forum)"'
+2023-10-19 22:30:08.929 +02:00 [Information] Route matched with "{action = \"CategoryTable\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CategoryTable()" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-19 22:30:08.962 +02:00 [Information] Executing action method "Forum.Controllers.CategoryController.CategoryTable (Forum)" - Validation state: Valid
+2023-10-19 22:30:09.020 +02:00 [Information] Executed action method "Forum.Controllers.CategoryController.CategoryTable (Forum)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 58.1713ms.
+2023-10-19 22:30:09.022 +02:00 [Information] Executing ViewResult, running view "CategoryTable".
+2023-10-19 22:30:09.073 +02:00 [Information] Executed ViewResult - view "CategoryTable" executed in 52.5415ms.
+2023-10-19 22:30:09.074 +02:00 [Information] Executed action "Forum.Controllers.CategoryController.CategoryTable (Forum)" in 145.1101ms
+2023-10-19 22:30:09.074 +02:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CategoryTable (Forum)"'
+2023-10-19 22:30:09.081 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/CategoryTable - - - 200 - text/html;+charset=utf-8 167.7106ms
+2023-10-19 22:30:09.102 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 22:30:09.102 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-19 22:30:09.102 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 1.0018ms
+2023-10-19 22:30:09.108 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.6211ms
+2023-10-19 22:30:12.888 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Room/RoomTable - -
+2023-10-19 22:30:12.892 +02:00 [Information] Executing endpoint '"Forum.Controllers.RoomController.RoomTable (Forum)"'
+2023-10-19 22:30:12.896 +02:00 [Information] Route matched with "{action = \"RoomTable\", controller = \"Room\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RoomTable()" on controller "Forum.Controllers.RoomController" ("Forum").
+2023-10-19 22:30:12.928 +02:00 [Information] Executing action method "Forum.Controllers.RoomController.RoomTable (Forum)" - Validation state: Valid
+2023-10-19 22:30:12.977 +02:00 [Information] Executed action method "Forum.Controllers.RoomController.RoomTable (Forum)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 48.2842ms.
+2023-10-19 22:30:12.978 +02:00 [Information] Executing ViewResult, running view "RoomTable".
+2023-10-19 22:30:13.018 +02:00 [Information] Executed ViewResult - view "RoomTable" executed in 41.2473ms.
+2023-10-19 22:30:13.019 +02:00 [Information] Executed action "Forum.Controllers.RoomController.RoomTable (Forum)" in 121.9107ms
+2023-10-19 22:30:13.019 +02:00 [Information] Executed endpoint '"Forum.Controllers.RoomController.RoomTable (Forum)"'
+2023-10-19 22:30:13.021 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Room/RoomTable - - - 200 - text/html;+charset=utf-8 132.4858ms
+2023-10-19 22:30:13.024 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 22:30:13.024 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-19 22:30:13.024 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.5396ms
+2023-10-19 22:30:13.031 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.4705ms
+2023-10-19 22:30:14.420 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Topic/TopicTable - -
+2023-10-19 22:30:14.421 +02:00 [Information] Executing endpoint '"Forum.Controllers.TopicController.TopicTable (Forum)"'
+2023-10-19 22:30:14.425 +02:00 [Information] Route matched with "{action = \"TopicTable\", controller = \"Topic\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TopicTable()" on controller "Forum.Controllers.TopicController" ("Forum").
+2023-10-19 22:30:14.457 +02:00 [Information] Executing action method "Forum.Controllers.TopicController.TopicTable (Forum)" - Validation state: Valid
+2023-10-19 22:30:14.504 +02:00 [Information] Executed action method "Forum.Controllers.TopicController.TopicTable (Forum)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 46.6021ms.
+2023-10-19 22:30:14.505 +02:00 [Information] Executing ViewResult, running view "TopicTable".
+2023-10-19 22:30:14.533 +02:00 [Information] Executed ViewResult - view "TopicTable" executed in 28.2571ms.
+2023-10-19 22:30:14.533 +02:00 [Information] Executed action "Forum.Controllers.TopicController.TopicTable (Forum)" in 107.9833ms
+2023-10-19 22:30:14.533 +02:00 [Information] Executed endpoint '"Forum.Controllers.TopicController.TopicTable (Forum)"'
+2023-10-19 22:30:14.535 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Topic/TopicTable - - - 200 - text/html;+charset=utf-8 114.5770ms
+2023-10-19 22:30:14.537 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 22:30:14.537 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-19 22:30:14.538 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.5690ms
+2023-10-19 22:30:14.541 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.3885ms
+2023-10-19 22:30:16.274 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/CategoryTable - -
+2023-10-19 22:30:16.278 +02:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CategoryTable (Forum)"'
+2023-10-19 22:30:16.278 +02:00 [Information] Route matched with "{action = \"CategoryTable\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CategoryTable()" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-19 22:30:16.311 +02:00 [Information] Executing action method "Forum.Controllers.CategoryController.CategoryTable (Forum)" - Validation state: Valid
+2023-10-19 22:30:16.317 +02:00 [Information] Executed action method "Forum.Controllers.CategoryController.CategoryTable (Forum)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 5.3581ms.
+2023-10-19 22:30:16.317 +02:00 [Information] Executing ViewResult, running view "CategoryTable".
+2023-10-19 22:30:16.335 +02:00 [Information] Executed ViewResult - view "CategoryTable" executed in 18.3257ms.
+2023-10-19 22:30:16.336 +02:00 [Information] Executed action "Forum.Controllers.CategoryController.CategoryTable (Forum)" in 57.2349ms
+2023-10-19 22:30:16.336 +02:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CategoryTable (Forum)"'
+2023-10-19 22:30:16.339 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/CategoryTable - - - 200 - text/html;+charset=utf-8 65.2815ms
+2023-10-19 22:30:16.342 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 22:30:16.342 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-19 22:30:16.343 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.6584ms
+2023-10-19 22:30:16.357 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.9200ms
+2023-10-19 22:30:24.969 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-19 22:30:24.970 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-19 22:30:24.970 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-19 22:30:24.994 +02:00 [Information] Executing action method "Forum.Controllers.HomeController.Index (Forum)" - Validation state: Valid
+2023-10-19 22:30:24.994 +02:00 [Information] Executed action method "Forum.Controllers.HomeController.Index (Forum)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0227ms.
+2023-10-19 22:30:24.994 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-19 22:30:25.009 +02:00 [Information] Executed ViewResult - view "Index" executed in 15.3375ms.
+2023-10-19 22:30:25.010 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 39.794ms
+2023-10-19 22:30:25.010 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-19 22:30:25.013 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 44.8068ms
+2023-10-19 22:30:25.017 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 22:30:25.017 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-19 22:30:25.017 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.8931ms
+2023-10-19 22:30:25.021 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.7066ms
+2023-10-19 22:30:27.982 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/CategoryTable - -
+2023-10-19 22:30:27.983 +02:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CategoryTable (Forum)"'
+2023-10-19 22:30:27.983 +02:00 [Information] Route matched with "{action = \"CategoryTable\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CategoryTable()" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-19 22:30:28.026 +02:00 [Information] Executing action method "Forum.Controllers.CategoryController.CategoryTable (Forum)" - Validation state: Valid
+2023-10-19 22:30:28.031 +02:00 [Information] Executed action method "Forum.Controllers.CategoryController.CategoryTable (Forum)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 4.9062ms.
+2023-10-19 22:30:28.031 +02:00 [Information] Executing ViewResult, running view "CategoryTable".
+2023-10-19 22:30:28.040 +02:00 [Information] Executed ViewResult - view "CategoryTable" executed in 9.3078ms.
+2023-10-19 22:30:28.040 +02:00 [Information] Executed action "Forum.Controllers.CategoryController.CategoryTable (Forum)" in 57.0229ms
+2023-10-19 22:30:28.040 +02:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CategoryTable (Forum)"'
+2023-10-19 22:30:28.042 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/CategoryTable - - - 200 - text/html;+charset=utf-8 60.3555ms
+2023-10-19 22:30:28.045 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 22:30:28.045 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-19 22:30:28.046 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.7237ms
+2023-10-19 22:30:28.049 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.2994ms
+2023-10-19 22:30:28.657 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/CategoryTable - -
+2023-10-19 22:30:28.659 +02:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CategoryTable (Forum)"'
+2023-10-19 22:30:28.659 +02:00 [Information] Route matched with "{action = \"CategoryTable\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CategoryTable()" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-19 22:30:28.691 +02:00 [Information] Executing action method "Forum.Controllers.CategoryController.CategoryTable (Forum)" - Validation state: Valid
+2023-10-19 22:30:28.697 +02:00 [Information] Executed action method "Forum.Controllers.CategoryController.CategoryTable (Forum)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 6.0568ms.
+2023-10-19 22:30:28.697 +02:00 [Information] Executing ViewResult, running view "CategoryTable".
+2023-10-19 22:30:28.705 +02:00 [Information] Executed ViewResult - view "CategoryTable" executed in 8.017ms.
+2023-10-19 22:30:28.705 +02:00 [Information] Executed action "Forum.Controllers.CategoryController.CategoryTable (Forum)" in 46.6451ms
+2023-10-19 22:30:28.706 +02:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CategoryTable (Forum)"'
+2023-10-19 22:30:28.709 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/CategoryTable - - - 200 - text/html;+charset=utf-8 51.6230ms
+2023-10-19 22:30:28.720 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 22:30:28.721 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2820ms
+2023-10-19 22:30:28.721 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-19 22:30:28.725 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.5932ms
+2023-10-19 22:30:31.064 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/CategoryDetails/1 - -
+2023-10-19 22:30:31.065 +02:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-19 22:30:31.104 +02:00 [Information] Route matched with "{action = \"CategoryDetails\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CategoryDetails(Int32)" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-19 22:30:31.160 +02:00 [Information] Executing action method "Forum.Controllers.CategoryController.CategoryDetails (Forum)" - Validation state: Valid
+2023-10-19 22:30:31.176 +02:00 [Information] Executed action method "Forum.Controllers.CategoryController.CategoryDetails (Forum)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 16.1056ms.
+2023-10-19 22:30:31.177 +02:00 [Information] Executing ViewResult, running view "CategoryDetails".
+2023-10-19 22:30:31.250 +02:00 [Information] Executed ViewResult - view "CategoryDetails" executed in 74.0729ms.
+2023-10-19 22:30:31.251 +02:00 [Information] Executed action "Forum.Controllers.CategoryController.CategoryDetails (Forum)" in 146.3432ms
+2023-10-19 22:30:31.251 +02:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-19 22:30:31.253 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/CategoryDetails/1 - - - 200 - text/html;+charset=utf-8 188.4802ms
+2023-10-19 22:30:31.256 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 22:30:31.256 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-19 22:30:31.257 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.8109ms
+2023-10-19 22:30:31.261 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5.3817ms
+2023-10-19 22:30:33.500 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 22:30:33.501 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2300ms
+2023-10-19 22:30:35.501 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/CategoryDetails/1 - -
+2023-10-19 22:30:35.502 +02:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-19 22:30:35.502 +02:00 [Information] Route matched with "{action = \"CategoryDetails\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CategoryDetails(Int32)" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-19 22:30:35.538 +02:00 [Information] Executing action method "Forum.Controllers.CategoryController.CategoryDetails (Forum)" - Validation state: Valid
+2023-10-19 22:30:35.546 +02:00 [Information] Executed action method "Forum.Controllers.CategoryController.CategoryDetails (Forum)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 7.452ms.
+2023-10-19 22:30:35.546 +02:00 [Information] Executing ViewResult, running view "CategoryDetails".
+2023-10-19 22:30:35.562 +02:00 [Information] Executed ViewResult - view "CategoryDetails" executed in 16.6858ms.
+2023-10-19 22:30:35.563 +02:00 [Information] Executed action "Forum.Controllers.CategoryController.CategoryDetails (Forum)" in 60.4174ms
+2023-10-19 22:30:35.563 +02:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-19 22:30:35.564 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/CategoryDetails/1 - - - 200 - text/html;+charset=utf-8 63.8114ms
+2023-10-19 22:30:35.567 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-19 22:30:35.567 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 22:30:35.567 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.5759ms
+2023-10-19 22:30:35.571 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.1526ms
+2023-10-19 22:30:37.218 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 22:30:37.218 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.6773ms
+2023-10-19 22:31:16.388 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-19 22:31:16.389 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-19 22:31:16.389 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-19 22:31:16.414 +02:00 [Information] Executing action method "Forum.Controllers.HomeController.Index (Forum)" - Validation state: Valid
+2023-10-19 22:31:16.415 +02:00 [Information] Executed action method "Forum.Controllers.HomeController.Index (Forum)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0234ms.
+2023-10-19 22:31:16.427 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-19 22:31:16.452 +02:00 [Information] Executed ViewResult - view "Index" executed in 37.6293ms.
+2023-10-19 22:31:16.453 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 63.6375ms
+2023-10-19 22:31:16.453 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-19 22:31:16.456 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 68.4992ms
+2023-10-19 22:31:16.465 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 22:31:16.466 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-19 22:31:16.466 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.8368ms
+2023-10-19 22:31:16.470 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.0185ms
+2023-10-19 22:31:46.681 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/CategoryDetails/1 - -
+2023-10-19 22:31:46.719 +02:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-19 22:31:46.720 +02:00 [Information] Route matched with "{action = \"CategoryDetails\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CategoryDetails(Int32)" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-19 22:31:46.752 +02:00 [Information] Executing action method "Forum.Controllers.CategoryController.CategoryDetails (Forum)" - Validation state: Valid
+2023-10-19 22:31:46.758 +02:00 [Information] Executed action method "Forum.Controllers.CategoryController.CategoryDetails (Forum)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 5.4325ms.
+2023-10-19 22:31:46.758 +02:00 [Information] Executing ViewResult, running view "CategoryDetails".
+2023-10-19 22:31:46.790 +02:00 [Information] Executed ViewResult - view "CategoryDetails" executed in 32.3048ms.
+2023-10-19 22:31:46.790 +02:00 [Information] Executed action "Forum.Controllers.CategoryController.CategoryDetails (Forum)" in 70.8045ms
+2023-10-19 22:31:46.791 +02:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-19 22:31:46.792 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/CategoryDetails/1 - - - 200 - text/html;+charset=utf-8 111.2010ms
+2023-10-19 22:31:46.800 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 22:31:46.801 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.8036ms
+2023-10-19 22:31:46.801 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-19 22:31:46.819 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.9630ms
+2023-10-19 22:31:49.178 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Room/RoomDetails/1 - -
+2023-10-19 22:31:49.181 +02:00 [Information] Executing endpoint '"Forum.Controllers.RoomController.RoomDetails (Forum)"'
+2023-10-19 22:31:49.185 +02:00 [Information] Route matched with "{action = \"RoomDetails\", controller = \"Room\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RoomDetails(Int32)" on controller "Forum.Controllers.RoomController" ("Forum").
+2023-10-19 22:31:49.218 +02:00 [Information] Executing action method "Forum.Controllers.RoomController.RoomDetails (Forum)" - Validation state: Valid
+2023-10-19 22:31:49.234 +02:00 [Information] Executed action method "Forum.Controllers.RoomController.RoomDetails (Forum)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 15.235ms.
+2023-10-19 22:31:49.245 +02:00 [Information] Executing ViewResult, running view "RoomDetails".
+2023-10-19 22:31:49.273 +02:00 [Information] Executed ViewResult - view "RoomDetails" executed in 39.573ms.
+2023-10-19 22:31:49.274 +02:00 [Information] Executed action "Forum.Controllers.RoomController.RoomDetails (Forum)" in 88.0142ms
+2023-10-19 22:31:49.274 +02:00 [Information] Executed endpoint '"Forum.Controllers.RoomController.RoomDetails (Forum)"'
+2023-10-19 22:31:49.275 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Room/RoomDetails/1 - - - 200 - text/html;+charset=utf-8 97.0387ms
+2023-10-19 22:31:49.279 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-19 22:31:49.279 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 22:31:49.279 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.7429ms
+2023-10-19 22:31:49.284 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5.0332ms
+2023-10-19 22:31:50.353 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Topic/TopicDetails/1 - -
+2023-10-19 22:31:50.357 +02:00 [Information] Executing endpoint '"Forum.Controllers.TopicController.TopicDetails (Forum)"'
+2023-10-19 22:31:50.363 +02:00 [Information] Route matched with "{action = \"TopicDetails\", controller = \"Topic\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TopicDetails(Int32)" on controller "Forum.Controllers.TopicController" ("Forum").
+2023-10-19 22:31:50.393 +02:00 [Information] Executing action method "Forum.Controllers.TopicController.TopicDetails (Forum)" - Validation state: Valid
+2023-10-19 22:31:50.408 +02:00 [Information] Executed action method "Forum.Controllers.TopicController.TopicDetails (Forum)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 14.9775ms.
+2023-10-19 22:31:50.410 +02:00 [Information] Executing ViewResult, running view "TopicDetails".
+2023-10-19 22:31:50.527 +02:00 [Information] Executed ViewResult - view "TopicDetails" executed in 118.278ms.
+2023-10-19 22:31:50.527 +02:00 [Information] Executed action "Forum.Controllers.TopicController.TopicDetails (Forum)" in 164.1528ms
+2023-10-19 22:31:50.527 +02:00 [Information] Executed endpoint '"Forum.Controllers.TopicController.TopicDetails (Forum)"'
+2023-10-19 22:31:50.530 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Topic/TopicDetails/1 - - - 200 - text/html;+charset=utf-8 176.3217ms
+2023-10-19 22:31:50.532 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-19 22:31:50.532 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 22:31:50.532 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.5419ms
+2023-10-19 22:31:50.536 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.6222ms
+2023-10-19 22:37:51.196 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/CategoryTable - -
+2023-10-19 22:37:51.217 +02:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CategoryTable (Forum)"'
+2023-10-19 22:37:51.217 +02:00 [Information] Route matched with "{action = \"CategoryTable\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CategoryTable()" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-19 22:37:51.262 +02:00 [Information] Executing action method "Forum.Controllers.CategoryController.CategoryTable (Forum)" - Validation state: Valid
+2023-10-19 22:37:51.267 +02:00 [Information] Executed action method "Forum.Controllers.CategoryController.CategoryTable (Forum)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 5.0788ms.
+2023-10-19 22:37:51.268 +02:00 [Information] Executing ViewResult, running view "CategoryTable".
+2023-10-19 22:37:51.284 +02:00 [Information] Executed ViewResult - view "CategoryTable" executed in 16.3171ms.
+2023-10-19 22:37:51.284 +02:00 [Information] Executed action "Forum.Controllers.CategoryController.CategoryTable (Forum)" in 66.5969ms
+2023-10-19 22:37:51.284 +02:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CategoryTable (Forum)"'
+2023-10-19 22:37:51.296 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/CategoryTable - - - 200 - text/html;+charset=utf-8 101.3772ms
+2023-10-19 22:37:51.299 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 22:37:51.299 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-19 22:37:51.299 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.5152ms
+2023-10-19 22:37:51.313 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.9993ms
+2023-10-19 22:37:52.867 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Room/RoomTable - -
+2023-10-19 22:37:52.868 +02:00 [Information] Executing endpoint '"Forum.Controllers.RoomController.RoomTable (Forum)"'
+2023-10-19 22:37:52.868 +02:00 [Information] Route matched with "{action = \"RoomTable\", controller = \"Room\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RoomTable()" on controller "Forum.Controllers.RoomController" ("Forum").
+2023-10-19 22:37:52.900 +02:00 [Information] Executing action method "Forum.Controllers.RoomController.RoomTable (Forum)" - Validation state: Valid
+2023-10-19 22:37:52.905 +02:00 [Information] Executed action method "Forum.Controllers.RoomController.RoomTable (Forum)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 4.6264ms.
+2023-10-19 22:37:52.905 +02:00 [Information] Executing ViewResult, running view "RoomTable".
+2023-10-19 22:37:52.913 +02:00 [Information] Executed ViewResult - view "RoomTable" executed in 7.1372ms.
+2023-10-19 22:37:52.913 +02:00 [Information] Executed action "Forum.Controllers.RoomController.RoomTable (Forum)" in 44.398ms
+2023-10-19 22:37:52.913 +02:00 [Information] Executed endpoint '"Forum.Controllers.RoomController.RoomTable (Forum)"'
+2023-10-19 22:37:52.914 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Room/RoomTable - - - 200 - text/html;+charset=utf-8 47.5193ms
+2023-10-19 22:37:52.926 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 22:37:52.927 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-19 22:37:52.929 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 2.4636ms
+2023-10-19 22:37:52.946 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.1658ms
+2023-10-19 22:37:53.815 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/CategoryTable - -
+2023-10-19 22:37:53.816 +02:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CategoryTable (Forum)"'
+2023-10-19 22:37:53.817 +02:00 [Information] Route matched with "{action = \"CategoryTable\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CategoryTable()" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-19 22:37:53.848 +02:00 [Information] Executing action method "Forum.Controllers.CategoryController.CategoryTable (Forum)" - Validation state: Valid
+2023-10-19 22:37:53.853 +02:00 [Information] Executed action method "Forum.Controllers.CategoryController.CategoryTable (Forum)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 4.677ms.
+2023-10-19 22:37:53.853 +02:00 [Information] Executing ViewResult, running view "CategoryTable".
+2023-10-19 22:37:53.861 +02:00 [Information] Executed ViewResult - view "CategoryTable" executed in 8.155ms.
+2023-10-19 22:37:53.862 +02:00 [Information] Executed action "Forum.Controllers.CategoryController.CategoryTable (Forum)" in 44.7544ms
+2023-10-19 22:37:53.862 +02:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CategoryTable (Forum)"'
+2023-10-19 22:37:53.864 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/CategoryTable - - - 200 - text/html;+charset=utf-8 48.7031ms
+2023-10-19 22:37:53.867 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 22:37:53.867 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-19 22:37:53.867 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2633ms
+2023-10-19 22:37:53.879 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.1194ms
+2023-10-19 23:30:46.507 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-19 23:30:46.514 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-19 23:30:46.515 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-19 23:30:46.558 +02:00 [Information] Executing action method "Forum.Controllers.HomeController.Index (Forum)" - Validation state: Valid
+2023-10-19 23:30:46.559 +02:00 [Information] Executed action method "Forum.Controllers.HomeController.Index (Forum)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0338ms.
+2023-10-19 23:30:46.571 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-19 23:30:46.639 +02:00 [Information] Executed ViewResult - view "Index" executed in 79.8411ms.
+2023-10-19 23:30:46.639 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 123.5514ms
+2023-10-19 23:30:46.639 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-19 23:30:46.652 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 147.0862ms
+2023-10-19 23:30:46.657 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-19 23:30:46.657 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-19 23:30:46.657 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.6199ms
+2023-10-19 23:30:46.670 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.0769ms

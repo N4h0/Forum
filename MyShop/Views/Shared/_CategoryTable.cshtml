@@ -17,55 +17,54 @@
     };
 }
 
-<div class="category">
-    @if (User.IsInRole("SuperAdmin"))
-    {
-        <table class="table">
-            <thead>
-                <tr>
-                    <th></th>
-                    <th>Category Name</th>
-                    <th>Actions</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var category in Model)
-                {
-                    <tr>
-                        <td><i class="fa fa-fw fa-@category.Name"></i></td>
 
-                        <td><a asp-controller="Category" asp-action="CategoryDetails" asp-route-id="@category.CategoryId">@category.Name </a></td>
-                        <td>
-                            <div class="admin-buttons">
-                                <a asp-action="UpdateCategory" asp-route-id="@category.CategoryId" class="btn btn-success">Update</a>
-                                <a asp-action="DeleteCategory" asp-route-id="@category.CategoryId" class="btn-admin btn btn-danger">Delete</a>
-                            </div>
-                        </td>
+<div class="container">
+    <div class="category">
+        @if (User.IsInRole("SuperAdmin"))
+        {
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Category Name</th>
+                        <th>Actions</th>
                     </tr>
-                }
-            </tbody>
-        </table>
-    }
-    else
-    {
-        <div class="category">
+                </thead>
+                <tbody>
+                    @foreach (var category in Model)
+                    {
+                        <tr>
+                            <td><i class="fa fa-fw fa-@category.Name"></i></td>
+                            <td><a asp-controller="Category" asp-action="CategoryDetails" asp-route-id="@category.CategoryId">@category.Name</a></td>
+                            <td>
+                                <div class="admin-buttons">
+                                    <a asp-action="UpdateCategory" asp-route-id="@category.CategoryId" class="btn btn-success">Update</a>
+                                    <a asp-action="DeleteCategory" asp-route-id="@category.CategoryId" class="btn-admin btn btn-danger">Delete</a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
             <ul class="list-group">
                 @foreach (var category in Model)
                 {
                     <li class="list-group-item">
                         <i class="fa fa-fw @categoryIcons[category.Name]"></i>
-                        <a asp-controller="Category"
-                           asp-action="CategoryDetails"
-                           asp-route-id="@category.CategoryId">@category.Name</a>
+                        <a asp-controller="Category" asp-action="CategoryDetails" asp-route-id="@category.CategoryId">@category.Name</a>
                     </li>
                 }
             </ul>
-        </div>
-    }
-    @if (User.IsInRole("SuperAdmin"))
-    {
-        <div class="create" style="margin-left: 110px;">
-            <a class="btn btn-secondary" asp-controller="Category" asp-action="CreateCategory">Create New Category</a>
-        </div>
-    }
+        }
+        @if (User.IsInRole("SuperAdmin"))
+        {
+            <div class="create">
+                <a class="btn btn-secondary" asp-controller="Category" asp-action="CreateCategory">Create New Category</a>
+            </div>
+        }
+    </div>
 </div>
+
