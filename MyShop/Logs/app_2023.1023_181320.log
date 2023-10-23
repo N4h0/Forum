@@ -1,0 +1,32 @@
+2023-10-23 18:13:22.217 +02:00 [Information] User profile is available. Using '"C:\Users\abdik\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-23 18:13:22.637 +02:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-23 18:13:22.637 +02:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-23 18:13:22.640 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-23 18:13:22.640 +02:00 [Information] Hosting environment: "Development"
+2023-10-23 18:13:22.640 +02:00 [Information] Content root path: "C:\Users\abdik\Source\Repos\Forum\MyShop\"
+2023-10-23 18:13:26.761 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-23 18:13:26.798 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-23 18:13:26.806 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-23 18:13:26.810 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-23 18:13:26.924 +02:00 [Information] Executed ViewResult - view "Index" executed in 113.2925ms.
+2023-10-23 18:13:26.926 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 119.821ms
+2023-10-23 18:13:26.926 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-23 18:13:26.946 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 188.7028ms
+2023-10-23 18:13:26.948 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/lib/bootstrap/css/crtstyle.css - -
+2023-10-23 18:13:26.950 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/style.css - -
+2023-10-23 18:13:26.950 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css?v=dioVC-4PbvqW-BXQDC3KzLU6n_b3Y6kcqzPPP5n6J5s - -
+2023-10-23 18:13:26.950 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/lib/jquery/jquery.js - -
+2023-10-23 18:13:26.950 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-23 18:13:26.950 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/lib/bootstrap/js/bootstrap.js - -
+2023-10-23 18:13:26.952 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/style.css - - - 404 0 - 2.0671ms
+2023-10-23 18:13:26.953 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 2.7948ms
+2023-10-23 18:13:26.957 +02:00 [Information] Sending file. Request path: '"/css/style.css"'. Physical path: '"C:\Users\abdik\Source\Repos\Forum\MyShop\wwwroot\css\style.css"'
+2023-10-23 18:13:26.957 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/crtstyle.css"'. Physical path: '"C:\Users\abdik\Source\Repos\Forum\MyShop\wwwroot\lib\bootstrap\css\crtStyle.css"'
+2023-10-23 18:13:26.958 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css?v=dioVC-4PbvqW-BXQDC3KzLU6n_b3Y6kcqzPPP5n6J5s - - - 200 2633 text/css 7.5558ms
+2023-10-23 18:13:26.958 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/lib/bootstrap/css/crtstyle.css - - - 200 1133 text/css 10.0507ms
+2023-10-23 18:13:26.982 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/js/bootstrap.js"'. Physical path: '"C:\Users\abdik\Source\Repos\Forum\MyShop\wwwroot\lib\bootstrap\js\bootstrap.js"'
+2023-10-23 18:13:26.982 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/lib/bootstrap/js/bootstrap.js - - - 200 153194 application/javascript 32.1049ms
+2023-10-23 18:13:26.985 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-23 18:13:26.991 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.2883ms
+2023-10-23 18:13:26.992 +02:00 [Information] Sending file. Request path: '"/lib/jquery/jquery.js"'. Physical path: '"C:\Users\abdik\Source\Repos\Forum\MyShop\wwwroot\lib\jquery\jquery.js"'
+2023-10-23 18:13:26.992 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/lib/jquery/jquery.js - - - 200 296030 application/javascript 41.7027ms

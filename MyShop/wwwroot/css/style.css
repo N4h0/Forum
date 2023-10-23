@@ -1,0 +1,144 @@
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+
+/*NAVBAR*/
+
+
+.navbar.navbar-expand-md {
+    max-height: 50px; /* Endre denne verdien etter ønsket høyde */
+}
+
+.header-text {
+    font-size: 40px;
+    color: inherit;
+}
+
+    .header-text:hover {
+        color: inherit;
+    }
+
+
+a {
+    text-decoration: none;
+}
+
+.main-nav-link.nav-cta {
+    font-size: 20px;
+    color: inherit;
+}
+
+.main-nav-link.nav-ct:link,
+.main-nav-link.nav-ct:visited {
+    padding: 0.5rem 2rem;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #000080;
+}
+
+.main-nav-link.nav-ct:hover,
+.main-nav-link.nav-ct
+t:active {
+    background-color: #6082B6;
+
+}
+
+
+/*/ Dette snakker vi om side */
+.col-md-8 {
+    border: 1px solid #e0e0e0;
+    width: 100%;
+}
+
+/* Ramme rundt hvert innlegg */
+.list-unstyled li {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+}
+
+/* Overskriftene (h4) */
+ul.list-unstyled li h4 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* Lenker (a) i overskriftene */
+.list-unstyled li h4 a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Endre fargen til lenker når de peker (hover-effekt) */
+ul.list-unstyled li h4 a:hover {
+    color: #0056b3;
+}
+
+/* Tidsstempel (p) */
+ul.list-unstyled li p {
+    font-size: 14px;
+    color: #777;
+    margin: 0;
+}
+/*Dette snakker vi om side slutt*/
+
+
+/*Kategori start*/
+/* Legg til en blå border rundt kategoriene */
+.col {
+    border: 1px solid #0070ba; /* Blå farge */
+    padding: 9px;
+    text-align: center;
+    color: #000; /* Tekstfarge */
+    margin: 10px; /* Avstand mellom kategoriene */
+    border-radius: 5px; /* Avrundede hjørner */
+    transition: background-color 0.3s; /* Overgangseffekt på hover */
+    background-color: #4682B4;
+}
+
+    .col:hover {
+        color: #fff; /* Endrer tekstfarge på hover */
+    }
+
+
+/* Stil for hvit border */
+.border-box {
+    border: 1px solid #fff; /* Hvit border */
+    padding: 20px; /* Ekstra padding for innholdet innenfor borderen */
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold; /* Gjør overskriften fet */
+    margin-bottom: 0; /* Fjern ekstra mellomrom under overskriften */
+
+    font-size: 20px
+}
+
+    h2 a {
+        text-decoration: none; /* Fjern understrek fra lenken */
+        color: white; /* Endre farge for lenken */
+    }
+/*Kategori end*/
+
+
+
+
+/**Foooter*/
+.btn.btn-social {
+    color: var(--light);
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 35px;
+    transition: .3s;
+}
+
+
+

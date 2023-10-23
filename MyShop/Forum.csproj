@@ -49,6 +49,7 @@
   <ItemGroup>
     <Folder Include="DAL\NewFolder\" />
     <Folder Include="Logs\" />
+    <Folder Include="wwwroot\NewFolder\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Views\Search\Search.cshtml" />

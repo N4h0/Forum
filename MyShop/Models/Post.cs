@@ -12,7 +12,8 @@ namespace Forum.Models
 		public string? UserId { get; set; } //FK
 
 		[Required]
-		public string PostTitle { get; set; }
+        [RegularExpression(@"[0-9a-zA-ZæøåÆØÅ. \-]{2,20}", ErrorMessage = "The Name must be numbers or letters and between 2 to 20 characters.")]
+        public string PostTitle { get; set; }
         //Navigaiton property:
         public DateTime PostTime { get; set; }// Tidspunkt for opprettelse
 

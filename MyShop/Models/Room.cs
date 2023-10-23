@@ -6,6 +6,8 @@ namespace Forum.Models
 	{
 		public int RoomId { get; set; } //PK
         [Required]
+        [RegularExpression(@"[0-9a-zA-ZæøåÆØÅ. \-]{2,20}", ErrorMessage = "The Name must be numbers or letters and between 2 to 20 characters.")]
+
         public string RoomName { get; set; } = string.Empty; //Gir ingen mening å kunne opprette et forum uten å gi det et navn
         public int CategoryId { get; set; } //FK
 

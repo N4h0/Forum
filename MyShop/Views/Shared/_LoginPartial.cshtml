@@ -17,11 +17,11 @@
 }
 else
 {
-    <li class="nav-item">
-        <a class="nav-link text-dark" id="register" asp-area="Identity" asp-page="/Account/Register">Register</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link text-dark" id="login" asp-area="Identity" asp-page="/Account/Login">Login</a>
-    </li>
+        <div class="d-flex justify-content-between align-items-center">
+            <a class="main-nav-link nav-cta" id="login" asp-area="Identity" asp-page="/Account/Login">Logg inn</a>
+            <span class="mx-2"></span> <!-- Legg til litt mellomrom -->
+            <a class="main-nav-link nav-ct" id="register" asp-area="Identity" asp-page="/Account/Register">Register</a>
+        </div>
+
 }
 </ul>
