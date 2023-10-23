@@ -1,0 +1,47 @@
+2023-10-23 20:43:50.054 +02:00 [Information] User profile is available. Using '"C:\Users\abdik\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-23 20:43:50.478 +02:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-23 20:43:50.478 +02:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-23 20:43:50.482 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-23 20:43:50.483 +02:00 [Information] Hosting environment: "Development"
+2023-10-23 20:43:50.483 +02:00 [Information] Content root path: "C:\Users\abdik\Source\Repos\Forum\MyShop\"
+2023-10-23 20:43:54.666 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Search/Search?search=Liverpool - -
+2023-10-23 20:43:54.706 +02:00 [Information] Executing endpoint '"Forum.Controllers.SearchController.Search (Forum)"'
+2023-10-23 20:43:54.720 +02:00 [Information] Route matched with "{action = \"Search\", controller = \"Search\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Search(System.String)" on controller "Forum.Controllers.SearchController" ("Forum").
+2023-10-23 20:43:54.770 +02:00 [Information] Executing ViewResult, running view "Search".
+2023-10-23 20:43:54.874 +02:00 [Information] Executed ViewResult - view "Search" executed in 105.3ms.
+2023-10-23 20:43:54.876 +02:00 [Information] Executed action "Forum.Controllers.SearchController.Search (Forum)" in 155.2194ms
+2023-10-23 20:43:54.876 +02:00 [Information] Executed endpoint '"Forum.Controllers.SearchController.Search (Forum)"'
+2023-10-23 20:43:54.891 +02:00 [Warning] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2023-10-23 20:43:54.892 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Search/style.css - -
+2023-10-23 20:43:54.894 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Search/style.css - - - 404 0 - 2.4437ms
+2023-10-23 20:43:54.895 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Search/Search?search=Liverpool - - - 200 - text/html;+charset=utf-8 231.8368ms
+2023-10-23 20:43:54.938 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-23 20:43:54.945 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.7021ms
+2023-10-23 20:43:57.372 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-23 20:43:57.374 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-23 20:43:57.375 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-23 20:43:57.376 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-23 20:43:57.391 +02:00 [Information] Executed ViewResult - view "Index" executed in 15.5525ms.
+2023-10-23 20:43:57.391 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 16.0172ms
+2023-10-23 20:43:57.391 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-23 20:43:57.392 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 19.6386ms
+2023-10-23 20:43:57.407 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/style.css - -
+2023-10-23 20:43:57.407 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-23 20:43:57.407 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/style.css - - - 404 0 - 0.6645ms
+2023-10-23 20:43:57.408 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 1.5760ms
+2023-10-23 20:43:57.465 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-23 20:43:57.467 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.4552ms
+2023-10-23 20:43:59.190 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Search/Search?search= - -
+2023-10-23 20:43:59.191 +02:00 [Information] Executing endpoint '"Forum.Controllers.SearchController.Search (Forum)"'
+2023-10-23 20:43:59.191 +02:00 [Information] Route matched with "{action = \"Search\", controller = \"Search\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Search(System.String)" on controller "Forum.Controllers.SearchController" ("Forum").
+2023-10-23 20:43:59.193 +02:00 [Information] Executing ViewResult, running view "Search".
+2023-10-23 20:43:59.199 +02:00 [Information] Executed ViewResult - view "Search" executed in 5.8544ms.
+2023-10-23 20:43:59.199 +02:00 [Information] Executed action "Forum.Controllers.SearchController.Search (Forum)" in 8.157ms
+2023-10-23 20:43:59.199 +02:00 [Information] Executed endpoint '"Forum.Controllers.SearchController.Search (Forum)"'
+2023-10-23 20:43:59.200 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Search/Search?search= - - - 200 - text/html;+charset=utf-8 10.3570ms
+2023-10-23 20:43:59.213 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Search/style.css - -
+2023-10-23 20:43:59.214 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Search/style.css - - - 404 0 - 0.5210ms
+2023-10-23 20:43:59.214 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-23 20:43:59.217 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.6621ms
+2023-10-23 20:43:59.218 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-23 20:43:59.219 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.4032ms

@@ -1,0 +1,47 @@
+2023-10-23 20:51:08.536 +02:00 [Information] User profile is available. Using '"C:\Users\abdik\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-23 20:51:08.966 +02:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-23 20:51:08.966 +02:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-23 20:51:08.969 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-23 20:51:08.970 +02:00 [Information] Hosting environment: "Development"
+2023-10-23 20:51:08.970 +02:00 [Information] Content root path: "C:\Users\abdik\Source\Repos\Forum\MyShop\"
+2023-10-23 20:51:09.153 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Search/Search?search=Liverpool - -
+2023-10-23 20:51:09.197 +02:00 [Information] Executing endpoint '"Forum.Controllers.SearchController.Search (Forum)"'
+2023-10-23 20:51:09.212 +02:00 [Information] Route matched with "{action = \"Search\", controller = \"Search\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Search(System.String)" on controller "Forum.Controllers.SearchController" ("Forum").
+2023-10-23 20:51:09.260 +02:00 [Information] Executing ViewResult, running view "Search".
+2023-10-23 20:51:09.362 +02:00 [Information] Executed ViewResult - view "Search" executed in 100.726ms.
+2023-10-23 20:51:09.363 +02:00 [Information] Executed action "Forum.Controllers.SearchController.Search (Forum)" in 151.3314ms
+2023-10-23 20:51:09.364 +02:00 [Information] Executed endpoint '"Forum.Controllers.SearchController.Search (Forum)"'
+2023-10-23 20:51:09.376 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Search/Search?search=Liverpool - - - 200 - text/html;+charset=utf-8 225.3928ms
+2023-10-23 20:51:09.392 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Search/style.css - -
+2023-10-23 20:51:09.394 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-23 20:51:09.396 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Search/style.css - - - 404 0 - 3.7582ms
+2023-10-23 20:51:09.396 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 1.4980ms
+2023-10-23 20:51:09.398 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-23 20:51:09.404 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.6417ms
+2023-10-23 20:51:17.227 +02:00 [Information] Request starting HTTP/2 POST https://localhost:7205/Identity/Account/Logout?returnUrl=%2F application/x-www-form-urlencoded 225
+2023-10-23 20:51:17.238 +02:00 [Information] Executing endpoint '"/Account/Logout"'
+2023-10-23 20:51:17.245 +02:00 [Information] Route matched with "{page = \"/Account/Logout\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Logout"
+2023-10-23 20:51:17.254 +02:00 [Information] Executing handler method "Forum.Areas.Identity.Pages.Account.LogoutModel.OnPost" - ModelState is Valid
+2023-10-23 20:51:17.256 +02:00 [Information] AuthenticationScheme: "Identity.Application" signed out.
+2023-10-23 20:51:17.257 +02:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2023-10-23 20:51:17.257 +02:00 [Information] AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+2023-10-23 20:51:17.257 +02:00 [Information] User logged out.
+2023-10-23 20:51:17.257 +02:00 [Information] Executed handler method "OnPost", returned result "Microsoft.AspNetCore.Mvc.LocalRedirectResult".
+2023-10-23 20:51:17.258 +02:00 [Information] Executing LocalRedirectResult, redirecting to "/".
+2023-10-23 20:51:17.258 +02:00 [Information] Executed page "/Account/Logout" in 13.0331ms
+2023-10-23 20:51:17.258 +02:00 [Information] Executed endpoint '"/Account/Logout"'
+2023-10-23 20:51:17.258 +02:00 [Information] Request finished HTTP/2 POST https://localhost:7205/Identity/Account/Logout?returnUrl=%2F application/x-www-form-urlencoded 225 - 302 0 - 31.6497ms
+2023-10-23 20:51:17.261 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-23 20:51:17.262 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-23 20:51:17.263 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-23 20:51:17.264 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-23 20:51:17.275 +02:00 [Information] Executed ViewResult - view "Index" executed in 12.0706ms.
+2023-10-23 20:51:17.275 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 12.4835ms
+2023-10-23 20:51:17.275 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-23 20:51:17.276 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 15.0703ms
+2023-10-23 20:51:17.288 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/style.css - -
+2023-10-23 20:51:17.289 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/style.css - - - 404 0 - 0.9273ms
+2023-10-23 20:51:17.290 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-23 20:51:17.291 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.4912ms
+2023-10-23 20:51:17.300 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-23 20:51:17.303 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.4769ms

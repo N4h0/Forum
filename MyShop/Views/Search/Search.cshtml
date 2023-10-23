@@ -1,75 +1,111 @@
 ﻿@model SearchResultViewModel
 
-<h1>Søkeresultater</h1>
+<style>
+    .result-post {
+        border: 1px solid #fff;
+        border-radius: 10px;
+        margin: 10px 0;
+        padding: 10px;
+        background-color: #f9f9f9;
+        color: #333;
+    }
 
-@if (Model.Categories == null && Model.Posts == null && Model.Topics == null && Model.Rooms == null && Model.Comments== null)
-{
-    <p>Ingen søkeresultater funnet.</p>
+    .result-count {
+        padding: 0.4rem 1rem;
+        border-radius: 3px;
+        color: #fff;
+        background-color: #7393B3;
+        margin-top:20px;
+    }
+</style>
+<h1>Search Results</h1>
+
+@{
+    int totalResults = (Model.Categories?.Count ?? 0) + (Model.Posts?.Count ?? 0) + (Model.Topics?.Count ?? 0) + (Model.Rooms?.Count ?? 0) + (Model.Comments?.Count ?? 0);
 }
-else
-{
-    @if (Model.Categories != null && Model.Categories.Count > 0)
-    {
-        <h2>Kategorier</h2>
-        <ul>
-            @foreach (var category in Model.Categories)
-            {
-                <li>
-                    <a href="@Url.Action("CategoryDetails", "Category", new { id = category.CategoryId })">@category.Name</a>
-                </li>
-            }
-        </ul>
-    }
 
-    @if (Model.Posts != null && Model.Posts.Count > 0)
-    {
-        <h2>Poster</h2>
-        <ul>
-            @foreach (var post in Model.Posts)
-            {
-                <li>
-                    <a href="@Url.Action("PostDetails", "Post", new { id = post.PostId })">@post.PostTitle</a>
-                </li>
-            }
-        </ul>
-    }
+<div class="result-container">
+    <div class="search-results">
+        @if (totalResults == 0)
+        {
 
-    @if (Model.Topics != null && Model.Topics.Count > 0)
-    {
-        <h2>Topic</h2>
-        <ul>
-            @foreach (var topic in Model.Topics)
-            {
-                <li>
-                    <a href="@Url.Action("TopicDetails", "Topic", new { id = topic.TopicId })">@topic.TopicName</a>
-                </li>
-            }
-        </ul>
-    }
+            <form class="d-flex" method="get" action="/Search/Search">
+                <input class="form-control me-2" placeholder="Search" aria-label="Search" name="search" />
+                <button class="btn btn-white border" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+            <div class="no-results">
+                <div class="result-count">
+                    <p>Found @totalResults results</p>
+                </div>
+                <p>We couldn't find any matches for your search. You can try a more general search or modify some of the criteria.</p>
+            </div>
+        }
+        else
+        {
 
-    @if (Model.Rooms != null && Model.Rooms.Count > 0)
-    {
-        <h2>Room</h2>
-        <ul>
-            @foreach (var room in Model.Rooms)
+            <form class="d-flex" method="get" action="/Search/Search">
+                <input class="form-control me-2" placeholder="Search" aria-label="Search" name="search" />
+                <button class="btn btn-white border" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+            <div class="result-count">
+
+                <p>Found @totalResults results</p>
+            </div>
+
+            <!-- Here you display each result in separate posts -->
+            @if (Model.Categories != null && Model.Categories.Count > 0)
             {
-                <li>
-                    <a href="@Url.Action("RoomDetails", "Room", new { id = room.RoomId })">@room.RoomName</a>
-                </li>
+                @foreach (var category in Model.Categories)
+                {
+                    <div class="result-post">
+                        <a href="@Url.Action("CategoryDetails", "Category", new { id = category.CategoryId })">@category.Name</a>
+                        <!-- Add other category information here -->
+                    </div>
+                }
             }
-        </ul>
-    }
-    @if (Model.Comments != null && Model.Comments.Count > 0)
-    {
-        <h2>Comment</h2>
-        <ul>
-            @foreach (var comment in Model.Comments)
+
+            @if (Model.Posts != null && Model.Posts.Count > 0)
             {
-                <!---Denne er litt feil må ende-->
-                <li>
-                    <a href="@Url.Action("PostDetails", "Comment", new { id = comment.CommentId })">@comment.CommentDescription</a>
-                </li>
+                @foreach (var post in Model.Posts)
+                {
+                    <div class="result-post">
+                        <a href="@Url.Action("PostDetails", "Post", new { id = post.PostId })">@post.PostTitle</a>
+
+                        @{
+                            // Get the post creation time from the model
+                            var postCreationTime = post.PostTime;
+
+                            // Calculate the time difference from now to the creation time
+                            var timeDifference = DateTime.Now - postCreationTime;
+
+                            var timeAgo = string.Empty;
+
+                            if (timeDifference.TotalDays >= 1)
+                            {
+                                timeAgo = $"{(int)timeDifference.TotalDays} days ago";
+                            }
+                            else if (timeDifference.TotalHours >= 1)
+                            {
+                                timeAgo = $"{(int)timeDifference.TotalHours} hours ago";
+                            }
+                            else if (timeDifference.TotalMinutes >= 1)
+                            {
+                                timeAgo = $"{(int)timeDifference.TotalMinutes} minutes ago";
+                            }
+                            else
+                            {
+                                timeAgo = $"{(int)timeDifference.TotalSeconds} seconds ago";
+                            }
+                        }
+
+                        <p>@timeAgo</p>
+
+                        <!-- Add other post information here -->
+                    </div>
+                }
             }
-        </ul>
-    }
-}
+
+            <!-- Repeat this pattern for Topics, Rooms, and Comments -->
+        }
+    </div>
+</div>

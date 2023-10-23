@@ -1,0 +1,24 @@
+2023-10-23 20:40:44.993 +02:00 [Information] User profile is available. Using '"C:\Users\abdik\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-23 20:40:45.429 +02:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-23 20:40:45.429 +02:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-23 20:40:45.432 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-23 20:40:45.433 +02:00 [Information] Hosting environment: "Development"
+2023-10-23 20:40:45.433 +02:00 [Information] Content root path: "C:\Users\abdik\Source\Repos\Forum\MyShop\"
+2023-10-23 20:40:45.624 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Search/Search?search=Liverpool - -
+2023-10-23 20:40:45.666 +02:00 [Information] Executing endpoint '"Forum.Controllers.SearchController.Search (Forum)"'
+2023-10-23 20:40:45.680 +02:00 [Information] Route matched with "{action = \"Search\", controller = \"Search\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Search(System.String)" on controller "Forum.Controllers.SearchController" ("Forum").
+2023-10-23 20:40:45.725 +02:00 [Information] Executing ViewResult, running view "Search".
+2023-10-23 20:40:45.824 +02:00 [Information] Executed ViewResult - view "Search" executed in 98.7413ms.
+2023-10-23 20:40:45.826 +02:00 [Information] Executed action "Forum.Controllers.SearchController.Search (Forum)" in 145.5046ms
+2023-10-23 20:40:45.826 +02:00 [Information] Executed endpoint '"Forum.Controllers.SearchController.Search (Forum)"'
+2023-10-23 20:40:45.841 +02:00 [Warning] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2023-10-23 20:40:45.846 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Search/Search?search=Liverpool - - - 200 - text/html;+charset=utf-8 224.9940ms
+2023-10-23 20:40:45.851 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Search/style.css - -
+2023-10-23 20:40:45.854 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Search/style.css - - - 404 0 - 2.9061ms
+2023-10-23 20:40:45.860 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-23 20:40:45.867 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.9015ms
+2023-10-23 20:41:08.725 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Search/style.css - -
+2023-10-23 20:41:08.726 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Search/style.css - - - 404 0 - 0.8806ms
+2023-10-23 20:41:08.830 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/lib/bootstrap/js/bootstrap.js.map - -
+2023-10-23 20:41:08.841 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/js/bootstrap.js.map"'. Physical path: '"C:\Users\abdik\Source\Repos\Forum\MyShop\wwwroot\lib\bootstrap\js\bootstrap.js.map"'
+2023-10-23 20:41:08.841 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/lib/bootstrap/js/bootstrap.js.map - - - 200 289522 text/plain 11.1808ms

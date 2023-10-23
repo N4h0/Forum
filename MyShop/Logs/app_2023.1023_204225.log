@@ -1,0 +1,6 @@
+2023-10-23 20:42:26.421 +02:00 [Information] User profile is available. Using '"C:\Users\abdik\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-23 20:42:26.848 +02:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-23 20:42:26.848 +02:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-23 20:42:26.852 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-23 20:42:26.852 +02:00 [Information] Hosting environment: "Development"
+2023-10-23 20:42:26.852 +02:00 [Information] Content root path: "C:\Users\abdik\Source\Repos\Forum\MyShop\"

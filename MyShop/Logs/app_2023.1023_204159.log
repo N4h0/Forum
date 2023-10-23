@@ -1,0 +1,19 @@
+2023-10-23 20:42:00.808 +02:00 [Information] User profile is available. Using '"C:\Users\abdik\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-23 20:42:01.260 +02:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-23 20:42:01.260 +02:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-23 20:42:01.263 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-23 20:42:01.263 +02:00 [Information] Hosting environment: "Development"
+2023-10-23 20:42:01.263 +02:00 [Information] Content root path: "C:\Users\abdik\Source\Repos\Forum\MyShop\"
+2023-10-23 20:42:13.827 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Search/Search?search=Liverpool - -
+2023-10-23 20:42:13.865 +02:00 [Information] Executing endpoint '"Forum.Controllers.SearchController.Search (Forum)"'
+2023-10-23 20:42:13.879 +02:00 [Information] Route matched with "{action = \"Search\", controller = \"Search\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Search(System.String)" on controller "Forum.Controllers.SearchController" ("Forum").
+2023-10-23 20:42:13.926 +02:00 [Information] Executing ViewResult, running view "Search".
+2023-10-23 20:42:14.021 +02:00 [Information] Executed ViewResult - view "Search" executed in 94.3633ms.
+2023-10-23 20:42:14.022 +02:00 [Information] Executed action "Forum.Controllers.SearchController.Search (Forum)" in 142.3203ms
+2023-10-23 20:42:14.022 +02:00 [Information] Executed endpoint '"Forum.Controllers.SearchController.Search (Forum)"'
+2023-10-23 20:42:14.036 +02:00 [Warning] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2023-10-23 20:42:14.041 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Search/Search?search=Liverpool - - - 200 - text/html;+charset=utf-8 215.7069ms
+2023-10-23 20:42:14.042 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Search/style.css - -
+2023-10-23 20:42:14.045 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Search/style.css - - - 404 0 - 2.6124ms
+2023-10-23 20:42:14.087 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-23 20:42:14.095 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.9785ms

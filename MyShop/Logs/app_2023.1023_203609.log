@@ -1,0 +1,20 @@
+2023-10-23 20:36:10.643 +02:00 [Information] User profile is available. Using '"C:\Users\abdik\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-23 20:36:11.086 +02:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-23 20:36:11.086 +02:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-23 20:36:11.089 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-23 20:36:11.090 +02:00 [Information] Hosting environment: "Development"
+2023-10-23 20:36:11.090 +02:00 [Information] Content root path: "C:\Users\abdik\Source\Repos\Forum\MyShop\"
+2023-10-23 20:36:11.285 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Search/Search?search=Liverpool - -
+2023-10-23 20:36:11.324 +02:00 [Information] Executing endpoint '"Forum.Controllers.SearchController.Search (Forum)"'
+2023-10-23 20:36:11.338 +02:00 [Information] Route matched with "{action = \"Search\", controller = \"Search\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Search(System.String)" on controller "Forum.Controllers.SearchController" ("Forum").
+2023-10-23 20:36:11.385 +02:00 [Information] Executing ViewResult, running view "Search".
+2023-10-23 20:36:11.486 +02:00 [Information] Executed ViewResult - view "Search" executed in 100.5664ms.
+2023-10-23 20:36:11.487 +02:00 [Information] Executed action "Forum.Controllers.SearchController.Search (Forum)" in 149.3313ms
+2023-10-23 20:36:11.488 +02:00 [Information] Executed endpoint '"Forum.Controllers.SearchController.Search (Forum)"'
+2023-10-23 20:36:11.499 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Search/style.css - -
+2023-10-23 20:36:11.499 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-23 20:36:11.499 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-23 20:36:11.501 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Search/Search?search=Liverpool - - - 200 - text/html;+charset=utf-8 217.7264ms
+2023-10-23 20:36:11.501 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 2.0524ms
+2023-10-23 20:36:11.502 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Search/style.css - - - 404 0 - 3.1633ms
+2023-10-23 20:36:11.506 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.8389ms

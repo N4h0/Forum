@@ -8,55 +8,66 @@ namespace Forum.Controllers
 {
     public class SearchController : Controller
     {
-        private readonly CategoryDbContext _context;
+        private readonly CategoryDbContext _db;
+        private readonly ILogger<SearchController> _logger; // Legg til loggeren
 
-        public SearchController(CategoryDbContext context)
+        public SearchController(CategoryDbContext db, ILogger<SearchController> logger) // Legg til loggeren i konstruktøren
         {
-            _context = context;
+            _db = db;
+            _logger = logger;
         }
 
         [HttpGet]
-        public IActionResult Search(string search)
-        {
-            if (string.IsNullOrWhiteSpace(search))
+   
+            [HttpGet]
+            public IActionResult Search(string search)
             {
-                // Hvis søket er tomt, returner en tom liste
-                return View(new SearchResultViewModel());
-            }
+                try
+                {
+                    if (string.IsNullOrWhiteSpace(search))
+                    {
+                        // Hvis søket er tomt, returner en tom liste
+                        return View(new SearchResultViewModel());
+                    }
 
-            var categories = _context.Categories.ToList()
+
+                    var categories = _db.Categories.ToList()
                 .Where(category => category.Name.Contains(search, StringComparison.OrdinalIgnoreCase))
                 .ToList();
-            var room = _context.Rooms.ToList()
+            var room = _db.Rooms.ToList()
                .Where(room => room.RoomName.Contains(search, StringComparison.OrdinalIgnoreCase))
                .ToList();
 
-            var posts = _context.Posts.ToList()
+            var posts = _db.Posts.ToList()
                 .Where(post => post.PostTitle.Contains(search, StringComparison.OrdinalIgnoreCase))
                 .ToList();
 
 
 
-            var topic = _context.Topics.ToList()
+            var topic = _db.Topics.ToList()
                 .Where(topic => topic.TopicName.Contains(search,StringComparison.OrdinalIgnoreCase)).ToList();
 
 
-            var commment = _context.Comments.ToList()
+            var commment = _db.Comments.ToList()
                 .Where(commment => commment.CommentDescription.Contains(search, StringComparison.OrdinalIgnoreCase))
                 .ToList();
 
+                    var searchResults = new SearchResultViewModel
+                    {
+                        Categories = categories,
+                        Posts = posts,
+                        Topics = topic,
+                        Rooms = room,
+                        Comments = commment
+                    };
 
-            var searchResults = new SearchResultViewModel
-            {
-                Categories = categories,
-                Posts = posts,
-                Topics= topic,
-                Rooms = room,
-                Comments = commment
-            };
-
-            return View(searchResults);
+                    return View(searchResults);
+                }
+                catch (Exception e)
+                {
+                    _logger.LogError(e, "An error occurred during the search."); // Legg til logging for feil
+                    return View("Error");
+                }
+            }
         }
-
     }
-}
