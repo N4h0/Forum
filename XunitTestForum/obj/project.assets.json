@@ -13297,19 +13297,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\abdik\\.nuget\\packages\\": {}
+    "C:\\Users\\latif\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\abdik\\Source\\Repos\\Forum\\XunitTestForum\\XunitTestForum.csproj",
+      "projectUniqueName": "C:\\Users\\latif\\source\\repos\\PROJECT_1WEB\\Forum\\XunitTestForum\\XunitTestForum.csproj",
       "projectName": "XunitTestForum",
-      "projectPath": "C:\\Users\\abdik\\Source\\Repos\\Forum\\XunitTestForum\\XunitTestForum.csproj",
-      "packagesPath": "C:\\Users\\abdik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\abdik\\Source\\Repos\\Forum\\XunitTestForum\\obj\\",
+      "projectPath": "C:\\Users\\latif\\source\\repos\\PROJECT_1WEB\\Forum\\XunitTestForum\\XunitTestForum.csproj",
+      "packagesPath": "C:\\Users\\latif\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\latif\\source\\repos\\PROJECT_1WEB\\Forum\\XunitTestForum\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\abdik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\latif\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13323,8 +13323,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\abdik\\Source\\Repos\\Forum\\MyShop\\Forum.csproj": {
-              "projectPath": "C:\\Users\\abdik\\Source\\Repos\\Forum\\MyShop\\Forum.csproj"
+            "C:\\Users\\latif\\source\\repos\\PROJECT_1WEB\\Forum\\MyShop\\Forum.csproj": {
+              "projectPath": "C:\\Users\\latif\\source\\repos\\PROJECT_1WEB\\Forum\\MyShop\\Forum.csproj"
             }
           }
         }
@@ -13380,7 +13380,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

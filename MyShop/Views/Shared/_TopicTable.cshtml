@@ -3,22 +3,46 @@
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
 
-<div class="category">
-    <ul class="list-group">
-        @foreach (var topic in Model)
+<div class="container">
+    <div class="category">
+        @if (User.IsInRole("SuperAdmin"))
         {
-            <li class="list-group-item">
-                <a asp-controller="Topic"
-                   asp-action="TopicDetails"
-                   asp-route-id="@topic.TopicId">@topic.TopicName</a>
-                @if (User.IsInRole("SuperAdmin"))
-                {
-                    <div class="admin-buttons">
-                        <a asp-action="UpdateTopic" asp-controller="Topic" asp-route-id="@topic.TopicId" class=" btn-admin btn btn-success">Update</a>
-                        <a asp-action="DeleteTopic" asp-controller="Topic" asp-route-id="@topic.TopicId" class="btn-admin btn btn-danger">Delete</a>
-                    </div>
-                }
-            </li>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Topic Name</th>
+                        <th class="thead">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var topic in Model)
+                    {
+                        <tr>
+                            <td>
+                                <a asp-controller="Topic" asp-action="TopicDetails" asp-route-id="@topic.TopicId">@topic.TopicName</a>
+                            </td>
+                            <td>
+                                <div class="admin-buttons topic">
+                                    <a asp-action="UpdateTopic" asp-controller="Topic" asp-route-id="@topic.TopicId" class="btn btn-success">Update</a>
+                                    <a asp-action="DeleteTopic" asp-controller="Topic" asp-route-id="@topic.TopicId" class="btn btn-danger">Delete</a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
         }
-    </ul>
+        else
+        {
+            <ul class="list-group">
+                @foreach (var topic in Model)
+                {
+                    <li class="list-group-roomitem">
+                        <a asp-controller="Topic" asp-action="TopicDetails" asp-route-id="@topic.TopicId">@topic.TopicName</a>
+                        
+                    </li>
+                }
+            </ul>
+        }
+    </div>
 </div>

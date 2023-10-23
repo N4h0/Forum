@@ -72,6 +72,11 @@ public static class DBInit
             {
                 new Room { RoomName = "Fotball", CategoryId= 1 },
                 new Room { RoomName = "operatingsystem", CategoryId= 2},
+                 new Room { RoomName = "Cross-country skiing", CategoryId= 1 },
+                new Room { RoomName = "ICT operations and security", CategoryId= 2},
+                 new Room { RoomName = "Parties", CategoryId= 3 },
+                new Room { RoomName = "Current Events", CategoryId= 3},
+
             };
             context.AddRange(rooms);
             context.SaveChanges();
@@ -82,6 +87,10 @@ public static class DBInit
             {
                 new Topic { TopicName = "Liverpool", RoomId= 1 },
                 new Topic { TopicName = "Linux", RoomId= 2},
+                 new Topic { TopicName = "Equipment and maintenance", RoomId= 3 },
+                new Topic { TopicName = "Cyber Threats and vulnerabilities", RoomId= 4},
+                 new Topic { TopicName = "Right-wing politics", RoomId= 5 },
+                new Topic { TopicName = "Ghaza", RoomId= 6},
             };
             context.AddRange(topics);
             context.SaveChanges();

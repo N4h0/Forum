@@ -45,12 +45,30 @@ a {
     background-color: #7f858d;
     width: 80%;
 }
-
-    .list-group-item a {
-        display: block;
-        color: white;
-        font-weight: bold;
+    .list-group-roomitem  {
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        background-color: #7f858d;
+        width: 80%;
     }
+
+
+.list-group-item a {
+    display: block;
+    color: white;
+    font-weight: bold;
+}
+
+.list-group-roomitem a {
+    display: block;
+    color: white;
+    font-weight: bold;
+}
 
 .fa {
     margin: 10px;
@@ -61,8 +79,13 @@ a {
     margin: auto;
 }
 
+.topic, ::after, ::before {
+    justify-content: space-around;
+}
+
 .create {
     margin-top: 20px;
+    
 }
 
 .category ul.list-group {
@@ -71,4 +94,19 @@ a {
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+}
+
+.topic::after, .topic::before {
+    justify-content: space-around;
+}
+
+.thead{
+    text-align:center;
+}
+.heading{
+    margin-left:30px;
+   
+}
+.margGrid{
+    margin-top:20px;
 }
