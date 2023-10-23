@@ -1,0 +1,81 @@
+2023-10-23 08:35:40.632 +02:00 [Information] User profile is available. Using '"C:\Users\Pette\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-23 08:35:42.057 +02:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-23 08:35:42.059 +02:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-23 08:35:42.067 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-23 08:35:42.069 +02:00 [Information] Hosting environment: "Development"
+2023-10-23 08:35:42.070 +02:00 [Information] Content root path: "C:\Users\Pette\source\repos\Forum\MyShop\"
+2023-10-23 08:35:42.808 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-23 08:35:42.936 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-23 08:35:42.951 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-23 08:35:42.962 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-23 08:35:43.351 +02:00 [Information] Executed ViewResult - view "Index" executed in 390.0582ms.
+2023-10-23 08:35:43.358 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 406.6913ms
+2023-10-23 08:35:43.359 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-23 08:35:43.416 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/lib/bootstrap/js/bootstrap.js - -
+2023-10-23 08:35:43.416 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/lib/bootstrap/css/crtstyle.css - -
+2023-10-23 08:35:43.416 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-23 08:35:43.416 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/lib/jquery/jquery.js - -
+2023-10-23 08:35:43.423 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 6.5321ms
+2023-10-23 08:35:43.426 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 623.7880ms
+2023-10-23 08:35:43.454 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/crtstyle.css"'. Physical path: '"C:\Users\Pette\source\repos\Forum\MyShop\wwwroot\lib\bootstrap\css\crtStyle.css"'
+2023-10-23 08:35:43.455 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/lib/bootstrap/css/crtstyle.css - - - 200 1133 text/css 39.0931ms
+2023-10-23 08:35:43.464 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/js/bootstrap.js"'. Physical path: '"C:\Users\Pette\source\repos\Forum\MyShop\wwwroot\lib\bootstrap\js\bootstrap.js"'
+2023-10-23 08:35:43.464 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/lib/bootstrap/js/bootstrap.js - - - 200 153194 application/javascript 48.2991ms
+2023-10-23 08:35:43.467 +02:00 [Information] Sending file. Request path: '"/lib/jquery/jquery.js"'. Physical path: '"C:\Users\Pette\source\repos\Forum\MyShop\wwwroot\lib\jquery\jquery.js"'
+2023-10-23 08:35:43.467 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/lib/jquery/jquery.js - - - 200 296030 application/javascript 51.5744ms
+2023-10-23 08:35:44.086 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-23 08:35:44.124 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 37.6507ms
+2023-10-23 08:35:44.457 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/favicon.ico - -
+2023-10-23 08:35:44.461 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/favicon.ico - - - 404 0 - 3.7582ms
+2023-10-23 08:40:25.080 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Identity/Account/Register - -
+2023-10-23 08:40:25.092 +02:00 [Information] Executing endpoint '"/Account/Register"'
+2023-10-23 08:40:25.114 +02:00 [Information] Route matched with "{page = \"/Account/Register\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Register"
+2023-10-23 08:40:25.149 +02:00 [Information] Executing handler method "Forum.Areas.Identity.Pages.Account.RegisterModel.OnGetAsync" - ModelState is Valid
+2023-10-23 08:40:25.152 +02:00 [Information] Executed handler method "OnGetAsync", returned result "".
+2023-10-23 08:40:25.156 +02:00 [Information] Executing an implicit handler method - ModelState is Valid
+2023-10-23 08:40:25.156 +02:00 [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+2023-10-23 08:40:25.210 +02:00 [Information] Executed page "/Account/Register" in 95.8033ms
+2023-10-23 08:40:25.211 +02:00 [Information] Executed endpoint '"/Account/Register"'
+2023-10-23 08:40:25.213 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Identity/Account/Register - - - 200 - text/html;+charset=utf-8 132.6225ms
+2023-10-23 08:40:25.218 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/lib/bootstrap/css/crtstyle.css - -
+2023-10-23 08:40:25.218 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Identity/lib/jquery-validation/dist/jquery.validate.js - -
+2023-10-23 08:40:25.218 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - -
+2023-10-23 08:40:25.219 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-23 08:40:25.223 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 1.0210ms
+2023-10-23 08:40:25.237 +02:00 [Information] The file "/lib/bootstrap/css/crtstyle.css" was not modified
+2023-10-23 08:40:25.238 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/lib/bootstrap/css/crtstyle.css - - - 304 - text/css 19.8790ms
+2023-10-23 08:40:25.247 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-23 08:40:25.249 +02:00 [Information] Sending file. Request path: '"/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"'. Physical path: '"C:\Users\Pette\.nuget\packages\microsoft.aspnetcore.identity.ui\6.0.20\staticwebassets\V5\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js"'
+2023-10-23 08:40:25.249 +02:00 [Information] Sending file. Request path: '"/Identity/lib/jquery-validation/dist/jquery.validate.js"'. Physical path: '"C:\Users\Pette\.nuget\packages\microsoft.aspnetcore.identity.ui\6.0.20\staticwebassets\V5\lib\jquery-validation\dist\jquery.validate.js"'
+2023-10-23 08:40:25.249 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - - - 200 19366 application/javascript 30.7137ms
+2023-10-23 08:40:25.249 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Identity/lib/jquery-validation/dist/jquery.validate.js - - - 200 48676 application/javascript 31.0898ms
+2023-10-23 08:40:25.258 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.7266ms
+2023-10-23 08:40:35.386 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Identity/Account/Login - -
+2023-10-23 08:40:35.391 +02:00 [Information] Executing endpoint '"/Account/Login"'
+2023-10-23 08:40:35.395 +02:00 [Information] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Login"
+2023-10-23 08:40:35.402 +02:00 [Information] Executing handler method "Forum.Areas.Identity.Pages.Account.LoginModel.OnGetAsync" - ModelState is Valid
+2023-10-23 08:40:35.408 +02:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2023-10-23 08:40:35.409 +02:00 [Information] Executed handler method "OnGetAsync", returned result "".
+2023-10-23 08:40:35.409 +02:00 [Information] Executing an implicit handler method - ModelState is Valid
+2023-10-23 08:40:35.409 +02:00 [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+2023-10-23 08:40:35.438 +02:00 [Information] Executed page "/Account/Login" in 43.0102ms
+2023-10-23 08:40:35.438 +02:00 [Information] Executed endpoint '"/Account/Login"'
+2023-10-23 08:40:35.440 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Identity/Account/Login - - - 200 - text/html;+charset=utf-8 54.3231ms
+2023-10-23 08:40:35.445 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-23 08:40:35.445 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-23 08:40:35.446 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.5974ms
+2023-10-23 08:40:35.450 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.2426ms
+2023-10-23 08:40:37.250 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Identity/Account/Register - -
+2023-10-23 08:40:37.251 +02:00 [Information] Executing endpoint '"/Account/Register"'
+2023-10-23 08:40:37.251 +02:00 [Information] Route matched with "{page = \"/Account/Register\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Register"
+2023-10-23 08:40:37.254 +02:00 [Information] Executing handler method "Forum.Areas.Identity.Pages.Account.RegisterModel.OnGetAsync" - ModelState is Valid
+2023-10-23 08:40:37.254 +02:00 [Information] Executed handler method "OnGetAsync", returned result "".
+2023-10-23 08:40:37.254 +02:00 [Information] Executing an implicit handler method - ModelState is Valid
+2023-10-23 08:40:37.254 +02:00 [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+2023-10-23 08:40:37.265 +02:00 [Information] Executed page "/Account/Register" in 14.0424ms
+2023-10-23 08:40:37.265 +02:00 [Information] Executed endpoint '"/Account/Register"'
+2023-10-23 08:40:37.267 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Identity/Account/Register - - - 200 - text/html;+charset=utf-8 17.2842ms
+2023-10-23 08:40:37.270 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-23 08:40:37.270 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-23 08:40:37.270 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.6273ms
+2023-10-23 08:40:37.274 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.4654ms
