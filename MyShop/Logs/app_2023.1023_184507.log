@@ -1,0 +1,20 @@
+2023-10-23 18:45:09.052 +02:00 [Information] User profile is available. Using '"C:\Users\abdik\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-23 18:45:09.498 +02:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-23 18:45:09.498 +02:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-23 18:45:09.501 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-23 18:45:09.502 +02:00 [Information] Hosting environment: "Development"
+2023-10-23 18:45:09.502 +02:00 [Information] Content root path: "C:\Users\abdik\Source\Repos\Forum\MyShop\"
+2023-10-23 18:45:09.914 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-23 18:45:09.951 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-23 18:45:09.960 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-23 18:45:09.965 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-23 18:45:10.062 +02:00 [Information] Executed ViewResult - view "Index" executed in 96.1623ms.
+2023-10-23 18:45:10.064 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 103.49ms
+2023-10-23 18:45:10.064 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-23 18:45:10.077 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 165.6338ms
+2023-10-23 18:45:10.079 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-23 18:45:10.079 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/style.css - -
+2023-10-23 18:45:10.081 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 1.6026ms
+2023-10-23 18:45:10.081 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/style.css - - - 404 0 - 2.3928ms
+2023-10-23 18:45:10.091 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-23 18:45:10.098 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.8261ms

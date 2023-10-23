@@ -1,0 +1,34 @@
+2023-10-23 18:36:50.354 +02:00 [Information] User profile is available. Using '"C:\Users\abdik\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-23 18:36:50.770 +02:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-23 18:36:50.770 +02:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-23 18:36:50.773 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-23 18:36:50.773 +02:00 [Information] Hosting environment: "Development"
+2023-10-23 18:36:50.774 +02:00 [Information] Content root path: "C:\Users\abdik\Source\Repos\Forum\MyShop\"
+2023-10-23 18:36:51.255 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-23 18:36:51.294 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-23 18:36:51.303 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-23 18:36:51.307 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-23 18:36:51.407 +02:00 [Information] Executed ViewResult - view "Index" executed in 99.018ms.
+2023-10-23 18:36:51.409 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 105.7239ms
+2023-10-23 18:36:51.409 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-23 18:36:51.423 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/lib/bootstrap/css/crtstyle.css - -
+2023-10-23 18:36:51.424 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/lib/jquery/jquery.js - -
+2023-10-23 18:36:51.424 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/lib/bootstrap/js/bootstrap.js - -
+2023-10-23 18:36:51.424 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 172.4989ms
+2023-10-23 18:36:51.424 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/style.css - -
+2023-10-23 18:36:51.424 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css?v=GnikK2H98wctm5Ubs6lb4mz5RxX2-RwSTOuYmgekITI - -
+2023-10-23 18:36:51.425 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-23 18:36:51.425 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/img/omnifood-logo.png - -
+2023-10-23 18:36:51.427 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/img/omnifood-logo.png - - - 404 0 - 2.3357ms
+2023-10-23 18:36:51.427 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/style.css - - - 404 0 - 2.7061ms
+2023-10-23 18:36:51.427 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 2.5754ms
+2023-10-23 18:36:51.432 +02:00 [Information] Sending file. Request path: '"/css/style.css"'. Physical path: '"C:\Users\abdik\Source\Repos\Forum\MyShop\wwwroot\css\style.css"'
+2023-10-23 18:36:51.432 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/js/bootstrap.js"'. Physical path: '"C:\Users\abdik\Source\Repos\Forum\MyShop\wwwroot\lib\bootstrap\js\bootstrap.js"'
+2023-10-23 18:36:51.432 +02:00 [Information] Sending file. Request path: '"/lib/jquery/jquery.js"'. Physical path: '"C:\Users\abdik\Source\Repos\Forum\MyShop\wwwroot\lib\jquery\jquery.js"'
+2023-10-23 18:36:51.432 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/crtstyle.css"'. Physical path: '"C:\Users\abdik\Source\Repos\Forum\MyShop\wwwroot\lib\bootstrap\css\crtStyle.css"'
+2023-10-23 18:36:51.432 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css?v=GnikK2H98wctm5Ubs6lb4mz5RxX2-RwSTOuYmgekITI - - - 200 2649 text/css 7.2400ms
+2023-10-23 18:36:51.432 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/lib/bootstrap/js/bootstrap.js - - - 200 153194 application/javascript 8.1852ms
+2023-10-23 18:36:51.432 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/lib/jquery/jquery.js - - - 200 296030 application/javascript 8.2132ms
+2023-10-23 18:36:51.432 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/lib/bootstrap/css/crtstyle.css - - - 200 1133 text/css 9.2270ms
+2023-10-23 18:36:51.463 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-23 18:36:51.469 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.4972ms
