@@ -3,10 +3,6 @@ body {
     font-family: 'Mulish', sans-serif;
 }
 
-body, html {
-    height: 100%;
-    margin: 0;
-}
 
 
 /*NAVBAR*/
@@ -30,9 +26,13 @@ a {
     text-decoration: none;
 }
 
-.main-nav-link.nav-cta {
+.main-nav-link.nav-cta, #logout{
     font-size: 20px;
     color: inherit;
+}
+#logout {
+    padding: 0.5rem 2rem;
+    border-radius: 3px;
 }
 
 .main-nav-link.nav-ct:link,
