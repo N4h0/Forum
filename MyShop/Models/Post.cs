@@ -1,5 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
+
+
 namespace Forum.Models
 
 	{
@@ -7,6 +9,8 @@ namespace Forum.Models
 	{
 		public int PostId { get; set; } //PK
 		public int TopicId { get; set; } //FK
+		public string? UserId { get; set; } //FK
+
 		[Required]
 		public string PostTitle { get; set; }
         //Navigaiton property:

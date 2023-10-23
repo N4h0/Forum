@@ -1,0 +1,7 @@
+2023-10-23 11:16:35.628 +02:00 [Information] User profile is available. Using '"C:\Users\Johan\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-23 11:16:36.274 +02:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-23 11:16:36.275 +02:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-23 11:16:36.279 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-23 11:16:36.281 +02:00 [Information] Hosting environment: "Development"
+2023-10-23 11:16:36.281 +02:00 [Information] Content root path: "C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\"
+2023-10-23 11:16:36.889 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -

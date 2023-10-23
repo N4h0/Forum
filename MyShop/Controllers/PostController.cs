@@ -6,6 +6,8 @@ using Forum.ViewModels;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.Text;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+
 
 namespace Forum.Controllers
 {
@@ -63,8 +65,11 @@ namespace Forum.Controllers
             {
                 //Need to figure out how to create the comment here
                 await _postRepository.Create(postCommentViewModel.Post); //Creating post
+                _logger.LogError("We're here");
                 postCommentViewModel.Comment.PostId = postCommentViewModel.Post.PostId; //Then assigning the Comments postId equal to Posts Postid
-                await _commentRepository.Create(postCommentViewModel.Comment); //Then I can create the post.
+                postCommentViewModel.Comment.UserId = postCommentViewModel.Post.UserId; //Then assigning the Comments userId equal to Posts Userid
+                await _commentRepository.Create(postCommentViewModel.Comment); //Then I can create the comment.
+                _logger.LogError("We're here");
                 return RedirectToAction("TopicDetails", "Topic", new { id = postCommentViewModel.Post.TopicId });//Return to Topic/TopicDetails/TopicId after create.
             }
             _logger.LogWarning("[PostController] Post creation failed {@post}", postCommentViewModel.Post);

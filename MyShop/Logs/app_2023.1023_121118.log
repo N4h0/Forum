@@ -1,0 +1,350 @@
+2023-10-23 12:11:19.593 +02:00 [Information] User profile is available. Using '"C:\Users\Johan\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-23 12:11:20.204 +02:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-23 12:11:20.206 +02:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-23 12:11:20.211 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-23 12:11:20.212 +02:00 [Information] Hosting environment: "Development"
+2023-10-23 12:11:20.213 +02:00 [Information] Content root path: "C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\"
+2023-10-23 12:11:20.544 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-23 12:11:20.609 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-23 12:11:20.618 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-23 12:11:20.625 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-23 12:11:20.761 +02:00 [Information] Executed ViewResult - view "Index" executed in 137.8509ms.
+2023-10-23 12:11:20.765 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 146.8496ms
+2023-10-23 12:11:20.765 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-23 12:11:20.786 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-23 12:11:20.786 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/lib/bootstrap/css/crtstyle.css - -
+2023-10-23 12:11:20.789 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 247.2597ms
+2023-10-23 12:11:20.789 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 3.2549ms
+2023-10-23 12:11:20.799 +02:00 [Information] The file "/lib/bootstrap/css/crtstyle.css" was not modified
+2023-10-23 12:11:20.800 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/lib/bootstrap/css/crtstyle.css - - - 304 - text/css 13.7632ms
+2023-10-23 12:11:20.822 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-23 12:11:20.832 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.0988ms
+2023-10-23 12:11:22.952 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Topic/TopicTable - -
+2023-10-23 12:11:22.957 +02:00 [Information] Executing endpoint '"Forum.Controllers.TopicController.TopicTable (Forum)"'
+2023-10-23 12:11:22.959 +02:00 [Information] Route matched with "{action = \"TopicTable\", controller = \"Topic\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TopicTable()" on controller "Forum.Controllers.TopicController" ("Forum").
+2023-10-23 12:11:22.976 +02:00 [Information] Executing ViewResult, running view "TopicTable".
+2023-10-23 12:11:22.989 +02:00 [Information] Executed ViewResult - view "TopicTable" executed in 13.4775ms.
+2023-10-23 12:11:22.989 +02:00 [Information] Executed action "Forum.Controllers.TopicController.TopicTable (Forum)" in 30.2765ms
+2023-10-23 12:11:22.989 +02:00 [Information] Executed endpoint '"Forum.Controllers.TopicController.TopicTable (Forum)"'
+2023-10-23 12:11:22.990 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Topic/TopicTable - - - 200 - text/html;+charset=utf-8 37.6651ms
+2023-10-23 12:11:22.995 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-23 12:11:22.995 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-23 12:11:22.996 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3849ms
+2023-10-23 12:11:22.998 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.7431ms
+2023-10-23 12:11:24.133 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Topic/TopicDetails/1 - -
+2023-10-23 12:11:24.141 +02:00 [Information] Executing endpoint '"Forum.Controllers.TopicController.TopicDetails (Forum)"'
+2023-10-23 12:11:24.148 +02:00 [Information] Route matched with "{action = \"TopicDetails\", controller = \"Topic\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TopicDetails(Int32)" on controller "Forum.Controllers.TopicController" ("Forum").
+2023-10-23 12:11:24.158 +02:00 [Information] Executing ViewResult, running view "TopicDetails".
+2023-10-23 12:11:24.190 +02:00 [Information] Executed ViewResult - view "TopicDetails" executed in 32.2903ms.
+2023-10-23 12:11:24.190 +02:00 [Information] Executed action "Forum.Controllers.TopicController.TopicDetails (Forum)" in 42.199ms
+2023-10-23 12:11:24.190 +02:00 [Information] Executed endpoint '"Forum.Controllers.TopicController.TopicDetails (Forum)"'
+2023-10-23 12:11:24.191 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Topic/TopicDetails/1 - - - 200 - text/html;+charset=utf-8 58.1190ms
+2023-10-23 12:11:24.199 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-23 12:11:24.199 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-23 12:11:24.199 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2302ms
+2023-10-23 12:11:24.201 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.2031ms
+2023-10-23 12:11:25.668 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Post/CreatePost?topicId=1 - -
+2023-10-23 12:11:25.675 +02:00 [Information] Executing endpoint '"Forum.Controllers.PostController.CreatePost (Forum)"'
+2023-10-23 12:11:25.675 +02:00 [Information] Route matched with "{action = \"CreatePost\", controller = \"Post\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreatePost(Int32)" on controller "Forum.Controllers.PostController" ("Forum").
+2023-10-23 12:11:25.679 +02:00 [Information] Executing ViewResult, running view "CreatePost".
+2023-10-23 12:11:25.705 +02:00 [Information] Executed ViewResult - view "CreatePost" executed in 26.3504ms.
+2023-10-23 12:11:25.706 +02:00 [Information] Executed action "Forum.Controllers.PostController.CreatePost (Forum)" in 30.0414ms
+2023-10-23 12:11:25.706 +02:00 [Information] Executed endpoint '"Forum.Controllers.PostController.CreatePost (Forum)"'
+2023-10-23 12:11:25.708 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Post/CreatePost?topicId=1 - - - 200 - text/html;+charset=utf-8 39.4096ms
+2023-10-23 12:11:25.715 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-23 12:11:25.715 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-23 12:11:25.715 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3067ms
+2023-10-23 12:11:25.717 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.4046ms
+2023-10-23 12:11:29.392 +02:00 [Information] Request starting HTTP/2 POST https://localhost:7205/Post/Createpost?topicId=1 application/x-www-form-urlencoded 356
+2023-10-23 12:11:29.397 +02:00 [Information] Executing endpoint '"Forum.Controllers.PostController.CreatePost (Forum)"'
+2023-10-23 12:11:29.402 +02:00 [Information] Route matched with "{action = \"CreatePost\", controller = \"Post\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePost(Forum.ViewModels.PostCommentViewModel)" on controller "Forum.Controllers.PostController" ("Forum").
+2023-10-23 12:11:29.428 +02:00 [Error] Failed executing DbCommand ("1"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?' (Size = 5), @p3='?' (DbType = Int32), @p4='?' (Size = 36)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"Posts\" (\"PostId\", \"PostTime\", \"PostTitle\", \"TopicId\", \"UserId\")
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+2023-10-23 12:11:29.457 +02:00 [Error] An exception occurred in the database while saving changes for context type '"Forum.Models.CategoryDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: Posts.PostId'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)"
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: Posts.PostId'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-10-23 12:11:29.487 +02:00 [Error] [PoatRepository] post creation failed for post Post { PostId: 8, TopicId: 1, UserId: "167fa1cd-3c99-406d-b026-56e20837e96d", PostTitle: "22222", PostTime: 01/01/0001 00:00:00, Topic: null, Comments: null }, error message: "An error occurred while saving the entity changes. See the inner exception for details."
+2023-10-23 12:11:29.489 +02:00 [Error] We're here
+2023-10-23 12:11:29.493 +02:00 [Error] Failed executing DbCommand ("0"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?' (Size = 5), @p3='?' (DbType = Int32), @p4='?' (Size = 36)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"Posts\" (\"PostId\", \"PostTime\", \"PostTitle\", \"TopicId\", \"UserId\")
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+2023-10-23 12:11:29.500 +02:00 [Error] An exception occurred in the database while saving changes for context type '"Forum.Models.CategoryDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: Posts.PostId'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)"
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: Posts.PostId'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-10-23 12:11:29.514 +02:00 [Error] [CommentRepository] comment creation failed for CommentID Comment { CommentId: 0, UserId: null, PostId: 8, CommentDescription: "222222222222222222", Post: Post { PostId: 8, TopicId: 1, UserId: "167fa1cd-3c99-406d-b026-56e20837e96d", PostTitle: "22222", PostTime: 01/01/0001 00:00:00, Topic: null, Comments: [Comment { CommentId: 0, UserId: null, PostId: 8, CommentDescription: "222222222222222222", Post: Post { PostId: 8, TopicId: 1, UserId: "167fa1cd-3c99-406d-b026-56e20837e96d", PostTitle: "22222", PostTime: 01/01/0001 00:00:00, Topic: null, Comments: [Comment { CommentId: 0, UserId: null, PostId: 8, CommentDescription: "222222222222222222", Post: Post { PostId: 8, TopicId: 1, UserId: "167fa1cd-3c99-406d-b026-56e20837e96d", PostTitle: "22222", PostTime: 01/01/0001 00:00:00, Topic: null, Comments: [Comment { CommentId: null, UserId: null, PostId: null, CommentDescription: null, Post: null }] } }] } }] } }, error message: "An error occurred while saving the entity changes. See the inner exception for details."
+2023-10-23 12:11:29.515 +02:00 [Error] We're here
+2023-10-23 12:11:29.516 +02:00 [Information] Executing RedirectResult, redirecting to "/Topic/TopicDetails/1".
+2023-10-23 12:11:29.516 +02:00 [Information] Executed action "Forum.Controllers.PostController.CreatePost (Forum)" in 114.3572ms
+2023-10-23 12:11:29.516 +02:00 [Information] Executed endpoint '"Forum.Controllers.PostController.CreatePost (Forum)"'
+2023-10-23 12:11:29.517 +02:00 [Information] Request finished HTTP/2 POST https://localhost:7205/Post/Createpost?topicId=1 application/x-www-form-urlencoded 356 - 302 0 - 125.1513ms
+2023-10-23 12:11:29.519 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Topic/TopicDetails/1 - -
+2023-10-23 12:11:29.521 +02:00 [Information] Executing endpoint '"Forum.Controllers.TopicController.TopicDetails (Forum)"'
+2023-10-23 12:11:29.521 +02:00 [Information] Route matched with "{action = \"TopicDetails\", controller = \"Topic\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TopicDetails(Int32)" on controller "Forum.Controllers.TopicController" ("Forum").
+2023-10-23 12:11:29.523 +02:00 [Information] Executing ViewResult, running view "TopicDetails".
+2023-10-23 12:11:29.529 +02:00 [Information] Executed ViewResult - view "TopicDetails" executed in 5.1731ms.
+2023-10-23 12:11:29.529 +02:00 [Information] Executed action "Forum.Controllers.TopicController.TopicDetails (Forum)" in 7.5027ms
+2023-10-23 12:11:29.529 +02:00 [Information] Executed endpoint '"Forum.Controllers.TopicController.TopicDetails (Forum)"'
+2023-10-23 12:11:29.530 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Topic/TopicDetails/1 - - - 200 - text/html;+charset=utf-8 10.7533ms
+2023-10-23 12:11:29.541 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-23 12:11:29.541 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-23 12:11:29.541 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2553ms
+2023-10-23 12:11:29.543 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.4006ms
+2023-10-23 12:11:30.172 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Post/PostDetails/8 - -
+2023-10-23 12:11:30.174 +02:00 [Information] Executing endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-23 12:11:30.176 +02:00 [Information] Route matched with "{action = \"PostDetails\", controller = \"Post\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostDetails(Int32)" on controller "Forum.Controllers.PostController" ("Forum").
+2023-10-23 12:11:30.181 +02:00 [Information] Executing ViewResult, running view "PostDetails".
+2023-10-23 12:11:30.201 +02:00 [Information] Executed ViewResult - view "PostDetails" executed in 19.7358ms.
+2023-10-23 12:11:30.201 +02:00 [Information] Executed action "Forum.Controllers.PostController.PostDetails (Forum)" in 24.732ms
+2023-10-23 12:11:30.201 +02:00 [Information] Executed endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-23 12:11:30.202 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Post/PostDetails/8 - - - 200 - text/html;+charset=utf-8 29.8823ms
+2023-10-23 12:11:30.207 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-23 12:11:30.207 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-23 12:11:30.208 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2986ms
+2023-10-23 12:11:30.210 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.5043ms
+2023-10-23 12:13:48.309 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/CategoryTable - -
+2023-10-23 12:13:48.315 +02:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CategoryTable (Forum)"'
+2023-10-23 12:13:48.317 +02:00 [Information] Route matched with "{action = \"CategoryTable\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CategoryTable()" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-23 12:13:48.325 +02:00 [Information] Executing ViewResult, running view "CategoryTable".
+2023-10-23 12:13:48.335 +02:00 [Information] Executed ViewResult - view "CategoryTable" executed in 9.7175ms.
+2023-10-23 12:13:48.335 +02:00 [Information] Executed action "Forum.Controllers.CategoryController.CategoryTable (Forum)" in 17.8649ms
+2023-10-23 12:13:48.335 +02:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CategoryTable (Forum)"'
+2023-10-23 12:13:48.337 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/CategoryTable - - - 200 - text/html;+charset=utf-8 28.1702ms
+2023-10-23 12:13:48.347 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-23 12:13:48.347 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-23 12:13:48.347 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3354ms
+2023-10-23 12:13:48.349 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.4792ms
+2023-10-23 12:13:49.716 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/CategoryDetails/1 - -
+2023-10-23 12:13:49.722 +02:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-23 12:13:49.723 +02:00 [Information] Route matched with "{action = \"CategoryDetails\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CategoryDetails(Int32)" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-23 12:13:49.727 +02:00 [Information] Executing ViewResult, running view "CategoryDetails".
+2023-10-23 12:13:49.745 +02:00 [Information] Executed ViewResult - view "CategoryDetails" executed in 18.4328ms.
+2023-10-23 12:13:49.746 +02:00 [Information] Executed action "Forum.Controllers.CategoryController.CategoryDetails (Forum)" in 22.3868ms
+2023-10-23 12:13:49.746 +02:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-23 12:13:49.747 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/CategoryDetails/1 - - - 200 - text/html;+charset=utf-8 30.2591ms
+2023-10-23 12:13:49.755 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-23 12:13:49.755 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-23 12:13:49.755 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2269ms
+2023-10-23 12:13:49.758 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.8444ms
+2023-10-23 12:13:50.446 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Room/RoomDetails/1 - -
+2023-10-23 12:13:50.449 +02:00 [Information] Executing endpoint '"Forum.Controllers.RoomController.RoomDetails (Forum)"'
+2023-10-23 12:13:50.450 +02:00 [Information] Route matched with "{action = \"RoomDetails\", controller = \"Room\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RoomDetails(Int32)" on controller "Forum.Controllers.RoomController" ("Forum").
+2023-10-23 12:13:50.454 +02:00 [Information] Executing ViewResult, running view "RoomDetails".
+2023-10-23 12:13:50.463 +02:00 [Information] Executed ViewResult - view "RoomDetails" executed in 9.3096ms.
+2023-10-23 12:13:50.464 +02:00 [Information] Executed action "Forum.Controllers.RoomController.RoomDetails (Forum)" in 13.4642ms
+2023-10-23 12:13:50.464 +02:00 [Information] Executed endpoint '"Forum.Controllers.RoomController.RoomDetails (Forum)"'
+2023-10-23 12:13:50.465 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Room/RoomDetails/1 - - - 200 - text/html;+charset=utf-8 18.4073ms
+2023-10-23 12:13:50.473 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-23 12:13:50.473 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-23 12:13:50.473 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2816ms
+2023-10-23 12:13:50.475 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.3020ms
+2023-10-23 12:13:50.951 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Topic/TopicDetails/1 - -
+2023-10-23 12:13:50.953 +02:00 [Information] Executing endpoint '"Forum.Controllers.TopicController.TopicDetails (Forum)"'
+2023-10-23 12:13:50.953 +02:00 [Information] Route matched with "{action = \"TopicDetails\", controller = \"Topic\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TopicDetails(Int32)" on controller "Forum.Controllers.TopicController" ("Forum").
+2023-10-23 12:13:50.954 +02:00 [Information] Executing ViewResult, running view "TopicDetails".
+2023-10-23 12:13:50.960 +02:00 [Information] Executed ViewResult - view "TopicDetails" executed in 5.3146ms.
+2023-10-23 12:13:50.960 +02:00 [Information] Executed action "Forum.Controllers.TopicController.TopicDetails (Forum)" in 7.129ms
+2023-10-23 12:13:50.960 +02:00 [Information] Executed endpoint '"Forum.Controllers.TopicController.TopicDetails (Forum)"'
+2023-10-23 12:13:50.961 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Topic/TopicDetails/1 - - - 200 - text/html;+charset=utf-8 10.1959ms
+2023-10-23 12:13:50.970 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-23 12:13:50.970 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-23 12:13:50.970 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3140ms
+2023-10-23 12:13:50.972 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.2437ms
+2023-10-23 12:13:51.945 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Post/CreatePost?topicId=1 - -
+2023-10-23 12:13:51.947 +02:00 [Information] Executing endpoint '"Forum.Controllers.PostController.CreatePost (Forum)"'
+2023-10-23 12:13:51.947 +02:00 [Information] Route matched with "{action = \"CreatePost\", controller = \"Post\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreatePost(Int32)" on controller "Forum.Controllers.PostController" ("Forum").
+2023-10-23 12:13:51.948 +02:00 [Information] Executing ViewResult, running view "CreatePost".
+2023-10-23 12:13:51.952 +02:00 [Information] Executed ViewResult - view "CreatePost" executed in 4.0205ms.
+2023-10-23 12:13:51.952 +02:00 [Information] Executed action "Forum.Controllers.PostController.CreatePost (Forum)" in 4.2184ms
+2023-10-23 12:13:51.952 +02:00 [Information] Executed endpoint '"Forum.Controllers.PostController.CreatePost (Forum)"'
+2023-10-23 12:13:51.953 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Post/CreatePost?topicId=1 - - - 200 - text/html;+charset=utf-8 7.9319ms
+2023-10-23 12:13:51.962 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-23 12:13:51.962 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-23 12:13:51.962 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2809ms
+2023-10-23 12:13:51.964 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.1290ms
+2023-10-23 12:13:58.242 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/lib/bootstrap/js/bootstrap.js.map - -
+2023-10-23 12:13:58.243 +02:00 [Information] The file "/lib/bootstrap/js/bootstrap.js.map" was not modified
+2023-10-23 12:13:58.243 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/lib/bootstrap/js/bootstrap.js.map - - - 304 - text/plain 0.5402ms
+2023-10-23 12:13:59.361 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Post/CreatePost?topicId=1 - -
+2023-10-23 12:13:59.364 +02:00 [Information] Executing endpoint '"Forum.Controllers.PostController.CreatePost (Forum)"'
+2023-10-23 12:13:59.364 +02:00 [Information] Route matched with "{action = \"CreatePost\", controller = \"Post\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreatePost(Int32)" on controller "Forum.Controllers.PostController" ("Forum").
+2023-10-23 12:13:59.364 +02:00 [Information] Executing ViewResult, running view "CreatePost".
+2023-10-23 12:13:59.368 +02:00 [Information] Executed ViewResult - view "CreatePost" executed in 3.993ms.
+2023-10-23 12:13:59.368 +02:00 [Information] Executed action "Forum.Controllers.PostController.CreatePost (Forum)" in 4.2208ms
+2023-10-23 12:13:59.368 +02:00 [Information] Executed endpoint '"Forum.Controllers.PostController.CreatePost (Forum)"'
+2023-10-23 12:13:59.369 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Post/CreatePost?topicId=1 - - - 200 - text/html;+charset=utf-8 7.8376ms
+2023-10-23 12:13:59.377 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-23 12:13:59.377 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-23 12:13:59.377 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3381ms
+2023-10-23 12:13:59.379 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.1937ms
+2023-10-23 12:14:08.470 +02:00 [Information] Request starting HTTP/2 POST https://localhost:7205/Post/Createpost?topicId=1 application/x-www-form-urlencoded 368
+2023-10-23 12:14:08.472 +02:00 [Information] Executing endpoint '"Forum.Controllers.PostController.CreatePost (Forum)"'
+2023-10-23 12:14:08.472 +02:00 [Information] Route matched with "{action = \"CreatePost\", controller = \"Post\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePost(Forum.ViewModels.PostCommentViewModel)" on controller "Forum.Controllers.PostController" ("Forum").
+2023-10-23 12:14:08.480 +02:00 [Error] Failed executing DbCommand ("1"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?' (Size = 10), @p3='?' (DbType = Int32), @p4='?' (Size = 36)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"Posts\" (\"PostId\", \"PostTime\", \"PostTitle\", \"TopicId\", \"UserId\")
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+2023-10-23 12:14:08.487 +02:00 [Error] An exception occurred in the database while saving changes for context type '"Forum.Models.CategoryDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: Posts.PostId'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)"
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: Posts.PostId'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-10-23 12:14:08.499 +02:00 [Error] [PoatRepository] post creation failed for post Post { PostId: 9, TopicId: 1, UserId: "167fa1cd-3c99-406d-b026-56e20837e96d", PostTitle: "0000000000", PostTime: 01/01/0001 00:00:00, Topic: null, Comments: null }, error message: "An error occurred while saving the entity changes. See the inner exception for details."
+2023-10-23 12:14:08.500 +02:00 [Error] We're here
+2023-10-23 12:14:08.502 +02:00 [Error] Failed executing DbCommand ("0"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?' (Size = 10), @p3='?' (DbType = Int32), @p4='?' (Size = 36)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"Posts\" (\"PostId\", \"PostTime\", \"PostTitle\", \"TopicId\", \"UserId\")
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+2023-10-23 12:14:08.508 +02:00 [Error] An exception occurred in the database while saving changes for context type '"Forum.Models.CategoryDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: Posts.PostId'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)"
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: Posts.PostId'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-10-23 12:14:08.520 +02:00 [Error] [CommentRepository] comment creation failed for CommentID Comment { CommentId: 0, UserId: null, PostId: 9, CommentDescription: "0000000000000000000000000", Post: Post { PostId: 9, TopicId: 1, UserId: "167fa1cd-3c99-406d-b026-56e20837e96d", PostTitle: "0000000000", PostTime: 01/01/0001 00:00:00, Topic: null, Comments: [Comment { CommentId: 0, UserId: null, PostId: 9, CommentDescription: "0000000000000000000000000", Post: Post { PostId: 9, TopicId: 1, UserId: "167fa1cd-3c99-406d-b026-56e20837e96d", PostTitle: "0000000000", PostTime: 01/01/0001 00:00:00, Topic: null, Comments: [Comment { CommentId: 0, UserId: null, PostId: 9, CommentDescription: "0000000000000000000000000", Post: Post { PostId: 9, TopicId: 1, UserId: "167fa1cd-3c99-406d-b026-56e20837e96d", PostTitle: "0000000000", PostTime: 01/01/0001 00:00:00, Topic: null, Comments: [Comment { CommentId: null, UserId: null, PostId: null, CommentDescription: null, Post: null }] } }] } }] } }, error message: "An error occurred while saving the entity changes. See the inner exception for details."
+2023-10-23 12:14:08.521 +02:00 [Error] We're here
+2023-10-23 12:14:08.521 +02:00 [Information] Executing RedirectResult, redirecting to "/Topic/TopicDetails/1".
+2023-10-23 12:14:08.521 +02:00 [Information] Executed action "Forum.Controllers.PostController.CreatePost (Forum)" in 48.7539ms
+2023-10-23 12:14:08.521 +02:00 [Information] Executed endpoint '"Forum.Controllers.PostController.CreatePost (Forum)"'
+2023-10-23 12:14:08.521 +02:00 [Information] Request finished HTTP/2 POST https://localhost:7205/Post/Createpost?topicId=1 application/x-www-form-urlencoded 368 - 302 0 - 51.4174ms
+2023-10-23 12:14:08.524 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Topic/TopicDetails/1 - -
+2023-10-23 12:14:08.526 +02:00 [Information] Executing endpoint '"Forum.Controllers.TopicController.TopicDetails (Forum)"'
+2023-10-23 12:14:08.526 +02:00 [Information] Route matched with "{action = \"TopicDetails\", controller = \"Topic\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TopicDetails(Int32)" on controller "Forum.Controllers.TopicController" ("Forum").
+2023-10-23 12:14:08.528 +02:00 [Information] Executing ViewResult, running view "TopicDetails".
+2023-10-23 12:14:08.534 +02:00 [Information] Executed ViewResult - view "TopicDetails" executed in 5.7381ms.
+2023-10-23 12:14:08.534 +02:00 [Information] Executed action "Forum.Controllers.TopicController.TopicDetails (Forum)" in 7.8533ms
+2023-10-23 12:14:08.534 +02:00 [Information] Executed endpoint '"Forum.Controllers.TopicController.TopicDetails (Forum)"'
+2023-10-23 12:14:08.535 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Topic/TopicDetails/1 - - - 200 - text/html;+charset=utf-8 11.3860ms
+2023-10-23 12:14:08.546 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-23 12:14:08.546 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-23 12:14:08.547 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3495ms
+2023-10-23 12:14:08.549 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.3281ms

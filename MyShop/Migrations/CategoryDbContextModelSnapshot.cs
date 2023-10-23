@@ -44,10 +44,14 @@ namespace Forum.Migrations
 
                     b.Property<string>("CommentDescription")
                         .IsRequired()
+                        .HasMaxLength(500)
                         .HasColumnType("TEXT");
 
                     b.Property<int>("PostId")
                         .HasColumnType("INTEGER");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("TEXT");
 
                     b.HasKey("CommentId");
 
@@ -62,12 +66,18 @@ namespace Forum.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<DateTime>("PostTime")
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("PostTitle")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<int>("TopicId")
                         .HasColumnType("INTEGER");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("TEXT");
 
                     b.HasKey("PostId");
 

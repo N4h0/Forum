@@ -1,0 +1,6 @@
+2023-10-23 11:26:11.132 +02:00 [Information] Applying migration '"20230928185904_InitDb"'.
+2023-10-23 11:26:11.158 +02:00 [Error] Failed executing DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"Categories\" (
+    \"CategoryId\" INTEGER NOT NULL CONSTRAINT \"PK_Categories\" PRIMARY KEY AUTOINCREMENT,
+    \"Name\" TEXT NOT NULL
+);"

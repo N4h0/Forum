@@ -1,0 +1,62 @@
+2023-10-23 10:50:32.452 +02:00 [Information] User profile is available. Using '"C:\Users\Johan\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-23 10:50:33.010 +02:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-23 10:50:33.011 +02:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-23 10:50:33.016 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-23 10:50:33.018 +02:00 [Information] Hosting environment: "Development"
+2023-10-23 10:50:33.019 +02:00 [Information] Content root path: "C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\"
+2023-10-23 10:50:33.457 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-23 10:50:33.512 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-23 10:50:33.520 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-23 10:50:33.525 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-23 10:50:33.637 +02:00 [Information] Executed ViewResult - view "Index" executed in 111.7399ms.
+2023-10-23 10:50:33.640 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 120.0583ms
+2023-10-23 10:50:33.640 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-23 10:50:33.661 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-23 10:50:33.663 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 207.6914ms
+2023-10-23 10:50:33.666 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 5.4852ms
+2023-10-23 10:50:33.696 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-23 10:50:33.706 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.0668ms
+2023-10-23 10:50:37.574 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Identity/Account/Manage - -
+2023-10-23 10:50:37.582 +02:00 [Information] Executing endpoint '"/Account/Manage/Index"'
+2023-10-23 10:50:37.593 +02:00 [Information] Route matched with "{page = \"/Account/Manage/Index\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Manage/Index"
+2023-10-23 10:50:37.603 +02:00 [Information] Executing handler method "Forum.Areas.Identity.Pages.Account.Manage.IndexModel.OnGetAsync" - ModelState is Valid
+2023-10-23 10:50:37.608 +02:00 [Information] Executed handler method "OnGetAsync", returned result "Microsoft.AspNetCore.Mvc.NotFoundObjectResult".
+2023-10-23 10:50:37.610 +02:00 [Information] Executing "NotFoundObjectResult", writing value of type '"System.String"'.
+2023-10-23 10:50:37.615 +02:00 [Information] Executed page "/Account/Manage/Index" in 22.1706ms
+2023-10-23 10:50:37.615 +02:00 [Information] Executed endpoint '"/Account/Manage/Index"'
+2023-10-23 10:50:37.615 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Identity/Account/Manage - - - 404 - text/plain;+charset=utf-8 41.1165ms
+2023-10-23 10:50:39.944 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-23 10:50:39.952 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-23 10:50:39.952 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-23 10:50:39.952 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-23 10:50:39.960 +02:00 [Information] Executed ViewResult - view "Index" executed in 7.9297ms.
+2023-10-23 10:50:39.960 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 8.1665ms
+2023-10-23 10:50:39.960 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-23 10:50:39.961 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 17.2482ms
+2023-10-23 10:50:39.965 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-23 10:50:39.965 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.4240ms
+2023-10-23 10:50:41.948 +02:00 [Information] Request starting HTTP/2 POST https://localhost:7205/Identity/Account/Logout?returnUrl=%2F application/x-www-form-urlencoded 225
+2023-10-23 10:50:41.953 +02:00 [Information] Executing endpoint '"/Account/Logout"'
+2023-10-23 10:50:41.955 +02:00 [Information] Route matched with "{page = \"/Account/Logout\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Logout"
+2023-10-23 10:50:41.966 +02:00 [Information] Executing handler method "Forum.Areas.Identity.Pages.Account.LogoutModel.OnPost" - ModelState is Valid
+2023-10-23 10:50:41.968 +02:00 [Information] AuthenticationScheme: "Identity.Application" signed out.
+2023-10-23 10:50:41.968 +02:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2023-10-23 10:50:41.968 +02:00 [Information] AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+2023-10-23 10:50:41.969 +02:00 [Information] User logged out.
+2023-10-23 10:50:41.969 +02:00 [Information] Executed handler method "OnPost", returned result "Microsoft.AspNetCore.Mvc.LocalRedirectResult".
+2023-10-23 10:50:41.970 +02:00 [Information] Executing LocalRedirectResult, redirecting to "/".
+2023-10-23 10:50:41.970 +02:00 [Information] Executed page "/Account/Logout" in 15.0987ms
+2023-10-23 10:50:41.970 +02:00 [Information] Executed endpoint '"/Account/Logout"'
+2023-10-23 10:50:41.970 +02:00 [Information] Request finished HTTP/2 POST https://localhost:7205/Identity/Account/Logout?returnUrl=%2F application/x-www-form-urlencoded 225 - 302 0 - 22.6789ms
+2023-10-23 10:50:41.973 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-23 10:50:41.973 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-23 10:50:41.973 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-23 10:50:41.973 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-23 10:50:41.981 +02:00 [Information] Executed ViewResult - view "Index" executed in 7.9608ms.
+2023-10-23 10:50:41.981 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 8.0894ms
+2023-10-23 10:50:41.981 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-23 10:50:41.983 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 9.9838ms
+2023-10-23 10:50:41.990 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-23 10:50:41.990 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-23 10:50:41.990 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3580ms
+2023-10-23 10:50:41.993 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.9085ms

@@ -10,6 +10,8 @@ public static class DBInit
     {
         using var serviceScope = app.ApplicationServices.CreateScope();
         CategoryDbContext context = serviceScope.ServiceProvider.GetRequiredService<CategoryDbContext>();
+
+        if (2 == 2) {
         context.Database.EnsureDeleted();
         context.Database.EnsureCreated();
 
@@ -117,5 +119,6 @@ public static class DBInit
             context.AddRange(comments);
             context.SaveChanges();
         }
+    }
     }
 }

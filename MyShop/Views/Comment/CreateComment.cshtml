@@ -1,4 +1,7 @@
 ﻿@model Comment
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
 
 <h2>Reply</h2>
 
@@ -11,6 +14,7 @@
     <input type="hidden" asp-for="PostId" value="@Model.PostId" />
 
     <button type="submit" class="btn btn-primary">Create</button>
+    <input type="hidden" asp-for="UserId" value="@UserManager.GetUserId(User)" />
 
     <a asp-controller="Post" asp-action="PostDetails" asp-route-id="@Model.PostId" class="btn btn-secondary">Back to Post Details</a>
 </form>
