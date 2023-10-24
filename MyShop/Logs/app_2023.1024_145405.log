@@ -1,0 +1,75 @@
+2023-10-24 14:54:08.566 +02:00 [Information] User profile is available. Using '"C:\Users\abdik\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-24 14:54:09.337 +02:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-24 14:54:09.338 +02:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-24 14:54:09.344 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-24 14:54:09.345 +02:00 [Information] Hosting environment: "Development"
+2023-10-24 14:54:09.346 +02:00 [Information] Content root path: "C:\Users\abdik\Source\Repos\Forum\MyShop\"
+2023-10-24 14:54:09.423 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Search/Search?search=Liverpool - -
+2023-10-24 14:54:09.504 +02:00 [Information] Executing endpoint '"Forum.Controllers.SearchController.Search (Forum)"'
+2023-10-24 14:54:09.522 +02:00 [Information] Route matched with "{action = \"Search\", controller = \"Search\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Search(System.String)" on controller "Forum.Controllers.SearchController" ("Forum").
+2023-10-24 14:54:09.647 +02:00 [Information] Executing action method "Forum.Controllers.SearchController.Search (Forum)" - Validation state: Valid
+2023-10-24 14:54:09.736 +02:00 [Information] Executed action method "Forum.Controllers.SearchController.Search (Forum)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 84.4979ms.
+2023-10-24 14:54:09.745 +02:00 [Information] Executing ViewResult, running view "Search".
+2023-10-24 14:54:09.786 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-24 14:54:09.791 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-24 14:54:09.792 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-24 14:54:09.802 +02:00 [Information] Executing action method "Forum.Controllers.HomeController.Index (Forum)" - Validation state: Valid
+2023-10-24 14:54:09.803 +02:00 [Information] Executed action method "Forum.Controllers.HomeController.Index (Forum)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.2243ms.
+2023-10-24 14:54:09.804 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-24 14:54:09.945 +02:00 [Information] Executed ViewResult - view "Index" executed in 137.6961ms.
+2023-10-24 14:54:09.945 +02:00 [Information] Executed ViewResult - view "Search" executed in 201.5079ms.
+2023-10-24 14:54:09.951 +02:00 [Information] Executed action "Forum.Controllers.SearchController.Search (Forum)" in 428.3965ms
+2023-10-24 14:54:09.951 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 158.8554ms
+2023-10-24 14:54:09.951 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-24 14:54:09.951 +02:00 [Information] Executed endpoint '"Forum.Controllers.SearchController.Search (Forum)"'
+2023-10-24 14:54:09.986 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Search/Search?search=Liverpool - - - 200 - text/html;+charset=utf-8 565.1086ms
+2023-10-24 14:54:09.997 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 199.2296ms
+2023-10-24 14:54:10.006 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/style.css - -
+2023-10-24 14:54:10.006 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/formula1.jpg - -
+2023-10-24 14:54:10.006 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css?v=l5Iz_l9ngncCa7RBHFoGIqzK6IOAKT_ANwuQAZFFdAE - -
+2023-10-24 14:54:10.006 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-24 14:54:10.007 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Search/style.css - -
+2023-10-24 14:54:10.007 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/fotball.jpg - -
+2023-10-24 14:54:10.025 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 19.0487ms
+2023-10-24 14:54:10.028 +02:00 [Information] The file "/images/fotball.jpg" was not modified
+2023-10-24 14:54:10.028 +02:00 [Information] The file "/images/formula1.jpg" was not modified
+2023-10-24 14:54:10.028 +02:00 [Information] The file "/css/style.css" was not modified
+2023-10-24 14:54:10.029 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/fotball.jpg - - - 304 - image/jpeg 21.5736ms
+2023-10-24 14:54:10.029 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/formula1.jpg - - - 304 - image/jpeg 23.2526ms
+2023-10-24 14:54:10.029 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css?v=l5Iz_l9ngncCa7RBHFoGIqzK6IOAKT_ANwuQAZFFdAE - - - 304 - text/css 23.3135ms
+2023-10-24 14:54:10.037 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Search/style.css - - - 404 0 - 29.3254ms
+2023-10-24 14:54:10.037 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/style.css - - - 404 0 - 31.1144ms
+2023-10-24 14:54:10.052 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/vacation.jpg - -
+2023-10-24 14:54:10.052 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/mosque.jpg - -
+2023-10-24 14:54:10.052 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-24 14:54:10.052 +02:00 [Information] The file "/images/vacation.jpg" was not modified
+2023-10-24 14:54:10.052 +02:00 [Information] The file "/images/mosque.jpg" was not modified
+2023-10-24 14:54:10.053 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/vacation.jpg - - - 304 - image/jpeg 1.1162ms
+2023-10-24 14:54:10.053 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/mosque.jpg - - - 304 - image/jpeg 1.0596ms
+2023-10-24 14:54:10.062 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-24 14:54:10.062 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/cyberS.jpg - -
+2023-10-24 14:54:10.062 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/skiEquipments.jpg - -
+2023-10-24 14:54:10.062 +02:00 [Information] The file "/images/skiEquipments.jpg" was not modified
+2023-10-24 14:54:10.062 +02:00 [Information] The file "/images/cyberS.jpg" was not modified
+2023-10-24 14:54:10.062 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.5350ms
+2023-10-24 14:54:10.063 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/skiEquipments.jpg - - - 304 - image/jpeg 0.6416ms
+2023-10-24 14:54:10.063 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/cyberS.jpg - - - 304 - image/jpeg 0.6517ms
+2023-10-24 14:54:10.070 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.2604ms
+2023-10-24 14:54:10.072 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-24 14:54:10.080 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.9907ms
+2023-10-24 14:54:18.598 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-24 14:54:18.600 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-24 14:54:18.601 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-24 14:54:18.609 +02:00 [Information] Executing action method "Forum.Controllers.HomeController.Index (Forum)" - Validation state: Valid
+2023-10-24 14:54:18.609 +02:00 [Information] Executed action method "Forum.Controllers.HomeController.Index (Forum)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0086ms.
+2023-10-24 14:54:18.609 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-24 14:54:18.613 +02:00 [Information] Executed ViewResult - view "Index" executed in 4.5027ms.
+2023-10-24 14:54:18.614 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 12.8892ms
+2023-10-24 14:54:18.614 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-24 14:54:18.616 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 18.5178ms
+2023-10-24 14:54:18.628 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/style.css - -
+2023-10-24 14:54:18.628 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-24 14:54:18.631 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-24 14:54:18.632 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3059ms
+2023-10-24 14:54:18.636 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/style.css - - - 404 0 - 8.4971ms
+2023-10-24 14:54:18.637 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.6938ms

@@ -1,0 +1,23 @@
+2023-10-24 14:47:45.031 +02:00 [Information] User profile is available. Using '"C:\Users\abdik\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-24 14:47:45.431 +02:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-24 14:47:45.432 +02:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-24 14:47:45.435 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-24 14:47:45.435 +02:00 [Information] Hosting environment: "Development"
+2023-10-24 14:47:45.435 +02:00 [Information] Content root path: "C:\Users\abdik\Source\Repos\Forum\MyShop\"
+2023-10-24 14:47:45.711 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Search/Search?search=Liverpool - -
+2023-10-24 14:47:45.750 +02:00 [Information] Executing endpoint '"Forum.Controllers.SearchController.Search (Forum)"'
+2023-10-24 14:47:45.763 +02:00 [Information] Route matched with "{action = \"Search\", controller = \"Search\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Search(System.String)" on controller "Forum.Controllers.SearchController" ("Forum").
+2023-10-24 14:47:45.805 +02:00 [Information] Executing ViewResult, running view "Search".
+2023-10-24 14:47:45.901 +02:00 [Information] Executed ViewResult - view "Search" executed in 94.1769ms.
+2023-10-24 14:47:45.902 +02:00 [Information] Executed action "Forum.Controllers.SearchController.Search (Forum)" in 139.135ms
+2023-10-24 14:47:45.902 +02:00 [Information] Executed endpoint '"Forum.Controllers.SearchController.Search (Forum)"'
+2023-10-24 14:47:45.914 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Search/Search?search=Liverpool - - - 200 - text/html;+charset=utf-8 206.2866ms
+2023-10-24 14:47:45.921 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css?v=l5Iz_l9ngncCa7RBHFoGIqzK6IOAKT_ANwuQAZFFdAE - -
+2023-10-24 14:47:45.921 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-24 14:47:45.921 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Search/style.css - -
+2023-10-24 14:47:45.923 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 1.6656ms
+2023-10-24 14:47:45.924 +02:00 [Information] The file "/css/style.css" was not modified
+2023-10-24 14:47:45.924 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css?v=l5Iz_l9ngncCa7RBHFoGIqzK6IOAKT_ANwuQAZFFdAE - - - 304 - text/css 2.8768ms
+2023-10-24 14:47:45.925 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Search/style.css - - - 404 0 - 4.2550ms
+2023-10-24 14:47:45.930 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-24 14:47:45.936 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5.5783ms

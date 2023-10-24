@@ -55,6 +55,7 @@ t:active {
 .col-md-8 {
     border: 1px solid #e0e0e0;
     width: 100%;
+    background-color:white;
 }
 
 /* Ramme rundt hvert innlegg */
@@ -92,20 +93,18 @@ ul.list-unstyled li p {
 
 
 /*Kategori start*/
-/* Legg til en blå border rundt kategoriene */
-.col-category{
-    border: 1px solid #0070ba; /* Blå farge */
-    padding: 9px;
+
+.col-category {
+    padding: 7px;
     text-align: center;
-    color: #000; /* Tekstfarge */
-    margin: 10px; /* Avstand mellom kategoriene */
-    border-radius: 5px; /* Avrundede hjørner */
-    transition: background-color 0.3s; /* Overgangseffekt på hover */
+    color: white; /* Tekstfarge */
+    margin: 6px; /* space between categories */
     background-color: #4682B4;
+    font-weight: bold;
 }
 
     .col-category:hover {
-        color: #fff; /* Endrer tekstfarge på hover */
+        color: #fff; /* change the color on hover */
     }
 
 

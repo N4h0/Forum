@@ -63,6 +63,9 @@ namespace Forum.Controllers
         {
             if (ModelState.IsValid)
             {
+                // Set PostTime to current time before saving
+                postCommentViewModel.Post.PostTime = DateTime.Now;
+
                 //Need to figure out how to create the comment here
                 await _postRepository.Create(postCommentViewModel.Post); //Creating post
                 _logger.LogError("We're here");

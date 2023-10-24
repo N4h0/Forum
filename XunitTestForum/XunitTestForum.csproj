@@ -27,4 +27,8 @@
     <ProjectReference Include="..\MyShop\Forum.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>

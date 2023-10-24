@@ -48,3 +48,36 @@
 2023-10-24 14:11:14.299 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/cyberS.jpg - - - 200 1891447 image/jpeg 21.1907ms
 2023-10-24 14:11:14.303 +02:00 [Information] Sending file. Request path: '"/images/mosque.jpg"'. Physical path: '"C:\Users\abdik\Source\Repos\Forum\MyShop\wwwroot\images\mosque.jpg"'
 2023-10-24 14:11:14.303 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/mosque.jpg - - - 200 3633928 image/jpeg 24.5582ms
+2023-10-24 14:13:35.282 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/CategoryTable - -
+2023-10-24 14:13:35.284 +02:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CategoryTable (Forum)"'
+2023-10-24 14:13:35.286 +02:00 [Information] Route matched with "{action = \"CategoryTable\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CategoryTable()" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-24 14:13:35.296 +02:00 [Information] Executing ViewResult, running view "CategoryTable".
+2023-10-24 14:13:35.309 +02:00 [Information] Executed ViewResult - view "CategoryTable" executed in 13.8557ms.
+2023-10-24 14:13:35.310 +02:00 [Information] Executed action "Forum.Controllers.CategoryController.CategoryTable (Forum)" in 23.2513ms
+2023-10-24 14:13:35.310 +02:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CategoryTable (Forum)"'
+2023-10-24 14:13:35.311 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/CategoryTable - - - 200 - text/html;+charset=utf-8 28.2461ms
+2023-10-24 14:13:35.332 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/style.css - -
+2023-10-24 14:13:35.332 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-24 14:13:35.332 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css?v=LpEGOl1RF6bAIdKfo8w_9IMh8TS7vIhDO7wTnUY9LL4 - -
+2023-10-24 14:13:35.332 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2232ms
+2023-10-24 14:13:35.334 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/style.css - - - 404 0 - 1.9778ms
+2023-10-24 14:13:35.340 +02:00 [Information] The file "/css/style.css" was not modified
+2023-10-24 14:13:35.340 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css?v=LpEGOl1RF6bAIdKfo8w_9IMh8TS7vIhDO7wTnUY9LL4 - - - 304 - text/css 8.0691ms
+2023-10-24 14:13:35.342 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-24 14:13:35.344 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 1.9781ms
+2023-10-24 14:13:39.515 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-24 14:13:39.516 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-24 14:13:39.516 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-24 14:13:39.516 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-24 14:13:39.523 +02:00 [Information] Executed ViewResult - view "Index" executed in 6.5959ms.
+2023-10-24 14:13:39.523 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 6.7291ms
+2023-10-24 14:13:39.523 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-24 14:13:39.524 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 8.5241ms
+2023-10-24 14:13:39.547 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/style.css - -
+2023-10-24 14:13:39.547 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/style.css - - - 404 0 - 0.6583ms
+2023-10-24 14:13:39.558 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-24 14:13:39.558 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.1812ms
+2023-10-24 14:13:39.558 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-24 14:13:39.560 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 1.7752ms
+2023-10-24 14:23:49.196 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/clear-browser-cache - -
+2023-10-24 14:23:49.196 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/clear-browser-cache - - - 200 0 - 0.7280ms

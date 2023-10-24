@@ -21,7 +21,7 @@
 <h1>Search Results</h1>
 
 @{
-    int totalResults = (Model.Categories?.Count ?? 0) + (Model.Posts?.Count ?? 0) + (Model.Topics?.Count ?? 0) + (Model.Rooms?.Count ?? 0) + (Model.Comments?.Count ?? 0);
+    int totalResults = (Model.Categories?.Count ?? 0) + (Model.Topics?.Count ?? 0) + (Model.Rooms?.Count ?? 0)+ (Model.Posts?.Count ?? 0) + (Model.Comments?.Count ?? 0);
 }
 
 <div class="result-container">
@@ -52,14 +52,13 @@
                 <p>Found @totalResults results</p>
             </div>
 
-            <!-- Here you display each result in separate posts -->
+            <!-- Here we display each result in separate posts -->
             @if (Model.Categories != null && Model.Categories.Count > 0)
             {
                 @foreach (var category in Model.Categories)
                 {
                     <div class="result-post">
                         <a href="@Url.Action("CategoryDetails", "Category", new { id = category.CategoryId })">@category.Name</a>
-                        <!-- Add other category information here -->
                     </div>
                 }
             }
@@ -73,34 +72,17 @@
 
                         @{
                             // Get the post creation time from the model
-                            var postCreationTime = post.PostTime;
+                            var postTime= post.PostTime;
 
-                            // Calculate the time difference from now to the creation time
-                            var timeDifference = DateTime.Now - postCreationTime;
+                          
+                            // Call the FormatTimeAgo helper function to format the time
+                            var time = FormatTime(postTime);
 
-                            var timeAgo = string.Empty;
-
-                            if (timeDifference.TotalDays >= 1)
-                            {
-                                timeAgo = $"{(int)timeDifference.TotalDays} days ago";
-                            }
-                            else if (timeDifference.TotalHours >= 1)
-                            {
-                                timeAgo = $"{(int)timeDifference.TotalHours} hours ago";
-                            }
-                            else if (timeDifference.TotalMinutes >= 1)
-                            {
-                                timeAgo = $"{(int)timeDifference.TotalMinutes} minutes ago";
-                            }
-                            else
-                            {
-                                timeAgo = $"{(int)timeDifference.TotalSeconds} seconds ago";
-                            }
                         }
 
-                        <p>@timeAgo</p>
+                        <p>@time</p>
+                    
 
-                        <!-- Add other post information here -->
                     </div>
                 }
             }
@@ -109,3 +91,57 @@
         }
     </div>
 </div>
+
+
+@functions {
+        string FormatTime(DateTime postTime)
+        {
+            var timeDifference = DateTime.Now - postTime;
+
+            if (timeDifference.Days >= 1)
+            {
+                if ((int)timeDifference.Days == 1)
+                {
+                    return $"{(int)timeDifference.Days} day ago";
+                }
+                else
+                {
+                    return $"{(int)timeDifference.Days} days ago";
+                }
+            }
+            else if (timeDifference.Hours >= 1)
+            {
+                if ((int)timeDifference.Hours == 1)
+                {
+                    return $"{(int)timeDifference.Hours} hour ago";
+                }
+                else
+                {
+                    return $"{(int)timeDifference.Hours} hours ago";
+                }
+            }
+            else if (timeDifference.Minutes >= 1)
+            {
+                if ((int)timeDifference.Minutes == 1)
+                {
+                    return $"{(int)timeDifference.Minutes} minute ago";
+                }
+                else
+                {
+                    return $"{(int)timeDifference.Minutes} minutes ago";
+                }
+            }
+            else
+            {
+                if ((int)timeDifference.TotalSeconds == 1)
+                {
+                    return $"{(int)timeDifference.Seconds} second ago";
+                }
+                else
+                {
+                    return $"{(int)timeDifference.Seconds} seconds ago";
+                }
+            }
+        }
+}
+
