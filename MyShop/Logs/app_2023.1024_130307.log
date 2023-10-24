@@ -1,0 +1,23 @@
+2023-10-24 13:03:08.332 +02:00 [Information] User profile is available. Using '"C:\Users\abdik\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-24 13:03:08.712 +02:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-24 13:03:08.712 +02:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-24 13:03:08.714 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-24 13:03:08.715 +02:00 [Information] Hosting environment: "Development"
+2023-10-24 13:03:08.715 +02:00 [Information] Content root path: "C:\Users\abdik\Source\Repos\Forum\MyShop\"
+2023-10-24 13:03:09.121 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-24 13:03:09.157 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-24 13:03:09.165 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-24 13:03:09.169 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-24 13:03:09.270 +02:00 [Information] Executed ViewResult - view "Index" executed in 99.0831ms.
+2023-10-24 13:03:09.272 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 106.3502ms
+2023-10-24 13:03:09.272 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-24 13:03:09.283 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 164.4997ms
+2023-10-24 13:03:09.296 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/lib/bootstrap/css/crtstyle.css - -
+2023-10-24 13:03:09.296 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/style.css - -
+2023-10-24 13:03:09.298 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/style.css - - - 404 0 - 2.6209ms
+2023-10-24 13:03:09.302 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-24 13:03:09.304 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 1.6612ms
+2023-10-24 13:03:09.306 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-24 13:03:09.306 +02:00 [Information] The file "/lib/bootstrap/css/crtstyle.css" was not modified
+2023-10-24 13:03:09.306 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/lib/bootstrap/css/crtstyle.css - - - 304 - text/css 10.4618ms
+2023-10-24 13:03:09.311 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5.4920ms

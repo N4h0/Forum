@@ -45,12 +45,24 @@
       "PackagePath": "staticwebassets\\images\\category_5.jpg"
     },
     {
+      "Id": "C:\\Users\\abdik\\Source\\Repos\\Forum\\MyShop\\wwwroot\\images\\cyberS.jpg",
+      "PackagePath": "staticwebassets\\images\\cyberS.jpg"
+    },
+    {
       "Id": "C:\\Users\\abdik\\Source\\Repos\\Forum\\MyShop\\wwwroot\\images\\formula1.jpg",
       "PackagePath": "staticwebassets\\images\\formula1.jpg"
     },
     {
       "Id": "C:\\Users\\abdik\\Source\\Repos\\Forum\\MyShop\\wwwroot\\images\\fotball.jpg",
       "PackagePath": "staticwebassets\\images\\fotball.jpg"
+    },
+    {
+      "Id": "C:\\Users\\abdik\\Source\\Repos\\Forum\\MyShop\\wwwroot\\images\\mosque.jpg",
+      "PackagePath": "staticwebassets\\images\\mosque.jpg"
+    },
+    {
+      "Id": "C:\\Users\\abdik\\Source\\Repos\\Forum\\MyShop\\wwwroot\\images\\skiEquipments.jpg",
+      "PackagePath": "staticwebassets\\images\\skiEquipments.jpg"
     },
     {
       "Id": "C:\\Users\\abdik\\Source\\Repos\\Forum\\MyShop\\wwwroot\\images\\vacation.jpg",

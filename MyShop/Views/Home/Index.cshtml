@@ -103,60 +103,146 @@
         <h2 class="chosen-title">Our chosen ones</h2>
 
     </div>
-    <div id="myCarousel" class="carousel" data-interval="false">
+    <div id="myCarousel" class="carousel carousel-fade" data-ride="carousel" data-interval="false">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="d-flex justify-content-between">
                     <div class="utvalgt">
-                        <img class="utvalgt-img" src="~/images/formula1.jpg"/>
-                         <div class="utvalgt-contet">
-                            <h3 class="col col-c">Formel 1 2023</h3>
-                            <p>Vi er gang me en ny sesong av F1. Bli med i tråden vår</p>
-                         </div>
-                       
+                        <a asp-controller="Topic" asp-action="TopicDetails" asp-route-id="1">
+                            <img class="utvalgt-img" src="~/images/formula1.jpg" alt="Bildebeskrivelse">
+                        </a>
+                        <div class="utvalgt-content">
+                            <h3 class="col col-c">
+                                <a asp-controller="Topic" asp-action="TopicDetails" asp-route-id="1">Formel 1 2023</a>
+                            </h3>
+                            <p>Vi er i gang med en ny sesong av F1. Bli med i tråden vår.</p>
+
+                            <ul class="list-unstyled d-flex align-items-center">
+                                <li class="mr-2">
+                                    <i class="fas fa-thumbs-up" style="color: green;"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-comment"></i>
+                                    15 svar
+                                </li>
+                            </ul>
+
+
+                            
+                          
+                        </div>
                     </div>
                     <div class="utvalgt">
-                        <img class="utvalgt-img" src="~/images/fotball.jpg" />
-                        <div class="utvalgt-contet">
+                        <a asp-controller="Topic" asp-action="TopicDetails" asp-route-id="2">
+                            <img class="utvalgt-img" src="~/images/fotball.jpg" alt="Bildebeskrivelse">
+                        </a>
+                        <div class="utvalgt-content">
                             <h3 class="col col-c">Fotball</h3>
-                            <p>Vi er gang me en ny sesong av F1. Bli med i tråden vår</p>
-                        </div>
+                            <p>Vi er i gang med en ny sesong av fotball. Bli med i tråden vår.</p>
+                            <ul class="list-unstyled d-flex align-items-center">
+                                <li class="mr-2">
+                                    <i class="fas fa-thumbs-up" style="color: green;"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-comment"></i>
+                                    20 svar
+                                </li>
+                            </ul>
 
+                        </div>
                     </div>
                     <div class="utvalgt">
-                        <img class="utvalgt-img" src="~/images/vacation.jpg" />
-                        <div class="utvalgt-contet">
+                        <img class="utvalgt-img" src="~/images/vacation.jpg" alt="Bildebeskrivelse">
+                        <div class="utvalgt-content">
                             <h3 class="col col-c">Vacation</h3>
-                            <p>Vi er gang me en ny sesong av F1. Bli med i tråden vår</p>
-                        </div>
+                            <p>Planlegger en ferie? Sjekk ut våre tips og råd.</p>
+                            <ul class="list-unstyled d-flex align-items-center">
+                                <li class="mr-2">
+                                    <i class="fas fa-thumbs-up" style="color: green;"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-comment"></i>
+                                    30 svar
+                                </li>
+                            </ul>
 
+                        </div>
                     </div>
-                 
                 </div>
-               
-        
             </div>
             <div class="carousel-item">
-
                 <div class="d-flex justify-content-between">
-                    <p class="col col-c">Palastina israle</p>
-                    <p class="col col-c">Kjendiser</p>
-                    <p class="col col-c">Gjert</p>
+                    <div class="utvalgt">
+                        <a asp-controller="Topic" asp-action="TopicDetails" asp-route-id="3">
+                            <img class="utvalgt-img" src="~/images/mosque.jpg" alt="Bildebeskrivelse">
+                        </a>
+                        <div class="utvalgt-content">
+                            <h3 class="col col-c">Conflict</h3>
+                            <p>Palastine and Israel conflict, read more about here</p>
+                            <ul class="list-unstyled d-flex align-items-center">
+                                <li class="mr-2">
+                                    <i class="fas fa-thumbs-up" style="color: green;"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-comment"></i>
+                                    20 svar
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="utvalgt">
+                        <a asp-controller="Topic" asp-action="TopicDetails" asp-route-id="1">
+                            <img class="utvalgt-img" src="~/images/cyberS.jpg" alt="Bildebeskrivelse">
+                        </a>
+                        <div class="utvalgt-content">
+                            <h3 class="col col-c">Cyber Threats</h3>
+                            <p>join the debate</p>
+                            <ul class="list-unstyled d-flex align-items-center">
+                                <li class="mr-2">
+                                    <i class="fas fa-thumbs-up" style="color: green;"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-comment"></i>
+                                    3 svar
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="utvalgt">
+                        <a asp-controller="Topic" asp-action="TopicDetails" asp-route-id="4">
+                            <img class="utvalgt-img" src="~/images/skiEquipments.jpg" alt="Bildebeskrivelse">
+                        </a>
+                        <div class="utvalgt-content">
+                            <h3 class="col col-c">Cross country skiing</h3>
+                            <p>Equipment and maintenance</p>
+
+                            <ul class="list-unstyled d-flex align-items-center">
+                                <li class="mr-2">
+                                    <i class="fas fa-thumbs-up" style="color: green;"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-comment"></i>
+                                    5 svar
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
                 </div>
             </div>
-         
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
     </div>
 
-    </div>
 
     <style>
 
@@ -168,32 +254,53 @@
             letter-spacing: -0.5px;
             font-size: 1.7rem;
             line-height: 1.05;
-            margin-bottom: 3rem;
+            margin-bottom: 1rem;
         }
         .utvalgt{
             box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
             border-radius: 1px;
             overflow: hidden;
             transition: all 0.4s;
-            margin-left:20px;
-            padding-bottom: 9.6rem;
+            margin-left:10px;
+            padding-bottom: 5rem;
             background-color: white;
         }
-        .utvalgt-img{
-            width: 100%;
+        .utvalgt-content{
+            padding-left:1rem;
+            padding-right:2rem;
+            padding-top:1rem;
+            
         }
 
-        .col-c{
-      
+        h3 a {
+            color: inherit; 
+            text-decoration: none; 
         }
-        .utvalgt-content{
-            padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+        .utvalgt-img{
+            width: 100%; 
+        }
+
+        .carousel-fade .carousel-item {
+            transition: opacity 0.5s; /* Legg til ønsket overgangstid for fade-effekten */
+        }
+
+        .carousel-fade .carousel-inner {
+            align-items: stretch;
         }
 
         .carousel{
             margin-bottom:30px;
         }
+
+        .carousel-control-prev-icon, .carousel-control-next-icon {
+           background-color:black;
+
+        }
+
+
+        
             </style>
+    </style>
     <script>
         $(document).ready(function () {
             var carousel = $('.carousel');
@@ -208,7 +315,6 @@
             });
         });
     </script>
-
 
     
 

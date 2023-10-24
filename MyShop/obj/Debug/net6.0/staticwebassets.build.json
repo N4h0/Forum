@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "plxFGDb0f8ZTA39FQsMZ1S+M34yYt+gCnGqIVI/L5RU=",
+  "Hash": "YUPW/sxrcV+1aUy0KLaAMBcZD8y9Y+FPOOBtvwAZtvg=",
   "Source": "Forum",
   "BasePath": "_content/Forum",
   "Mode": "Default",
@@ -1241,6 +1241,23 @@
       "OriginalItemSpec": "wwwroot\\images\\Category_8.jpg"
     },
     {
+      "Identity": "C:\\Users\\abdik\\Source\\Repos\\Forum\\MyShop\\wwwroot\\images\\cyberS.jpg",
+      "SourceId": "Forum",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\abdik\\Source\\Repos\\Forum\\MyShop\\wwwroot\\",
+      "BasePath": "_content/Forum",
+      "RelativePath": "images/cyberS.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cyberS.jpg"
+    },
+    {
       "Identity": "C:\\Users\\abdik\\Source\\Repos\\Forum\\MyShop\\wwwroot\\images\\formula1.jpg",
       "SourceId": "Forum",
       "SourceType": "Discovered",
@@ -1273,6 +1290,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\fotball.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\abdik\\Source\\Repos\\Forum\\MyShop\\wwwroot\\images\\mosque.jpg",
+      "SourceId": "Forum",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\abdik\\Source\\Repos\\Forum\\MyShop\\wwwroot\\",
+      "BasePath": "_content/Forum",
+      "RelativePath": "images/mosque.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\mosque.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\abdik\\Source\\Repos\\Forum\\MyShop\\wwwroot\\images\\skiEquipments.jpg",
+      "SourceId": "Forum",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\abdik\\Source\\Repos\\Forum\\MyShop\\wwwroot\\",
+      "BasePath": "_content/Forum",
+      "RelativePath": "images/skiEquipments.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\skiEquipments.jpg"
     },
     {
       "Identity": "C:\\Users\\abdik\\Source\\Repos\\Forum\\MyShop\\wwwroot\\images\\vacation.jpg",

@@ -1,0 +1,40 @@
+2023-10-24 13:24:54.662 +02:00 [Information] User profile is available. Using '"C:\Users\abdik\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-24 13:24:55.065 +02:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-24 13:24:55.065 +02:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-24 13:24:55.068 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-24 13:24:55.069 +02:00 [Information] Hosting environment: "Development"
+2023-10-24 13:24:55.069 +02:00 [Information] Content root path: "C:\Users\abdik\Source\Repos\Forum\MyShop\"
+2023-10-24 13:24:55.399 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-24 13:24:55.435 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-24 13:24:55.442 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-24 13:24:55.446 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-24 13:24:55.545 +02:00 [Information] Executed ViewResult - view "Index" executed in 98.0866ms.
+2023-10-24 13:24:55.547 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 104.3788ms
+2023-10-24 13:24:55.547 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-24 13:24:55.559 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 162.6257ms
+2023-10-24 13:24:55.566 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/style.css - -
+2023-10-24 13:24:55.566 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css?v=9lVya84QUdHK81gQHnXo7ABNC7eZT7nB3-k5vXsZcDo - -
+2023-10-24 13:24:55.569 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/style.css - - - 404 0 - 2.8217ms
+2023-10-24 13:24:55.573 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/alAqsa.jpg - -
+2023-10-24 13:24:55.575 +02:00 [Information] The file "/css/style.css" was not modified
+2023-10-24 13:24:55.575 +02:00 [Information] The file "/images/alAqsa.jpg" was not modified
+2023-10-24 13:24:55.576 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/alAqsa.jpg - - - 304 - image/jpeg 2.2320ms
+2023-10-24 13:24:55.576 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css?v=9lVya84QUdHK81gQHnXo7ABNC7eZT7nB3-k5vXsZcDo - - - 304 - text/css 9.3207ms
+2023-10-24 13:24:55.578 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-24 13:24:55.579 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 1.4418ms
+2023-10-24 13:24:55.591 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-24 13:24:55.597 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.4524ms
+2023-10-24 13:25:04.735 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Topic/TopicTable - -
+2023-10-24 13:25:04.736 +02:00 [Information] Executing endpoint '"Forum.Controllers.TopicController.TopicTable (Forum)"'
+2023-10-24 13:25:04.739 +02:00 [Information] Route matched with "{action = \"TopicTable\", controller = \"Topic\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TopicTable()" on controller "Forum.Controllers.TopicController" ("Forum").
+2023-10-24 13:25:04.749 +02:00 [Information] Executing ViewResult, running view "TopicTable".
+2023-10-24 13:25:04.762 +02:00 [Information] Executed ViewResult - view "TopicTable" executed in 12.9983ms.
+2023-10-24 13:25:04.762 +02:00 [Information] Executed action "Forum.Controllers.TopicController.TopicTable (Forum)" in 22.4844ms
+2023-10-24 13:25:04.762 +02:00 [Information] Executed endpoint '"Forum.Controllers.TopicController.TopicTable (Forum)"'
+2023-10-24 13:25:04.763 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Topic/TopicTable - - - 200 - text/html;+charset=utf-8 28.1756ms
+2023-10-24 13:25:04.778 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Topic/style.css - -
+2023-10-24 13:25:04.778 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-24 13:25:04.779 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-24 13:25:04.779 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2075ms
+2023-10-24 13:25:04.779 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Topic/style.css - - - 404 0 - 1.3292ms
+2023-10-24 13:25:04.780 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 1.7763ms

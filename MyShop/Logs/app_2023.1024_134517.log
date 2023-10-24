@@ -1,0 +1,35 @@
+2023-10-24 13:45:19.043 +02:00 [Information] User profile is available. Using '"C:\Users\abdik\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-24 13:45:19.450 +02:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-24 13:45:19.450 +02:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-24 13:45:19.453 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-24 13:45:19.454 +02:00 [Information] Hosting environment: "Development"
+2023-10-24 13:45:19.454 +02:00 [Information] Content root path: "C:\Users\abdik\Source\Repos\Forum\MyShop\"
+2023-10-24 13:45:19.643 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-24 13:45:19.678 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-24 13:45:19.685 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-24 13:45:19.690 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-24 13:45:19.790 +02:00 [Information] Executed ViewResult - view "Index" executed in 100.0229ms.
+2023-10-24 13:45:19.792 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 106.6228ms
+2023-10-24 13:45:19.792 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-24 13:45:19.804 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 163.8680ms
+2023-10-24 13:45:19.808 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/fotball.jpg - -
+2023-10-24 13:45:19.808 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/style.css - -
+2023-10-24 13:45:19.811 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/style.css - - - 404 0 - 2.4528ms
+2023-10-24 13:45:19.817 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/vacation.jpg - -
+2023-10-24 13:45:19.817 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/mosque.jpg - -
+2023-10-24 13:45:19.817 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/cyberS.jpg - -
+2023-10-24 13:45:19.817 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-24 13:45:19.818 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/skiEquipments.jpg - -
+2023-10-24 13:45:19.818 +02:00 [Information] The file "/images/fotball.jpg" was not modified
+2023-10-24 13:45:19.818 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-24 13:45:19.818 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/fotball.jpg - - - 304 - image/jpeg 9.6421ms
+2023-10-24 13:45:19.818 +02:00 [Information] The file "/images/mosque.jpg" was not modified
+2023-10-24 13:45:19.818 +02:00 [Information] The file "/images/cyberS.jpg" was not modified
+2023-10-24 13:45:19.818 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/mosque.jpg - - - 304 - image/jpeg 1.2414ms
+2023-10-24 13:45:19.818 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/cyberS.jpg - - - 304 - image/jpeg 0.8829ms
+2023-10-24 13:45:19.819 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 1.7262ms
+2023-10-24 13:45:19.825 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.8787ms
+2023-10-24 13:45:19.841 +02:00 [Information] Sending file. Request path: '"/images/vacation.jpg"'. Physical path: '"C:\Users\abdik\Source\Repos\Forum\MyShop\wwwroot\images\vacation.jpg"'
+2023-10-24 13:45:19.841 +02:00 [Information] Sending file. Request path: '"/images/skiEquipments.jpg"'. Physical path: '"C:\Users\abdik\Source\Repos\Forum\MyShop\wwwroot\images\skiEquipments.jpg"'
+2023-10-24 13:45:19.841 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/vacation.jpg - - - 200 617541 image/jpeg 23.9923ms
+2023-10-24 13:45:19.841 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/skiEquipments.jpg - - - 200 2293710 image/jpeg 23.3312ms

@@ -1,0 +1,32 @@
+2023-10-24 12:27:59.693 +02:00 [Information] User profile is available. Using '"C:\Users\abdik\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-24 12:28:00.113 +02:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-24 12:28:00.113 +02:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-24 12:28:00.116 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-24 12:28:00.117 +02:00 [Information] Hosting environment: "Development"
+2023-10-24 12:28:00.117 +02:00 [Information] Content root path: "C:\Users\abdik\Source\Repos\Forum\MyShop\"
+2023-10-24 12:28:00.642 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-24 12:28:00.680 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-24 12:28:00.688 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-24 12:28:00.693 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-24 12:28:00.798 +02:00 [Information] Executed ViewResult - view "Index" executed in 103.6757ms.
+2023-10-24 12:28:00.799 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 110.5401ms
+2023-10-24 12:28:00.800 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-24 12:28:00.812 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 173.1901ms
+2023-10-24 12:28:00.825 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css?v=9lVya84QUdHK81gQHnXo7ABNC7eZT7nB3-k5vXsZcDo - -
+2023-10-24 12:28:00.825 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/formula1.jpg - -
+2023-10-24 12:28:00.825 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/lib/bootstrap/css/crtstyle.css - -
+2023-10-24 12:28:00.825 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/style.css - -
+2023-10-24 12:28:00.828 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/style.css - - - 404 0 - 2.9242ms
+2023-10-24 12:28:00.834 +02:00 [Information] The file "/lib/bootstrap/css/crtstyle.css" was not modified
+2023-10-24 12:28:00.834 +02:00 [Information] The file "/images/formula1.jpg" was not modified
+2023-10-24 12:28:00.834 +02:00 [Information] The file "/css/style.css" was not modified
+2023-10-24 12:28:00.835 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css?v=9lVya84QUdHK81gQHnXo7ABNC7eZT7nB3-k5vXsZcDo - - - 304 - text/css 9.2612ms
+2023-10-24 12:28:00.835 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/lib/bootstrap/css/crtstyle.css - - - 304 - text/css 9.2916ms
+2023-10-24 12:28:00.835 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/formula1.jpg - - - 304 - image/jpeg 9.2980ms
+2023-10-24 12:28:00.859 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/vacation.jpg - -
+2023-10-24 12:28:00.859 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-24 12:28:00.860 +02:00 [Information] The file "/images/vacation.jpg" was not modified
+2023-10-24 12:28:00.860 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/vacation.jpg - - - 304 - image/jpeg 1.5947ms
+2023-10-24 12:28:00.861 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 2.0359ms
+2023-10-24 12:28:00.872 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-24 12:28:00.879 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.9583ms

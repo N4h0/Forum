@@ -1,0 +1,53 @@
+2023-10-24 13:36:29.230 +02:00 [Information] User profile is available. Using '"C:\Users\abdik\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-24 13:36:29.630 +02:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-24 13:36:29.631 +02:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-24 13:36:29.634 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-24 13:36:29.634 +02:00 [Information] Hosting environment: "Development"
+2023-10-24 13:36:29.634 +02:00 [Information] Content root path: "C:\Users\abdik\Source\Repos\Forum\MyShop\"
+2023-10-24 13:36:29.916 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-24 13:36:29.951 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-24 13:36:29.958 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-24 13:36:29.963 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-24 13:36:30.067 +02:00 [Information] Executed ViewResult - view "Index" executed in 103.5017ms.
+2023-10-24 13:36:30.069 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 110.2062ms
+2023-10-24 13:36:30.069 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-24 13:36:30.087 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 173.9695ms
+2023-10-24 13:36:30.091 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/mo.jpg - -
+2023-10-24 13:36:30.091 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/style.css - -
+2023-10-24 13:36:30.091 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/fotball.jpg - -
+2023-10-24 13:36:30.094 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/mo.jpg - - - 404 0 - 3.6008ms
+2023-10-24 13:36:30.094 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/style.css - - - 404 0 - 3.6007ms
+2023-10-24 13:36:30.098 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-24 13:36:30.098 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-24 13:36:30.100 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 1.7950ms
+2023-10-24 13:36:30.106 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.3753ms
+2023-10-24 13:36:30.132 +02:00 [Information] Sending file. Request path: '"/images/fotball.jpg"'. Physical path: '"C:\Users\abdik\Source\Repos\Forum\MyShop\wwwroot\images\fotball.jpg"'
+2023-10-24 13:36:30.132 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/fotball.jpg - - - 200 1588856 image/jpeg 41.7999ms
+2023-10-24 13:38:19.506 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-24 13:38:19.507 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-24 13:38:19.507 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-24 13:38:19.507 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-24 13:38:19.516 +02:00 [Information] Executed ViewResult - view "Index" executed in 8.9962ms.
+2023-10-24 13:38:19.517 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 9.5721ms
+2023-10-24 13:38:19.517 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-24 13:38:19.518 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 12.4281ms
+2023-10-24 13:38:19.547 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/lib/bootstrap/css/crtstyle.css - -
+2023-10-24 13:38:19.548 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/style.css - -
+2023-10-24 13:38:19.548 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css?v=9lVya84QUdHK81gQHnXo7ABNC7eZT7nB3-k5vXsZcDo - -
+2023-10-24 13:38:19.549 +02:00 [Information] The file "/css/style.css" was not modified
+2023-10-24 13:38:19.549 +02:00 [Information] The file "/lib/bootstrap/css/crtstyle.css" was not modified
+2023-10-24 13:38:19.549 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css?v=9lVya84QUdHK81gQHnXo7ABNC7eZT7nB3-k5vXsZcDo - - - 304 - text/css 1.7221ms
+2023-10-24 13:38:19.550 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/lib/bootstrap/css/crtstyle.css - - - 304 - text/css 2.5355ms
+2023-10-24 13:38:19.550 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/style.css - - - 404 0 - 1.7936ms
+2023-10-24 13:38:19.550 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/fotball.jpg - -
+2023-10-24 13:38:19.550 +02:00 [Information] The file "/images/fotball.jpg" was not modified
+2023-10-24 13:38:19.550 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/fotball.jpg - - - 304 - image/jpeg 0.2429ms
+2023-10-24 13:38:19.557 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/mo.jpg - -
+2023-10-24 13:38:19.558 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/mo.jpg - - - 404 0 - 0.4861ms
+2023-10-24 13:38:19.559 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/cyberS.jpg - -
+2023-10-24 13:38:19.559 +02:00 [Information] The file "/images/cyberS.jpg" was not modified
+2023-10-24 13:38:19.560 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/cyberS.jpg - - - 304 - image/jpeg 0.3271ms
+2023-10-24 13:38:19.561 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-24 13:38:19.561 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.1850ms
+2023-10-24 13:38:19.565 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-24 13:38:19.567 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.0743ms
