@@ -93,7 +93,7 @@ ul.list-unstyled li p {
 
 /*Kategori start*/
 /* Legg til en blå border rundt kategoriene */
-.col {
+.col-category{
     border: 1px solid #0070ba; /* Blå farge */
     padding: 9px;
     text-align: center;
@@ -104,7 +104,7 @@ ul.list-unstyled li p {
     background-color: #4682B4;
 }
 
-    .col:hover {
+    .col-category:hover {
         color: #fff; /* Endrer tekstfarge på hover */
     }
 
