@@ -9,7 +9,7 @@
         <div class=" d-flex justify-content-between align-items-center">
         <a id="manage" class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @UserManager.GetUserName(User)!</a>
 
-            <span class="mx-2"></span> <!-- Legg til litt mellomrom -->
+            <span class="mx-2"></span> <!-- space between-->
 
         <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
             <button id="logout" type="submit" class="nav-link btn btn-link text-dark">Logout</button>
@@ -20,7 +20,7 @@ else
 {
         <div class="d-flex justify-content-between align-items-center">
             <a class="main-nav-link nav-cta" id="login" asp-area="Identity" asp-page="/Account/Login">Logg inn</a>
-            <span class="mx-2"></span> <!-- Legg til litt mellomrom -->
+            <span class="mx-2"></span> <!-- space between -->
             <a class="main-nav-link nav-ct" id="register" asp-area="Identity" asp-page="/Account/Register">Register</a>
         </div>
 

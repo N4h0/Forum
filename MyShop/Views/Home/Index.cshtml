@@ -16,45 +16,63 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
+    <style>
+        .section-talking-title{
+            padding-bottom:15px;
+            padding-top:25px;
+        }
 
+    
+    </style>
    
 </head>
 <body>
 
 
     <!--DETTE SNAKKER VI OM NÅ start-->
-
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-8">
-                <h3>What we're talking about now</h3>
+                <div class="section-talking-title">
+                    <h3>What we're talking about now</h3>
+                </div>
+             
                 <ul class="list-unstyled">
-                    <li class="d-flex justify-content-between">
 
-                        @if (Model != null)
+                    @if (Model != null)
+                    {
+                        @foreach (var post in Model.Posts)
                         {
-                            @foreach (var post in Model.Posts)
-                            {
-                                <tr>
-                                    <td>@post.PostId</td>
-                                    <td>@post.PostTitle</td>
-                                    <td>@post.PostTime</td>
-                                </tr>
-                            }
-                        }
-                        else
-                        {
-                            <p>Ingen siste post tilgjengelig.</p>
-                        }
+                            <div class="result-post">
+                                <div class="row row-content">
 
-                    </li>
+                                    <div class="col-md-6">
+                                        <a href="@Url.Action("PostDetails", "Post", new { id = post.PostId })">@post.PostTitle</a>
+                                    </div>
+                                    <div class="col-md-6 text-right">
+                                        @{
+                                            // Get the post creation time from the model
+                                            var postTime = post.PostTime;
 
-                    <!-- Legg til flere elementer etter behov -->
+                                            // Call the FormatTime helper function to format the time
+                                            var time = FormatTime(postTime);
+                                        }
+                                        <p>@time</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        <p>No post available.</p>
+                    }
+
                 </ul>
             </div>
         </div>
     </div>
-
 
 
     <!--DETTE SNAKKER VI OM NÅ end-->
@@ -290,4 +308,58 @@
 
 </body>
 </html>
+
+
+
+@functions {
+    string FormatTime(DateTime postTime)
+    {
+        var timeDifference = DateTime.Now - postTime;
+
+        if (timeDifference.Days >= 1)
+        {
+            if ((int)timeDifference.Days == 1)
+            {
+                return $"{(int)timeDifference.Days} day ago";
+            }
+            else
+            {
+                return $"{(int)timeDifference.Days} days ago";
+            }
+        }
+        else if (timeDifference.Hours >= 1)
+        {
+            if ((int)timeDifference.Hours == 1)
+            {
+                return $"{(int)timeDifference.Hours} hour ago";
+            }
+            else
+            {
+                return $"{(int)timeDifference.Hours} hours ago";
+            }
+        }
+        else if (timeDifference.Minutes >= 1)
+        {
+            if ((int)timeDifference.Minutes == 1)
+            {
+                return $"{(int)timeDifference.Minutes} minute ago";
+            }
+            else
+            {
+                return $"{(int)timeDifference.Minutes} minutes ago";
+            }
+        }
+        else
+        {
+            if ((int)timeDifference.TotalSeconds == 1)
+            {
+                return $"{(int)timeDifference.Seconds} second ago";
+            }
+            else
+            {
+                return $"{(int)timeDifference.Seconds} seconds ago";
+            }
+        }
+    }
+}
 

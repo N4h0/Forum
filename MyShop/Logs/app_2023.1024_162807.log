@@ -1,0 +1,107 @@
+2023-10-24 16:28:08.787 +02:00 [Information] User profile is available. Using '"C:\Users\abdik\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-24 16:28:09.184 +02:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-24 16:28:09.184 +02:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-24 16:28:09.187 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-24 16:28:09.187 +02:00 [Information] Hosting environment: "Development"
+2023-10-24 16:28:09.187 +02:00 [Information] Content root path: "C:\Users\abdik\Source\Repos\Forum\MyShop\"
+2023-10-24 16:28:09.512 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-24 16:28:09.551 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-24 16:28:09.560 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-24 16:28:09.583 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-24 16:28:09.698 +02:00 [Information] Executed ViewResult - view "Index" executed in 113.0259ms.
+2023-10-24 16:28:09.700 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 139.9724ms
+2023-10-24 16:28:09.700 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-24 16:28:09.713 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 202.6421ms
+2023-10-24 16:28:09.720 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css?v=l5Iz_l9ngncCa7RBHFoGIqzK6IOAKT_ANwuQAZFFdAE - -
+2023-10-24 16:28:09.720 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/style.css - -
+2023-10-24 16:28:09.723 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/style.css - - - 404 0 - 2.5747ms
+2023-10-24 16:28:09.723 +02:00 [Information] The file "/css/style.css" was not modified
+2023-10-24 16:28:09.723 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css?v=l5Iz_l9ngncCa7RBHFoGIqzK6IOAKT_ANwuQAZFFdAE - - - 304 - text/css 2.9586ms
+2023-10-24 16:28:09.769 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-24 16:28:09.771 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 1.9318ms
+2023-10-24 16:28:09.786 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-24 16:28:09.793 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.6851ms
+2023-10-24 16:31:08.376 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/CategoryTable - -
+2023-10-24 16:31:08.378 +02:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CategoryTable (Forum)"'
+2023-10-24 16:31:08.380 +02:00 [Information] Route matched with "{action = \"CategoryTable\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CategoryTable()" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-24 16:31:08.387 +02:00 [Information] Executing ViewResult, running view "CategoryTable".
+2023-10-24 16:31:08.401 +02:00 [Information] Executed ViewResult - view "CategoryTable" executed in 14.9994ms.
+2023-10-24 16:31:08.402 +02:00 [Information] Executed action "Forum.Controllers.CategoryController.CategoryTable (Forum)" in 21.7158ms
+2023-10-24 16:31:08.402 +02:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CategoryTable (Forum)"'
+2023-10-24 16:31:08.403 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/CategoryTable - - - 200 - text/html;+charset=utf-8 26.5956ms
+2023-10-24 16:31:08.426 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/style.css - -
+2023-10-24 16:31:08.427 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-24 16:31:08.427 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2775ms
+2023-10-24 16:31:08.428 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/style.css - - - 404 0 - 2.0276ms
+2023-10-24 16:31:08.485 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-24 16:31:08.487 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.5972ms
+2023-10-24 16:31:10.104 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Identity/Account/Login - -
+2023-10-24 16:31:10.104 +02:00 [Information] Executing endpoint '"/Account/Login"'
+2023-10-24 16:31:10.117 +02:00 [Information] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Login"
+2023-10-24 16:31:10.128 +02:00 [Information] Executing handler method "Forum.Areas.Identity.Pages.Account.LoginModel.OnGetAsync" - ModelState is Valid
+2023-10-24 16:31:10.131 +02:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2023-10-24 16:31:10.131 +02:00 [Information] Executed handler method "OnGetAsync", returned result "".
+2023-10-24 16:31:10.133 +02:00 [Information] Executing an implicit handler method - ModelState is Valid
+2023-10-24 16:31:10.134 +02:00 [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+2023-10-24 16:31:10.160 +02:00 [Information] Executed page "/Account/Login" in 42.6963ms
+2023-10-24 16:31:10.160 +02:00 [Information] Executed endpoint '"/Account/Login"'
+2023-10-24 16:31:10.161 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Identity/Account/Login - - - 200 - text/html;+charset=utf-8 56.6655ms
+2023-10-24 16:31:10.177 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Identity/Account/style.css - -
+2023-10-24 16:31:10.178 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-24 16:31:10.178 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.1481ms
+2023-10-24 16:31:10.180 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Identity/Account/style.css - - - 404 0 - 3.2301ms
+2023-10-24 16:31:10.234 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-24 16:31:10.236 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.0477ms
+2023-10-24 16:31:11.247 +02:00 [Information] Request starting HTTP/2 POST https://localhost:7205/Identity/Account/Login application/x-www-form-urlencoded 280
+2023-10-24 16:31:11.248 +02:00 [Information] Executing endpoint '"/Account/Login"'
+2023-10-24 16:31:11.248 +02:00 [Information] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Login"
+2023-10-24 16:31:11.259 +02:00 [Information] Executing handler method "Forum.Areas.Identity.Pages.Account.LoginModel.OnPostAsync" - ModelState is Valid
+2023-10-24 16:31:11.306 +02:00 [Information] AuthenticationScheme: "Identity.Application" signed in.
+2023-10-24 16:31:11.306 +02:00 [Information] User logged in.
+2023-10-24 16:31:11.307 +02:00 [Information] Executed handler method "OnPostAsync", returned result "Microsoft.AspNetCore.Mvc.LocalRedirectResult".
+2023-10-24 16:31:11.307 +02:00 [Information] Executing LocalRedirectResult, redirecting to "/".
+2023-10-24 16:31:11.307 +02:00 [Information] Executed page "/Account/Login" in 58.9553ms
+2023-10-24 16:31:11.307 +02:00 [Information] Executed endpoint '"/Account/Login"'
+2023-10-24 16:31:11.307 +02:00 [Information] Request finished HTTP/2 POST https://localhost:7205/Identity/Account/Login application/x-www-form-urlencoded 280 - 302 0 - 60.0023ms
+2023-10-24 16:31:11.311 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-24 16:31:11.313 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-24 16:31:11.313 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-24 16:31:11.314 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-24 16:31:11.317 +02:00 [Information] Executed ViewResult - view "Index" executed in 3.6629ms.
+2023-10-24 16:31:11.318 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 4.2939ms
+2023-10-24 16:31:11.318 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-24 16:31:11.319 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 8.2553ms
+2023-10-24 16:31:11.335 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/style.css - -
+2023-10-24 16:31:11.337 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/style.css - - - 404 0 - 1.6894ms
+2023-10-24 16:31:11.390 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-24 16:31:11.390 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2174ms
+2023-10-24 16:31:11.391 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-24 16:31:11.393 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 1.7684ms
+2023-10-24 16:31:11.917 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/CategoryTable - -
+2023-10-24 16:31:11.919 +02:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CategoryTable (Forum)"'
+2023-10-24 16:31:11.919 +02:00 [Information] Route matched with "{action = \"CategoryTable\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CategoryTable()" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-24 16:31:11.920 +02:00 [Information] Executing ViewResult, running view "CategoryTable".
+2023-10-24 16:31:11.923 +02:00 [Information] Executed ViewResult - view "CategoryTable" executed in 3.3237ms.
+2023-10-24 16:31:11.923 +02:00 [Information] Executed action "Forum.Controllers.CategoryController.CategoryTable (Forum)" in 3.8988ms
+2023-10-24 16:31:11.923 +02:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CategoryTable (Forum)"'
+2023-10-24 16:31:11.924 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/CategoryTable - - - 200 - text/html;+charset=utf-8 7.0999ms
+2023-10-24 16:31:11.942 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/style.css - -
+2023-10-24 16:31:11.942 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-24 16:31:11.943 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-24 16:31:11.943 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.1248ms
+2023-10-24 16:31:11.943 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/style.css - - - 404 0 - 1.6538ms
+2023-10-24 16:31:11.944 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 1.6237ms
+2023-10-24 16:31:17.670 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-24 16:31:17.672 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-24 16:31:17.672 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-24 16:31:17.673 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-24 16:31:17.675 +02:00 [Information] Executed ViewResult - view "Index" executed in 2.2676ms.
+2023-10-24 16:31:17.675 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 3.2947ms
+2023-10-24 16:31:17.675 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-24 16:31:17.677 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 6.4879ms
+2023-10-24 16:31:17.694 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/style.css - -
+2023-10-24 16:31:17.694 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-24 16:31:17.695 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-24 16:31:17.695 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.1188ms
+2023-10-24 16:31:17.696 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/style.css - - - 404 0 - 1.5644ms
+2023-10-24 16:31:17.696 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 1.6950ms

@@ -17,14 +17,13 @@ namespace Forum.Controllers
             _postRepository = postRepository;
         }
 
-        // GET: /<controller>/
+        // GET
         public async Task<IActionResult> Index()
         {
             var posts = await _postRepository.GetAll(); // Hent alle poster fra PostRepository
 
             if (posts == null)
             {
-                // Håndter feil her, for eksempel ved å vise en feilmelding.
                 return View("Error");
             }
 
