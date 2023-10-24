@@ -1,0 +1,29 @@
+2023-10-24 14:02:52.044 +02:00 [Information] User profile is available. Using '"C:\Users\abdik\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-24 14:02:52.455 +02:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-24 14:02:52.455 +02:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-24 14:02:52.458 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-24 14:02:52.459 +02:00 [Information] Hosting environment: "Development"
+2023-10-24 14:02:52.459 +02:00 [Information] Content root path: "C:\Users\abdik\Source\Repos\Forum\MyShop\"
+2023-10-24 14:02:52.748 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-24 14:02:52.783 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-24 14:02:52.790 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-24 14:02:52.795 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-24 14:02:52.896 +02:00 [Information] Executed ViewResult - view "Index" executed in 99.9221ms.
+2023-10-24 14:02:52.898 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 107.1596ms
+2023-10-24 14:02:52.898 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-24 14:02:52.910 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 164.9621ms
+2023-10-24 14:02:52.919 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/fotball.jpg - -
+2023-10-24 14:02:52.919 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/style.css - -
+2023-10-24 14:02:52.921 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/style.css - - - 404 0 - 2.6191ms
+2023-10-24 14:02:52.925 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/mosque.jpg - -
+2023-10-24 14:02:52.928 +02:00 [Information] The file "/images/mosque.jpg" was not modified
+2023-10-24 14:02:52.928 +02:00 [Information] The file "/images/fotball.jpg" was not modified
+2023-10-24 14:02:52.928 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/mosque.jpg - - - 304 - image/jpeg 2.9776ms
+2023-10-24 14:02:52.928 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/fotball.jpg - - - 304 - image/jpeg 9.2595ms
+2023-10-24 14:02:52.931 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/cyberS.jpg - -
+2023-10-24 14:02:52.932 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-24 14:02:52.932 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-24 14:02:52.933 +02:00 [Information] The file "/images/cyberS.jpg" was not modified
+2023-10-24 14:02:52.933 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/cyberS.jpg - - - 304 - image/jpeg 1.2251ms
+2023-10-24 14:02:52.933 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 1.5578ms
+2023-10-24 14:02:52.938 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.2504ms

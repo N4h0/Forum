@@ -52,6 +52,9 @@
 
 
     <!--DETTE SNAKKER VI OM NÅ end-->
+
+
+
     <!-- Category Start -->
     <div class="container-xxl py-5">
         <div class="container">
@@ -97,7 +100,12 @@
 
         </div>
     </div>
-    <!-- Category End --> <!--https://getbootstrap.com/docs/4.0/components/carousel/-->
+
+    <!-- Category End --> 
+
+    <!--Our choosen one section-->
+
+    <!--https://getbootstrap.com/docs/4.0/components/carousel/-->
 
     <div>
         <h2 class="chosen-title">Our chosen ones</h2>
@@ -107,15 +115,15 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="d-flex justify-content-between">
-                    <div class="utvalgt">
+                    <div class="chosen">
                         <a asp-controller="Topic" asp-action="TopicDetails" asp-route-id="1">
                             <img class="utvalgt-img" src="~/images/formula1.jpg" alt="Bildebeskrivelse">
                         </a>
-                        <div class="utvalgt-content">
+                        <div class="chosen-content">
                             <h3 class="col col-c">
                                 <a asp-controller="Topic" asp-action="TopicDetails" asp-route-id="1">Formel 1 2023</a>
                             </h3>
-                            <p>Vi er i gang med en ny sesong av F1. Bli med i tråden vår.</p>
+                            <p>We are in the midst of a new season of F1. Join our thread.</p>
 
                             <ul class="list-unstyled d-flex align-items-center">
                                 <li class="mr-2">
@@ -132,13 +140,15 @@
                           
                         </div>
                     </div>
-                    <div class="utvalgt">
-                        <a asp-controller="Topic" asp-action="TopicDetails" asp-route-id="2">
+                    <div class="chosen">
+                        <a asp-controller="Post" asp-action="PostDetails" asp-route-id="1">
                             <img class="utvalgt-img" src="~/images/fotball.jpg" alt="Bildebeskrivelse">
                         </a>
-                        <div class="utvalgt-content">
-                            <h3 class="col col-c">Fotball</h3>
-                            <p>Vi er i gang med en ny sesong av fotball. Bli med i tråden vår.</p>
+                        <div class="chosen-content">
+                            <h3 class="col col-c">
+                                <a asp-controller="Post" asp-action="PostDetails" asp-route-id="1">Premier League</a>
+                            </h3>
+                            <p>Join the football thread to discuss more about your favorite team.</p>
                             <ul class="list-unstyled d-flex align-items-center">
                                 <li class="mr-2">
                                     <i class="fas fa-thumbs-up" style="color: green;"></i>
@@ -151,11 +161,15 @@
 
                         </div>
                     </div>
-                    <div class="utvalgt">
+                    <div class="chosen">
+                          <a asp-controller="Post" asp-action="PostDetails" asp-route-id="">
                         <img class="utvalgt-img" src="~/images/vacation.jpg" alt="Bildebeskrivelse">
-                        <div class="utvalgt-content">
-                            <h3 class="col col-c">Vacation</h3>
-                            <p>Planlegger en ferie? Sjekk ut våre tips og råd.</p>
+                        </a>
+                        <div class="chosen-content">
+                            <h3 class="col col-c">
+                                <a asp-controller="Post" asp-action="PostDetails" asp-route-id="">Vacation</a>
+                            </h3>
+                            <p>Planning a vacation? Check out our tips and advice.</p>
                             <ul class="list-unstyled d-flex align-items-center">
                                 <li class="mr-2">
                                     <i class="fas fa-thumbs-up" style="color: green;"></i>
@@ -172,12 +186,14 @@
             </div>
             <div class="carousel-item">
                 <div class="d-flex justify-content-between">
-                    <div class="utvalgt">
-                        <a asp-controller="Topic" asp-action="TopicDetails" asp-route-id="3">
+                    <div class="chosen">
+                        <a asp-controller="Post" asp-action="PostDetails" asp-route-id="">
                             <img class="utvalgt-img" src="~/images/mosque.jpg" alt="Bildebeskrivelse">
                         </a>
-                        <div class="utvalgt-content">
-                            <h3 class="col col-c">Conflict</h3>
+                        <div class="chosen-content">
+                            <h3 class="col col-c">
+                                <a asp-controller="Post" asp-action="PostDetails" asp-route-id="">Conflict</a>
+                            </h3>
                             <p>Palastine and Israel conflict, read more about here</p>
                             <ul class="list-unstyled d-flex align-items-center">
                                 <li class="mr-2">
@@ -191,12 +207,14 @@
 
                         </div>
                     </div>
-                    <div class="utvalgt">
-                        <a asp-controller="Topic" asp-action="TopicDetails" asp-route-id="1">
+                    <div class="chosen">
+                        <a asp-controller="Post" asp-action="PostDetails" asp-route-id="">
                             <img class="utvalgt-img" src="~/images/cyberS.jpg" alt="Bildebeskrivelse">
                         </a>
-                        <div class="utvalgt-content">
-                            <h3 class="col col-c">Cyber Threats</h3>
+                        <div class="chosen-content">
+                            <h3 class="col col-c">
+                                <a asp-controller="Post" asp-action="PostDetails" asp-route-id="">Cyber Threats</a>
+                            </h3>                           
                             <p>join the debate</p>
                             <ul class="list-unstyled d-flex align-items-center">
                                 <li class="mr-2">
@@ -210,12 +228,14 @@
 
                         </div>
                     </div>
-                    <div class="utvalgt">
-                        <a asp-controller="Topic" asp-action="TopicDetails" asp-route-id="4">
+                    <div class="chosen">
+                        <a asp-controller="Post" asp-action="PostDetails" asp-route-id="">
                             <img class="utvalgt-img" src="~/images/skiEquipments.jpg" alt="Bildebeskrivelse">
                         </a>
-                        <div class="utvalgt-content">
-                            <h3 class="col col-c">Cross country skiing</h3>
+                        <div class="chosen-content">
+                            <h3 class="col col-c">
+                                <a asp-controller="Post" asp-action="PostDetails" asp-route-id="">Cross Country Skiing</a>
+                            </h3>                           
                             <p>Equipment and maintenance</p>
 
                             <ul class="list-unstyled d-flex align-items-center">
@@ -244,63 +264,7 @@
     </div>
 
 
-    <style>
 
-        .chosen-title{
-            font-weight: 700;
-            color: #333;
-            /* color: #45260a; */
-            /* color: #343a40; */
-            letter-spacing: -0.5px;
-            font-size: 1.7rem;
-            line-height: 1.05;
-            margin-bottom: 1rem;
-        }
-        .utvalgt{
-            box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
-            border-radius: 1px;
-            overflow: hidden;
-            transition: all 0.4s;
-            margin-left:10px;
-            padding-bottom: 5rem;
-            background-color: white;
-        }
-        .utvalgt-content{
-            padding-left:1rem;
-            padding-right:2rem;
-            padding-top:1rem;
-            
-        }
-
-        h3 a {
-            color: inherit; 
-            text-decoration: none; 
-        }
-        .utvalgt-img{
-            width: 100%; 
-        }
-
-        .carousel-fade .carousel-item {
-            transition: opacity 0.5s; /* Legg til ønsket overgangstid for fade-effekten */
-        }
-
-        .carousel-fade .carousel-inner {
-            align-items: stretch;
-        }
-
-        .carousel{
-            margin-bottom:30px;
-        }
-
-        .carousel-control-prev-icon, .carousel-control-next-icon {
-           background-color:black;
-
-        }
-
-
-        
-            </style>
-    </style>
     <script>
         $(document).ready(function () {
             var carousel = $('.carousel');
@@ -316,7 +280,8 @@
         });
     </script>
 
-    
+    <!--Our choosen one section end-->
+
 
 </body>
 </html>
