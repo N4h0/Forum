@@ -9,9 +9,9 @@ namespace Forum.Controllers
     public class SearchController : Controller
     {
         private readonly CategoryDbContext _db;
-        private readonly ILogger<SearchController> _logger; // Legg til loggeren
+        private readonly ILogger<SearchController> _logger; 
 
-        public SearchController(CategoryDbContext db, ILogger<SearchController> logger) // Legg til loggeren i konstruktøren
+        public SearchController(CategoryDbContext db, ILogger<SearchController> logger) 
         {
             _db = db;
             _logger = logger;
@@ -26,31 +26,31 @@ namespace Forum.Controllers
                 {
                     if (string.IsNullOrWhiteSpace(search))
                     {
-                        // Hvis søket er tomt, returner en tom liste
-                        return View(new SearchResultViewModel());
+                   // If the query is empty, return an empty list
+                    return View(new SearchResultViewModel());
                     }
 
 
                     var categories = _db.Categories.ToList()
-                .Where(category => category.Name.Contains(search, StringComparison.OrdinalIgnoreCase))
-                .ToList();
-            var room = _db.Rooms.ToList()
-               .Where(room => room.RoomName.Contains(search, StringComparison.OrdinalIgnoreCase))
-               .ToList();
+                     .Where(category => category.Name.Contains(search, StringComparison.OrdinalIgnoreCase))
+                     .ToList();
+                   var room = _db.Rooms.ToList()
+                     .Where(room => room.RoomName.Contains(search, StringComparison.OrdinalIgnoreCase))
+                     .ToList();
 
-            var posts = _db.Posts.ToList()
-                .Where(post => post.PostTitle.Contains(search, StringComparison.OrdinalIgnoreCase))
-                .ToList();
-
-
-
-            var topic = _db.Topics.ToList()
-                .Where(topic => topic.TopicName.Contains(search,StringComparison.OrdinalIgnoreCase)).ToList();
+                var posts = _db.Posts.ToList()
+                   .Where(post => post.PostTitle.Contains(search, StringComparison.OrdinalIgnoreCase))
+                   .ToList();
 
 
-            var commment = _db.Comments.ToList()
-                .Where(commment => commment.CommentDescription.Contains(search, StringComparison.OrdinalIgnoreCase))
-                .ToList();
+    
+                 var topic = _db.Topics.ToList()
+                     .Where(topic => topic.TopicName.Contains(search,StringComparison.OrdinalIgnoreCase)).ToList();
+
+
+                  var commment = _db.Comments.ToList()
+                         .Where(commment => commment.CommentDescription.Contains(search, StringComparison.OrdinalIgnoreCase))
+                             .ToList();
 
                     var searchResults = new SearchResultViewModel
                     {

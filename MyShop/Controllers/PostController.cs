@@ -24,6 +24,7 @@ namespace Forum.Controllers
             _commentRepository = commentRepository; //We need this so that we can create a comment when we create a post.
             _logger = logger;
         }
+      
 
         public async Task<IActionResult> PostTable()
         {

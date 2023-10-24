@@ -2,7 +2,7 @@
     ViewData["Title"] = "Home Page";
 }
 
-@model TopicListViewModel
+@model PostListViewModel
 
 
 <!DOCTYPE html>
@@ -10,13 +10,12 @@
 <head>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
-
-
-
 
    
 </head>
@@ -34,8 +33,14 @@
 
                         @if (Model != null)
                         {
-                            <!-- Vis innholdsstrukturen for siste post -->
-                            <p>@Model.Topics</p>
+                            @foreach (var post in Model.Posts)
+                            {
+                                <tr>
+                                    <td>@post.PostId</td>
+                                    <td>@post.PostTitle</td>
+                                    <td>@post.PostTime</td>
+                                </tr>
+                            }
                         }
                         else
                         {
@@ -53,7 +58,6 @@
 
 
     <!--DETTE SNAKKER VI OM NÅ end-->
-
 
 
     <!-- Category Start -->
