@@ -89,6 +89,21 @@ ul.list-unstyled li p {
     color: #777;
     margin: 0;
 }
+.section-talking-title {
+    padding-bottom: 15px;
+    padding-top: 25px;
+    font-weight: bold;
+}
+
+.custom-line {
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+      
 /*Dette snakker vi om side slutt*/
 
 

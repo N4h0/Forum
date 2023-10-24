@@ -1,5 +1,10 @@
-﻿@{
+﻿
+@{
     ViewData["Title"] = "Home Page";
+    // Importerer nødvendige avhengigheter
+    @using Microsoft.AspNetCore.Identity
+    @inject SignInManager<IdentityUser> SignInManager
+    @inject UserManager<IdentityUser> UserManager
 }
 
 @model PostListViewModel
@@ -16,40 +21,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
-    <style>
-        .section-talking-title{
-            padding-bottom:15px;
-            padding-top:25px;
-        }
 
-    
-    </style>
-   
 </head>
 <body>
 
 
-    <!--DETTE SNAKKER VI OM NÅ start-->
+    <!-- THIS IS WHAT WE'RE TALKING ABOUT NOW start -->
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-8">
                 <div class="section-talking-title">
                     <h3>What we're talking about now</h3>
-                </div>
-             
-                <ul class="list-unstyled">
+                    <hr class="custom-line" />
 
+                </div>
+                <ul class="list-unstyled">
                     @if (Model != null)
                     {
                         @foreach (var post in Model.Posts)
                         {
-                            <div class="result-post">
+                            <div class="all-post">
                                 <div class="row row-content">
-
-                                    <div class="col-md-6">
+                                    <div class="col-md-7">
                                         <a href="@Url.Action("PostDetails", "Post", new { id = post.PostId })">@post.PostTitle</a>
                                     </div>
-                                    <div class="col-md-6 text-right">
+                                    <div class="col-md-3">
+                                        <p>UserName</p>
+                                    </div>
+                                    <div class="col-md-2 text-right">
                                         @{
                                             // Get the post creation time from the model
                                             var postTime = post.PostTime;
@@ -59,23 +58,28 @@
                                         }
                                         <p>@time</p>
                                     </div>
+                                
+                                      
+                              
                                 </div>
-
+                                <hr class="custom-line" />
                             </div>
                         }
+
+                        
                     }
                     else
                     {
                         <p>No post available.</p>
                     }
-
                 </ul>
             </div>
         </div>
     </div>
 
 
-    <!--DETTE SNAKKER VI OM NÅ end-->
+
+    <!-- THIS IS WHAT WE'RE TALKING ABOUT NOW end -->
 
 
     <!-- Category Start -->
@@ -126,7 +130,9 @@
 
     <!-- Category End --> 
 
-    <!--Our choosen one section-->
+
+
+    <!--Our choosen one section start-->
 
     <!--https://getbootstrap.com/docs/4.0/components/carousel/-->
 
@@ -134,6 +140,7 @@
         <h2 class="chosen-title">Our chosen ones</h2>
 
     </div>
+
     <div id="myCarousel" class="carousel carousel-fade" data-ride="carousel" data-interval="false">
         <div class="carousel-inner">
             <div class="carousel-item active">

@@ -10,6 +10,7 @@ namespace Forum.ViewModels
         public IEnumerable<Post> Posts { get; set; }
         public string? CurrentViewName;
 
+
         public PostListViewModel(IEnumerable<Post> posts, string? currentViewName)
         {
           Posts = posts;
