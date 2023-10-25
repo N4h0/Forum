@@ -69,7 +69,7 @@ namespace Forum.Controllers
         [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> UpdateComment(int Id)
         {
-            var Comment = await _commentRepository.GetItemById(Id);
+            var Comment = await _commentRepository.GetCommentById(Id);
 
             if (Comment == null)
             {
@@ -112,7 +112,7 @@ namespace Forum.Controllers
         [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> DeleteComment(int Id)
         {
-            var Comment = await _commentRepository.GetItemById(Id);
+            var Comment = await _commentRepository.GetCommentById(Id);
 
             if (Comment == null)
             {

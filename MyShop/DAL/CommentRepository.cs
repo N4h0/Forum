@@ -34,7 +34,7 @@ public class CommentRepository : ICommentRepository
       
     }
 
-    public async Task<Comment?> GetItemById(int id)
+    public async Task<Comment?> GetCommentById(int id)
     {
         try
         {

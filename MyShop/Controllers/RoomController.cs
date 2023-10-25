@@ -36,7 +36,7 @@ namespace Forum.Controllers
         public async Task<IActionResult> RoomDetails(int Id)
         {
             // Get the room from the database based on the room-ID
-            var room = await _roomRepository.GetItemById(Id);
+            var room = await _roomRepository.GetRoomById(Id);
 
             if (room == null)
              
@@ -46,32 +46,6 @@ namespace Forum.Controllers
             }
             return View(room);
         }
-
-        /* TODO::: I don't get this code and changed it to the simpler code above. All we do is retrieve a object, dont get 
-         * why it's so complex? The Details view loops though anyway, so we don't need to bother about that here?
-        //details for room
-        public async Task<IActionResult> RoomDetails(int Id)
-        {
-            // Get the room from the database based on the room-ID
-            var room = await _roomRepository.GetItemById(Id);
-            var topics = await _topicRepository.GetTopicByRoom(Id);
-            if (room == null)
-            {
-                return NotFound(); //returns 404 if the room is not found
-            }
-            if (topics == null || !topics.Any())
-            {
-                topics = new List<Topic>();
-            }
-
-            {
-                var roomListViewModel = new RoomListViewModel(
-                 rooms: new List<Room> { room }, // Add the room to the list
-                topicsByRoom: new Dictionary<int, List<Topic>> { { room.RoomId, topics.ToList() } }, // Legg emnene for rommet i dictionary
-                currentViewName: "Details");  // Set display name
-                return View(room);
-            }
-        } */
 
         [HttpGet]
         public IActionResult CreateRoom(int categoryId)  //la til at man kan lage forum 
@@ -103,7 +77,7 @@ namespace Forum.Controllers
         [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> UpdateRoom(int Id)
         {
-            var room = await _roomRepository.GetItemById(Id);
+            var room = await _roomRepository.GetRoomById(Id);
 
             if (room == null)
             {
@@ -140,7 +114,7 @@ namespace Forum.Controllers
         [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> DeleteRoom(int Id)
         {
-            var room = await _roomRepository.GetItemById(Id);
+            var room = await _roomRepository.GetRoomById(Id);
 
             if (room == null)
             {

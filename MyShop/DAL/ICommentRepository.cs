@@ -5,7 +5,7 @@ namespace Forum.DAL
     public interface ICommentRepository
     {
         Task<IEnumerable<Comment>> GetAll();
-        Task<Comment?> GetItemById(int id);
+        Task<Comment?> GetCommentById(int id);
         Task<int?> GetPostId(int id);
         Task Create(Comment comment);
         Task Update(Comment comment);

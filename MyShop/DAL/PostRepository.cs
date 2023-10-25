@@ -45,7 +45,7 @@ public class PostRepository : IPostRepository
 
     }
 
-    public async Task<Post?> GetItemById(int id)
+    public async Task<Post?> GetPostById(int id)
     {
         try
         {  

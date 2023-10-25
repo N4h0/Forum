@@ -85,7 +85,7 @@ namespace Forum.Controllers
         [HttpGet] //Displays the details of a topic with a given Id. 
         public async Task<IActionResult> TopicDetails(int Id)
         {
-            var topic = await _topicRepository.GetItemById(Id);
+            var topic = await _topicRepository.GetTopicById(Id);
 
             if (topic== null)
             {
@@ -102,7 +102,7 @@ namespace Forum.Controllers
         [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> UpdateTopic(int Id)
         {
-            var Topic = await _topicRepository.GetItemById(Id);
+            var Topic = await _topicRepository.GetTopicById(Id);
 
             if (Topic == null)
             {
@@ -142,7 +142,7 @@ namespace Forum.Controllers
         [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> DeleteTopic(int id)
         {
-            var topic = await _topicRepository.GetItemById(id);
+            var topic = await _topicRepository.GetTopicById(id);
 
             if (topic == null)
             {

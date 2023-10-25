@@ -5,7 +5,7 @@ namespace Forum.DAL
     public interface ITopicRepository
     {
         Task<IEnumerable<Topic>> GetAll();
-        Task<Topic?> GetItemById(int id);
+        Task<Topic?> GetTopicById(int id);
         Task<bool> Create(Topic topic);
         Task<int?> GetRoomId(int id);
 

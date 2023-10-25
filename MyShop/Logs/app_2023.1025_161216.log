@@ -1,0 +1,114 @@
+2023-10-25 16:12:18.306 +02:00 [Information] User profile is available. Using '"C:\Users\Johan\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-25 16:12:18.886 +02:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-25 16:12:18.887 +02:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-25 16:12:18.892 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-25 16:12:18.893 +02:00 [Information] Hosting environment: "Development"
+2023-10-25 16:12:18.894 +02:00 [Information] Content root path: "C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\"
+2023-10-25 16:12:19.387 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-25 16:12:19.435 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-25 16:12:19.444 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-25 16:12:19.479 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-25 16:12:19.572 +02:00 [Information] Executed ViewResult - view "Index" executed in 94.028ms.
+2023-10-25 16:12:19.573 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 128.0437ms
+2023-10-25 16:12:19.573 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-25 16:12:19.583 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 198.3267ms
+2023-10-25 16:12:19.594 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/style.css - -
+2023-10-25 16:12:19.598 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/style.css - - - 404 0 - 3.9170ms
+2023-10-25 16:12:19.689 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-25 16:12:19.693 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 3.8220ms
+2023-10-25 16:12:26.853 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/CategoryDetails/8 - -
+2023-10-25 16:12:26.855 +02:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-25 16:12:26.862 +02:00 [Information] Route matched with "{action = \"CategoryDetails\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CategoryDetails(Int32)" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-25 16:12:26.870 +02:00 [Information] [CategoryController] ID passed to CategoryController: 8.
+2023-10-25 16:12:26.878 +02:00 [Information] Executing ViewResult, running view "CategoryDetails".
+2023-10-25 16:12:26.909 +02:00 [Information] Executed ViewResult - view "CategoryDetails" executed in 30.5573ms.
+2023-10-25 16:12:26.909 +02:00 [Information] Executed action "Forum.Controllers.CategoryController.CategoryDetails (Forum)" in 46.5614ms
+2023-10-25 16:12:26.909 +02:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-25 16:12:26.909 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/CategoryDetails/8 - - - 200 - text/html;+charset=utf-8 55.2635ms
+2023-10-25 16:12:26.921 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/CategoryDetails/style.css - -
+2023-10-25 16:12:26.921 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-25 16:12:26.922 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2632ms
+2023-10-25 16:12:26.923 +02:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-25 16:12:26.923 +02:00 [Information] Route matched with "{action = \"CategoryDetails\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CategoryDetails(Int32)" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-25 16:12:26.927 +02:00 [Information] [CategoryController] ID passed to CategoryController: 0.
+2023-10-25 16:12:26.934 +02:00 [Error] [CategoryController] Category not found for the categoryId 0.
+2023-10-25 16:12:26.940 +02:00 [Information] Executing "NotFoundObjectResult", writing value of type '"System.String"'.
+2023-10-25 16:12:26.940 +02:00 [Information] Executed action "Forum.Controllers.CategoryController.CategoryDetails (Forum)" in 17.7139ms
+2023-10-25 16:12:26.940 +02:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-25 16:12:26.940 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/CategoryDetails/style.css - - - 404 - text/plain;+charset=utf-8 19.1375ms
+2023-10-25 16:12:28.872 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-25 16:12:28.873 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-25 16:12:28.873 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-25 16:12:28.876 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-25 16:12:28.877 +02:00 [Information] Executed ViewResult - view "Index" executed in 1.0092ms.
+2023-10-25 16:12:28.877 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 4.1263ms
+2023-10-25 16:12:28.877 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-25 16:12:28.877 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 4.6021ms
+2023-10-25 16:12:28.891 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-25 16:12:28.891 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/style.css - -
+2023-10-25 16:12:28.891 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2470ms
+2023-10-25 16:12:28.891 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/style.css - - - 404 0 - 0.4502ms
+2023-10-25 16:12:31.435 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/CategoryDetails/2 - -
+2023-10-25 16:12:31.435 +02:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-25 16:12:31.435 +02:00 [Information] Route matched with "{action = \"CategoryDetails\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CategoryDetails(Int32)" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-25 16:12:31.440 +02:00 [Information] [CategoryController] ID passed to CategoryController: 2.
+2023-10-25 16:12:31.441 +02:00 [Information] Executing ViewResult, running view "CategoryDetails".
+2023-10-25 16:12:31.444 +02:00 [Information] Executed ViewResult - view "CategoryDetails" executed in 3.1199ms.
+2023-10-25 16:12:31.444 +02:00 [Information] Executed action "Forum.Controllers.CategoryController.CategoryDetails (Forum)" in 9.2263ms
+2023-10-25 16:12:31.444 +02:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-25 16:12:31.444 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/CategoryDetails/2 - - - 200 - text/html;+charset=utf-8 9.7550ms
+2023-10-25 16:12:31.458 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-25 16:12:31.458 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/CategoryDetails/style.css - -
+2023-10-25 16:12:31.459 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.1500ms
+2023-10-25 16:12:31.459 +02:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-25 16:12:31.459 +02:00 [Information] Route matched with "{action = \"CategoryDetails\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CategoryDetails(Int32)" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-25 16:12:31.462 +02:00 [Information] [CategoryController] ID passed to CategoryController: 0.
+2023-10-25 16:12:31.464 +02:00 [Error] [CategoryController] Category not found for the categoryId 0.
+2023-10-25 16:12:31.464 +02:00 [Information] Executing "NotFoundObjectResult", writing value of type '"System.String"'.
+2023-10-25 16:12:31.465 +02:00 [Information] Executed action "Forum.Controllers.CategoryController.CategoryDetails (Forum)" in 5.785ms
+2023-10-25 16:12:31.465 +02:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-25 16:12:31.465 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/CategoryDetails/style.css - - - 404 - text/plain;+charset=utf-8 6.3202ms
+2023-10-25 16:13:11.892 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-25 16:13:11.895 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-25 16:13:11.895 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-25 16:13:11.900 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-25 16:13:11.901 +02:00 [Information] Executed ViewResult - view "Index" executed in 0.8577ms.
+2023-10-25 16:13:11.901 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 5.4833ms
+2023-10-25 16:13:11.901 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-25 16:13:11.901 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 8.9041ms
+2023-10-25 16:13:11.916 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/style.css - -
+2023-10-25 16:13:11.916 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/style.css - - - 404 0 - 0.3661ms
+2023-10-25 16:13:11.921 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-25 16:13:11.921 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2077ms
+2023-10-25 16:13:20.416 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/CategoryDetails/2 - -
+2023-10-25 16:13:20.416 +02:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-25 16:13:20.416 +02:00 [Information] Route matched with "{action = \"CategoryDetails\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CategoryDetails(Int32)" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-25 16:13:20.419 +02:00 [Information] [CategoryController] ID passed to CategoryController: 2.
+2023-10-25 16:13:20.420 +02:00 [Information] Executing ViewResult, running view "CategoryDetails".
+2023-10-25 16:13:20.422 +02:00 [Information] Executed ViewResult - view "CategoryDetails" executed in 1.9775ms.
+2023-10-25 16:13:20.422 +02:00 [Information] Executed action "Forum.Controllers.CategoryController.CategoryDetails (Forum)" in 6.222ms
+2023-10-25 16:13:20.422 +02:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-25 16:13:20.422 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/CategoryDetails/2 - - - 200 - text/html;+charset=utf-8 6.7248ms
+2023-10-25 16:13:20.435 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/CategoryDetails/style.css - -
+2023-10-25 16:13:20.435 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-25 16:13:20.435 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2486ms
+2023-10-25 16:13:20.435 +02:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-25 16:13:20.435 +02:00 [Information] Route matched with "{action = \"CategoryDetails\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CategoryDetails(Int32)" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-25 16:13:20.438 +02:00 [Information] [CategoryController] ID passed to CategoryController: 0.
+2023-10-25 16:13:20.440 +02:00 [Error] [CategoryController] Category not found for the categoryId 0.
+2023-10-25 16:13:20.440 +02:00 [Information] Executing "NotFoundObjectResult", writing value of type '"System.String"'.
+2023-10-25 16:13:20.440 +02:00 [Information] Executed action "Forum.Controllers.CategoryController.CategoryDetails (Forum)" in 5.2002ms
+2023-10-25 16:13:20.440 +02:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-25 16:13:20.440 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/CategoryDetails/style.css - - - 404 - text/plain;+charset=utf-8 5.7491ms
+2023-10-25 16:13:35.379 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-25 16:13:35.379 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-25 16:13:35.379 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-25 16:13:35.382 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-25 16:13:35.383 +02:00 [Information] Executed ViewResult - view "Index" executed in 0.7687ms.
+2023-10-25 16:13:35.383 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 3.5688ms
+2023-10-25 16:13:35.383 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-25 16:13:35.383 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 4.1167ms
+2023-10-25 16:13:35.398 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/style.css - -
+2023-10-25 16:13:35.398 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-25 16:13:35.399 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2606ms
+2023-10-25 16:13:35.399 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/style.css - - - 404 0 - 0.4569ms

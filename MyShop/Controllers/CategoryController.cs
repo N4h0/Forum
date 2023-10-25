@@ -49,14 +49,14 @@ namespace Forum.Controllers
             return View(categoryListViewModel);
         }
 
-        public async Task<IActionResult> CategoryDetails(int id)
+        public async Task<IActionResult> CategoryDetails(int Id)
         {
-
-            var category = await _categoryRepository.GetItemById(id);
+            _logger.LogInformation("[CategoryController] ID passed to CategoryController: {Id}.", Id);
+            var category = await _categoryRepository.GetCategoryById(Id);
             if (category == null)
             {
-                _logger.LogError("[CategoryController] Item not found for the ItemId {ItemId:0000}", id);
-                return NotFound("Item not found for the ItemId");
+                _logger.LogError("[CategoryController] Category not found for the categoryId {Id}.", Id);
+                return NotFound("Category not found for the CategoryId");
             }
             return View(category);
         }
@@ -86,7 +86,7 @@ namespace Forum.Controllers
         [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> UpdateCategory(int id)
         {
-            var category = await _categoryRepository.GetItemById(id);
+            var category = await _categoryRepository.GetCategoryById(id);
             if (category == null)
             {
                 _logger.LogError("[CategoryController] Category not found when updating the CategoryId {CategoryId:0000}", id);
@@ -115,7 +115,7 @@ namespace Forum.Controllers
         [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> DeleteCategory(int id)
         {
-            var category = await _categoryRepository.GetItemById(id);
+            var category = await _categoryRepository.GetCategoryById(id);
             if (category == null)
             {
                 _logger.LogError("[CategoryController] Item not found for the CategoryId {CategoryId:0000}", id);

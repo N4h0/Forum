@@ -69,11 +69,9 @@ namespace Forum.Controllers
 
                 //Need to figure out how to create the comment here
                 await _postRepository.Create(postCommentViewModel.Post); //Creating post
-                _logger.LogError("We're here");
                 postCommentViewModel.Comment.PostId = postCommentViewModel.Post.PostId; //Then assigning the Comments postId equal to Posts Postid
                 postCommentViewModel.Comment.UserId = postCommentViewModel.Post.UserId; //Then assigning the Comments userId equal to Posts Userid
                 await _commentRepository.Create(postCommentViewModel.Comment); //Then I can create the comment.
-                _logger.LogError("We're here");
                 return RedirectToAction("TopicDetails", "Topic", new { id = postCommentViewModel.Post.TopicId });//Return to Topic/TopicDetails/TopicId after create.
             }
             _logger.LogWarning("[PostController] Post creation failed {@post}", postCommentViewModel.Post);
@@ -83,7 +81,7 @@ namespace Forum.Controllers
         [HttpGet]
         public async Task<IActionResult> PostDetails(int Id)
         {
-            var post = await _postRepository.GetItemById(Id);
+            var post = await _postRepository.GetPostById(Id);
 
             if (post == null)
             {
@@ -98,7 +96,7 @@ namespace Forum.Controllers
         [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> UpdatePost(int Id)
         {
-            var Post = await _postRepository.GetItemById(Id);
+            var Post = await _postRepository.GetPostById(Id);
 
             if (Post == null)
             {
@@ -147,7 +145,7 @@ namespace Forum.Controllers
         [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> DeletePost(int Id)
         {
-            var topic = await _postRepository.GetItemById(Id);
+            var topic = await _postRepository.GetPostById(Id);
 
             if (topic == null)
             {

@@ -37,7 +37,7 @@ public class TopicRepository : ITopicRepository
        
     }
 
-    public async Task<Topic?> GetItemById(int id)
+    public async Task<Topic?> GetTopicById(int id)
     {
         try
         {

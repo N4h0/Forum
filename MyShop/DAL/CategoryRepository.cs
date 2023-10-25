@@ -30,7 +30,7 @@ public class CategoryRepository : ICategoryRepository
 
     }
 
-    public async Task<Category?> GetItemById(int id)
+    public async Task<Category?> GetCategoryById(int id)
     {
         try
         {

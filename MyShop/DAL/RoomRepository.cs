@@ -30,7 +30,7 @@ public class RoomRepository : IRoomRepository
         }
     }
 
-    public async Task<Room?> GetItemById(int id)
+    public async Task<Room?> GetRoomById(int id)
     {
         try
         {
