@@ -34,12 +34,12 @@
                     @foreach (var category in Model)
                     {
                         <tr>
-                            <td><i class="fa fa-fw fa-@category.Name"></i></td>
-                            <td><a asp-controller="Category" asp-action="CategoryDetails" asp-route-id="@category.CategoryId">@category.Name</a></td>
+                            <td><i class="fa fa-fw fa-@category.CategoryName"></i></td>
+                            <td><a asp-controller="Category" asp-action="CategoryDetails" asp-route-Id="@category.CategoryId">@category.CategoryName</a></td>
                             <td>
                                 <div class="admin-buttons">
-                                    <a asp-action="UpdateCategory" asp-route-id="@category.CategoryId" class="btn btn-success">Update</a>
-                                    <a asp-action="DeleteCategory" asp-route-id="@category.CategoryId" class="btn-admin btn btn-danger">Delete</a>
+                                    <a asp-action="UpdateCategory" asp-route-Id="@category.CategoryId" class="btn btn-success">Update</a>
+                                    <a asp-action="DeleteCategory" asp-route-Id="@category.CategoryId" class="btn-admin btn btn-danger">Delete</a>
                                 </div>
                             </td>
                         </tr>
@@ -53,8 +53,8 @@
                 @foreach (var category in Model)
                 {
                     <li class="list-group-item">
-                        <i class="fa fa-fw @categoryIcons[category.Name]"></i>
-                        <a asp-controller="Category" asp-action="CategoryDetails" asp-route-id="@category.CategoryId">@category.Name</a>
+                        <i class="fa fa-fw @categoryIcons[category.CategoryName]"></i>
+                        <a asp-controller="Category" asp-action="CategoryDetails" asp-route-Id="@category.CategoryId">@category.CategoryName</a>
                     </li>
                 }
             </ul>

@@ -21,44 +21,44 @@ public static class DBInit
             {
                 new Category
                 {
-                    Name = "Sport",
+                    CategoryName = "Sport",
 
                 },
                 new Category
                 {
-                    Name = "Data",
+                    CategoryName = "Data",
 
                 },
                 new Category
                 {
-                    Name = "Politics",
+                    CategoryName = "Politics",
 
                 },
                 new Category
                 {
-                    Name = "Health",
+                    CategoryName = "Health",
 
                 },
                 new Category
                 {
-                    Name = "Job",
+                    CategoryName = "Job",
 
                 },
                 new Category
 
 
                 {
-                    Name = "Culture,film and music",
+                    CategoryName = "Culture,film and music",
 
                 },
                 new Category
                 {
-                    Name = "Mobile, tablets and smartwatches",
+                    CategoryName = "Mobile, tablets and smartwatches",
 
                 },
                 new Category
                 {
-                    Name = "Economics and law",
+                    CategoryName = "Economics and law",
 
                 },
             };

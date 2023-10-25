@@ -4,8 +4,8 @@
 
 <form asp-action="CreateCategory">
     <div class="form-group">
-        <label asp-for="Name"></label><span class="text-danger">*</span>
-        <input asp-for="Name" class="form-control" />
+        <label asp-for="CategoryName"></label><span class="text-danger">*</span>
+        <input asp-for="CategoryName" class="form-control" />
         <span asp-valiation-for="Name" class="text-danger"></span>
     </div>
     <div asp-validation-summary="All" class="text-danger" ></div>

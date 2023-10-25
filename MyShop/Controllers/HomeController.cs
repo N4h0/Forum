@@ -14,7 +14,6 @@ namespace Forum.Controllers
     {
         private readonly IPostRepository _postRepository;
 
-
         public HomeController(IPostRepository postRepository)
         {
             _postRepository = postRepository;

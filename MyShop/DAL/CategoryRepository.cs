@@ -23,25 +23,23 @@ public class CategoryRepository : ICategoryRepository
         }
         catch (Exception e)
         {
-
             _logger.LogError("[CategoryRepository] items ToListAsync() failed when GetAll(), error message: {e}", e.Message);
             return null;
         }
-
     }
 
     public async Task<Category?> GetCategoryById(int id)
     {
+        _logger.LogInformation("[CategoryRep] Getting the category with id: {id}: ", id);
         try
         {
             return await _db.Categories.FindAsync(id);
         }
         catch (Exception e)
         {
-            _logger.LogError("[CategoryRepository] category FindAsync(id) failed when GetItemById for CategoryId {CategoryId:0000}, error message: {e}", id, e.Message);
+            _logger.LogError("[CategoryRepository] category FindAsync(id) failed when GetItemById for CategoryId {CategoryId}, error message: {e}", id, e.Message);
             return null;
         }
-
     }
 
     public async Task<bool> Create(Category category)
@@ -56,9 +54,7 @@ public class CategoryRepository : ICategoryRepository
         {
             _logger.LogError("[CategoryRepository] category creation failed for item {@category}, error message: {e}", category, e.Message);
             return false;
-
         }
-
     }
 
     public async Task<bool> Update(Category category)

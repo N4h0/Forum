@@ -51,8 +51,9 @@ namespace Forum.Controllers
 
         public async Task<IActionResult> CategoryDetails(int Id)
         {
-            _logger.LogInformation("[CategoryController] ID passed to CategoryController: {Id}.", Id);
+            _logger.LogInformation("[CategoryController] ID: {Id}.", Id);
             var category = await _categoryRepository.GetCategoryById(Id);
+            _logger.LogInformation("[CategoryController] ID passed to CategoryController after database operation: {Id}.", Id);
             if (category == null)
             {
                 _logger.LogError("[CategoryController] Category not found for the categoryId {Id}.", Id);
@@ -60,7 +61,6 @@ namespace Forum.Controllers
             }
             return View(category);
         }
-
 
         [HttpGet]
         [Authorize(Roles = "SuperAdmin")]
@@ -81,7 +81,6 @@ namespace Forum.Controllers
             _logger.LogWarning("[CategoryController] Category creation failed {@category}", category);
             return View(category);
         }
-
         [HttpGet]
         [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> UpdateCategory(int id)
@@ -89,7 +88,7 @@ namespace Forum.Controllers
             var category = await _categoryRepository.GetCategoryById(id);
             if (category == null)
             {
-                _logger.LogError("[CategoryController] Category not found when updating the CategoryId {CategoryId:0000}", id);
+                _logger.LogError("[CategoryController] Category not found when updating the CategoryId {id}", id);
                 return BadRequest("Category not found for the CategoryId");
             }
             return View(category);
@@ -147,13 +146,13 @@ namespace Forum.Controllers
             var categoryquery = from x in categories select x;
             if (!string.IsNullOrEmpty(search))
             {
-                categoryquery = categoryquery.Where(x => x.Name.Contains(search, StringComparison.OrdinalIgnoreCase));
+                categoryquery = categoryquery.Where(x => x.CategoryName.Contains(search, StringComparison.OrdinalIgnoreCase));
             }
 
             // Legg til midlertidige logger for feilsøking
             foreach (var category in categoryquery)
             {
-                Console.WriteLine($"Category ID: {category.CategoryId}, Name: {category.Name}");
+                Console.WriteLine($"Category ID: {category.CategoryId}, Name: {category.CategoryName}");
             }
 
             return View(categoryquery);

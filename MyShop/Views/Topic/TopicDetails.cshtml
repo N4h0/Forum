@@ -3,6 +3,13 @@
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
 
+<H1>@Model.TopicName</H1>
+
+<a class="link-primary" asp-controller="Home" asp-action="Index">Home ></a>
+<a asp-action="CategoryDetails" asp-controller="Category" asp-route-id="@Model.Room.CategoryId" class="link-primary">@Model.Room.Category.CategoryName ></a>
+<a asp-action="RoomDetails" asp-controller="Room" asp-route-id="@Model.RoomId" class="link-primary">@Model.Room.RoomName ></a>
+<a class="link-primary">@Model.TopicName</a>
+
 <partial name="_PostTable" model="Model.Posts" />
 
 <!-- <a defines this a as a hyperlink. The controller is "Post", and the action is CreatePost (+[HttpGet] because hyperlink).

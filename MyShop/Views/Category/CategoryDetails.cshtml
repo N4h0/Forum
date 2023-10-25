@@ -3,6 +3,11 @@
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
 
+<H1>@Model.CategoryName</H1>
+
+<a class="link-primary" asp-controller="Home" asp-action="Index">Home ></a>
+<a class="link-primary">@Model.CategoryName</a>
+
 <partial name="_RoomTable" model="Model.Rooms" />
 
 @if (User.IsInRole("SuperAdmin"))

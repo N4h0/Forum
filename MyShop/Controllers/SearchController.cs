@@ -32,7 +32,7 @@ namespace Forum.Controllers
 
 
                     var categories = _db.Categories.ToList()
-                     .Where(category => category.Name.Contains(search, StringComparison.OrdinalIgnoreCase))
+                     .Where(category => category.CategoryName.Contains(search, StringComparison.OrdinalIgnoreCase))
                      .ToList();
                    var room = _db.Rooms.ToList()
                      .Where(room => room.RoomName.Contains(search, StringComparison.OrdinalIgnoreCase))

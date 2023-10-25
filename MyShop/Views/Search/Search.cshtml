@@ -58,7 +58,7 @@
                 @foreach (var category in Model.Categories)
                 {
                     <div class="result-post">
-                        <a href="@Url.Action("CategoryDetails", "Category", new { id = category.CategoryId })">@category.Name</a>
+                        <a href="@Url.Action("CategoryDetails", "Category", new { id = category.CategoryId })">@category.CategoryName</a>
                     </div>
                 }
             }

@@ -20,7 +20,7 @@
                 <td>
                     <a asp-controller="Category"
                        asp-action="CategoryDetails"
-                       asp-route-id="@category.CategoryId">@category.Name</a>
+                       asp-route-id="@category.CategoryId">@category.CategoryName</a>
                 </td>
                 @if (User.IsInRole("SuperAdmin"))
                 {
