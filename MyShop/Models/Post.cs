@@ -9,7 +9,7 @@ namespace Forum.Models
 	{
 		public int PostId { get; set; } //PK
 		public int TopicId { get; set; } //FK
-		public string? UserId { get; set; } //FK
+		public string? UserName { get; set; } //FK
 
 		[Required]
         [RegularExpression(@"[0-9a-zA-ZæøåÆØÅ. \-]{2,20}", ErrorMessage = "The Name must be numbers or letters and between 2 to 20 characters.")]

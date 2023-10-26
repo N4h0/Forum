@@ -114,11 +114,21 @@ namespace Forum.Areas.Identity.Pages.Account
                 // This doesn't count login failures towards account lockout
                 // To enable password failures to trigger account lockout, set lockoutOnFailure: true
 
-                var user = await _userManager.FindByEmailAsync(Input.Email); //Finding the user based on email
+                //Finding the user based on email
                 //Because for some weird reason the default login page uses username to log in. 
                 //In addition, this is hard to figure out, cause the default input variable is the email,
                 //so the email has to be equal to the username. To log in with the email, we add find the username based on the email.
                 //Thanks to https://stackoverflow.com/questions/24214840/cannot-login-on-asp-net-identity-2-site-after-programmatic-user-creation
+
+                var user = await _userManager.FindByEmailAsync(Input.Email);
+                if (user == null) //We need to IF to check if a valid user is returned. If no valid user is returned, 
+                    //there is an invalid login atempt.
+                {
+                    ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                    return Page();
+                }
+
+
 
                 //Changed the input here to be username
                 var result = await _signInManager.PasswordSignInAsync(user.UserName, Input.Password, Input.RememberMe, lockoutOnFailure: false);

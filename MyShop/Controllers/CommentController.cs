@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System;
 using Microsoft.AspNetCore.Authorization;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
+using Microsoft.AspNetCore.Identity;
 
 namespace Forum.Controllers
 {
@@ -17,11 +18,13 @@ namespace Forum.Controllers
     {
         private readonly ICommentRepository _commentRepository;
         private readonly ILogger<CommentController> _logger;
+        private readonly UserManager<IdentityUser> _userManager;
 
-        public CommentController(ICommentRepository commentRepository, ILogger<CommentController> logger)
+        public CommentController(ICommentRepository commentRepository, ILogger<CommentController> logger, UserManager<IdentityUser> userManager)
         {
             _commentRepository = commentRepository;
             _logger = logger;
+            _userManager = userManager;
         }
 
         [HttpGet] //HttpGet is responsible for displaying the form
@@ -47,12 +50,13 @@ namespace Forum.Controllers
         [Authorize]
         public async Task<IActionResult> CreateComment(Comment comment)
         {
-
             try
             { 
             if (ModelState.IsValid)
             {
-                await _commentRepository.Create(comment);
+                    var UserName = _userManager.GetUserName(User);
+                    comment.UserName = UserName;
+                    await _commentRepository.Create(comment);
                 return RedirectToAction("PostDetails", "Post", new { id = comment.PostId }); //Return to Post/PostDetails/PostId after create.
             }
             _logger.LogWarning("Comment creation failed, ModelState is invalid.");

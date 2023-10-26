@@ -16,13 +16,16 @@ namespace Forum.Controllers
         private readonly IPostRepository _postRepository;
         private readonly ICommentRepository _commentRepository; //We need this so that we can create a comment when we create a post.
         private readonly ILogger<PostController> _logger;
+        private readonly UserManager<IdentityUser> _userManager;
 
 
-        public PostController(IPostRepository postRepository, ICommentRepository commentRepository, ILogger<PostController> logger)
+
+        public PostController(IPostRepository postRepository, ICommentRepository commentRepository, ILogger<PostController> logger, UserManager<IdentityUser> userManager)
         {
             _postRepository = postRepository;
             _commentRepository = commentRepository; //We need this so that we can create a comment when we create a post.
             _logger = logger;
+            _userManager = userManager;
         }
       
 
@@ -67,10 +70,10 @@ namespace Forum.Controllers
                 // Set PostTime to current time before saving
                 postCommentViewModel.Post.PostTime = DateTime.Now;
 
-                //Need to figure out how to create the comment here
+                var UserName = _userManager.GetUserName(User);
+                postCommentViewModel.Post.UserName = UserName;
                 await _postRepository.Create(postCommentViewModel.Post); //Creating post
-                postCommentViewModel.Comment.PostId = postCommentViewModel.Post.PostId; //Then assigning the Comments postId equal to Posts Postid
-                postCommentViewModel.Comment.UserId = postCommentViewModel.Post.UserId; //Then assigning the Comments userId equal to Posts Userid
+                postCommentViewModel.Comment.UserName = UserName; //Then assigning the Comments postId equal to Posts Postid
                 await _commentRepository.Create(postCommentViewModel.Comment); //Then I can create the comment.
                 return RedirectToAction("TopicDetails", "Topic", new { id = postCommentViewModel.Post.TopicId });//Return to Topic/TopicDetails/TopicId after create.
             }

@@ -6,8 +6,8 @@
 <div class="container">
     <table class='table table-striped'>
         <tr>
-            <th class="bg-dark text-light">Id</th>
-            <th class="bg-dark text-light">Name</th>
+            <th class="bg-dark text-light">User</th>
+            <th class="bg-dark text-light">Comment</th>
             @if (User.IsInRole("SuperAdmin"))
             {
                 <th class="bg-dark text-light"> </th>
@@ -16,7 +16,7 @@
         @foreach (var Comment in Model)
         {
             <tr>
-                <td>@Comment.CommentId</td>
+                <td>@Comment.UserName</td>
                 <td>
                     <span>@Comment.CommentDescription</span>
                 </td>

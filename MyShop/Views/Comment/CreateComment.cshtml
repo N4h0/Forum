@@ -14,7 +14,7 @@
     <input type="hidden" asp-for="PostId" value="@Model.PostId" />
 
     <button type="submit" class="btn btn-primary">Create</button>
-    <input type="hidden" asp-for="UserId" value="@UserManager.GetUserId(User)" />
+    <input type="hidden" asp-for="UserName" value="@UserManager.GetUserName(User)" />
 
     <a asp-controller="Post" asp-action="PostDetails" asp-route-id="@Model.PostId" class="btn btn-secondary">Back to Post Details</a>
 </form>

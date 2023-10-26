@@ -21,7 +21,7 @@
     <!--Input for the TopicId, it get's automatically generated.-->
     <input type="hidden" asp-for="Post.TopicId" value="@Model.Post.TopicId" />
     <!--When clicked, the button will send a post request to the CreatePost action (controller [HttpPost] CreatePost).-->
-    <input type="hidden" asp-for="Post.UserId" value="@UserManager.GetUserId(User)" />
+    <input type="hidden" asp-for="Post.UserName" value="@UserManager.GetUserId(User)" />
     <button type="submit" class="btn btn-primary">Create</button>
 
     <!--Return button, which returns the user to the previous page (Topic/TopicDetails/TopicId)-->
