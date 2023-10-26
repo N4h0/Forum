@@ -15,14 +15,12 @@ namespace Forum.Controllers
 
     {
         private readonly IRoomRepository _roomRepository;
-        private readonly ITopicRepository _topicRepository;
         private readonly ILogger<RoomController> _logger;
 
 
-        public RoomController(IRoomRepository roomRepository, ITopicRepository topicRepository, ILogger<RoomController> logger)
+        public RoomController(IRoomRepository roomRepository, ILogger<RoomController> logger)
         {
             _roomRepository = roomRepository;
-            _topicRepository = topicRepository;
             _logger = logger;
         }
 
@@ -35,6 +33,10 @@ namespace Forum.Controllers
 
         public async Task<IActionResult> RoomDetails(int Id)
         {
+
+            _logger.LogInformation("RoomDetails called with Room ID: {RoomId}", Id);
+
+
             // Get the room from the database based on the room-ID
             var room = await _roomRepository.GetRoomById(Id);
 

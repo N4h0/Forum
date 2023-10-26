@@ -8,13 +8,19 @@
         <tr>
             <th class="bg-dark text-light">User</th>
             <th class="bg-dark text-light">Name</th>
+            <th class="bg-dark text-light">Date posted</th>
             @if (User.IsInRole("SuperAdmin"))
             {
                 <th class="bg-dark text-light"> </th>
                 <th class="bg-dark text-light"> </th>
             }
         </tr>
-        @foreach (var post in Model)
+        <!--Quick sorting method found here: https://stackoverflow.com/questions/24505301/how-to-sort-table-in-asp-net-razor
+        -->
+        @{ 
+                    var postOrdered = Model.OrderByDescending(m => m.PostTime);
+        }
+        @foreach (var post in postOrdered)
         {
             <tr>
                 <td>@post.UserName</td>
@@ -23,11 +29,12 @@
                        asp-action="PostDetails"
                        asp-route-id="@post.PostId">@post.PostTitle</a>
                 </td>
+                <td>@post.PostTime</td>
                 @if (User.IsInRole("SuperAdmin"))
                 {
                     <td>
-                        <a asp-action="UpdatePost" asp-controller="Post" asp-route-id="@post.UserName" class="btn btn-success">Update</a>
-                        <a asp-action="DeletePost" asp-controller="Post" asp-route-id="@post.UserName" class="btn btn-danger">Delete</a>
+                        <a asp-action="UpdatePost" asp-controller="Post" asp-route-id="@post.PostId" class="btn btn-success">Update</a>
+                        <a asp-action="DeletePost" asp-controller="Post" asp-route-id="@post.PostId" class="btn btn-danger">Delete</a>
                     </td>
                 }
             </tr>
