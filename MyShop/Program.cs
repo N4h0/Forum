@@ -137,6 +137,7 @@ using (var scope = app.Services.CreateScope()) //Want to access the services tha
 
     //Creating the email and password to the account:
     String email = "superAdmin@superAdmin.com";
+    String username = "SuperAdmin";
     String password = "SuperAdmin123456!";
 
     //Checking if the user exist, only need to generate one:
@@ -144,7 +145,7 @@ using (var scope = app.Services.CreateScope()) //Want to access the services tha
     {
         //Creating the user:
         var user = new IdentityUser();
-        user.UserName = email;
+        user.UserName = "Superadmin";
         user.Email = email;
         user.EmailConfirmed = true; //This makes the user confirmed in the system
 
@@ -156,6 +157,4 @@ using (var scope = app.Services.CreateScope()) //Want to access the services tha
 
     }
 }
-
-
 app.Run();

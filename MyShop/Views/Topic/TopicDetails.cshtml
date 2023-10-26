@@ -14,7 +14,7 @@
 
 <!-- <a defines this a as a hyperlink. The controller is "Post", and the action is CreatePost (+[HttpGet] because hyperlink).
 The TopicId from the Topic model gets passed. (TopicController HttpGet TopicDetails action).-->
-@if (User.IsInRole("SuperAdmin"))
+@if (User.IsInRole("SuperAdmin") || User.IsInRole("Member"))
 {
     <a class="btn btn-primary" class="create" style="margin-left: 110px;"
    asp-controller="Post"
