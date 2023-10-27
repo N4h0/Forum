@@ -18,7 +18,8 @@
             <tr>
                 <td>@Comment.UserName</td>
                 <td>
-                    <span>@Comment.CommentDescription <br><br> Posted @Comment.CommentTime</span>
+                    <span>@Comment.CommentDescription <br></span>
+                    <small class="text-muted">Posted @Comment.CommentTime</small>
                 </td>
                 @if (User.IsInRole("SuperAdmin"))
                 {
@@ -30,5 +31,4 @@
             </tr>
         }
     </table>
-
 </div>

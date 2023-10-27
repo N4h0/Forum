@@ -26,16 +26,17 @@
                        asp-action="PostDetails"
                        asp-route-id="@post.PostId">@post.PostTitle
                        </a>
-                    <i class="small.text.muted"><BR>Posted @post.PostTime by @post.UserName.</i>
+                    <small class="text-muted"><BR>Posted @post.PostTime by @post.UserName.</small>
                 </td>
                 @if (@post.LatestComment == null)
                 {
                     <td>
-                        <i class="small.text.muted">No comments.</i>
+                        <small class="text-muted">No comments.</small>
                     </td>
                 } else {
                 <td>
-                        <i class="small.text.muted">@post.LatestComment.UserName<BR>@FormatTime(@post.LatestComment.CommentTime).</i>
+                        <small class="text-muted">@post.LatestComment.UserName<BR>@FormatTime(@post.LatestComment.CommentTime).</small>
+
                 </td>
                 }
 
