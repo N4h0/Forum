@@ -6,8 +6,8 @@
 <div class="container">
     <table class='table table-striped'>
         <tr>
-            <th class="bg-dark text-light">User</th>
-            <th class="bg-dark text-light">Comment</th>
+            <th class="bg-dark text-light"> User </th>
+            <th class="bg-dark text-light"> Comment</th>
             @if (User.IsInRole("SuperAdmin"))
             {
                 <th class="bg-dark text-light"> </th>
@@ -18,7 +18,7 @@
             <tr>
                 <td>@Comment.UserName</td>
                 <td>
-                    <span>@Comment.CommentDescription</span>
+                    <span>@Comment.CommentDescription <br><br> Posted @Comment.CommentTime</span>
                 </td>
                 @if (User.IsInRole("SuperAdmin"))
                 {

@@ -54,6 +54,7 @@ namespace Forum.Controllers
             { 
             if (ModelState.IsValid)
             {
+                    comment.CommentTime = DateTime.Now;
                     var UserName = _userManager.GetUserName(User);
                     comment.UserName = UserName;
                     await _commentRepository.Create(comment);

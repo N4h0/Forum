@@ -65,11 +65,11 @@ namespace Forum.Controllers
         [Authorize]
         public async Task<IActionResult> CreatePost(PostCommentViewModel postCommentViewModel)
         {
+            var time = DateTime.Now; //Creating a variable "time" To be used as time for both the first posted
+            postCommentViewModel.Post.PostTime = time;
+            postCommentViewModel.Comment.CommentTime = time; //Setting commentime
             if (ModelState.IsValid)
             {
-                // Set PostTime to current time before saving
-                postCommentViewModel.Post.PostTime = DateTime.Now;
-
                 var UserName = _userManager.GetUserName(User);
                 postCommentViewModel.Post.UserName = UserName;
                 await _postRepository.Create(postCommentViewModel.Post); //Creating post
@@ -77,6 +77,7 @@ namespace Forum.Controllers
                 await _commentRepository.Create(postCommentViewModel.Comment); //Then I can create the comment.
                 return RedirectToAction("TopicDetails", "Topic", new { id = postCommentViewModel.Post.TopicId });//Return to Topic/TopicDetails/TopicId after create.
             }
+
             _logger.LogWarning("[PostController] Post creation failed {@post}", postCommentViewModel.Post);
             return View(postCommentViewModel);
         }

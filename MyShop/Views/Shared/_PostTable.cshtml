@@ -6,12 +6,10 @@
 <div class="container">
     <table class='table table-striped'>
         <tr>
-            <th class="bg-dark text-light">User</th>
-            <th class="bg-dark text-light">Name</th>
-            <th class="bg-dark text-light">Date posted</th>
+            <th class="bg-dark text-light">Posts</th>
+            <th class="bg-dark text-light">Last comment</th>
             @if (User.IsInRole("SuperAdmin"))
             {
-                <th class="bg-dark text-light"> </th>
                 <th class="bg-dark text-light"> </th>
             }
         </tr>
@@ -23,13 +21,26 @@
         @foreach (var post in postOrdered)
         {
             <tr>
-                <td>@post.UserName</td>
                 <td>
                     <a asp-controller="Post"
                        asp-action="PostDetails"
-                       asp-route-id="@post.PostId">@post.PostTitle</a>
+                       asp-route-id="@post.PostId">@post.PostTitle
+                       </a>
+                    <i class="small.text.muted"><BR>Posted @post.PostTime by @post.UserName.</i>
                 </td>
-                <td>@post.PostTime</td>
+                @if (@post.LatestComment == null)
+                {
+                    <td>
+                        <i class="small.text.muted">No comments.</i>
+                    </td>
+                } else {
+                <td>
+                        <i class="small.text.muted">@post.LatestComment.UserName<BR>@FormatTime(@post.LatestComment.CommentTime).</i>
+                </td>
+                }
+
+
+
                 @if (User.IsInRole("SuperAdmin"))
                 {
                     <td>
@@ -37,7 +48,61 @@
                         <a asp-action="DeletePost" asp-controller="Post" asp-route-id="@post.PostId" class="btn btn-danger">Delete</a>
                     </td>
                 }
+                
             </tr>
+            
                }
         </table>
     </div>
+
+@functions {
+    string FormatTime(DateTime postTime)
+    {
+        var timeDifference = DateTime.Now - postTime;
+
+        if (timeDifference.Days >= 1)
+        {
+            if ((int)timeDifference.Days == 1)
+            {
+                return $"{(int)timeDifference.Days} day ago";
+            }
+            else
+            {
+                return $"{(int)timeDifference.Days} days ago";
+            }
+        }
+        else if (timeDifference.Hours >= 1)
+        {
+            if ((int)timeDifference.Hours == 1)
+            {
+                return $"{(int)timeDifference.Hours} hour ago";
+            }
+            else
+            {
+                return $"{(int)timeDifference.Hours} hours ago";
+            }
+        }
+        else if (timeDifference.Minutes >= 1)
+        {
+            if ((int)timeDifference.Minutes == 1)
+            {
+                return $"{(int)timeDifference.Minutes} minute ago";
+            }
+            else
+            {
+                return $"{(int)timeDifference.Minutes} minutes ago";
+            }
+        }
+        else
+        {
+            if ((int)timeDifference.TotalSeconds == 1)
+            {
+                return $"{(int)timeDifference.Seconds} second ago";
+            }
+            else
+            {
+                return $"{(int)timeDifference.Seconds} seconds ago";
+            }
+        }
+    }
+}

@@ -19,5 +19,7 @@ namespace Forum.Models
 
         public virtual Topic? Topic  { get; set; } 
         public virtual List<Comment>? Comments { get; set; }
+
+        public Comment? LatestComment => Comments?.OrderByDescending(c => c.CommentId).FirstOrDefault();
     }
 }

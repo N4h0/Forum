@@ -1,0 +1,100 @@
+2023-10-27 03:24:15.078 +02:00 [Information] User profile is available. Using '"C:\Users\Johan\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-27 03:24:15.622 +02:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-27 03:24:15.623 +02:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-27 03:24:15.627 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-27 03:24:15.628 +02:00 [Information] Hosting environment: "Development"
+2023-10-27 03:24:15.631 +02:00 [Information] Content root path: "C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\"
+2023-10-27 03:24:16.080 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-27 03:24:16.139 +02:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-27 03:24:16.149 +02:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-27 03:24:16.177 +02:00 [Information] Executing ViewResult, running view "Index".
+2023-10-27 03:24:16.305 +02:00 [Information] Executed ViewResult - view "Index" executed in 128.2745ms.
+2023-10-27 03:24:16.308 +02:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 159.0297ms
+2023-10-27 03:24:16.309 +02:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-27 03:24:16.328 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/style.css - -
+2023-10-27 03:24:16.331 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 252.8125ms
+2023-10-27 03:24:16.335 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/style.css - - - 404 0 - 6.5051ms
+2023-10-27 03:24:16.365 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-27 03:24:16.368 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 2.7054ms
+2023-10-27 03:24:16.375 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-27 03:24:16.384 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.2916ms
+2023-10-27 03:24:18.400 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Post/PostDetails/1 - -
+2023-10-27 03:24:18.408 +02:00 [Information] Executing endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-27 03:24:18.416 +02:00 [Information] Route matched with "{action = \"PostDetails\", controller = \"Post\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostDetails(Int32)" on controller "Forum.Controllers.PostController" ("Forum").
+2023-10-27 03:24:18.425 +02:00 [Information] Executing ViewResult, running view "PostDetails".
+2023-10-27 03:24:18.484 +02:00 [Information] Executed ViewResult - view "PostDetails" executed in 59.4062ms.
+2023-10-27 03:24:18.484 +02:00 [Information] Executed action "Forum.Controllers.PostController.PostDetails (Forum)" in 68.4122ms
+2023-10-27 03:24:18.484 +02:00 [Information] Executed endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-27 03:24:18.485 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Post/PostDetails/1 - - - 200 - text/html;+charset=utf-8 84.6099ms
+2023-10-27 03:24:18.494 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Post/PostDetails/style.css - -
+2023-10-27 03:24:18.494 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-27 03:24:18.494 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-27 03:24:18.494 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3752ms
+2023-10-27 03:24:18.500 +02:00 [Information] Executing endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-27 03:24:18.500 +02:00 [Information] Route matched with "{action = \"PostDetails\", controller = \"Post\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostDetails(Int32)" on controller "Forum.Controllers.PostController" ("Forum").
+2023-10-27 03:24:18.501 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.6341ms
+2023-10-27 03:24:18.510 +02:00 [Error] [PostController] post not found for the TopicId 0000
+2023-10-27 03:24:18.515 +02:00 [Information] Executing "NotFoundObjectResult", writing value of type '"System.String"'.
+2023-10-27 03:24:18.516 +02:00 [Information] Executed action "Forum.Controllers.PostController.PostDetails (Forum)" in 15.9285ms
+2023-10-27 03:24:18.516 +02:00 [Information] Executed endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-27 03:24:18.516 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Post/PostDetails/style.css - - - 404 - text/plain;+charset=utf-8 21.8515ms
+2023-10-27 03:24:20.424 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Topic/TopicDetails/1 - -
+2023-10-27 03:24:20.426 +02:00 [Information] Executing endpoint '"Forum.Controllers.TopicController.TopicDetails (Forum)"'
+2023-10-27 03:24:20.427 +02:00 [Information] Route matched with "{action = \"TopicDetails\", controller = \"Topic\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TopicDetails(Int32)" on controller "Forum.Controllers.TopicController" ("Forum").
+2023-10-27 03:24:20.432 +02:00 [Information] Executing ViewResult, running view "TopicDetails".
+2023-10-27 03:24:20.452 +02:00 [Information] Executed ViewResult - view "TopicDetails" executed in 21.025ms.
+2023-10-27 03:24:20.452 +02:00 [Information] Executed action "Forum.Controllers.TopicController.TopicDetails (Forum)" in 25.0183ms
+2023-10-27 03:24:20.453 +02:00 [Information] Executed endpoint '"Forum.Controllers.TopicController.TopicDetails (Forum)"'
+2023-10-27 03:24:20.454 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Topic/TopicDetails/1 - - - 200 - text/html;+charset=utf-8 29.9544ms
+2023-10-27 03:24:20.460 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Topic/TopicDetails/style.css - -
+2023-10-27 03:24:20.460 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-27 03:24:20.460 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-27 03:24:20.460 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3311ms
+2023-10-27 03:24:20.463 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.5071ms
+2023-10-27 03:24:20.464 +02:00 [Information] Executing endpoint '"Forum.Controllers.TopicController.TopicDetails (Forum)"'
+2023-10-27 03:24:20.464 +02:00 [Information] Route matched with "{action = \"TopicDetails\", controller = \"Topic\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TopicDetails(Int32)" on controller "Forum.Controllers.TopicController" ("Forum").
+2023-10-27 03:24:20.469 +02:00 [Error] [TopicController] Topic not found for the TopicId 0000
+2023-10-27 03:24:20.469 +02:00 [Information] Executing "NotFoundObjectResult", writing value of type '"System.String"'.
+2023-10-27 03:24:20.469 +02:00 [Information] Executed action "Forum.Controllers.TopicController.TopicDetails (Forum)" in 4.8221ms
+2023-10-27 03:24:20.469 +02:00 [Information] Executed endpoint '"Forum.Controllers.TopicController.TopicDetails (Forum)"'
+2023-10-27 03:24:20.469 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Topic/TopicDetails/style.css - - - 404 - text/plain;+charset=utf-8 9.1418ms
+2023-10-27 03:24:21.981 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Post/PostDetails/1 - -
+2023-10-27 03:24:21.983 +02:00 [Information] Executing endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-27 03:24:21.983 +02:00 [Information] Route matched with "{action = \"PostDetails\", controller = \"Post\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostDetails(Int32)" on controller "Forum.Controllers.PostController" ("Forum").
+2023-10-27 03:24:21.985 +02:00 [Information] Executing ViewResult, running view "PostDetails".
+2023-10-27 03:24:21.995 +02:00 [Information] Executed ViewResult - view "PostDetails" executed in 10.0439ms.
+2023-10-27 03:24:21.995 +02:00 [Information] Executed action "Forum.Controllers.PostController.PostDetails (Forum)" in 11.9576ms
+2023-10-27 03:24:21.995 +02:00 [Information] Executed endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-27 03:24:21.996 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Post/PostDetails/1 - - - 200 - text/html;+charset=utf-8 15.2736ms
+2023-10-27 03:24:22.002 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-27 03:24:22.002 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-27 03:24:22.002 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Post/PostDetails/style.css - -
+2023-10-27 03:24:22.002 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3663ms
+2023-10-27 03:24:22.005 +02:00 [Information] Executing endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-27 03:24:22.005 +02:00 [Information] Route matched with "{action = \"PostDetails\", controller = \"Post\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostDetails(Int32)" on controller "Forum.Controllers.PostController" ("Forum").
+2023-10-27 03:24:22.006 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.6116ms
+2023-10-27 03:24:22.008 +02:00 [Error] [PostController] post not found for the TopicId 0000
+2023-10-27 03:24:22.008 +02:00 [Information] Executing "NotFoundObjectResult", writing value of type '"System.String"'.
+2023-10-27 03:24:22.008 +02:00 [Information] Executed action "Forum.Controllers.PostController.PostDetails (Forum)" in 3.1018ms
+2023-10-27 03:24:22.008 +02:00 [Information] Executed endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-27 03:24:22.008 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Post/PostDetails/style.css - - - 404 - text/plain;+charset=utf-8 6.3799ms
+2023-10-27 03:24:23.036 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Topic/TopicDetails/1 - -
+2023-10-27 03:24:23.039 +02:00 [Information] Executing endpoint '"Forum.Controllers.TopicController.TopicDetails (Forum)"'
+2023-10-27 03:24:23.039 +02:00 [Information] Route matched with "{action = \"TopicDetails\", controller = \"Topic\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TopicDetails(Int32)" on controller "Forum.Controllers.TopicController" ("Forum").
+2023-10-27 03:24:23.040 +02:00 [Information] Executing ViewResult, running view "TopicDetails".
+2023-10-27 03:24:23.052 +02:00 [Information] Executed ViewResult - view "TopicDetails" executed in 11.4786ms.
+2023-10-27 03:24:23.052 +02:00 [Information] Executed action "Forum.Controllers.TopicController.TopicDetails (Forum)" in 13.395ms
+2023-10-27 03:24:23.052 +02:00 [Information] Executed endpoint '"Forum.Controllers.TopicController.TopicDetails (Forum)"'
+2023-10-27 03:24:23.053 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Topic/TopicDetails/1 - - - 200 - text/html;+charset=utf-8 16.4633ms
+2023-10-27 03:24:23.060 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-27 03:24:23.060 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Topic/TopicDetails/style.css - -
+2023-10-27 03:24:23.060 +02:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-27 03:24:23.060 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.4324ms
+2023-10-27 03:24:23.063 +02:00 [Information] Executing endpoint '"Forum.Controllers.TopicController.TopicDetails (Forum)"'
+2023-10-27 03:24:23.063 +02:00 [Information] Route matched with "{action = \"TopicDetails\", controller = \"Topic\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TopicDetails(Int32)" on controller "Forum.Controllers.TopicController" ("Forum").
+2023-10-27 03:24:23.064 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.9843ms
+2023-10-27 03:24:23.067 +02:00 [Error] [TopicController] Topic not found for the TopicId 0000
+2023-10-27 03:24:23.067 +02:00 [Information] Executing "NotFoundObjectResult", writing value of type '"System.String"'.
+2023-10-27 03:24:23.067 +02:00 [Information] Executed action "Forum.Controllers.TopicController.TopicDetails (Forum)" in 3.8963ms
+2023-10-27 03:24:23.067 +02:00 [Information] Executed endpoint '"Forum.Controllers.TopicController.TopicDetails (Forum)"'
+2023-10-27 03:24:23.067 +02:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Topic/TopicDetails/style.css - - - 404 - text/plain;+charset=utf-8 7.5070ms
