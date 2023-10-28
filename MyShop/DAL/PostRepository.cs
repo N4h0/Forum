@@ -61,8 +61,6 @@ public class PostRepository : IPostRepository
 
     public async Task Create(Post post)
     {
-        _db.Posts.Add(post);
-        await _db.SaveChangesAsync();
         try
         {
             _db.Posts.Add(post);

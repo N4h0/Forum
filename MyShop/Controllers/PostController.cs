@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.Text;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
+using System.Text.Json;
 
 
 namespace Forum.Controllers
@@ -73,7 +74,14 @@ namespace Forum.Controllers
                 var UserName = _userManager.GetUserName(User);
                 postCommentViewModel.Post.UserName = UserName;
                 await _postRepository.Create(postCommentViewModel.Post); //Creating post
+                postCommentViewModel.Comment.PostId = postCommentViewModel.Post.PostId; //Then assigning the Comments postId equal to Posts Postid
                 postCommentViewModel.Comment.UserName = UserName; //Then assigning the Comments postId equal to Posts Postid
+                var serializedModel = JsonSerializer.Serialize(postCommentViewModel, new JsonSerializerOptions
+                {
+                    WriteIndented = true,
+                    ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve
+                });
+                _logger.LogInformation("Attempting to create a new post and comment with the following data: {PostCommentViewModel}", serializedModel);
                 await _commentRepository.Create(postCommentViewModel.Comment); //Then I can create the comment.
                 return RedirectToAction("TopicDetails", "Topic", new { id = postCommentViewModel.Post.TopicId });//Return to Topic/TopicDetails/TopicId after create.
             }
