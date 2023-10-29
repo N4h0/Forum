@@ -87,6 +87,30 @@
                 }
             }
 
+            @if (Model.Comments != null && Model.Comments.Count > 0)
+            {
+                @foreach (var comment in Model.Comments)
+                {
+                    <div class="result-post">
+                        <a href="@Url.Action("PostDetails", "Post", new { id = comment.PostId })">@comment.CommentDescription</a>
+
+                        @{
+                            // Get the post creation time from the model
+                            var commentTime = comment.CommentTime;
+
+
+                            // Call the FormatTimeAgo helper function to format the time
+                            var time = FormatTime(commentTime);
+
+                        }
+
+                        <p>@time</p>
+
+
+                    </div>
+                }
+            }
+
             <!-- Repeat this pattern for Topics, Rooms, and Comments -->
         }
     </div>
