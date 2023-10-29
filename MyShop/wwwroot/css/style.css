@@ -1,161 +1,128 @@
-
 body {
-    font-family: 'Mulish', sans-serif;
+    font-family: 'Mulish', sans-serif; /* Set the font family for the body text */
 }
 
-
-
-/*NAVBAR*/
-
-
+/* Navbar Styles */
 .navbar.navbar-expand-md {
-    max-height: 50px; /* Endre denne verdien etter ønsket høyde */
+    max-height: 50px; /* Adjust the maximum height of the navbar as needed */
 }
 
-.header-text {
+.header-text, .header-text:hover {
     font-size: 40px;
-    color: inherit;
+    color: inherit; /* Style the header text and ensure it inherits the color */
 }
-
-    .header-text:hover {
-        color: inherit;
-    }
-
 
 a {
-    text-decoration: none;
+    text-decoration: none; /* Remove underlines from links */
 }
 
-.main-nav-link.nav-cta, #logout{
+.main-nav-link.nav-cta, #logout {
     font-size: 20px;
     color: inherit;
 }
+
 #logout {
     padding: 0.5rem 2rem;
-    border-radius: 3px;
+    border-radius: 3px; /* Add border radius to the logout button */
 }
 
 .main-nav-link.nav-ct:link,
 .main-nav-link.nav-ct:visited {
     padding: 0.5rem 2rem;
-    border-radius: 3px;
+    border-radius: 3px; /* Style navigation links with padding and border radius */
     color: #fff;
     background-color: #000080;
 }
 
-.main-nav-link.nav-ct:hover,
-.main-nav-link.nav-ct
-t:active {
-    background-color: #6082B6;
-
+.main-nav-link.nav-ct:hover {
+    background-color: #6082B6; /* Change background color on hover */
 }
 
-
-/*/ Dette snakker vi om side */
+/* Content Area Styles */
 .col-md-8 {
     border: 1px solid #e0e0e0;
     width: 100%;
-    background-color:white;
+    background-color: white;
 }
 
-/* Ramme rundt hvert innlegg */
 .list-unstyled li {
     padding: 10px;
     margin-bottom: 15px;
-    border-radius: 25px;
+    border-radius: 25px; /* Style list items with padding and border radius */
 }
 
-/* Overskriftene (h4) */
 ul.list-unstyled li h4 {
     font-size: 18px;
     margin-top: 0;
     margin-bottom: 10px;
 }
 
-/* Lenker (a) i overskriftene */
-.list-unstyled li h4 a {
-    text-decoration: none;
-    color: #007bff;
-}
+    ul.list-unstyled li h4 a {
+        text-decoration: none;
+        color: #007bff; /* Style h4 links */
+    }
 
-/* Endre fargen til lenker når de peker (hover-effekt) */
-ul.list-unstyled li h4 a:hover {
-    color: #0056b3;
-}
+        ul.list-unstyled li h4 a:hover {
+            color: #0056b3; /* Change link color on hover */
+        }
 
-/* Tidsstempel (p) */
 ul.list-unstyled li p {
     font-size: 14px;
     color: #777;
     margin: 0;
 }
+
 .section-talking-title {
     padding-bottom: 15px;
     padding-top: 25px;
-    font-weight: bold;
+    font-weight: bold; /* Style section title */
 }
 
 .custom-line {
     border-top: 1px solid #ccc;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 10px; /* Add a custom line (horizontal rule) between items */
 }
 
-
-
-      
-/*Dette snakker vi om side slutt*/
-
-
-/*Kategori start*/
-
+/* Category Section Styles */
 .col-category {
     padding: 7px;
     text-align: center;
-    color: white; /* Tekstfarge */
-    margin: 6px; /* space between categories */
+    color: white;
+    margin: 6px; /* Space between categories */
     background-color: #4682B4;
     font-weight: bold;
 }
 
     .col-category:hover {
-        color: #fff; /* change the color on hover */
+        color: #fff; /* Change category text color on hover */
     }
 
-
-/* Stil for hvit border */
 .border-box {
-    border: 1px solid #fff; /* Hvit border */
-    padding: 20px; /* Ekstra padding for innholdet innenfor borderen */
+    border: 1px solid #fff;
+    padding: 20px;
     text-align: center;
 }
 
 h2 {
-    font-weight: bold; /* Gjør overskriften fet */
-    margin-bottom: 0; /* Fjern ekstra mellomrom under overskriften */
-
-    font-size: 20px
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 20px; /* Style category headings */
 }
 
     h2 a {
-        text-decoration: none; /* Fjern understrek fra lenken */
-        color: white; /* Endre farge for lenken */
+        text-decoration: none;
+        color: white; /* Style category links */
     }
-/*Kategori end*/
 
-
-
-/**Our chocen ones section*/
-
+/* Our Chosen Ones Section Styles */
 .chosen-title {
     font-weight: 700;
     color: #333;
-    /* color: #45260a; */
-    /* color: #343a40; */
     letter-spacing: -0.5px;
     font-size: 1.7rem;
     line-height: 1.05;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem; /* Style the section title */
 }
 
 .chosen {
@@ -165,7 +132,7 @@ h2 {
     transition: all 0.4s;
     margin-left: 10px;
     padding-bottom: 5rem;
-    background-color: white;
+    background-color: white; /* Style chosen content boxes */
 }
 
 .chosen-content {
@@ -180,13 +147,12 @@ h3 a {
 }
 
 .utvalgt-img {
-    width: 100%;
+    width: 100%; /* Style images within chosen content */
 }
 
 .carousel-fade .carousel-item {
     transition: opacity 0.6s;
 }
-
 
 .carousel {
     margin-bottom: 30px;
@@ -194,31 +160,26 @@ h3 a {
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
     background-color: black;
-   
 }
+
 .carousel-control-prev, .carousel-control-next {
     margin-top: 250px;
- 
-
+    margin-right: 500px; /* Position the carousel control buttons */
 }
 
-.carousel-control-prev{
-    margin-right:500px;
-}
-
-
-/**Foooter*/
+/* Footer Styles */
 .btn.btn-social {
     color: var(--light);
-    border: 1px solid rgba(255,255,255,0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 35px;
-    transition: .3s;
-}
-.copyright{
-    padding-top:9px;
-}
-.contact-title, .logo {
-    font-size: 20px;
-    font-weight:bold;
+    transition: 0.3s; /* Style social media buttons */
 }
 
+.copyright {
+    padding-top: 9px; /* Style copyright information */
+}
+
+.contact-title, .logo {
+    font-size: 20px;
+    font-weight: bold; /* Style contact title and logo */
+}

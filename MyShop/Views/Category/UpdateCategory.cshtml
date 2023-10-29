@@ -2,17 +2,29 @@
 
 <h2>Update Cateogry</h2>
 
+<!-- Create an HTML form with the action attribute set to "UpdateCategory" -->
+
 <form asp-action="UpdateCategory">
+    <!-- Create a hidden input field for the CategoryId using Razor syntax to bind it to the CategoryId property -->
     <input type="hidden" asp-for="CategoryId"/>
+
+    <!-- Start a container div -->
 
 <div>
         <label asp-for="CategoryName"></label>
+
+        <!-- Create an input field for CategoryName -->
         <input asp-for="CategoryName" class="form-control" />
+
+     <!-- Display a validation message for the "Name" property if there are validation errors -->
     <span aps-validation-for="Name" class="text-danger"></span>
 
 
     </div>
+     <!-- Display a button to submit the form with a primary (blue) style -->
+
     <button type="submit" class="btn btn-primary">Save changes</button>
+    <!-- Display a button to cancel and return to the "CategoryTable" action with a secondary (gray) style -->
     <a asp-action="CategoryTable" class="btn btn-secondry">Cancel</a>
 
 </form>

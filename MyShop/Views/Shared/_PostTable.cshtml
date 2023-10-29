@@ -8,6 +8,7 @@
         <tr>
             <th class="bg-dark text-light">Posts</th>
             <th class="bg-dark text-light">Last comment</th>
+            <!-- Check if the user has SuperAdmin role -->
             @if (User.IsInRole("SuperAdmin"))
             {
                 <th class="bg-dark text-light"> </th>

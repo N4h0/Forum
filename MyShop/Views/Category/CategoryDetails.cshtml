@@ -1,17 +1,23 @@
-﻿@model Forum.Models.Category
-@using Microsoft.AspNetCore.Identity
-@inject SignInManager<IdentityUser> SignInManager
-@inject UserManager<IdentityUser> UserManager
+﻿@model Forum.Models.Category  // Specify the model for this Razor view
+@using Microsoft.AspNetCore.Identity  
+@inject SignInManager<IdentityUser> SignInManager  // Inject the SignInManager service for IdentityUser
+@inject UserManager<IdentityUser> UserManager // Inject the UserManager service for IdentityUser
 
 <H1>@Model.CategoryName</H1>
 
+<!-- Create a link to the Home page -->
 <a class="link-primary" asp-controller="Home" asp-action="Index">Home ></a>
+
+<!-- Display the category name as a link with the link class -->
 <a class="link-primary">@Model.CategoryName</a>
 
+<!-- Render a partial view called "_RoomTable" with the Model.Rooms data -->
 <partial name="_RoomTable" model="Model.Rooms" />
 
+<!-- Check if the current user is in the "SuperAdmin" role -->
 @if (User.IsInRole("SuperAdmin"))
 {
+    <!-- Display a "Create New Room" button with a link to the Room controller's CreateRoom action -->
     <a class="btn btn-primary" class="create" style="margin-left: 110px;"
    asp-controller="Room"
    asp-action="CreateRoom"

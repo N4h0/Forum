@@ -1,5 +1,10 @@
 ﻿@model CommentListViewModel
 
+
+<!-- Display an heading with the text "List of Comments" and the current view's name -->
+
 <h1>List of Comments (@Model.CurrentViewName View)</h1>
 
+
+<!-- Render a partial view "_CommentList" and pass the model "Model.Comments" to it -->
 <partial name="_CommentTable" model="Model.Comments" />

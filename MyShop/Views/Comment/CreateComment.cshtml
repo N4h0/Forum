@@ -5,16 +5,29 @@
 
 <h2>Reply</h2>
 
+<!-- Create an HTML form that posts data to the "CreateComment" action -->
 <form asp-action="CreateComment">
+
+    <!--Create a div -->
     <div class="form-group">
+        <!-- Display a label for the "CommentDescription" property -->
         <label asp-for="CommentDescription">Comment description</label><span class="text-danger">*</span>
+
+        <!-- Create an input field for the "CommentDescription" property with a form-control class -->
         <input asp-for="CommentDescription" class="form-control"/>
+        <!-- Display any validation error for the "CommentDescription" -->
+
         <span asp-validation-for="CommentDescription" class="text-danger"></span>
     </div>
+    <!-- Add a hidden input field with the value of the "PostId" property from the model -->
     <input type="hidden" asp-for="PostId" value="@Model.PostId" />
 
+    <!-- Display a submit button with the text "Create" -->
     <button type="submit" class="btn btn-primary">Create</button>
+
+    <!-- Add a hidden input field with the value of the current user's name obtained using UserManager -->
     <input type="hidden" asp-for="UserName" value="@UserManager.GetUserName(User)" />
 
+     <!-- Display a link button that redirects to the "PostDetails" action with the current "PostId" -->
     <a asp-controller="Post" asp-action="PostDetails" asp-route-id="@Model.PostId" class="btn btn-secondary">Back to Post Details</a>
 </form>

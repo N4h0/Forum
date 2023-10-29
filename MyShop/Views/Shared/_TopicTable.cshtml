@@ -5,8 +5,12 @@
 
 <div class="container">
     <div class="category">
+
+        <!-- Check if the user is in the "SuperAdmin" role -->
         @if (User.IsInRole("SuperAdmin"))
         {
+            <!-- Display a table for topic  -->
+
             <table class="table">
                 <thead>
                     <tr>
@@ -23,7 +27,9 @@
                             </td>
                             <td>
                                 <div class="admin-buttons topic">
+                                    <!--Buttonm to uppdate topic-->
                                     <a asp-action="UpdateTopic" asp-controller="Topic" asp-route-id="@topic.TopicId" class="btn btn-success">Update</a>
+                                    <!--Button to delete topic-->
                                     <a asp-action="DeleteTopic" asp-controller="Topic" asp-route-id="@topic.TopicId" class="btn btn-danger">Delete</a>
                                 </div>
                             </td>
@@ -32,6 +38,7 @@
                 </tbody>
             </table>
         }
+        // <!-- If the user is not a SuperAdmin, display a simple list of topics -->
         else
         {
             <ul class="list-group">

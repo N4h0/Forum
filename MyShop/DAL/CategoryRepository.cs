@@ -15,8 +15,14 @@ public class CategoryRepository : ICategoryRepository
         _logger = logger;
     }
 
+
+
+    // method to get all categories asynchronously.
+
     public async Task<IEnumerable<Category>?> GetAll()
     {
+        // Try to fetch all categories from the database and return them.
+
         try
         {
             return await _db.Categories.ToListAsync();

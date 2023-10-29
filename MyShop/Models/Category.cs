@@ -7,8 +7,9 @@ namespace Forum.Models
 	{
 		
 		public int CategoryId { get; set; } //PK
-
-        [RegularExpression(@"[0-9a-zA-ZæøåÆØÅ. \-]{2,20}", ErrorMessage = "The Name must be numbers or letters and between 2 to 20 characters.")]
+        
+		// Apply regular expression validation to CategoryName property
+        [RegularExpression(@"^[a-zA-ZæøåÆØÅ. \-]{2,20}$", ErrorMessage = "Category name must consist of letters and be between 2 and 20 characters.")]
         public string CategoryName { get; set; } = string.Empty;
 
 		// public string? Description { get; set; } //Add this if we decide we want a description for each category. 

@@ -13,6 +13,11 @@
         <label asp-for="Post.PostTitle"></label><span class="text-danger">*</span>
         <!--Input for the PostTitle part of the model-->
         <input asp-for="Post.PostTitle" class="form-control" />
+        <span asp-validation-for="Post.PostTitle" class="text-danger"></span>
+    </div>
+     <div class="form-group">
+
+
         <!--A field for validation-->
         <label asp-for="Comment.CommentDescription"></label><span class="text-danger">*</span>
         <input asp-for="Comment.CommentDescription" class="form-control" />

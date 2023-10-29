@@ -1,0 +1,19 @@
+2023-10-29 15:33:47.354 +01:00 [Information] User profile is available. Using '"C:\Users\abdik\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-29 15:33:47.765 +01:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-29 15:33:47.765 +01:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-29 15:33:47.768 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-29 15:33:47.768 +01:00 [Information] Hosting environment: "Development"
+2023-10-29 15:33:47.769 +01:00 [Information] Content root path: "C:\Users\abdik\Source\Repos\Forum\MyShop\"
+2023-10-29 15:33:48.027 +01:00 [Information] Request starting HTTP/2 POST https://localhost:7205/Category/CreateCategory application/x-www-form-urlencoded 300
+2023-10-29 15:33:48.070 +01:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CreateCategory (Forum)"'
+2023-10-29 15:33:48.088 +01:00 [Information] Route matched with "{action = \"CreateCategory\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCategory(Forum.Models.Category)" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-29 15:33:48.108 +01:00 [Warning] [CategoryController] Category creation failed Category { CategoryId: 0, CategoryName: "kjkldfgdfg dfg d fg df g fd g dfg df g df g df g df g df gdfg", Rooms: null }
+2023-10-29 15:33:48.111 +01:00 [Information] Executing ViewResult, running view "CreateCategory".
+2023-10-29 15:33:48.211 +01:00 [Information] Executed ViewResult - view "CreateCategory" executed in 98.8551ms.
+2023-10-29 15:33:48.213 +01:00 [Information] Executed action "Forum.Controllers.CategoryController.CreateCategory (Forum)" in 123.9521ms
+2023-10-29 15:33:48.213 +01:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CreateCategory (Forum)"'
+2023-10-29 15:33:48.224 +01:00 [Information] Request finished HTTP/2 POST https://localhost:7205/Category/CreateCategory application/x-www-form-urlencoded 300 - 200 - text/html;+charset=utf-8 199.4362ms
+2023-10-29 15:33:48.230 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-29 15:33:48.230 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-29 15:33:48.232 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 1.8255ms
+2023-10-29 15:33:48.236 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.2509ms

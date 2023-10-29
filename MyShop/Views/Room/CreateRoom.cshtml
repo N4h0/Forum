@@ -9,12 +9,12 @@
         <span asp-validation-for="RoomName" class="text-danger"></span>
     </div>
     <input type="hidden" asp-for="CategoryId" value="@Model.CategoryId" />
-    <!-- Legger til en skjult input for CategoryId, som sendes til serveren når skjemaet postes -->
-    <!-- Dette er nyttig for å lagre CategoryId og knytte rommet til en bestemt kategori.-->
+    <!-- Adds a hidden input for CategoryId, which is sent to the server when the form is submitted -->
+    <!-- This is useful for storing CategoryId and associating the room with a specific category. -->
 
     <button type="submit" class="btn btn-primary">Create</button>
-    <!-- Oppretter en "Create" knapp for å sende skjemaet til serveren -->
+    <!-- Creates a "Create" button to submit the form to the server -->
 
     <a asp-controller="Category" asp-action="CategoryDetails" asp-route-id="@Model.CategoryId" class="btn btn-secondary">Back to Category Details</a>
-    <!-- Oppretter en "Back to Category Details" lenke som tar deg tilbake til kategoridetaljene -->
+    <!-- Creates a "Back to Category Details" link that takes you back to the category details -->
 </form>

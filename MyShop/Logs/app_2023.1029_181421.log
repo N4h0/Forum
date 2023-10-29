@@ -1,0 +1,18 @@
+2023-10-29 18:14:22.913 +01:00 [Information] User profile is available. Using '"C:\Users\abdik\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-29 18:14:23.320 +01:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-29 18:14:23.320 +01:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-29 18:14:23.323 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-29 18:14:23.324 +01:00 [Information] Hosting environment: "Development"
+2023-10-29 18:14:23.324 +01:00 [Information] Content root path: "C:\Users\abdik\Source\Repos\Forum\MyShop\"
+2023-10-29 18:14:25.487 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Room/RoomTable - -
+2023-10-29 18:14:25.527 +01:00 [Information] Executing endpoint '"Forum.Controllers.RoomController.RoomTable (Forum)"'
+2023-10-29 18:14:25.537 +01:00 [Information] Route matched with "{action = \"RoomTable\", controller = \"Room\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RoomTable()" on controller "Forum.Controllers.RoomController" ("Forum").
+2023-10-29 18:14:25.556 +01:00 [Information] Executing ViewResult, running view "RoomTable".
+2023-10-29 18:14:25.660 +01:00 [Information] Executed ViewResult - view "RoomTable" executed in 103.1515ms.
+2023-10-29 18:14:25.662 +01:00 [Information] Executed action "Forum.Controllers.RoomController.RoomTable (Forum)" in 124.7105ms
+2023-10-29 18:14:25.663 +01:00 [Information] Executed endpoint '"Forum.Controllers.RoomController.RoomTable (Forum)"'
+2023-10-29 18:14:25.676 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-29 18:14:25.676 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-29 18:14:25.676 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Room/RoomTable - - - 200 - text/html;+charset=utf-8 190.8477ms
+2023-10-29 18:14:25.677 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 1.7502ms
+2023-10-29 18:14:25.682 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.2793ms

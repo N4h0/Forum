@@ -10,6 +10,8 @@ public class TopicRepository : ITopicRepository
     private readonly ILogger<TopicRepository> _logger;
 
 
+    // Constructor for the TopicRepository class that takes two parameters: CategoryDbContext and ILogger.
+
     public TopicRepository(CategoryDbContext db,ILogger<TopicRepository> logger)
     {
         _db = db;
@@ -17,14 +19,25 @@ public class TopicRepository : ITopicRepository
 
     }
 
+    // Define a method to get the RoomId associated with a topic by its ID.
+
+
     public async Task<int?> GetRoomId(int id)
     {
+        // Try to find and get the topic based on its ID.
         var topic = await _db.Topics.FindAsync(id);
+
+        // Return the RoomId associated with the topic.
         return topic.RoomId;
     }
 
+
+    // Method to get all topics asynchronously.
+
     public async Task<IEnumerable<Topic>> GetAll()
     {
+        // Try to fetch all topics from the database and return them.
+
         try
         {
             return await _db.Topics.ToListAsync();
@@ -36,9 +49,13 @@ public class TopicRepository : ITopicRepository
         }
        
     }
+    // Method to get a topic by its ID.
 
     public async Task<Topic?> GetTopicById(int id)
     {
+
+        // Try to find and return a topic based on its ID.
+
         try
         {
             return await _db.Topics.FindAsync(id);
@@ -51,10 +68,15 @@ public class TopicRepository : ITopicRepository
        
     }
 
+
+    //  method to create a new topic.
+
     public async Task<bool> Create(Topic topic)
     {
         try
         {
+            // Add the new topic to the database and then Save changes to the database asynchronously.
+
             _db.Topics.Add(topic);
             await _db.SaveChangesAsync();
             return true;
@@ -67,10 +89,13 @@ public class TopicRepository : ITopicRepository
        
     }
 
+    //  method to update an existing topic.
+
     public async Task<bool> Update(Topic topic)
     {
         try
         {
+            // Update the topic in the database context and then  Save changes to the database asynchronously.
             _db.Topics.Update(topic);
             await _db.SaveChangesAsync();
             return true;
@@ -83,10 +108,16 @@ public class TopicRepository : ITopicRepository
        
     }
 
+    // Define a method to delete a topic by its ID.
+
+
     public async Task<bool> Delete(int id)
     {
+        // Try to find the topic by its ID.
+
         try
         {
+
             var topic = await _db.Topics.FindAsync(id);
             if (topic == null)
 
@@ -94,7 +125,11 @@ public class TopicRepository : ITopicRepository
                 _logger.LogError("[TopicRepository] topic not found for the TopicId {TopicId:0000}", id);
                 return false;
             }
+            // Remove the topic from the database
+
             _db.Topics.Remove(topic);
+            // Remove the topic from the database 
+
             await _db.SaveChangesAsync();
             return true;
         }
@@ -105,9 +140,15 @@ public class TopicRepository : ITopicRepository
         }
     }
 
+    // method to get a list of topics associated with a room by its ID.
+
+
     public async Task<List<Topic>> GetTopicByRoom(int id)
     {
+        // Try to retrieve a room and include its related topics from the database, 
+
         var room = await _db.Rooms.Include(r => r.Topics).FirstOrDefaultAsync(r => r.RoomId == id);
+        // If the room exists, return
         return room?.Topics.ToList() ?? new List<Topic>();
     }
 }

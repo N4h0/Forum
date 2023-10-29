@@ -15,9 +15,13 @@
 
     </dl>
 
+    <!-- Starts a form that submits data to the "DeleteConfirmedRoom" action with "RoomId" as a route value upon submission (HTTP POST). -->
 
     <form asp-action="DeleteConfirmedRoom" asp-route-id="@Model.RoomId" method="post">
+
+        <!--Button to confirmt deletetion of room -->
             <button type="submit" class="btn  btn-danger">Delete</button>
+        <!--Return button, which returns the user to the previous page-->
         <a asp-controller="Category" asp-action="CategoryDetails" asp-route-id="@Model.CategoryId" class="btn btn-secondary">Cancel</a>
     </form>
      

@@ -106,6 +106,9 @@ public static class DBInit
                 new Post { PostTitle = "Should I switch to Linux", TopicId= 2 },
                 new Post { PostTitle = "Linux for gaming?", TopicId= 2 },
                 new Post { PostTitle = "I switched back to windows from Linux, AMA", TopicId= 2 },
+                new Post {PostTitle="The war between Palestine and Israel",TopicId=6,
+               PostTime = DateTime.Now},
+            
             };
             context.AddRange(posts);
             context.SaveChanges();
@@ -123,6 +126,7 @@ public static class DBInit
                 new Comment { CommentDescription = "No", PostId= 5 },
                 new Comment { CommentDescription = "Yes, it's 2023", PostId= 6 },
                 new Comment { CommentDescription = "Shut up", PostId= 7 },
+                new Comment{CommentDescription ="The latest news is that Israel has launched an attack on two airports in Syria according to Syrian state media.",PostId= 8,CommentTime=DateTime.Now,UserName="Petter"},
 
             };
             context.AddRange(comments);

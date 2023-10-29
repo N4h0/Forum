@@ -45,7 +45,7 @@
                                         <a href="@Url.Action("PostDetails", "Post", new { id = post.PostId })">@post.PostTitle</a>
                                     </div>
                                     <div class="col-md-3">
-                                        <p>UserName</p>
+                                        <small class="text-muted">@post.LatestComment.UserName<BR></small>
                                     </div>
                                     <div class="col-md-2 text-right">
                                         @{
@@ -76,12 +76,12 @@
         </div>
     </div>
 
-
-
     <!-- THIS IS WHAT WE'RE TALKING ABOUT NOW end -->
 
 
-    <!-- Category Start -->
+    <!--CATEGORY START-->
+    <!--The code defines a container that holds a grid of categories, each represented by a column. Each category is linked to a "CategoryDetails" page,
+   where users can find more information about that specific category.-->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row align-items-start">
@@ -127,13 +127,15 @@
         </div>
     </div>
 
-    <!-- Category End --> 
+    <!--CATEOGRY END--> 
 
 
 
-    <!--Our choosen one section start-->
+    <!-- OUR CHOSEN ONE SECTION START-->
 
     <!--https://getbootstrap.com/docs/4.0/components/carousel/-->
+    <!--The code creates a carousel that displays a series of items, each with an image, title, and description. Users can manually navigate through the 
+    items using the "Previous" and "Next" buttons. The content in each item includes links to different sections of the website.-->
 
     <div>
         <h2 class="chosen-title">Our chosen ones</h2>
@@ -221,7 +223,7 @@
                         </a>
                         <div class="chosen-content">
                             <h3 class="col col-c">
-                                <a asp-controller="Post" asp-action="PostDetails" asp-route-id="">Conflict</a>
+                                <a asp-controller="Post" asp-action="PostDetails" asp-route-id="8">The war between Palestine and Israel</a>
                             </h3>
                             <p>Palastine and Israel conflict, read more about here</p>
                             <ul class="list-unstyled d-flex align-items-center">
@@ -293,12 +295,14 @@
     </div>
 
 
-
+    <!--This JavaScript script within  is responsible for adding functionality to control a Bootstrap carousel.-->
     <script>
+        //This is a jQuery function that ensures the code inside it runs when the entire document (HTML page) has finished loading.
         $(document).ready(function () {
+            //creates a variable carousel that refers to all elements with the class "carousel ".
             var carousel = $('.carousel');
 
-            // Håndter forrige og neste knappklikk
+           //  Handles previous and next button clicks.
             $('.carousel-control-prev').click(function () {
                 carousel.carousel('prev');
             });
@@ -309,7 +313,7 @@
         });
     </script>
 
-    <!--Our choosen one section end-->
+    <!--OUT CHOSEN ONE SECTION END-->
 
 
 </body>
@@ -317,6 +321,8 @@
 
 
 
+
+<!--A helper function FormatTime, which formats the time based on the difference between the post time and the current time. This helper function is used within the loop to display the timestamp for each post.-->
 @functions {
     string FormatTime(DateTime postTime)
     {

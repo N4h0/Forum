@@ -4,6 +4,8 @@
 
 <div>
     <h4>Comment</h4>
+        
+   <!-- Create a description list with a "row" class -->
     <dl class="row">
         <dt class="col-sm-2">Comment Id</dt>
         <dd class="col-sm-10">@Model.CommentId </dd>
@@ -11,9 +13,11 @@
         <dd class="col-sm-10">@Model.CommentDescription</dd>
     </dl>
 
+    <!-- Create an HTML form that posts data to the "DeleteConfirmedComment" action with the "CommentId" as a route parameter and uses the POST method -->
     <form asp-action="DeleteConfirmedComment" asp-route-id="@Model.CommentId" method="post">
-
+<!--Create a button sumbit-->
         <button type="submit" class="btn  btn-danger">Delete</button>
+        <!--Display a link that redirects to "PostDetails-->
         <a asp-controller="Post" asp-action="PostDetails" asp-route-id="@Model.PostId" class="btn btn-secondary">Cancel</a>
     </form>
 </div>

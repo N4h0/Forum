@@ -12,7 +12,7 @@ namespace Forum.Models
         [Required]
         [MaxLength(10000)] // Eksempel: maximum length to 500 character
         public string CommentDescription { get; set; }
-        public DateTime CommentTime { get; set; }// Tidspunkt for opprettelse
+        public DateTime CommentTime { get; set; }//Time of creation
 
         //Navigaiton property:
         public virtual Post? Post { get; set; } //Virtual enables lazy loading.

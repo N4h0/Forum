@@ -11,12 +11,13 @@ namespace Forum.Models
 		public int TopicId { get; set; } //FK
 		public string? UserName { get; set; } //FK
 
-		[Required]
-        [RegularExpression(@"[0-9a-zA-ZæøåÆØÅ. \-]{2,20}", ErrorMessage = "The Name must be numbers or letters and between 2 to 20 characters.")]
+        // Apply regular expression validation to PostTitle property
+        [Required]
+        [RegularExpression(@"^[a-zA-ZæøåÆØÅ. \-]{1,20}$", ErrorMessage = "PostTitle must be letters and between 1 to 20 characters.")]
         public string PostTitle { get; set; }
-        //Navigaiton property:
-        public DateTime PostTime { get; set; }// Tidspunkt for opprettelse
+        public DateTime PostTime { get; set; }//Time of creation"
 
+        //Navigaiton property:
         public virtual Topic? Topic  { get; set; } 
         public virtual List<Comment>? Comments { get; set; }
 

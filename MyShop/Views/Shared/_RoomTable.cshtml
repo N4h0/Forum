@@ -5,8 +5,11 @@
 
 <div class="container">
     <div class="category">
+        <!-- Check if the user is in the "SuperAdmin" role -->
         @if (User.IsInRole("SuperAdmin"))
         {
+            <!-- Display a table for room -->
+
             <table class="table">
                 <thead>
                     <tr>
@@ -20,10 +23,16 @@
                     {
                         <tr>
                             <td></td>
+                            <!-- Create a link to room details using the RoomId -->
+
                             <td><a asp-controller="Room" asp-action="RoomDetails" asp-route-id="@room.RoomId">@room.RoomName</a></td>
                             <td>
+                                <!-- Display buttons for admin actions -->
+
                                 <div class="admin-buttons">
+                                    <!-- Button to update room details -->
                                     <a asp-action="UpdateRoom" asp-controller="Room" asp-route-id="@room.RoomId" class="btn btn-success">Update</a>
+                                    <!-- Button to delete a room -->
                                     <a asp-action="DeleteRoom" asp-controller="Room" asp-route-id="@room.RoomId" class="btn-admin btn btn-danger">Delete</a>
                                 </div>
                             </td>
@@ -32,17 +41,18 @@
                 </tbody>
             </table>
         }
+        //   If the user is not a SuperAdmin, display a simple list of rooms -->
         else
         {
-            <ul class="list-group">
-                @foreach (var room in Model)
-                {
-                    <li class="list-group-roomitem">
-                        <a asp-controller="Room" asp-action="RoomDetails" asp-route-id="@room.RoomId">@room.RoomName</a>
-                       
-                    </li>
-                }
-            </ul>
+        <ul class="list-group">
+            @foreach (var room in Model)
+            {
+                <li class="list-group-roomitem">
+                    <a asp-controller="Room" asp-action="RoomDetails" asp-route-id="@room.RoomId">@room.RoomName</a>
+
+                </li>
+            }
+        </ul>
         }
     </div>
 </div>
