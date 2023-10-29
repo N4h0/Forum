@@ -1,21 +1,30 @@
 body {
-    font-family: 'Mulish', sans-serif; /* Set the font family for the body text */
+    font-family: 'Mulish', sans-serif;
 }
 
-/* Navbar Styles */
+
+
+/*NAVBAR*/
+/* Define styles for the navbar */
 .navbar.navbar-expand-md {
     max-height: 50px; /* Adjust the maximum height of the navbar as needed */
 }
 
-.header-text, .header-text:hover {
+.header-text {
     font-size: 40px;
     color: inherit; /* Style the header text and ensure it inherits the color */
 }
 
+    .header-text:hover {
+        color: inherit; /* Define styles for the header text when hovered over */
+    }
+
+/* Remove text decoration from links */
 a {
-    text-decoration: none; /* Remove underlines from links */
+    text-decoration: none;
 }
 
+/* Style the main navigation link and the logout button */
 .main-nav-link.nav-cta, #logout {
     font-size: 20px;
     color: inherit;
@@ -23,68 +32,88 @@ a {
 
 #logout {
     padding: 0.5rem 2rem;
-    border-radius: 3px; /* Add border radius to the logout button */
+    border-radius: 3px;
 }
 
+/* Style navigation links for a cleaner look */
 .main-nav-link.nav-ct:link,
 .main-nav-link.nav-ct:visited {
     padding: 0.5rem 2rem;
-    border-radius: 3px; /* Style navigation links with padding and border radius */
+    border-radius: 3px;
     color: #fff;
     background-color: #000080;
 }
 
+.main-nav-link.nav-ct:hover,
 .main-nav-link.nav-ct:hover {
     background-color: #6082B6; /* Change background color on hover */
 }
 
-/* Content Area Styles */
+
+
+/*THIS IS WHAT WE'RE TALKING ABOUT NOW SECTOION styles*/
+
+/* Style the main content area column */
 .col-md-8 {
     border: 1px solid #e0e0e0;
     width: 100%;
     background-color: white;
 }
 
+/* Style the list items */
 .list-unstyled li {
     padding: 10px;
     margin-bottom: 15px;
-    border-radius: 25px; /* Style list items with padding and border radius */
+    border-radius: 25px;
 }
 
+/* Style headings (h4) within list items */
 ul.list-unstyled li h4 {
     font-size: 18px;
     margin-top: 0;
     margin-bottom: 10px;
 }
 
-    ul.list-unstyled li h4 a {
-        text-decoration: none;
-        color: #007bff; /* Style h4 links */
-    }
+/* Style links (a) within headings */
+.list-unstyled li h4 a {
+    text-decoration: none;
+    color: #007bff;
+}
 
-        ul.list-unstyled li h4 a:hover {
-            color: #0056b3; /* Change link color on hover */
-        }
+/* Change link color on hover */
+ul.list-unstyled li h4 a:hover {
+    color: #0056b3;
+}
 
+/* Style timestamps (p) within list items */
 ul.list-unstyled li p {
     font-size: 14px;
     color: #777;
     margin: 0;
 }
 
+/* Define styles for the section title */
 .section-talking-title {
     padding-bottom: 15px;
     padding-top: 25px;
-    font-weight: bold; /* Style section title */
+    font-weight: bold;
 }
 
+/* Add a custom line (horizontal rule) between items */
 .custom-line {
     border-top: 1px solid #ccc;
     margin-top: 10px;
-    margin-bottom: 10px; /* Add a custom line (horizontal rule) between items */
+    margin-bottom: 10px;
 }
 
-/* Category Section Styles */
+
+
+
+
+
+/* CATEGORY SECTION Styles */
+
+/* Style category columns */
 .col-category {
     padding: 7px;
     text-align: center;
@@ -94,37 +123,43 @@ ul.list-unstyled li p {
     font-weight: bold;
 }
 
+    /* Change category text color on hover */
     .col-category:hover {
-        color: #fff; /* Change category text color on hover */
+        color: #fff;
     }
 
+/* Add border style */
 .border-box {
     border: 1px solid #fff;
     padding: 20px;
     text-align: center;
 }
 
+/* Style headings (h2) within categories */
 h2 {
     font-weight: bold;
     margin-bottom: 0;
-    font-size: 20px; /* Style category headings */
+    font-size: 20px;
 }
 
     h2 a {
         text-decoration: none;
-        color: white; /* Style category links */
+        color: white;
     }
 
 /* Our Chosen Ones Section Styles */
+
+/* Style the section title */
 .chosen-title {
     font-weight: 700;
     color: #333;
     letter-spacing: -0.5px;
     font-size: 1.7rem;
     line-height: 1.05;
-    margin-bottom: 1rem; /* Style the section title */
+    margin-bottom: 1rem;
 }
 
+/* Style chosen content boxes */
 .chosen {
     box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
     border-radius: 1px;
@@ -132,54 +167,69 @@ h2 {
     transition: all 0.4s;
     margin-left: 10px;
     padding-bottom: 5rem;
-    background-color: white; /* Style chosen content boxes */
+    background-color: white;
 }
 
+/* Style chosen content within boxes */
 .chosen-content {
     padding-left: 1rem;
     padding-right: 2rem;
     padding-top: 1rem;
 }
 
+/* Style links (a) within chosen content */
 h3 a {
     color: inherit;
     text-decoration: none;
 }
 
+/* Style images within chosen content */
 .utvalgt-img {
-    width: 100%; /* Style images within chosen content */
+    width: 100%;
 }
 
+/* Style carousel items to have a fade effect */
 .carousel-fade .carousel-item {
     transition: opacity 0.6s;
 }
 
+/* Style the carousel itself */
 .carousel {
     margin-bottom: 30px;
 }
 
+/* Style carousel control icons */
 .carousel-control-prev-icon, .carousel-control-next-icon {
     background-color: black;
 }
 
+/* Position the carousel control buttons */
 .carousel-control-prev, .carousel-control-next {
     margin-top: 250px;
-    margin-right: 500px; /* Position the carousel control buttons */
+}
+
+/* Add margin for the previous button */
+.carousel-control-prev {
+    margin-right: 500px;
 }
 
 /* Footer Styles */
+
+/* Style social media buttons */
 .btn.btn-social {
     color: var(--light);
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 35px;
-    transition: 0.3s; /* Style social media buttons */
+    transition: 0.3s;
 }
 
+/* Style copyright information */
 .copyright {
-    padding-top: 9px; /* Style copyright information */
+    padding-top: 9px;
 }
 
+/* Style contact title and logo */
 .contact-title, .logo {
     font-size: 20px;
-    font-weight: bold; /* Style contact title and logo */
+    font-weight: bold;
 }

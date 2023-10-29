@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\abdik\\Source\\Repos\\Forum\\XunitTestForum\\XunitTestForum.csproj": {}
+    "C:\\Users\\abdik\\source\\repos\\Forum\\XunitTestForum\\XunitTestForum.csproj": {}
   },
   "projects": {
-    "C:\\Users\\abdik\\Source\\Repos\\Forum\\MyShop\\Forum.csproj": {
+    "C:\\Users\\abdik\\source\\repos\\Forum\\MyShop\\Forum.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abdik\\Source\\Repos\\Forum\\MyShop\\Forum.csproj",
+        "projectUniqueName": "C:\\Users\\abdik\\source\\repos\\Forum\\MyShop\\Forum.csproj",
         "projectName": "Forum",
-        "projectPath": "C:\\Users\\abdik\\Source\\Repos\\Forum\\MyShop\\Forum.csproj",
+        "projectPath": "C:\\Users\\abdik\\source\\repos\\Forum\\MyShop\\Forum.csproj",
         "packagesPath": "C:\\Users\\abdik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abdik\\Source\\Repos\\Forum\\MyShop\\obj\\",
+        "outputPath": "C:\\Users\\abdik\\source\\repos\\Forum\\MyShop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\abdik\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -102,12 +102,12 @@
         }
       }
     },
-    "C:\\Users\\abdik\\Source\\Repos\\Forum\\XunitTestForum\\XunitTestForum.csproj": {
+    "C:\\Users\\abdik\\source\\repos\\Forum\\XunitTestForum\\XunitTestForum.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abdik\\Source\\Repos\\Forum\\XunitTestForum\\XunitTestForum.csproj",
+        "projectUniqueName": "C:\\Users\\abdik\\source\\repos\\Forum\\XunitTestForum\\XunitTestForum.csproj",
         "projectName": "XunitTestForum",
-        "projectPath": "C:\\Users\\abdik\\Source\\Repos\\Forum\\XunitTestForum\\XunitTestForum.csproj",
+        "projectPath": "C:\\Users\\abdik\\source\\repos\\Forum\\XunitTestForum\\XunitTestForum.csproj",
         "packagesPath": "C:\\Users\\abdik\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\abdik\\Source\\Repos\\Forum\\XunitTestForum\\obj\\",
         "projectStyle": "PackageReference",
@@ -126,8 +126,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\abdik\\Source\\Repos\\Forum\\MyShop\\Forum.csproj": {
-                "projectPath": "C:\\Users\\abdik\\Source\\Repos\\Forum\\MyShop\\Forum.csproj"
+              "C:\\Users\\abdik\\source\\repos\\Forum\\MyShop\\Forum.csproj": {
+                "projectPath": "C:\\Users\\abdik\\source\\repos\\Forum\\MyShop\\Forum.csproj"
               }
             }
           }
