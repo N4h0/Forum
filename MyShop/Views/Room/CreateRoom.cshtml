@@ -1,10 +1,10 @@
 ﻿@model Room
 
-<h2>Create new Room</h2>
+
 
 <form asp-action="CreateRoom">
-    <div class="form-group" style="padding: inherit;">
-        <label asp-for="RoomName"></label><span class="text-danger">*</span>
+    <div class="form-group">
+        <label asp-for="RoomName" style="margin-bottom:10px"></label><span class="text-danger">*</span>
         <input asp-for="RoomName" class="form-control" />
         <span asp-validation-for="RoomName" class="text-danger"></span>
     </div>
@@ -12,9 +12,9 @@
     <!-- Adds a hidden input for CategoryId, which is sent to the server when the form is submitted -->
     <!-- This is useful for storing CategoryId and associating the room with a specific category. -->
 
-    <button type="submit" class="btn btn-primary">Create</button>
+    <button type="submit" class="btn btn-primary" style="margin-top:10px">Create</button>
     <!-- Creates a "Create" button to submit the form to the server -->
 
-    <a asp-controller="Category" asp-action="CategoryDetails" asp-route-id="@Model.CategoryId" class="btn btn-secondary">Back to Category Details</a>
+    <a asp-controller="Category" asp-action="CategoryDetails" asp-route-id="@Model.CategoryId" class="btn btn-secondary" style="margin-top:10px">Back to Category Details</a>
     <!-- Creates a "Back to Category Details" link that takes you back to the category details -->
 </form>
