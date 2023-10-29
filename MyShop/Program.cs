@@ -143,7 +143,7 @@ using (var scope = app.Services.CreateScope()) //Want to access the services tha
     {
         //Creating the user:
         var user = new IdentityUser();
-        user.UserName = "Superadmin";
+        user.UserName = username;
         user.Email = email;
         user.EmailConfirmed = true; //This makes the user confirmed in the system
 

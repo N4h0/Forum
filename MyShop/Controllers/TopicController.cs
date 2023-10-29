@@ -38,11 +38,11 @@ namespace Forum.Controllers
         {
             try
             {
-                var createTopicViewModel = new CreateTopicViewModel
+                var topic = new Topic
                 {
                     RoomId = roomId
                 };
-                return View(createTopicViewModel);
+                return View(topic);
             }
             catch (Exception ex)
             {
@@ -53,27 +53,19 @@ namespace Forum.Controllers
 
         [HttpPost]
         [Authorize(Roles = "SuperAdmin")]
-        public async Task<IActionResult> CreateTopic(CreateTopicViewModel createTopicViewModel)
+        public async Task<IActionResult> CreateTopic(Topic topic)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
-                    // Convert CreateTopicViewModel til Topic-entity
-                    var topic = new Topic
-                    {
-                        RoomId = createTopicViewModel.RoomId,
-                        TopicName = createTopicViewModel.TopicName,
-                        // Add other fields necessary for the Topic entity
-                    };
-
                     // Save Topic entity
                     await _topicRepository.Create(topic);
 
                     return RedirectToAction("RoomDetails", "Room", new { id = topic.RoomId });
                 }
-                _logger.LogWarning("[TopicController] Topic creation failed {@createTopicViewModel}", createTopicViewModel);
-                return View(createTopicViewModel);
+//TODO ADD LOGGING
+                return View(topic);
             }
             catch (Exception ex)
             {
