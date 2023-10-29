@@ -137,26 +137,7 @@ namespace Forum.Controllers
             return RedirectToAction(nameof(CategoryTable));
         }
 
-        [HttpGet]
-        public async Task<IActionResult> FindCategory(string search)
-        {
-            ViewData["GetCategoryDetails"] = search;
-            var categories = await _categoryRepository.GetAll();
-
-            var categoryquery = from x in categories select x;
-            if (!string.IsNullOrEmpty(search))
-            {
-                categoryquery = categoryquery.Where(x => x.CategoryName.Contains(search, StringComparison.OrdinalIgnoreCase));
-            }
-
-            // Legg til midlertidige logger for feilsøking
-            foreach (var category in categoryquery)
-            {
-                Console.WriteLine($"Category ID: {category.CategoryId}, Name: {category.CategoryName}");
-            }
-
-            return View(categoryquery);
-        }
+        
 
     }
 }

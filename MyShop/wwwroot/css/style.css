@@ -1,5 +1,7 @@
+/* General styles for the entire website */
 body {
     font-family: 'Mulish', sans-serif;
+    background-color: #e9f0f5;
 }
 
 
@@ -232,4 +234,128 @@ h3 a {
 .contact-title, .logo {
     font-size: 20px;
     font-weight: bold;
+}
+/**************************Style for category, room and topic*********************/
+
+/* Container style for content */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style for category (used in all three HTML files) */
+.category {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Link style (used in all three HTML files) */
+a {
+    color: #007BFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #FF5733;
+    }
+
+/*Style for AdminUser*/
+.table {
+    width: 100%;
+}
+
+.btn-admin {
+    display: flex;
+    margin: auto;
+}
+
+.admin-buttons {
+    display: flex;
+    margin: auto;
+}
+
+
+/* Style for list items (used in all three HTML files) */
+.list-group-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #7f858d;
+    /*background-color: #4682B4;*/
+    width: 80%;
+}
+
+/* Specific style for "list-group-roomitem" (used in "RoomTable" and "Topictable" HTML files) */
+.list-group-roomitem {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #7f858d;
+    width: 80%;
+}
+
+/*style for links in list items*/
+.list-group-item a {
+    display: block;
+    color: white;
+    font-weight: bold;
+}
+
+.list-group-roomitem a {
+    display: block;
+    color: white;
+    font-weight: bold;
+}
+
+/* Style for icons (used in "CategoryTable" HTML file) */
+.fa {
+    margin: 10px;
+}
+
+/* Specific style for "topic" (used in "Topictable" HTML file) */
+.topic, ::after, ::before {
+    justify-content: space-around;
+}
+
+/* Style for "create" (used in "CategoryTable" HTML file) */
+.create {
+    margin-top: 20px;
+}
+
+/* Style for the list of categories,rooms and topics */
+.category ul.list-group {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+/* Styling for the heading element*/
+.heading {
+    margin-left: 30px;
+}
+
+/* Specific style for "margGrid" (used in "CategoryTable" HTML file) */
+.margGrid {
+    margin-top: 20px;
+}
+
+/* Style for "grid" (used in CategoryGrid)*/
+.grid {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 40px;
 }
