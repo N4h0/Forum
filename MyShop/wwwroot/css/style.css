@@ -246,6 +246,7 @@ h3 a {
 
 /* Style for category (used in all three HTML files) */
 .category {
+    background-color:white;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
