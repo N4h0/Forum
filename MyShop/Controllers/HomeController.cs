@@ -19,21 +19,24 @@ namespace Forum.Controllers
             _postRepository = postRepository;
         }
 
-        // GET
+        [HttpGet]
         public async Task<IActionResult> Index()
         {
-            var posts = await _postRepository.GetAll(); // Hent alle poster fra PostRepository
+            var posts = await _postRepository.GetAll(); //Get all the posts from the postrepo.
 
-            if (posts == null)
+            if (posts == null) //Returning error if there are no posts.
             {
                 return View("Error");
             }
 
+            posts = posts.OrderByDescending(p => p.PostTime); //Sort the posts by date
+            //Creating a new postListViewModel
             var postListViewModel = new PostListViewModel(
-                posts: posts,
+                posts: posts.Take(8), //Take the first 8 posts from posts
                 currentViewName: "Index"
             );
 
+            //Returning the created model to the view (index)
             return View(postListViewModel);
         }
     }

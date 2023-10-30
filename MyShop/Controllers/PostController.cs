@@ -15,7 +15,7 @@ namespace Forum.Controllers
     public class PostController : Controller
     {
         private readonly IPostRepository _postRepository;
-        private readonly ICommentRepository _commentRepository; //We need this so that we can create a comment when we create a post.
+        private readonly ICommentRepository _commentRepository;
         private readonly ILogger<PostController> _logger;
         private readonly UserManager<IdentityUser> _userManager;
 
@@ -24,7 +24,7 @@ namespace Forum.Controllers
         public PostController(IPostRepository postRepository, ICommentRepository commentRepository, ILogger<PostController> logger, UserManager<IdentityUser> userManager)
         {
             _postRepository = postRepository;
-            _commentRepository = commentRepository; //We need this so that we can create a comment when we create a post.
+            _commentRepository = commentRepository; 
             _logger = logger;
             _userManager = userManager;
         }
@@ -133,7 +133,6 @@ namespace Forum.Controllers
                 }
                 catch(Exception e)
                 {
-                    //TODO FILL OUT (OR remove???) catch
                     _logger.LogError("An error occurred while updating the post", e);
                 }
 

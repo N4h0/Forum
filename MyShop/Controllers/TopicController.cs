@@ -64,7 +64,7 @@ namespace Forum.Controllers
 
                     return RedirectToAction("RoomDetails", "Room", new { id = topic.RoomId });
                 }
-//TODO ADD LOGGING
+                _logger.LogInformation("Created a new topic with id {id}", topic.TopicId);
                 return View(topic);
             }
             catch (Exception ex)
@@ -120,7 +120,6 @@ namespace Forum.Controllers
                 catch(Exception e)
                 {
                     _logger.LogError("Could not update topic",e);
-                    //TODO: Add catch here
                 }
                 return RedirectToAction("RoomDetails", "Room", new { id = topic.RoomId });
             }
