@@ -361,3 +361,191 @@ a {
     margin: 0 auto;
     margin-top: 40px;
 }
+
+
+
+
+/**********************************Style for the smartphones**************************************************/
+@media screen and (max-width: 460px) {
+
+
+    /* For .col-md-8, make it full width and remove the border */
+    .col-md-8 {
+        width: 100%;
+        border: none;
+        margin-top: 100px;
+    }
+
+
+    /* Reduce the font size for .header-text for better mobile readability */
+    .header-text {
+        font-size: 20px;
+    }
+
+    /* Adjust padding and font size for .main-nav-link.nav-ct */
+    .main-nav-link.nav-ct {
+        padding: 0.5rem 1rem; /* Adjust padding for smaller screens */
+        font-size: 18px;
+    }
+
+    /* Adjust padding for .list-unstyled li */
+    .list-unstyled li {
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+
+    /* Adjust font size for .list-unstyled li h4 */
+    ul.list-unstyled li h4 {
+        font-size: 16px;
+    }
+
+        /* Adjust padding and font size for .list-unstyled li h4 a */
+        ul.list-unstyled li h4 a {
+            padding: 5px 10px; /* Adjust padding for smaller screens */
+            font-size: 16px;
+        }
+
+    /* Adjust font size for .list-unstyled li p */
+    ul.list-unstyled li p {
+        font-size: 12px;
+    }
+
+    /* Adjust padding for .col-category */
+    .col-category {
+        padding: 10px;
+    }
+
+        /* Adjust font size for h2 within .col-category */
+        .col-category h2 {
+            font-size: 18px;
+        }
+
+    /* Adjust font size for .chosen-title */
+    .chosen-title {
+        font-size: 24px;
+    }
+
+    /* Adjust padding for .chosen-content */
+    .chosen-content {
+        padding: 1rem;
+    }
+
+    /* Adjust font size for h3 within .chosen-content */
+    h3 a {
+        font-size: 18px;
+    }
+
+    /* Adjust margin for .carousel-control-prev */
+    .carousel-control-prev {
+        margin-right: 0; /* Remove margin for smaller screens */
+    }
+
+    /* Adjust margin for .carousel-control-next */
+    .carousel-control-next {
+        margin-top: 10px; /* Adjust margin for smaller screens */
+    }
+
+
+    .container {
+        max-width: 90%; /* Adjust the width to 90% for better adaptation on small screens */
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+
+    .category {
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+
+    a {
+        color: #007BFF;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+        a:hover {
+            color: #FF5733;
+        }
+
+    .list-group-item, .list-group-roomitem {
+        padding: 5px; /* Reduce padding  */
+        margin: 5px 0; /* Reduce margin  */
+        width: 100%; /* Use full width  */
+    }
+
+        .list-group-item a, .list-group-roomitem a {
+            font-size: 18px; /* Adjust font size for better readability on smaller screens */
+        }
+
+    .admin-buttons {
+        flex-direction: column; /* Change the direction to column for better adaptation on small screens */
+    }
+
+    .category ul.list-group {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .grid {
+        max-width: 100%; /* Use full width for smaller screens */
+        margin: 0; /* Remove margin for smaller screens */
+    }
+
+    .heading {
+        margin-top: 200px;
+        margin-left: 70px;
+    }
+
+    section {
+        margin-top: 50px;
+    }
+
+    h1 {
+        margin-top: 200px;
+    }
+
+    *, ::after, ::before {
+        box-sizing: content-box;
+    }
+
+
+    h3 {
+        margin-top: 170px;
+    }
+
+    .row {
+        margin: auto;
+    }
+
+    .form-group {
+        margin-top: 200px;
+        margin-bottom: 10px;
+    }
+
+}
+/*************************Style For the tablets ***************************************************/
+@media screen and (min-width: 460px) and (max-width: 1024px) {
+
+
+    .heading {
+        margin-top: 150px;
+        margin-left: 30px;
+    }
+
+    .mt-5 {
+        margin-top: 6rem !important;
+    }
+    h3 {
+        margin-top: 170px;
+    }
+
+    .form-group {
+        margin-top: 200px;
+        margin-bottom: 10px;
+    }
+    h1 {
+        margin-top: 200px;
+    }
+    
+
+}
