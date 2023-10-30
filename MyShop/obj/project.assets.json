@@ -12458,19 +12458,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\latif\\.nuget\\packages\\": {}
+    "C:\\Users\\abdik\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\latif\\source\\repos\\PROJECT_1WEB\\Forum\\MyShop\\Forum.csproj",
+      "projectUniqueName": "C:\\Users\\abdik\\Source\\Repos\\Forum\\MyShop\\Forum.csproj",
       "projectName": "Forum",
-      "projectPath": "C:\\Users\\latif\\source\\repos\\PROJECT_1WEB\\Forum\\MyShop\\Forum.csproj",
-      "packagesPath": "C:\\Users\\latif\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\latif\\source\\repos\\PROJECT_1WEB\\Forum\\MyShop\\obj\\",
+      "projectPath": "C:\\Users\\abdik\\Source\\Repos\\Forum\\MyShop\\Forum.csproj",
+      "packagesPath": "C:\\Users\\abdik\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\abdik\\Source\\Repos\\Forum\\MyShop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\latif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\abdik\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12554,7 +12554,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

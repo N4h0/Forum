@@ -1,0 +1,27 @@
+2023-10-30 18:16:29.747 +01:00 [Information] User profile is available. Using '"C:\Users\abdik\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-30 18:16:30.203 +01:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-30 18:16:30.204 +01:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-30 18:16:30.206 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-30 18:16:30.207 +01:00 [Information] Hosting environment: "Development"
+2023-10-30 18:16:30.207 +01:00 [Information] Content root path: "C:\Users\abdik\Source\Repos\Forum\MyShop\"
+2023-10-30 18:16:30.324 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Post/PostDetails/9 - -
+2023-10-30 18:16:30.361 +01:00 [Information] Executing endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-30 18:16:30.375 +01:00 [Information] Route matched with "{action = \"PostDetails\", controller = \"Post\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostDetails(Int32)" on controller "Forum.Controllers.PostController" ("Forum").
+2023-10-30 18:16:30.417 +01:00 [Information] Executing ViewResult, running view "PostDetails".
+2023-10-30 18:16:30.581 +01:00 [Information] Executed ViewResult - view "PostDetails" executed in 163.3617ms.
+2023-10-30 18:16:30.583 +01:00 [Information] Executed action "Forum.Controllers.PostController.PostDetails (Forum)" in 207.4821ms
+2023-10-30 18:16:30.583 +01:00 [Information] Executed endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-30 18:16:30.594 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Post/PostDetails/9 - - - 200 - text/html;+charset=utf-8 272.7662ms
+2023-10-30 18:16:30.596 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/lib/jquery-validate/jquery.validate.js - -
+2023-10-30 18:16:30.596 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 18:16:30.596 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - -
+2023-10-30 18:16:30.596 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/lib/bootstrap/js/bootstrap.js - -
+2023-10-30 18:16:30.597 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 1.8368ms
+2023-10-30 18:16:30.598 +01:00 [Information] The file "/lib/jquery-validate/jquery.validate.js" was not modified
+2023-10-30 18:16:30.598 +01:00 [Information] The file "/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" was not modified
+2023-10-30 18:16:30.598 +01:00 [Information] The file "/lib/bootstrap/js/bootstrap.js" was not modified
+2023-10-30 18:16:30.599 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - - - 304 - application/javascript 3.1352ms
+2023-10-30 18:16:30.599 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/lib/bootstrap/js/bootstrap.js - - - 304 - application/javascript 3.1636ms
+2023-10-30 18:16:30.599 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/lib/jquery-validate/jquery.validate.js - - - 304 - application/javascript 3.1780ms
+2023-10-30 18:16:30.605 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 18:16:30.611 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.4178ms

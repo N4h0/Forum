@@ -21,7 +21,7 @@
 <h1>Search Results</h1>
 
 @{
-    int totalResults = (Model.Categories?.Count ?? 0) + (Model.Topics?.Count ?? 0) + (Model.Rooms?.Count ?? 0)+ (Model.Posts?.Count ?? 0) + (Model.Comments?.Count ?? 0);
+    int totalResults = (Model.Categories?.Count ?? 0)  + (Model.Posts?.Count ?? 0) + (Model.Comments?.Count ?? 0);
 }
 
 <div class="result-container">
@@ -52,7 +52,6 @@
                 <p>Found @totalResults results</p>
             </div>
 
-            <!-- Here we display each result in separate posts -->
             @if (Model.Categories != null && Model.Categories.Count > 0)
             {
                 @foreach (var category in Model.Categories)
@@ -110,8 +109,10 @@
                     </div>
                 }
             }
+          
 
-            <!-- Repeat this pattern for Topics, Rooms, and Comments -->
+
+
         }
     </div>
 </div>

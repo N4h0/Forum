@@ -1,0 +1,24 @@
+2023-10-30 17:38:13.012 +01:00 [Information] User profile is available. Using '"C:\Users\abdik\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-30 17:38:13.469 +01:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-30 17:38:13.469 +01:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-30 17:38:13.472 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-30 17:38:13.473 +01:00 [Information] Hosting environment: "Development"
+2023-10-30 17:38:13.473 +01:00 [Information] Content root path: "C:\Users\abdik\Source\Repos\Forum\MyShop\"
+2023-10-30 17:38:13.561 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Post/PostDetails/2 - -
+2023-10-30 17:38:13.599 +01:00 [Information] Executing endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-30 17:38:13.614 +01:00 [Information] Route matched with "{action = \"PostDetails\", controller = \"Post\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostDetails(Int32)" on controller "Forum.Controllers.PostController" ("Forum").
+2023-10-30 17:38:13.656 +01:00 [Information] Executing ViewResult, running view "PostDetails".
+2023-10-30 17:38:13.816 +01:00 [Information] Executed ViewResult - view "PostDetails" executed in 159.3109ms.
+2023-10-30 17:38:13.817 +01:00 [Information] Executed action "Forum.Controllers.PostController.PostDetails (Forum)" in 202.8285ms
+2023-10-30 17:38:13.817 +01:00 [Information] Executed endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-30 17:38:13.828 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css?v=7qXswWkwcHuhatYiXCkiEczRrR7WNwT7ifp5qa6kH28 - -
+2023-10-30 17:38:13.828 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css - -
+2023-10-30 17:38:13.828 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 17:38:13.829 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Post/PostDetails/2 - - - 200 - text/html;+charset=utf-8 270.3789ms
+2023-10-30 17:38:13.830 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 1.6997ms
+2023-10-30 17:38:13.830 +01:00 [Information] The file "/css/style.css" was not modified
+2023-10-30 17:38:13.830 +01:00 [Information] The file "/css/style.css" was not modified
+2023-10-30 17:38:13.831 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css?v=7qXswWkwcHuhatYiXCkiEczRrR7WNwT7ifp5qa6kH28 - - - 304 - text/css 2.8355ms
+2023-10-30 17:38:13.831 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css - - - 304 - text/css 2.8228ms
+2023-10-30 17:38:13.839 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 17:38:13.845 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.0154ms

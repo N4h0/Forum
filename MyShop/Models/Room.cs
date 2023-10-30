@@ -8,8 +8,7 @@ namespace Forum.Models
 
         // Apply regular expression validation to RoomName property
         [Required]
-        [RegularExpression(@"^[a-zA-ZæøåÆØÅ. \-]{2,20}$", ErrorMessage = "Room Name must be letters and between 2 to 20 characters.")]
-
+        [RegularExpression(@"^[a-zA-Z0-9æøåÆØÅ. \-]{2,20}$", ErrorMessage = "Room Name must be between 2 to 20 characters and can include letters, numbers, or special characters.")]
         public string RoomName { get; set; } = string.Empty; //Gir ingen mening å kunne opprette et forum uten å gi det et navn
         public int CategoryId { get; set; } //FK
 

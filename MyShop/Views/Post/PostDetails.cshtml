@@ -3,14 +3,25 @@
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
 
-<H1>@Model.PostTitle</H1>
-
 <!--Links to the corresponding topic, room, category and finally our homepage.-->
-<a class="link-primary" asp-controller="Home" asp-action="Index">Home ></a>
-<a asp-action="CategoryDetails" asp-controller="Category" asp-route-id="@Model.Topic.Room.CategoryId" class="link-primary">@Model.Topic.Room.Category.CategoryName ></a>
-<a asp-action="RoomDetails" asp-controller="Room" asp-route-id="@Model.Topic.RoomId" class="link-primary">@Model.Topic.Room.RoomName ></a>
-<a asp-action="TopicDetails" asp-controller="Topic" asp-route-id="@Model.TopicId" class="link-primary">@Model.Topic.TopicName ></a>
-<a class="link-primary">@Model.PostTitle</a>
+<a class="navigation-link link-primary" asp-controller="Home" asp-action="Index">Home ></a>
+<a class="navigation-link link-primary" asp-action="CategoryDetails" asp-controller="Category" asp-route-id="@Model.Topic.Room.CategoryId">@Model.Topic.Room.Category.CategoryName ></a>
+<a class="navigation-link link-primary" asp-action="RoomDetails" asp-controller="Room" asp-route-id="@Model.Topic.RoomId">@Model.Topic.Room.RoomName ></a>
+<a class="navigation-link link-primary" asp-action="TopicDetails" asp-controller="Topic" asp-route-id="@Model.TopicId">@Model.Topic.TopicName ></a>
+<a class="navigation-link link-primary">@Model.PostTitle</a>
+<div class="postTitle-container">
+    <h1 class="post-title">@Model.PostTitle</h1>
+    <p class="post-title-info">
+        <div class="username-title">Posted by: @Model.UserName</div>
+        <small>@FormatTime(@Model.PostTime) on</small>
+        <small>
+            <a class="post-title-info-link" asp-controller="Category" asp-action="CategoryDetails" asp-route-id="@Model.Topic.Room.Category.CategoryId">
+                @Model.Topic.Room.Category.CategoryName
+            </a>
+        </small>
+    </p>
+</div>
+
 
 
 
@@ -27,4 +38,34 @@
        asp-controller="Comment"
        asp-action="CreateComment"
        asp-route-postId="@Model.PostId">Reply</a>
+}
+
+
+
+@functions {
+    string FormatTime(DateTime postTime)
+    {
+        var timeDifference = DateTime.Now - postTime;
+
+        if (timeDifference.TotalDays >= 1)
+        {
+            return postTime.ToString("dd MMMM yyyy");
+        }
+        else if (timeDifference.TotalHours >= 1)
+        {
+            int hours = (int)timeDifference.TotalHours;
+            return $"{hours} {(hours == 1 ? "hour" : "hours")} ago";
+        }
+        else if (timeDifference.TotalMinutes >= 1)
+        {
+            int minutes = (int)timeDifference.TotalMinutes;
+            return $"{minutes} {(minutes == 1 ? "minute" : "minutes")} ago";
+        }
+        else
+        {
+            int seconds = (int)timeDifference.TotalSeconds;
+            return $"{seconds} {(seconds == 1 ? "second" : "seconds")} ago";
+        }
+    }
+
 }

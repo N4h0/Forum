@@ -13,7 +13,6 @@ namespace Forum.Models
 
         // Apply regular expression validation to PostTitle property
         [Required]
-        [RegularExpression(@"^[a-zA-ZæøåÆØÅ. ,\-!@#$%^&*()_+]{1,70}$", ErrorMessage = "PostTitle must be between 1 to 30 characters.")]
         public string PostTitle { get; set; }
         public DateTime PostTime { get; set; }//Time of creation"
 

@@ -1,14 +1,16 @@
 ﻿@model Category
 
 
-
+<!--Form for creating a new cateogry -->
 <form asp-action="CreateCategory">
     <div class="form-group" >
         <label asp-for="CategoryName" style="margin-bottom:10px"></label><span class="text-danger">*</span>
+        <!--Input fiels for category Name-->
         <input asp-for="CategoryName" class="form-control" />
         <span asp-validation-for="CategoryName" class="text-danger"></span>
 
     </div>
+    <!--A button for creating of a category-->
     <button type="submit" class="btn btn-primary" style="margin-top: 10px;">Create</button>
     <a asp-action="CategoryTable" class="btn btn-secondary" style="margin-top: 10px;">Back to Table View</a>
 </form>

@@ -1,0 +1,30 @@
+2023-10-30 18:04:15.118 +01:00 [Information] User profile is available. Using '"C:\Users\abdik\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-30 18:04:15.575 +01:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-30 18:04:15.575 +01:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-30 18:04:15.578 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-30 18:04:15.578 +01:00 [Information] Hosting environment: "Development"
+2023-10-30 18:04:15.579 +01:00 [Information] Content root path: "C:\Users\abdik\Source\Repos\Forum\MyShop\"
+2023-10-30 18:04:15.685 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Post/PostDetails/2 - -
+2023-10-30 18:04:15.728 +01:00 [Information] Executing endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-30 18:04:15.744 +01:00 [Information] Route matched with "{action = \"PostDetails\", controller = \"Post\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostDetails(Int32)" on controller "Forum.Controllers.PostController" ("Forum").
+2023-10-30 18:04:15.792 +01:00 [Information] Executing ViewResult, running view "PostDetails".
+2023-10-30 18:04:15.983 +01:00 [Information] Executed ViewResult - view "PostDetails" executed in 190.7626ms.
+2023-10-30 18:04:15.985 +01:00 [Information] Executed action "Forum.Controllers.PostController.PostDetails (Forum)" in 240.7197ms
+2023-10-30 18:04:15.985 +01:00 [Information] Executed endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-30 18:04:15.997 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Post/PostDetails/2 - - - 200 - text/html;+charset=utf-8 315.3388ms
+2023-10-30 18:04:15.998 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 18:04:15.998 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 18:04:16.000 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 1.8536ms
+2023-10-30 18:04:16.004 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.4357ms
+2023-10-30 18:04:20.835 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Post/PostDetails/2 - -
+2023-10-30 18:04:20.838 +01:00 [Information] Executing endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-30 18:04:20.838 +01:00 [Information] Route matched with "{action = \"PostDetails\", controller = \"Post\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostDetails(Int32)" on controller "Forum.Controllers.PostController" ("Forum").
+2023-10-30 18:04:20.844 +01:00 [Information] Executing ViewResult, running view "PostDetails".
+2023-10-30 18:04:20.852 +01:00 [Information] Executed ViewResult - view "PostDetails" executed in 8.1913ms.
+2023-10-30 18:04:20.852 +01:00 [Information] Executed action "Forum.Controllers.PostController.PostDetails (Forum)" in 13.8834ms
+2023-10-30 18:04:20.852 +01:00 [Information] Executed endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-30 18:04:20.853 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Post/PostDetails/2 - - - 200 - text/html;+charset=utf-8 17.3043ms
+2023-10-30 18:04:20.863 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 18:04:20.863 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 18:04:20.863 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3022ms
+2023-10-30 18:04:20.865 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 1.9498ms

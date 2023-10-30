@@ -3,15 +3,24 @@
 
 
 
+<!--When the button is clicked, the HttpPost createTopi  is called in the current controller (TopicController)-->
+<!-- the added asp-route ensures that we get returned to CreateTopic/Room id when we reach the roomid page.
+    This was added because by default, if there's an error when creating a topic it get's returned to CraeTopic without a roomIdg-->
 
 <form asp-action="CreateTopic">
     <div class="form-group">
         <label asp-for="TopicName" style="margin-bottom:10px"></label><span class="text-danger">*</span>
+        <!--Input for the TopicName part of the model-->
+
         <input asp-for="TopicName" class="form-control" />
+        <!--A field for validation-->
+
         <span asp-validation-for="TopicName" class="text-danger"></span>
     </div>
     <input type="hidden" asp-for="RoomId" value="@Model.RoomId" />
 
     <button type="submit" class="btn btn-primary" style="margin-top: 10px;">Create</button>
+    <!--Return button, which returns the user to the previous page (Room/ToomDetails/RoomId)-->
+
     <a asp-controller="Room" asp-action="RoomDetails" asp-route-id="@Model.RoomId" class="btn btn-secondary" style="margin-top: 10px;">Back to Room Details</a>
 </form>

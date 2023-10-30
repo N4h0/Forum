@@ -5,9 +5,11 @@
     <div>
         <div class="d-flex justify-content-between mt-2">
             <div class="category-item">
+                <!-- Display an image specific to the category based on CategoryId -->
                 <img src="/images/category_@(Model.CategoryId).jpg" alt="@Model.CategoryName Image" style="max-width: 100%; max-height: 100%    />
 
                 <h5 class="text-start">
+                    <!-- Create a link to category details using ASP.NET Core Tag Helpers -->
                     <a asp-controller="Category"
                        asp-action="CategoryDetails"
                        asp-route-id="@Model.CategoryId">@Model.CategoryName</a>

@@ -3,13 +3,15 @@
 @inject SignInManager<IdentityUser> SignInManager  // Inject the SignInManager service for IdentityUser
 @inject UserManager<IdentityUser> UserManager // Inject the UserManager service for IdentityUser
 
-<H1>@Model.CategoryName</H1>
 
 <!-- Create a link to the Home page -->
-<a class="link-primary" asp-controller="Home" asp-action="Index">Home ></a>
+<a class="navigation-link asp-controller="Home" asp-action="Index">Home ></a>
 
 <!-- Display the category name as a link with the link class -->
-<a class="link-primary">@Model.CategoryName</a>
+<a class="navigation-link">@Model.CategoryName</a>
+
+
+<H1>@Model.CategoryName</H1>
 
 <!-- Render a partial view called "_RoomTable" with the Model.Rooms data -->
 <partial name="_RoomTable" model="Model.Rooms" />

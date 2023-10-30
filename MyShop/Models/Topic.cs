@@ -10,7 +10,7 @@ namespace Forum.Models
         // Apply regular expression validation to TopicName property
 
         [Required]
-        [RegularExpression(@"^[a-zA-ZæøåÆØÅ. \-]{1,20}$", ErrorMessage = "The name must consist of  letters and be between 1 and 20 characters in length..")]
+        [RegularExpression(@"^[a-zA-Z0-9æøåÆØÅ. \-]{2,20}$", ErrorMessage = "Topic Name must be between 2 to 20 characters and can include letters, numbers, or special characters.")]
         public string TopicName { get; set; } = string.Empty; //"It doesn't make sense to be able to create a thread without giving it a name."
 
 

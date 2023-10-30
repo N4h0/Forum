@@ -5,30 +5,104 @@
 <link rel="stylesheet" href="~/css/style.css" />
 
 
-<div class="container">
-    <table class='table table-striped'>
-        <tr>
-            <th class="bg-dark text-light"> Comment</th>
-            @if (User.IsInRole("SuperAdmin"))
-            {
-                <th class="bg-dark text-light"> </th>
-            }
-        </tr>
-        @foreach (var Comment in Model)
-        {
-            <tr>
-                <td>
-                    <span>@Comment.CommentDescription <br></span>
-                    <small class="text-muted">Posted @Comment.CommentTime by @Comment.UserName.</small>
-                </td>
-                @if (User.IsInRole("SuperAdmin"))
-                {
-                    <td>
-                        <a asp-action="UpdateComment" asp-controller="Comment" asp-route-id="@Comment.CommentId" class="btn btn-success">Update</a>
-                        <a asp-action="DeleteComment" asp-controller="Comment" asp-route-id="@Comment.CommentId" class="btn btn-danger">Delete</a>
-                    </td>
-                }
-            </tr>
+<head>
+    <style>
+        .comment-box {
+            border: 1px solid #e0e0e0;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #f9f9f9;
         }
-    </table>
+
+            .comment-box table {
+                width: 100%;
+            }
+
+            .comment-box th {
+                font-weight: bold;
+                background-color: #333;
+                color: white;
+            }
+
+            .comment-box td {
+                padding: 5px;
+            }
+
+            .comment-box .btn {
+                margin-right: 5px;
+            }
+
+        .comment-text {
+            margin-top: 10px;
+        }
+
+        .comment-info {
+            font-size: 12px;
+        }
+
+    </style>
+</head>
+<div class="container">
+    @foreach (var Comment in Model)
+    {
+        <div class="comment-box">
+            <!-- Add a wrapper div for each comment -->
+            <table class='table table-striped'>
+                <tr>
+                    @if (User.IsInRole("SuperAdmin"))
+                    {
+                        <th class="bg-dark text-light"></th>
+                    }
+                </tr>
+                <tr>
+                    <td>
+                        <span>@Comment.CommentDescription</span> <!-- Display the comment description -->
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <small class="text-muted">Posted @FormatTime(Comment.CommentTime) by @Comment.UserName.</small> <!-- Display the comment's posting time and author -->
+                    </td>
+                    @if (User.IsInRole("SuperAdmin"))
+                    {
+                        <td>
+                            <a asp-action="UpdateComment" asp-controller="Comment" asp-route-id="@Comment.CommentId" class="btn btn-success">Update</a> <!-- Button to update the comment for SuperAdmin -->
+                            <a asp-action="DeleteComment" asp-controller="Comment" asp-route-id="@Comment.CommentId" class="btn btn-danger">Delete</a> <!-- Button to delete the comment for SuperAdmin -->
+                        </td>
+                    }
+                </tr>
+            </table>
+        </div>
+    }
 </div>
+
+
+@functions {
+    string FormatTime(DateTime postTime)
+    {
+        var timeDifference = DateTime.Now - postTime;
+
+        if (timeDifference.TotalDays >= 1)
+        {
+            return postTime.ToString("dd MMMM yyyy"); <!-- Format the posting time as date -->
+        }
+        else if (timeDifference.TotalHours >= 1)
+        {
+            int hours = (int)timeDifference.TotalHours;
+            return $"{hours} {(hours == 1 ? "hour" : "hours")} ago";
+            <!-- Format the posting time in hours ago -->
+        }
+        else if (timeDifference.TotalMinutes >= 1)
+        {
+            int minutes = (int)timeDifference.TotalMinutes;
+            return $"{minutes} {(minutes == 1 ? "minute" : "minutes")} ago"; <!-- Format the posting time in minutes ago -->
+        }
+        else
+        {
+            int seconds = (int)timeDifference.TotalSeconds;
+            return $"{seconds} {(seconds == 1 ? "second" : "seconds")} ago";
+            <!-- Format the posting time in seconds ago -->
+        }
+    }
+
+}

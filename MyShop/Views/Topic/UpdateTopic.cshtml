@@ -2,17 +2,23 @@
 
 <h2>Update Topic</h2>
 
+<!--A forum to update Topic-->
 <form asp-action="UpdateTopic">
+    
     <input type="hidden" asp-for="TopicId" />
     <input type="hidden" asp-for="RoomId" />
 
     <div>
         <label asp-for="TopicName"></label>
+        <!--Input for chaning of name-->
         <input asp-for="TopicName" class="form-control" />
+        <!--Validation-->
         <span aps-validation-for="Name" class="text-danger"></span>
     </div>
 
+    <!--Button for saving changnes-->
     <button type="submit" class="btn btn-primary">Save changes</button>
+    <!--this code allows the user to cancel the modification operation and return to the room's detail view.-->
     <a asp-controller="Room" asp-action="RoomDetails" asp-route-id="@Model.RoomId" class="btn btn-secondary">Cancel</a>
 
 

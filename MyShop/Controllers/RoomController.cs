@@ -24,13 +24,20 @@ namespace Forum.Controllers
             _logger = logger;
         }
 
+        //Method to show the roomtable in the navbar
+        public async Task<IActionResult> RoomTable()
+        {
+            var rooms = await _roomRepository.GetAll(); //getting all rooms
+            var roomListViewModel = new RoomListViewModel(rooms); //Creating a view with all rooms
+            return View(roomListViewModel); //Returning the created rommListViewModel to the view. 
+        }
+
+        //Method seeing the details of a room based on the roomId
         public async Task<IActionResult> RoomDetails(int Id)
         {
 
             _logger.LogInformation("RoomDetails called with Room ID: {RoomId}", Id);
-
-
-            // Get the room from the database based on the room-ID
+                        // Get the room from the database based on the room-ID
             var room = await _roomRepository.GetRoomById(Id);
 
             if (room == null)
@@ -43,7 +50,8 @@ namespace Forum.Controllers
         }
 
         [HttpGet]
-        public IActionResult CreateRoom(int categoryId)  //la til at man kan lage forum 
+        [Authorize(Roles = "SuperAdmin")] //Only accessible to superadmins
+        public IActionResult CreateRoom(int categoryId)  //Get method to create a room
 
         {
                 var room = new Room
@@ -55,7 +63,7 @@ namespace Forum.Controllers
         }
 
         [HttpPost]
-        [Authorize(Roles = "SuperAdmin")]
+        [Authorize(Roles = "SuperAdmin")]//Only accessible to superadmins
         public async Task<IActionResult> CreateRoom(Room room)
         {
             if (ModelState.IsValid)
@@ -63,29 +71,28 @@ namespace Forum.Controllers
                 await _roomRepository.Create(room);
                 return RedirectToAction("CategoryDetails", "Category", new {id = room.CategoryId}); //Return to Category/CategoryDetails/CategoryId after create.
             }
-            _logger.LogError("[RoomController] Room creation failed  {@room}", room);
-            return View(room);
+            _logger.LogError("[RoomController] Room creation failed  {@room}", room); //Logging error if the modelstate is not valid
+            return View(room); //returning the createroom view with the passed room
         }
 
         // GET: Room/
         [HttpGet]
-        [Authorize(Roles = "SuperAdmin")]
+        [Authorize(Roles = "SuperAdmin")]//Only accessible to superadmins
         public async Task<IActionResult> UpdateRoom(int Id)
         {
-            var room = await _roomRepository.GetRoomById(Id);
+            var room = await _roomRepository.GetRoomById(Id); //getting room based on the passed id
 
-            if (room == null)
+            if (room == null) //Looging if no room is found based on id
             {
                 _logger.LogError("Error while updating room with ID {Id}", Id);
-                return NotFound();
+                return NotFound(); //returning 404 not found
             }
-
-            return View(room);
+            return View(room); //Returning the update view with the passed room
         }
 
         // POST: Room
         [HttpPost]
-        [Authorize(Roles = "SuperAdmin")]
+        [Authorize(Roles = "SuperAdmin")]//Only accessible to superadmins
         public async Task<IActionResult> UpdateRoom(Room room)
         {
             if (ModelState.IsValid)
@@ -94,35 +101,34 @@ namespace Forum.Controllers
                 {
                     await _roomRepository.Update(room);
                 }
-                catch(Exception e)
+                catch(Exception e) //we reach this log if updating a room fail
                 {
                     _logger.LogError("An error occured during creating room",e);
 
                 }
                 return RedirectToAction("CategoryDetails", "Category", new { id = room.CategoryId }); //Return to Category/CategoryDetails/CategoryId after create.
             }
-            return View(room);
+            return View(room); //Returning the create room view with the created room if the modelstate is invalid
         }
 
         // GET
         [HttpGet]
-        [Authorize(Roles = "SuperAdmin")]
+        [Authorize(Roles = "SuperAdmin")]//Only accessible to superadmins
         public async Task<IActionResult> DeleteRoom(int Id)
         {
-            var room = await _roomRepository.GetRoomById(Id);
+            var room = await _roomRepository.GetRoomById(Id); //Gerring a room based on the RoomId
 
-            if (room == null)
+            if (room == null) //We log a message and return 404 if no room is found
             {
-                _logger.LogError("[RoomController] Room deletion failed for the Romid {RoomId:0000}", Id);
+                _logger.LogError("[RoomController] Room deletion failed for the Romid {Id}", Id);
                 return BadRequest("Room not found for the RoomId");
             }
-
-            return View(room);
+            return View(room); //O
         }
 
         // POST
         [HttpPost]
-        [Authorize(Roles = "SuperAdmin")]
+        [Authorize(Roles = "SuperAdmin")]//Only accessible to superadmins
         public async Task<IActionResult> DeleteConfirmedRoom(int Id)
         {
             var CategoryId = await _roomRepository.GetCategoryId(Id);

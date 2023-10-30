@@ -1,0 +1,33 @@
+2023-10-30 20:05:37.033 +01:00 [Information] User profile is available. Using '"C:\Users\abdik\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-30 20:05:37.505 +01:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-30 20:05:37.505 +01:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-30 20:05:37.508 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-30 20:05:37.508 +01:00 [Information] Hosting environment: "Development"
+2023-10-30 20:05:37.508 +01:00 [Information] Content root path: "C:\Users\abdik\Source\Repos\Forum\MyShop\"
+2023-10-30 20:05:37.608 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/CategoryDetails/1 - -
+2023-10-30 20:05:37.650 +01:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-30 20:05:37.669 +01:00 [Information] Route matched with "{action = \"CategoryDetails\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CategoryDetails(Int32)" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-30 20:05:37.676 +01:00 [Information] [CategoryController] Id passed to categorydetails: 1.
+2023-10-30 20:05:37.677 +01:00 [Information] [CategoryRep] Getting the category with id: 1: 
+2023-10-30 20:05:37.704 +01:00 [Information] Executing ViewResult, running view "CategoryDetails".
+2023-10-30 20:05:37.840 +01:00 [Information] Executed ViewResult - view "CategoryDetails" executed in 134.7779ms.
+2023-10-30 20:05:37.841 +01:00 [Information] Executed action "Forum.Controllers.CategoryController.CategoryDetails (Forum)" in 172.011ms
+2023-10-30 20:05:37.841 +01:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-30 20:05:37.854 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/CategoryDetails/1 - - - 200 - text/html;+charset=utf-8 249.0601ms
+2023-10-30 20:05:37.855 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 20:05:37.855 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 20:05:37.857 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 1.8094ms
+2023-10-30 20:05:37.861 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.0482ms
+2023-10-30 20:06:00.219 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Room/RoomDetails/1 - -
+2023-10-30 20:06:00.223 +01:00 [Information] Executing endpoint '"Forum.Controllers.RoomController.RoomDetails (Forum)"'
+2023-10-30 20:06:00.225 +01:00 [Information] Route matched with "{action = \"RoomDetails\", controller = \"Room\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RoomDetails(Int32)" on controller "Forum.Controllers.RoomController" ("Forum").
+2023-10-30 20:06:00.226 +01:00 [Information] RoomDetails called with Room ID: 1
+2023-10-30 20:06:00.230 +01:00 [Information] Executing ViewResult, running view "RoomDetails".
+2023-10-30 20:06:00.262 +01:00 [Information] Executed ViewResult - view "RoomDetails" executed in 32.2311ms.
+2023-10-30 20:06:00.262 +01:00 [Information] Executed action "Forum.Controllers.RoomController.RoomDetails (Forum)" in 37.1053ms
+2023-10-30 20:06:00.262 +01:00 [Information] Executed endpoint '"Forum.Controllers.RoomController.RoomDetails (Forum)"'
+2023-10-30 20:06:00.263 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Room/RoomDetails/1 - - - 200 - text/html;+charset=utf-8 44.0871ms
+2023-10-30 20:06:00.279 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 20:06:00.279 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 20:06:00.279 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.4666ms
+2023-10-30 20:06:00.281 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.5044ms
