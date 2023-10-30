@@ -1,0 +1,86 @@
+2023-10-30 21:58:45.271 +01:00 [Information] User profile is available. Using '"C:\Users\abdik\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-30 21:58:45.841 +01:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-30 21:58:45.842 +01:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-30 21:58:45.844 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-30 21:58:45.845 +01:00 [Information] Hosting environment: "Development"
+2023-10-30 21:58:45.845 +01:00 [Information] Content root path: "C:\Users\abdik\Source\Repos\Forum\MyShop\"
+2023-10-30 21:58:46.317 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Post/PostDetails/2 - -
+2023-10-30 21:58:46.369 +01:00 [Information] Executing endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-30 21:58:46.388 +01:00 [Information] Route matched with "{action = \"PostDetails\", controller = \"Post\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostDetails(Int32)" on controller "Forum.Controllers.PostController" ("Forum").
+2023-10-30 21:58:46.442 +01:00 [Information] Executing ViewResult, running view "PostDetails".
+2023-10-30 21:58:46.658 +01:00 [Information] Executed ViewResult - view "PostDetails" executed in 214.603ms.
+2023-10-30 21:58:46.660 +01:00 [Information] Executed action "Forum.Controllers.PostController.PostDetails (Forum)" in 271.7459ms
+2023-10-30 21:58:46.660 +01:00 [Information] Executed endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-30 21:58:46.674 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Post/PostDetails/2 - - - 200 - text/html;+charset=utf-8 360.1824ms
+2023-10-30 21:58:46.675 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css - -
+2023-10-30 21:58:46.675 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 21:58:46.675 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css?v=23NGxWHpSmfEHfsX2YujyP5NighLb05kTFrOwgcBk0U - -
+2023-10-30 21:58:46.678 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 2.1454ms
+2023-10-30 21:58:46.679 +01:00 [Information] The file "/css/style.css" was not modified
+2023-10-30 21:58:46.679 +01:00 [Information] The file "/css/style.css" was not modified
+2023-10-30 21:58:46.679 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css?v=23NGxWHpSmfEHfsX2YujyP5NighLb05kTFrOwgcBk0U - - - 304 - text/css 3.4352ms
+2023-10-30 21:58:46.679 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css - - - 304 - text/css 3.4447ms
+2023-10-30 21:58:46.719 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 21:58:46.726 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.1516ms
+2023-10-30 22:00:07.438 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/clear-browser-cache - -
+2023-10-30 22:00:07.439 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/clear-browser-cache - - - 200 0 - 0.9338ms
+2023-10-30 22:00:07.508 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Post/PostDetails/2 - -
+2023-10-30 22:00:07.510 +01:00 [Information] Executing endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-30 22:00:07.511 +01:00 [Information] Route matched with "{action = \"PostDetails\", controller = \"Post\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostDetails(Int32)" on controller "Forum.Controllers.PostController" ("Forum").
+2023-10-30 22:00:07.518 +01:00 [Information] Executing ViewResult, running view "PostDetails".
+2023-10-30 22:00:07.530 +01:00 [Information] Executed ViewResult - view "PostDetails" executed in 11.6743ms.
+2023-10-30 22:00:07.530 +01:00 [Information] Executed action "Forum.Controllers.PostController.PostDetails (Forum)" in 19.3165ms
+2023-10-30 22:00:07.530 +01:00 [Information] Executed endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-30 22:00:07.543 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Post/PostDetails/2 - - - 200 - text/html;+charset=utf-8 35.0989ms
+2023-10-30 22:00:07.549 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/lib/bootstrap/js/bootstrap.js - -
+2023-10-30 22:00:07.559 +01:00 [Information] Sending file. Request path: '"/lib/bootstrap/js/bootstrap.js"'. Physical path: '"C:\Users\abdik\Source\Repos\Forum\MyShop\wwwroot\lib\bootstrap\js\bootstrap.js"'
+2023-10-30 22:00:07.559 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/lib/bootstrap/js/bootstrap.js - - - 200 153194 application/javascript 9.7437ms
+2023-10-30 22:00:07.561 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css?v=kzm_mj_CkXg8n4wnlmzNMYFj30l_OhQ9L9H7sOzbgVs - -
+2023-10-30 22:00:07.561 +01:00 [Information] Sending file. Request path: '"/css/style.css"'. Physical path: '"C:\Users\abdik\Source\Repos\Forum\MyShop\wwwroot\css\style.css"'
+2023-10-30 22:00:07.561 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css?v=kzm_mj_CkXg8n4wnlmzNMYFj30l_OhQ9L9H7sOzbgVs - - - 200 12737 text/css 0.7388ms
+2023-10-30 22:00:07.564 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css - -
+2023-10-30 22:00:07.564 +01:00 [Information] Sending file. Request path: '"/css/style.css"'. Physical path: '"C:\Users\abdik\Source\Repos\Forum\MyShop\wwwroot\css\style.css"'
+2023-10-30 22:00:07.564 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css - - - 200 12737 text/css 0.5305ms
+2023-10-30 22:00:07.568 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/lib/jquery-validate/jquery.validate.js - -
+2023-10-30 22:00:07.568 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - -
+2023-10-30 22:00:07.570 +01:00 [Information] Sending file. Request path: '"/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"'. Physical path: '"C:\Users\abdik\Source\Repos\Forum\MyShop\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js"'
+2023-10-30 22:00:07.570 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - - - 200 19820 application/javascript 2.3488ms
+2023-10-30 22:00:07.570 +01:00 [Information] Sending file. Request path: '"/lib/jquery-validate/jquery.validate.js"'. Physical path: '"C:\Users\abdik\Source\Repos\Forum\MyShop\wwwroot\lib\jquery-validate\jquery.validate.js"'
+2023-10-30 22:00:07.571 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 22:00:07.571 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/lib/jquery-validate/jquery.validate.js - - - 200 53841 application/javascript 2.7969ms
+2023-10-30 22:00:07.571 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2248ms
+2023-10-30 22:00:07.573 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 22:00:07.575 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.1841ms
+2023-10-30 22:00:23.429 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-30 22:00:23.431 +01:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 22:00:23.434 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-30 22:00:23.443 +01:00 [Information] Executing ViewResult, running view "Index".
+2023-10-30 22:00:23.473 +01:00 [Information] Executed ViewResult - view "Index" executed in 30.6276ms.
+2023-10-30 22:00:23.473 +01:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 39.1796ms
+2023-10-30 22:00:23.473 +01:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 22:00:23.475 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 45.9185ms
+2023-10-30 22:00:23.485 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css?v=kzm_mj_CkXg8n4wnlmzNMYFj30l_OhQ9L9H7sOzbgVs - -
+2023-10-30 22:00:23.486 +01:00 [Information] The file "/css/style.css" was not modified
+2023-10-30 22:00:23.486 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css?v=kzm_mj_CkXg8n4wnlmzNMYFj30l_OhQ9L9H7sOzbgVs - - - 304 - text/css 0.3986ms
+2023-10-30 22:00:23.487 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/formula1.jpg - -
+2023-10-30 22:00:23.487 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/fotball.jpg - -
+2023-10-30 22:00:23.495 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/vacation.jpg - -
+2023-10-30 22:00:23.495 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/mosque.jpg - -
+2023-10-30 22:00:23.495 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/cyberS.jpg - -
+2023-10-30 22:00:23.495 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 22:00:23.495 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/skiEquipments.jpg - -
+2023-10-30 22:00:23.496 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3010ms
+2023-10-30 22:00:23.496 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 22:00:23.499 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.9509ms
+2023-10-30 22:00:23.500 +01:00 [Information] Sending file. Request path: '"/images/vacation.jpg"'. Physical path: '"C:\Users\abdik\Source\Repos\Forum\MyShop\wwwroot\images\vacation.jpg"'
+2023-10-30 22:00:23.500 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/vacation.jpg - - - 200 617541 image/jpeg 4.8573ms
+2023-10-30 22:00:23.526 +01:00 [Information] Sending file. Request path: '"/images/formula1.jpg"'. Physical path: '"C:\Users\abdik\Source\Repos\Forum\MyShop\wwwroot\images\formula1.jpg"'
+2023-10-30 22:00:23.526 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/formula1.jpg - - - 200 1574551 image/jpeg 39.4702ms
+2023-10-30 22:00:23.528 +01:00 [Information] Sending file. Request path: '"/images/fotball.jpg"'. Physical path: '"C:\Users\abdik\Source\Repos\Forum\MyShop\wwwroot\images\fotball.jpg"'
+2023-10-30 22:00:23.528 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/fotball.jpg - - - 200 1588856 image/jpeg 41.0841ms
+2023-10-30 22:00:23.543 +01:00 [Information] Sending file. Request path: '"/images/cyberS.jpg"'. Physical path: '"C:\Users\abdik\Source\Repos\Forum\MyShop\wwwroot\images\cyberS.jpg"'
+2023-10-30 22:00:23.543 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/cyberS.jpg - - - 200 1891447 image/jpeg 47.4372ms
+2023-10-30 22:00:23.545 +01:00 [Information] Sending file. Request path: '"/images/skiEquipments.jpg"'. Physical path: '"C:\Users\abdik\Source\Repos\Forum\MyShop\wwwroot\images\skiEquipments.jpg"'
+2023-10-30 22:00:23.545 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/skiEquipments.jpg - - - 200 2293710 image/jpeg 49.3301ms
+2023-10-30 22:00:23.552 +01:00 [Information] Sending file. Request path: '"/images/mosque.jpg"'. Physical path: '"C:\Users\abdik\Source\Repos\Forum\MyShop\wwwroot\images\mosque.jpg"'
+2023-10-30 22:00:23.552 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/mosque.jpg - - - 200 3633928 image/jpeg 57.0078ms

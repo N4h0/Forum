@@ -45,6 +45,7 @@
                 @foreach (var topic in Model)
                 {
                     <li class="list-group-roomitem">
+                        <!-- Link to view topic details -->
                         <a asp-controller="Topic" asp-action="TopicDetails" asp-route-id="@topic.TopicId">@topic.TopicName</a>
                         
                     </li>

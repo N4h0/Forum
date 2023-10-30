@@ -16,13 +16,15 @@
         </tr>
         <!--Quick sorting method found here: https://stackoverflow.com/questions/24505301/how-to-sort-table-in-asp-net-razor
         -->
+        <!-- Sorting posts by the latest comment -->
         @{ 
                     var postOrdered = Model.OrderByDescending(m => m.LatestComment.CommentTime);
         }
         @foreach (var post in postOrdered)
         {
             <tr>
-                <td>
+                <td> <!-- Link to view post details -->
+
                     <a asp-controller="Post"
                        asp-action="PostDetails"
                        asp-route-id="@post.PostId">@post.PostTitle

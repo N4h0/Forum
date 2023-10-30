@@ -123,7 +123,7 @@ namespace Forum.Controllers
                 _logger.LogError("[RoomController] Room deletion failed for the Romid {Id}", Id);
                 return BadRequest("Room not found for the RoomId");
             }
-            return View(room); //O
+            return View(room); //On a successfull update, returning the deleteroom view with the created room
         }
 
         // POST
@@ -131,18 +131,19 @@ namespace Forum.Controllers
         [Authorize(Roles = "SuperAdmin")]//Only accessible to superadmins
         public async Task<IActionResult> DeleteConfirmedRoom(int Id)
         {
-            var CategoryId = await _roomRepository.GetCategoryId(Id);
+            var CategoryId = await _roomRepository.GetCategoryId(Id); //Getting the categoryId based on the room we are about to deltete
+            //We store this so that we can use it to navigate back to the category-page
             try
             {
-                await _roomRepository.Delete(Id);
+                await _roomRepository.Delete(Id); //Attempting to delete room from the DB based on id
                 return RedirectToAction("CategoryDetails", "Category", new { id = CategoryId}); //Return to Category/CategoryDetails/CategoryId after create.
             }
             catch(Exception e)
             {
-                // Handle exceptions, if any
-                    _logger.LogError("[RoomController] Room deletion failed for the Romid {RoomId:0000}", e);
-
-                    return RedirectToAction("CategoryDetails", "Category", new { id = CategoryId });
+                // If deleting the room fails, we reach this and logg the error
+                    _logger.LogError("[RoomController] Room deletion failed for the Romid {Id}", Id);
+                //On a failed delete we get returned to Category/CategoryDetails/CategoryId.
+                return RedirectToAction("CategoryDetails", "Category", new { id = CategoryId });
             }
 
         }
