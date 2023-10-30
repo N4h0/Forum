@@ -10,7 +10,7 @@ namespace Forum.Models
 
         public string? UserName { get; set; } //FK
         [Required]
-        [MaxLength(10000)] // Eksempel: maximum length to 500 character
+        [MaxLength(10000)] // Eksempel: maximum length to 10000 character
         public string CommentDescription { get; set; }
         public DateTime CommentTime { get; set; }//Time of creation
 

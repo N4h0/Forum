@@ -11,7 +11,7 @@ public static class DBInit
         using var serviceScope = app.ApplicationServices.CreateScope();
         CategoryDbContext context = serviceScope.ServiceProvider.GetRequiredService<CategoryDbContext>();
 
-        if (2 == 2) { //A simple if-check to make it easy for us to enable/disabling resetting and seeding the DB.
+        if (2 == 22) { //A simple if-check to make it easy for us to enable/disabling resetting and seeding the DB.
         context.Database.EnsureDeleted();
         context.Database.EnsureCreated();
 

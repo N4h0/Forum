@@ -12,9 +12,9 @@
     <div class="form-group">
         <!-- Display a label for the "CommentDescription" property -->
         <label asp-for="CommentDescription">Comment description</label><span class="text-danger">*</span>
-
         <!-- Create an input field for the "CommentDescription" property with a form-control class -->
-        <input asp-for="CommentDescription" class="form-control"/>
+        <!--https://getbootstrap.com/docs/4.0/content/tables/ bootstrap table styles-->
+        <textarea class="form-control" input asp-for="CommentDescription" id="exampleFormControlTextarea1" rows="5"></textarea>
         <!-- Display any validation error for the "CommentDescription" -->
 
         <span asp-validation-for="CommentDescription" class="text-danger"></span>

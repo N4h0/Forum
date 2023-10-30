@@ -1,0 +1,39 @@
+2023-10-30 03:48:39.532 +01:00 [Information] User profile is available. Using '"C:\Users\Johan\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-30 03:48:40.160 +01:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-30 03:48:40.161 +01:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-30 03:48:40.165 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-30 03:48:40.166 +01:00 [Information] Hosting environment: "Development"
+2023-10-30 03:48:40.167 +01:00 [Information] Content root path: "C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\"
+2023-10-30 03:48:41.612 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-30 03:48:41.665 +01:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 03:48:41.674 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-30 03:48:41.713 +01:00 [Information] Executing ViewResult, running view "Index".
+2023-10-30 03:48:41.911 +01:00 [Information] Executed ViewResult - view "Index" executed in 197.2519ms.
+2023-10-30 03:48:41.914 +01:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 239.4578ms
+2023-10-30 03:48:41.914 +01:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 03:48:41.933 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css?v=9RZQMukj2lXcrRbPBTN6jb2FgSMB9-ZlbsnNuWjR6yU - -
+2023-10-30 03:48:41.937 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 327.0550ms
+2023-10-30 03:48:41.947 +01:00 [Information] Sending file. Request path: '"/css/style.css"'. Physical path: '"C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\wwwroot\css\style.css"'
+2023-10-30 03:48:41.947 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css?v=9RZQMukj2lXcrRbPBTN6jb2FgSMB9-ZlbsnNuWjR6yU - - - 200 7415 text/css 14.0406ms
+2023-10-30 03:48:41.974 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 03:48:41.976 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 2.1238ms
+2023-10-30 03:48:41.982 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 03:48:41.992 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.1310ms
+2023-10-30 03:48:43.284 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Post/PostDetails/2 - -
+2023-10-30 03:48:43.288 +01:00 [Information] Executing endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-30 03:48:43.295 +01:00 [Information] Route matched with "{action = \"PostDetails\", controller = \"Post\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostDetails(Int32)" on controller "Forum.Controllers.PostController" ("Forum").
+2023-10-30 03:48:43.306 +01:00 [Information] Executing ViewResult, running view "PostDetails".
+2023-10-30 03:48:43.367 +01:00 [Information] Executed ViewResult - view "PostDetails" executed in 61.3746ms.
+2023-10-30 03:48:43.368 +01:00 [Information] Executed action "Forum.Controllers.PostController.PostDetails (Forum)" in 72.4515ms
+2023-10-30 03:48:43.368 +01:00 [Information] Executed endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-30 03:48:43.369 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Post/PostDetails/2 - - - 200 - text/html;+charset=utf-8 84.8146ms
+2023-10-30 03:48:43.374 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css?v=9RZQMukj2lXcrRbPBTN6jb2FgSMB9-ZlbsnNuWjR6yU - -
+2023-10-30 03:48:43.374 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css - -
+2023-10-30 03:48:43.374 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 03:48:43.375 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2641ms
+2023-10-30 03:48:43.376 +01:00 [Information] The file "/css/style.css" was not modified
+2023-10-30 03:48:43.376 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css?v=9RZQMukj2lXcrRbPBTN6jb2FgSMB9-ZlbsnNuWjR6yU - - - 304 - text/css 1.5698ms
+2023-10-30 03:48:43.380 +01:00 [Information] Sending file. Request path: '"/css/style.css"'. Physical path: '"C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\wwwroot\css\style.css"'
+2023-10-30 03:48:43.380 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css - - - 200 7415 text/css 6.1196ms
+2023-10-30 03:48:43.382 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 03:48:43.388 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5.6358ms

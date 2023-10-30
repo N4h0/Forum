@@ -20,7 +20,8 @@
 
         <!--A field for validation-->
         <label asp-for="Comment.CommentDescription"></label><span class="text-danger">*</span>
-        <input asp-for="Comment.CommentDescription" class="form-control" />
+        <textarea class="form-control" input asp-for="Comment.CommentDescription" id="exampleFormControlTextarea1" rows="5"></textarea>
+
         <span asp-validation-for="Comment.CommentDescription" class="text-danger"></span>
     </div>
     <!--Input for the TopicId, it get's automatically generated.-->

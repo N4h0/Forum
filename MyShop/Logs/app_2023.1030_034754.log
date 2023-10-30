@@ -1,0 +1,66 @@
+2023-10-30 03:47:55.549 +01:00 [Information] User profile is available. Using '"C:\Users\Johan\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-30 03:47:56.175 +01:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-30 03:47:56.175 +01:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-30 03:47:56.180 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-30 03:47:56.181 +01:00 [Information] Hosting environment: "Development"
+2023-10-30 03:47:56.182 +01:00 [Information] Content root path: "C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\"
+2023-10-30 03:47:56.461 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-30 03:47:56.593 +01:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 03:47:56.602 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-30 03:47:56.639 +01:00 [Information] Executing ViewResult, running view "Index".
+2023-10-30 03:47:56.825 +01:00 [Information] Executed ViewResult - view "Index" executed in 186.2937ms.
+2023-10-30 03:47:56.828 +01:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 225.4738ms
+2023-10-30 03:47:56.829 +01:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 03:47:56.848 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css?v=ixZx9irAAjfXlaFC7N8U5MlXn0e-5kSv0hWprDkabNs - -
+2023-10-30 03:47:56.848 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/formula1.jpg - -
+2023-10-30 03:47:56.848 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/lib/jquery-validate/jquery.validate.js - -
+2023-10-30 03:47:56.848 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - -
+2023-10-30 03:47:56.848 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/fotball.jpg - -
+2023-10-30 03:47:56.848 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/lib/bootstrap/js/bootstrap.js - -
+2023-10-30 03:47:56.851 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 392.5557ms
+2023-10-30 03:47:56.852 +01:00 [Information] The file "/lib/bootstrap/js/bootstrap.js" was not modified
+2023-10-30 03:47:56.852 +01:00 [Information] The file "/images/fotball.jpg" was not modified
+2023-10-30 03:47:56.852 +01:00 [Information] The file "/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" was not modified
+2023-10-30 03:47:56.852 +01:00 [Information] The file "/lib/jquery-validate/jquery.validate.js" was not modified
+2023-10-30 03:47:56.852 +01:00 [Information] The file "/images/formula1.jpg" was not modified
+2023-10-30 03:47:56.853 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/formula1.jpg - - - 304 - image/jpeg 5.0123ms
+2023-10-30 03:47:56.853 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/lib/jquery-validate/jquery.validate.js - - - 304 - application/javascript 5.0239ms
+2023-10-30 03:47:56.853 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/lib/bootstrap/js/bootstrap.js - - - 304 - application/javascript 5.0095ms
+2023-10-30 03:47:56.853 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/fotball.jpg - - - 304 - image/jpeg 5.0423ms
+2023-10-30 03:47:56.853 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - - - 304 - application/javascript 5.0187ms
+2023-10-30 03:47:56.860 +01:00 [Information] Sending file. Request path: '"/css/style.css"'. Physical path: '"C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\wwwroot\css\style.css"'
+2023-10-30 03:47:56.860 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css?v=ixZx9irAAjfXlaFC7N8U5MlXn0e-5kSv0hWprDkabNs - - - 200 7417 text/css 12.1787ms
+2023-10-30 03:47:56.878 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/vacation.jpg - -
+2023-10-30 03:47:56.879 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/mosque.jpg - -
+2023-10-30 03:47:56.880 +01:00 [Information] The file "/images/mosque.jpg" was not modified
+2023-10-30 03:47:56.880 +01:00 [Information] The file "/images/vacation.jpg" was not modified
+2023-10-30 03:47:56.880 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/mosque.jpg - - - 304 - image/jpeg 1.0057ms
+2023-10-30 03:47:56.880 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/vacation.jpg - - - 304 - image/jpeg 1.2871ms
+2023-10-30 03:47:56.884 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/cyberS.jpg - -
+2023-10-30 03:47:56.884 +01:00 [Information] The file "/images/cyberS.jpg" was not modified
+2023-10-30 03:47:56.884 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/cyberS.jpg - - - 304 - image/jpeg 0.2591ms
+2023-10-30 03:47:56.885 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 03:47:56.888 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 2.4401ms
+2023-10-30 03:47:56.893 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 03:47:56.893 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/skiEquipments.jpg - -
+2023-10-30 03:47:56.894 +01:00 [Information] The file "/images/skiEquipments.jpg" was not modified
+2023-10-30 03:47:56.894 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/skiEquipments.jpg - - - 304 - image/jpeg 0.4246ms
+2023-10-30 03:47:56.903 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.4003ms
+2023-10-30 03:47:57.938 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Post/PostDetails/2 - -
+2023-10-30 03:47:57.941 +01:00 [Information] Executing endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-30 03:47:57.948 +01:00 [Information] Route matched with "{action = \"PostDetails\", controller = \"Post\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostDetails(Int32)" on controller "Forum.Controllers.PostController" ("Forum").
+2023-10-30 03:47:57.958 +01:00 [Information] Executing ViewResult, running view "PostDetails".
+2023-10-30 03:47:58.015 +01:00 [Information] Executed ViewResult - view "PostDetails" executed in 57.3375ms.
+2023-10-30 03:47:58.015 +01:00 [Information] Executed action "Forum.Controllers.PostController.PostDetails (Forum)" in 66.8146ms
+2023-10-30 03:47:58.015 +01:00 [Information] Executed endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-30 03:47:58.016 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Post/PostDetails/2 - - - 200 - text/html;+charset=utf-8 78.2117ms
+2023-10-30 03:47:58.024 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css?v=ixZx9irAAjfXlaFC7N8U5MlXn0e-5kSv0hWprDkabNs - -
+2023-10-30 03:47:58.024 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css - -
+2023-10-30 03:47:58.024 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 03:47:58.024 +01:00 [Information] The file "/css/style.css" was not modified
+2023-10-30 03:47:58.024 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.4094ms
+2023-10-30 03:47:58.024 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css?v=ixZx9irAAjfXlaFC7N8U5MlXn0e-5kSv0hWprDkabNs - - - 304 - text/css 0.4806ms
+2023-10-30 03:47:58.024 +01:00 [Information] Sending file. Request path: '"/css/style.css"'. Physical path: '"C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\wwwroot\css\style.css"'
+2023-10-30 03:47:58.024 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css - - - 200 7417 text/css 0.6099ms
+2023-10-30 03:47:58.031 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 03:47:58.034 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.3992ms

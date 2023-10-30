@@ -1,0 +1,257 @@
+2023-10-30 02:54:48.647 +01:00 [Information] User profile is available. Using '"C:\Users\Johan\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-30 02:54:49.276 +01:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-30 02:54:49.277 +01:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-30 02:54:49.282 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-30 02:54:49.283 +01:00 [Information] Hosting environment: "Development"
+2023-10-30 02:54:49.284 +01:00 [Information] Content root path: "C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\"
+2023-10-30 02:54:50.080 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-30 02:54:50.130 +01:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 02:54:50.139 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-30 02:54:50.178 +01:00 [Information] Executing ViewResult, running view "Index".
+2023-10-30 02:54:50.361 +01:00 [Information] Executed ViewResult - view "Index" executed in 182.6828ms.
+2023-10-30 02:54:50.364 +01:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 224.3783ms
+2023-10-30 02:54:50.364 +01:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 02:54:50.386 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 307.8277ms
+2023-10-30 02:54:50.419 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 02:54:50.421 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 2.6486ms
+2023-10-30 02:54:50.425 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 02:54:50.434 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.6870ms
+2023-10-30 02:54:51.443 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Post/PostDetails/8 - -
+2023-10-30 02:54:51.447 +01:00 [Information] Executing endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-30 02:54:51.454 +01:00 [Information] Route matched with "{action = \"PostDetails\", controller = \"Post\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostDetails(Int32)" on controller "Forum.Controllers.PostController" ("Forum").
+2023-10-30 02:54:51.464 +01:00 [Information] Executing ViewResult, running view "PostDetails".
+2023-10-30 02:54:51.522 +01:00 [Information] Executed ViewResult - view "PostDetails" executed in 57.8166ms.
+2023-10-30 02:54:51.522 +01:00 [Information] Executed action "Forum.Controllers.PostController.PostDetails (Forum)" in 68.0839ms
+2023-10-30 02:54:51.522 +01:00 [Information] Executed endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-30 02:54:51.523 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Post/PostDetails/8 - - - 200 - text/html;+charset=utf-8 80.4537ms
+2023-10-30 02:54:51.528 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 02:54:51.529 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 02:54:51.529 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.5342ms
+2023-10-30 02:54:51.533 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.0999ms
+2023-10-30 02:54:52.504 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Comment/CreateComment?postId=8 - -
+2023-10-30 02:54:52.515 +01:00 [Information] Executing endpoint '"Forum.Controllers.CommentController.CreateComment (Forum)"'
+2023-10-30 02:54:52.516 +01:00 [Information] Route matched with "{action = \"CreateComment\", controller = \"Comment\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateComment(Int32)" on controller "Forum.Controllers.CommentController" ("Forum").
+2023-10-30 02:54:52.519 +01:00 [Information] Executing ViewResult, running view "CreateComment".
+2023-10-30 02:54:52.538 +01:00 [Information] Executed ViewResult - view "CreateComment" executed in 19.1176ms.
+2023-10-30 02:54:52.538 +01:00 [Information] Executed action "Forum.Controllers.CommentController.CreateComment (Forum)" in 22.7677ms
+2023-10-30 02:54:52.538 +01:00 [Information] Executed endpoint '"Forum.Controllers.CommentController.CreateComment (Forum)"'
+2023-10-30 02:54:52.540 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Comment/CreateComment?postId=8 - - - 200 - text/html;+charset=utf-8 36.6106ms
+2023-10-30 02:54:52.548 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 02:54:52.548 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 02:54:52.548 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3306ms
+2023-10-30 02:54:52.550 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.5868ms
+2023-10-30 02:54:54.682 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-30 02:54:54.686 +01:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 02:54:54.687 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-30 02:54:54.689 +01:00 [Information] Executing ViewResult, running view "Index".
+2023-10-30 02:54:54.707 +01:00 [Information] Executed ViewResult - view "Index" executed in 18.6139ms.
+2023-10-30 02:54:54.707 +01:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 20.8158ms
+2023-10-30 02:54:54.707 +01:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 02:54:54.710 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 27.6640ms
+2023-10-30 02:54:54.713 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 02:54:54.713 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 02:54:54.713 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.4260ms
+2023-10-30 02:54:54.716 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.6365ms
+2023-10-30 02:54:56.970 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Post/PostDetails/1 - -
+2023-10-30 02:54:56.974 +01:00 [Information] Executing endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-30 02:54:56.974 +01:00 [Information] Route matched with "{action = \"PostDetails\", controller = \"Post\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostDetails(Int32)" on controller "Forum.Controllers.PostController" ("Forum").
+2023-10-30 02:54:56.976 +01:00 [Information] Executing ViewResult, running view "PostDetails".
+2023-10-30 02:54:56.986 +01:00 [Information] Executed ViewResult - view "PostDetails" executed in 10.3128ms.
+2023-10-30 02:54:56.986 +01:00 [Information] Executed action "Forum.Controllers.PostController.PostDetails (Forum)" in 12.5688ms
+2023-10-30 02:54:56.986 +01:00 [Information] Executed endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-30 02:54:56.987 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Post/PostDetails/1 - - - 200 - text/html;+charset=utf-8 17.6308ms
+2023-10-30 02:54:56.995 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 02:54:56.995 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 02:54:56.995 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2265ms
+2023-10-30 02:54:56.997 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.7396ms
+2023-10-30 02:55:01.486 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Comment/CreateComment?postId=1 - -
+2023-10-30 02:55:01.489 +01:00 [Information] Executing endpoint '"Forum.Controllers.CommentController.CreateComment (Forum)"'
+2023-10-30 02:55:01.489 +01:00 [Information] Route matched with "{action = \"CreateComment\", controller = \"Comment\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateComment(Int32)" on controller "Forum.Controllers.CommentController" ("Forum").
+2023-10-30 02:55:01.489 +01:00 [Information] Executing ViewResult, running view "CreateComment".
+2023-10-30 02:55:01.494 +01:00 [Information] Executed ViewResult - view "CreateComment" executed in 4.6948ms.
+2023-10-30 02:55:01.494 +01:00 [Information] Executed action "Forum.Controllers.CommentController.CreateComment (Forum)" in 5.1171ms
+2023-10-30 02:55:01.494 +01:00 [Information] Executed endpoint '"Forum.Controllers.CommentController.CreateComment (Forum)"'
+2023-10-30 02:55:01.495 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Comment/CreateComment?postId=1 - - - 200 - text/html;+charset=utf-8 9.8727ms
+2023-10-30 02:55:01.502 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 02:55:01.502 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 02:55:01.502 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.4203ms
+2023-10-30 02:55:01.507 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.5935ms
+2023-10-30 02:55:24.422 +01:00 [Information] Request starting HTTP/2 POST https://localhost:7205/Comment/CreateComment application/x-www-form-urlencoded 357
+2023-10-30 02:55:24.425 +01:00 [Information] Executing endpoint '"Forum.Controllers.CommentController.CreateComment (Forum)"'
+2023-10-30 02:55:24.431 +01:00 [Information] Route matched with "{action = \"CreateComment\", controller = \"Comment\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateComment(Forum.Models.Comment)" on controller "Forum.Controllers.CommentController" ("Forum").
+2023-10-30 02:55:24.536 +01:00 [Information] Executing RedirectResult, redirecting to "/Post/PostDetails/1".
+2023-10-30 02:55:24.537 +01:00 [Information] Executed action "Forum.Controllers.CommentController.CreateComment (Forum)" in 105.7565ms
+2023-10-30 02:55:24.537 +01:00 [Information] Executed endpoint '"Forum.Controllers.CommentController.CreateComment (Forum)"'
+2023-10-30 02:55:24.537 +01:00 [Information] Request finished HTTP/2 POST https://localhost:7205/Comment/CreateComment application/x-www-form-urlencoded 357 - 302 0 - 114.9950ms
+2023-10-30 02:55:24.539 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Post/PostDetails/1 - -
+2023-10-30 02:55:24.542 +01:00 [Information] Executing endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-30 02:55:24.542 +01:00 [Information] Route matched with "{action = \"PostDetails\", controller = \"Post\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostDetails(Int32)" on controller "Forum.Controllers.PostController" ("Forum").
+2023-10-30 02:55:24.543 +01:00 [Information] Executing ViewResult, running view "PostDetails".
+2023-10-30 02:55:24.554 +01:00 [Information] Executed ViewResult - view "PostDetails" executed in 10.5147ms.
+2023-10-30 02:55:24.554 +01:00 [Information] Executed action "Forum.Controllers.PostController.PostDetails (Forum)" in 12.0763ms
+2023-10-30 02:55:24.554 +01:00 [Information] Executed endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-30 02:55:24.555 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Post/PostDetails/1 - - - 200 - text/html;+charset=utf-8 15.8869ms
+2023-10-30 02:55:24.566 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 02:55:24.566 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 02:55:24.566 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.4578ms
+2023-10-30 02:55:24.568 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.6322ms
+2023-10-30 02:55:41.502 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Topic/TopicDetails/1 - -
+2023-10-30 02:55:41.505 +01:00 [Information] Executing endpoint '"Forum.Controllers.TopicController.TopicDetails (Forum)"'
+2023-10-30 02:55:41.506 +01:00 [Information] Route matched with "{action = \"TopicDetails\", controller = \"Topic\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TopicDetails(Int32)" on controller "Forum.Controllers.TopicController" ("Forum").
+2023-10-30 02:55:41.510 +01:00 [Information] Executing ViewResult, running view "TopicDetails".
+2023-10-30 02:55:41.535 +01:00 [Information] Executed ViewResult - view "TopicDetails" executed in 25.1372ms.
+2023-10-30 02:55:41.535 +01:00 [Information] Executed action "Forum.Controllers.TopicController.TopicDetails (Forum)" in 29.4214ms
+2023-10-30 02:55:41.535 +01:00 [Information] Executed endpoint '"Forum.Controllers.TopicController.TopicDetails (Forum)"'
+2023-10-30 02:55:41.538 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Topic/TopicDetails/1 - - - 200 - text/html;+charset=utf-8 36.5838ms
+2023-10-30 02:55:41.541 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/lib/jquery-validate/jquery.validate.js - -
+2023-10-30 02:55:41.541 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 02:55:41.541 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - -
+2023-10-30 02:55:41.542 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.1858ms
+2023-10-30 02:55:41.542 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css?v=rYKnG-JB9M2x-H4nVgrp-vEkdVLuLY8MBOpZDywim-4 - -
+2023-10-30 02:55:41.553 +01:00 [Information] The file "/css/style.css" was not modified
+2023-10-30 02:55:41.553 +01:00 [Information] The file "/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" was not modified
+2023-10-30 02:55:41.553 +01:00 [Information] The file "/lib/jquery-validate/jquery.validate.js" was not modified
+2023-10-30 02:55:41.553 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/lib/jquery-validate/jquery.validate.js - - - 304 - application/javascript 12.0019ms
+2023-10-30 02:55:41.553 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - - - 304 - application/javascript 11.8484ms
+2023-10-30 02:55:41.553 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css?v=rYKnG-JB9M2x-H4nVgrp-vEkdVLuLY8MBOpZDywim-4 - - - 304 - text/css 11.0012ms
+2023-10-30 02:55:41.555 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 02:55:41.558 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.5285ms
+2023-10-30 02:55:42.336 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-30 02:55:42.338 +01:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 02:55:42.338 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-30 02:55:42.339 +01:00 [Information] Executing ViewResult, running view "Index".
+2023-10-30 02:55:42.356 +01:00 [Information] Executed ViewResult - view "Index" executed in 16.4398ms.
+2023-10-30 02:55:42.356 +01:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 17.8428ms
+2023-10-30 02:55:42.356 +01:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 02:55:42.358 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 22.8641ms
+2023-10-30 02:55:42.374 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 02:55:42.374 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.1840ms
+2023-10-30 02:55:42.374 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 02:55:42.376 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.4695ms
+2023-10-30 02:55:48.954 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-30 02:55:48.957 +01:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 02:55:48.957 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-30 02:55:48.959 +01:00 [Information] Executing ViewResult, running view "Index".
+2023-10-30 02:55:48.975 +01:00 [Information] Executed ViewResult - view "Index" executed in 16.2357ms.
+2023-10-30 02:55:48.975 +01:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 17.7083ms
+2023-10-30 02:55:48.975 +01:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 02:55:48.978 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 23.6521ms
+2023-10-30 02:55:48.985 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 02:55:48.986 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 02:55:48.986 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.1844ms
+2023-10-30 02:55:48.988 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.6260ms
+2023-10-30 02:55:49.452 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-30 02:55:49.454 +01:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 02:55:49.455 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-30 02:55:49.456 +01:00 [Information] Executing ViewResult, running view "Index".
+2023-10-30 02:55:49.473 +01:00 [Information] Executed ViewResult - view "Index" executed in 16.4665ms.
+2023-10-30 02:55:49.473 +01:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 18.0682ms
+2023-10-30 02:55:49.473 +01:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 02:55:49.475 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 23.1661ms
+2023-10-30 02:55:49.482 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 02:55:49.482 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 02:55:49.482 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3067ms
+2023-10-30 02:55:49.484 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.5573ms
+2023-10-30 02:55:49.874 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-30 02:55:49.877 +01:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 02:55:49.877 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-30 02:55:49.878 +01:00 [Information] Executing ViewResult, running view "Index".
+2023-10-30 02:55:49.894 +01:00 [Information] Executed ViewResult - view "Index" executed in 16.469ms.
+2023-10-30 02:55:49.895 +01:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 17.8717ms
+2023-10-30 02:55:49.895 +01:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 02:55:49.897 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 22.8475ms
+2023-10-30 02:55:49.903 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 02:55:49.903 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 02:55:49.903 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.4446ms
+2023-10-30 02:55:49.906 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.7209ms
+2023-10-30 02:55:50.613 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-30 02:55:50.615 +01:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 02:55:50.616 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-30 02:55:50.617 +01:00 [Information] Executing ViewResult, running view "Index".
+2023-10-30 02:55:50.634 +01:00 [Information] Executed ViewResult - view "Index" executed in 16.7826ms.
+2023-10-30 02:55:50.634 +01:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 18.4503ms
+2023-10-30 02:55:50.634 +01:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 02:55:50.636 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 23.2898ms
+2023-10-30 02:55:50.642 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 02:55:50.642 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 02:55:50.643 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3480ms
+2023-10-30 02:55:50.645 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.4744ms
+2023-10-30 02:55:51.336 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-30 02:55:51.338 +01:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 02:55:51.338 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-30 02:55:51.340 +01:00 [Information] Executing ViewResult, running view "Index".
+2023-10-30 02:55:51.357 +01:00 [Information] Executed ViewResult - view "Index" executed in 16.8945ms.
+2023-10-30 02:55:51.357 +01:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 18.3784ms
+2023-10-30 02:55:51.357 +01:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 02:55:51.360 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 23.8686ms
+2023-10-30 02:55:51.365 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 02:55:51.365 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 02:55:51.365 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3039ms
+2023-10-30 02:55:51.367 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.3410ms
+2023-10-30 02:55:52.169 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-30 02:55:52.171 +01:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 02:55:52.171 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-30 02:55:52.173 +01:00 [Information] Executing ViewResult, running view "Index".
+2023-10-30 02:55:52.190 +01:00 [Information] Executed ViewResult - view "Index" executed in 17.1022ms.
+2023-10-30 02:55:52.190 +01:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 18.5796ms
+2023-10-30 02:55:52.190 +01:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 02:55:52.192 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 23.4624ms
+2023-10-30 02:55:52.199 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 02:55:52.199 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 02:55:52.199 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2348ms
+2023-10-30 02:55:52.202 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.4580ms
+2023-10-30 02:56:26.464 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Post/PostDetails/6 - -
+2023-10-30 02:56:26.468 +01:00 [Information] Executing endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-30 02:56:26.468 +01:00 [Information] Route matched with "{action = \"PostDetails\", controller = \"Post\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostDetails(Int32)" on controller "Forum.Controllers.PostController" ("Forum").
+2023-10-30 02:56:26.470 +01:00 [Information] Executing ViewResult, running view "PostDetails".
+2023-10-30 02:56:26.480 +01:00 [Information] Executed ViewResult - view "PostDetails" executed in 10.3768ms.
+2023-10-30 02:56:26.481 +01:00 [Information] Executed action "Forum.Controllers.PostController.PostDetails (Forum)" in 12.1399ms
+2023-10-30 02:56:26.481 +01:00 [Information] Executed endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-30 02:56:26.482 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Post/PostDetails/6 - - - 200 - text/html;+charset=utf-8 17.6737ms
+2023-10-30 02:56:26.492 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 02:56:26.492 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 02:56:26.492 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2888ms
+2023-10-30 02:56:26.494 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.7211ms
+2023-10-30 02:56:28.513 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Comment/CreateComment?postId=6 - -
+2023-10-30 02:56:28.516 +01:00 [Information] Executing endpoint '"Forum.Controllers.CommentController.CreateComment (Forum)"'
+2023-10-30 02:56:28.516 +01:00 [Information] Route matched with "{action = \"CreateComment\", controller = \"Comment\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateComment(Int32)" on controller "Forum.Controllers.CommentController" ("Forum").
+2023-10-30 02:56:28.516 +01:00 [Information] Executing ViewResult, running view "CreateComment".
+2023-10-30 02:56:28.520 +01:00 [Information] Executed ViewResult - view "CreateComment" executed in 4.5038ms.
+2023-10-30 02:56:28.520 +01:00 [Information] Executed action "Forum.Controllers.CommentController.CreateComment (Forum)" in 4.6786ms
+2023-10-30 02:56:28.520 +01:00 [Information] Executed endpoint '"Forum.Controllers.CommentController.CreateComment (Forum)"'
+2023-10-30 02:56:28.522 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Comment/CreateComment?postId=6 - - - 200 - text/html;+charset=utf-8 8.2263ms
+2023-10-30 02:56:28.530 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 02:56:28.530 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 02:56:28.530 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3520ms
+2023-10-30 02:56:28.532 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.5363ms
+2023-10-30 02:56:51.995 +01:00 [Information] Request starting HTTP/2 POST https://localhost:7205/Comment/CreateComment application/x-www-form-urlencoded 363
+2023-10-30 02:56:51.999 +01:00 [Information] Executing endpoint '"Forum.Controllers.CommentController.CreateComment (Forum)"'
+2023-10-30 02:56:51.999 +01:00 [Information] Route matched with "{action = \"CreateComment\", controller = \"Comment\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateComment(Forum.Models.Comment)" on controller "Forum.Controllers.CommentController" ("Forum").
+2023-10-30 02:56:52.013 +01:00 [Information] Executing RedirectResult, redirecting to "/Post/PostDetails/6".
+2023-10-30 02:56:52.013 +01:00 [Information] Executed action "Forum.Controllers.CommentController.CreateComment (Forum)" in 13.4278ms
+2023-10-30 02:56:52.013 +01:00 [Information] Executed endpoint '"Forum.Controllers.CommentController.CreateComment (Forum)"'
+2023-10-30 02:56:52.013 +01:00 [Information] Request finished HTTP/2 POST https://localhost:7205/Comment/CreateComment application/x-www-form-urlencoded 363 - 302 0 - 18.4714ms
+2023-10-30 02:56:52.038 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Post/PostDetails/6 - -
+2023-10-30 02:56:52.040 +01:00 [Information] Executing endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-30 02:56:52.040 +01:00 [Information] Route matched with "{action = \"PostDetails\", controller = \"Post\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostDetails(Int32)" on controller "Forum.Controllers.PostController" ("Forum").
+2023-10-30 02:56:52.042 +01:00 [Information] Executing ViewResult, running view "PostDetails".
+2023-10-30 02:56:52.052 +01:00 [Information] Executed ViewResult - view "PostDetails" executed in 9.5378ms.
+2023-10-30 02:56:52.052 +01:00 [Information] Executed action "Forum.Controllers.PostController.PostDetails (Forum)" in 11.1835ms
+2023-10-30 02:56:52.052 +01:00 [Information] Executed endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-30 02:56:52.053 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Post/PostDetails/6 - - - 200 - text/html;+charset=utf-8 14.4371ms
+2023-10-30 02:56:52.062 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 02:56:52.062 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 02:56:52.062 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3788ms
+2023-10-30 02:56:52.064 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.1959ms
+2023-10-30 02:57:00.580 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-30 02:57:00.582 +01:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 02:57:00.583 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-30 02:57:00.584 +01:00 [Information] Executing ViewResult, running view "Index".
+2023-10-30 02:57:00.599 +01:00 [Information] Executed ViewResult - view "Index" executed in 15.3315ms.
+2023-10-30 02:57:00.599 +01:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 16.7008ms
+2023-10-30 02:57:00.599 +01:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 02:57:00.602 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 21.4806ms
+2023-10-30 02:57:00.616 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 02:57:00.617 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 02:57:00.617 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.4811ms
+2023-10-30 02:57:00.619 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.4560ms

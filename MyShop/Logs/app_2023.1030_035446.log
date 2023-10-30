@@ -1,0 +1,237 @@
+2023-10-30 03:54:47.787 +01:00 [Information] User profile is available. Using '"C:\Users\Johan\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-30 03:54:48.418 +01:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-30 03:54:48.419 +01:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-30 03:54:48.423 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-30 03:54:48.424 +01:00 [Information] Hosting environment: "Development"
+2023-10-30 03:54:48.425 +01:00 [Information] Content root path: "C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\"
+2023-10-30 03:54:49.077 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-30 03:54:49.135 +01:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 03:54:49.144 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-30 03:54:49.184 +01:00 [Information] Executing ViewResult, running view "Index".
+2023-10-30 03:54:49.390 +01:00 [Information] Executed ViewResult - view "Index" executed in 206.092ms.
+2023-10-30 03:54:49.393 +01:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 248.629ms
+2023-10-30 03:54:49.394 +01:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 03:54:49.415 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css?v=rYKnG-JB9M2x-H4nVgrp-vEkdVLuLY8MBOpZDywim-4 - -
+2023-10-30 03:54:49.417 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 341.5726ms
+2023-10-30 03:54:49.428 +01:00 [Information] Sending file. Request path: '"/css/style.css"'. Physical path: '"C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\wwwroot\css\style.css"'
+2023-10-30 03:54:49.428 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css?v=rYKnG-JB9M2x-H4nVgrp-vEkdVLuLY8MBOpZDywim-4 - - - 200 7349 text/css 13.1326ms
+2023-10-30 03:54:49.452 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 03:54:49.454 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 2.2339ms
+2023-10-30 03:54:49.462 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 03:54:49.472 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.0012ms
+2023-10-30 03:54:50.251 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Post/PostDetails/2 - -
+2023-10-30 03:54:50.255 +01:00 [Information] Executing endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-30 03:54:50.262 +01:00 [Information] Route matched with "{action = \"PostDetails\", controller = \"Post\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostDetails(Int32)" on controller "Forum.Controllers.PostController" ("Forum").
+2023-10-30 03:54:50.274 +01:00 [Information] Executing ViewResult, running view "PostDetails".
+2023-10-30 03:54:50.337 +01:00 [Information] Executed ViewResult - view "PostDetails" executed in 63.1607ms.
+2023-10-30 03:54:50.337 +01:00 [Information] Executed action "Forum.Controllers.PostController.PostDetails (Forum)" in 74.363ms
+2023-10-30 03:54:50.337 +01:00 [Information] Executed endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-30 03:54:50.338 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Post/PostDetails/2 - - - 200 - text/html;+charset=utf-8 86.7184ms
+2023-10-30 03:54:50.345 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css - -
+2023-10-30 03:54:50.345 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css?v=rYKnG-JB9M2x-H4nVgrp-vEkdVLuLY8MBOpZDywim-4 - -
+2023-10-30 03:54:50.346 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 03:54:50.346 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2439ms
+2023-10-30 03:54:50.346 +01:00 [Information] The file "/css/style.css" was not modified
+2023-10-30 03:54:50.346 +01:00 [Information] Sending file. Request path: '"/css/style.css"'. Physical path: '"C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\wwwroot\css\style.css"'
+2023-10-30 03:54:50.346 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css?v=rYKnG-JB9M2x-H4nVgrp-vEkdVLuLY8MBOpZDywim-4 - - - 304 - text/css 0.7827ms
+2023-10-30 03:54:50.346 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css - - - 200 7349 text/css 0.8153ms
+2023-10-30 03:54:50.355 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 03:54:50.357 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.6993ms
+2023-10-30 03:54:54.466 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Topic/TopicDetails/1 - -
+2023-10-30 03:54:54.474 +01:00 [Information] Executing endpoint '"Forum.Controllers.TopicController.TopicDetails (Forum)"'
+2023-10-30 03:54:54.476 +01:00 [Information] Route matched with "{action = \"TopicDetails\", controller = \"Topic\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TopicDetails(Int32)" on controller "Forum.Controllers.TopicController" ("Forum").
+2023-10-30 03:54:54.480 +01:00 [Information] Executing ViewResult, running view "TopicDetails".
+2023-10-30 03:54:54.504 +01:00 [Information] Executed ViewResult - view "TopicDetails" executed in 24.2633ms.
+2023-10-30 03:54:54.504 +01:00 [Information] Executed action "Forum.Controllers.TopicController.TopicDetails (Forum)" in 28.7665ms
+2023-10-30 03:54:54.505 +01:00 [Information] Executed endpoint '"Forum.Controllers.TopicController.TopicDetails (Forum)"'
+2023-10-30 03:54:54.506 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Topic/TopicDetails/1 - - - 200 - text/html;+charset=utf-8 39.6208ms
+2023-10-30 03:54:54.513 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css?v=rYKnG-JB9M2x-H4nVgrp-vEkdVLuLY8MBOpZDywim-4 - -
+2023-10-30 03:54:54.513 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 03:54:54.513 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 03:54:54.514 +01:00 [Information] The file "/css/style.css" was not modified
+2023-10-30 03:54:54.514 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2750ms
+2023-10-30 03:54:54.514 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css?v=rYKnG-JB9M2x-H4nVgrp-vEkdVLuLY8MBOpZDywim-4 - - - 304 - text/css 0.5905ms
+2023-10-30 03:54:54.518 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.7712ms
+2023-10-30 03:54:55.833 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Post/PostDetails/2 - -
+2023-10-30 03:54:55.836 +01:00 [Information] Executing endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-30 03:54:55.836 +01:00 [Information] Route matched with "{action = \"PostDetails\", controller = \"Post\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostDetails(Int32)" on controller "Forum.Controllers.PostController" ("Forum").
+2023-10-30 03:54:55.838 +01:00 [Information] Executing ViewResult, running view "PostDetails".
+2023-10-30 03:54:55.850 +01:00 [Information] Executed ViewResult - view "PostDetails" executed in 11.3962ms.
+2023-10-30 03:54:55.850 +01:00 [Information] Executed action "Forum.Controllers.PostController.PostDetails (Forum)" in 13.5056ms
+2023-10-30 03:54:55.850 +01:00 [Information] Executed endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-30 03:54:55.851 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Post/PostDetails/2 - - - 200 - text/html;+charset=utf-8 17.8765ms
+2023-10-30 03:54:55.857 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 03:54:55.857 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css - -
+2023-10-30 03:54:55.857 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css?v=rYKnG-JB9M2x-H4nVgrp-vEkdVLuLY8MBOpZDywim-4 - -
+2023-10-30 03:54:55.858 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3752ms
+2023-10-30 03:54:55.858 +01:00 [Information] The file "/css/style.css" was not modified
+2023-10-30 03:54:55.858 +01:00 [Information] The file "/css/style.css" was not modified
+2023-10-30 03:54:55.858 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css?v=rYKnG-JB9M2x-H4nVgrp-vEkdVLuLY8MBOpZDywim-4 - - - 304 - text/css 0.5690ms
+2023-10-30 03:54:55.858 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css - - - 304 - text/css 0.5814ms
+2023-10-30 03:54:55.864 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 03:54:55.869 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.7918ms
+2023-10-30 03:54:58.377 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Topic/TopicDetails/1 - -
+2023-10-30 03:54:58.381 +01:00 [Information] Executing endpoint '"Forum.Controllers.TopicController.TopicDetails (Forum)"'
+2023-10-30 03:54:58.381 +01:00 [Information] Route matched with "{action = \"TopicDetails\", controller = \"Topic\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TopicDetails(Int32)" on controller "Forum.Controllers.TopicController" ("Forum").
+2023-10-30 03:54:58.382 +01:00 [Information] Executing ViewResult, running view "TopicDetails".
+2023-10-30 03:54:58.400 +01:00 [Information] Executed ViewResult - view "TopicDetails" executed in 17.1797ms.
+2023-10-30 03:54:58.400 +01:00 [Information] Executed action "Forum.Controllers.TopicController.TopicDetails (Forum)" in 19.0796ms
+2023-10-30 03:54:58.400 +01:00 [Information] Executed endpoint '"Forum.Controllers.TopicController.TopicDetails (Forum)"'
+2023-10-30 03:54:58.401 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Topic/TopicDetails/1 - - - 200 - text/html;+charset=utf-8 23.5963ms
+2023-10-30 03:54:58.406 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css?v=rYKnG-JB9M2x-H4nVgrp-vEkdVLuLY8MBOpZDywim-4 - -
+2023-10-30 03:54:58.406 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 03:54:58.407 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 03:54:58.407 +01:00 [Information] The file "/css/style.css" was not modified
+2023-10-30 03:54:58.407 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3862ms
+2023-10-30 03:54:58.407 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css?v=rYKnG-JB9M2x-H4nVgrp-vEkdVLuLY8MBOpZDywim-4 - - - 304 - text/css 0.5903ms
+2023-10-30 03:54:58.409 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.7973ms
+2023-10-30 03:54:59.429 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Post/CreatePost?topicId=1 - -
+2023-10-30 03:54:59.436 +01:00 [Information] Executing endpoint '"Forum.Controllers.PostController.CreatePost (Forum)"'
+2023-10-30 03:54:59.436 +01:00 [Information] Route matched with "{action = \"CreatePost\", controller = \"Post\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreatePost(Int32)" on controller "Forum.Controllers.PostController" ("Forum").
+2023-10-30 03:54:59.440 +01:00 [Information] Executing ViewResult, running view "CreatePost".
+2023-10-30 03:54:59.462 +01:00 [Information] Executed ViewResult - view "CreatePost" executed in 22.5753ms.
+2023-10-30 03:54:59.462 +01:00 [Information] Executed action "Forum.Controllers.PostController.CreatePost (Forum)" in 25.7202ms
+2023-10-30 03:54:59.462 +01:00 [Information] Executed endpoint '"Forum.Controllers.PostController.CreatePost (Forum)"'
+2023-10-30 03:54:59.465 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Post/CreatePost?topicId=1 - - - 200 - text/html;+charset=utf-8 35.6518ms
+2023-10-30 03:54:59.470 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 03:54:59.470 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css?v=rYKnG-JB9M2x-H4nVgrp-vEkdVLuLY8MBOpZDywim-4 - -
+2023-10-30 03:54:59.470 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 03:54:59.470 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.4392ms
+2023-10-30 03:54:59.470 +01:00 [Information] The file "/css/style.css" was not modified
+2023-10-30 03:54:59.470 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css?v=rYKnG-JB9M2x-H4nVgrp-vEkdVLuLY8MBOpZDywim-4 - - - 304 - text/css 0.5280ms
+2023-10-30 03:54:59.473 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.8809ms
+2023-10-30 03:55:01.178 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/CategoryTable - -
+2023-10-30 03:55:01.181 +01:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CategoryTable (Forum)"'
+2023-10-30 03:55:01.182 +01:00 [Information] Route matched with "{action = \"CategoryTable\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CategoryTable()" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-30 03:55:01.187 +01:00 [Information] Executing ViewResult, running view "CategoryTable".
+2023-10-30 03:55:01.196 +01:00 [Information] Executed ViewResult - view "CategoryTable" executed in 9.884ms.
+2023-10-30 03:55:01.196 +01:00 [Information] Executed action "Forum.Controllers.CategoryController.CategoryTable (Forum)" in 14.2422ms
+2023-10-30 03:55:01.196 +01:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CategoryTable (Forum)"'
+2023-10-30 03:55:01.197 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/CategoryTable - - - 200 - text/html;+charset=utf-8 19.5453ms
+2023-10-30 03:55:01.205 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css?v=rYKnG-JB9M2x-H4nVgrp-vEkdVLuLY8MBOpZDywim-4 - -
+2023-10-30 03:55:01.205 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 03:55:01.205 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 03:55:01.205 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3078ms
+2023-10-30 03:55:01.205 +01:00 [Information] The file "/css/style.css" was not modified
+2023-10-30 03:55:01.205 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css?v=rYKnG-JB9M2x-H4nVgrp-vEkdVLuLY8MBOpZDywim-4 - - - 304 - text/css 0.5712ms
+2023-10-30 03:55:01.208 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.8554ms
+2023-10-30 03:55:02.443 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/CategoryDetails/1 - -
+2023-10-30 03:55:02.447 +01:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-30 03:55:02.449 +01:00 [Information] Route matched with "{action = \"CategoryDetails\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CategoryDetails(Int32)" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-30 03:55:02.450 +01:00 [Information] [CategoryController] Id passed to categorydetails: 1.
+2023-10-30 03:55:02.452 +01:00 [Information] [CategoryRep] Getting the category with id: 1: 
+2023-10-30 03:55:02.455 +01:00 [Information] Executing ViewResult, running view "CategoryDetails".
+2023-10-30 03:55:02.469 +01:00 [Information] Executed ViewResult - view "CategoryDetails" executed in 13.4663ms.
+2023-10-30 03:55:02.469 +01:00 [Information] Executed action "Forum.Controllers.CategoryController.CategoryDetails (Forum)" in 19.9863ms
+2023-10-30 03:55:02.469 +01:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-30 03:55:02.470 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/CategoryDetails/1 - - - 200 - text/html;+charset=utf-8 26.5554ms
+2023-10-30 03:55:02.478 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 03:55:02.478 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 03:55:02.478 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css?v=rYKnG-JB9M2x-H4nVgrp-vEkdVLuLY8MBOpZDywim-4 - -
+2023-10-30 03:55:02.478 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.4032ms
+2023-10-30 03:55:02.479 +01:00 [Information] The file "/css/style.css" was not modified
+2023-10-30 03:55:02.479 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css?v=rYKnG-JB9M2x-H4nVgrp-vEkdVLuLY8MBOpZDywim-4 - - - 304 - text/css 0.5666ms
+2023-10-30 03:55:02.481 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.7715ms
+2023-10-30 03:55:03.844 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Room/RoomDetails/3 - -
+2023-10-30 03:55:03.847 +01:00 [Information] Executing endpoint '"Forum.Controllers.RoomController.RoomDetails (Forum)"'
+2023-10-30 03:55:03.849 +01:00 [Information] Route matched with "{action = \"RoomDetails\", controller = \"Room\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RoomDetails(Int32)" on controller "Forum.Controllers.RoomController" ("Forum").
+2023-10-30 03:55:03.850 +01:00 [Information] RoomDetails called with Room ID: 3
+2023-10-30 03:55:03.855 +01:00 [Information] Executing ViewResult, running view "RoomDetails".
+2023-10-30 03:55:03.869 +01:00 [Information] Executed ViewResult - view "RoomDetails" executed in 14.4487ms.
+2023-10-30 03:55:03.869 +01:00 [Information] Executed action "Forum.Controllers.RoomController.RoomDetails (Forum)" in 20.4476ms
+2023-10-30 03:55:03.869 +01:00 [Information] Executed endpoint '"Forum.Controllers.RoomController.RoomDetails (Forum)"'
+2023-10-30 03:55:03.870 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Room/RoomDetails/3 - - - 200 - text/html;+charset=utf-8 25.7461ms
+2023-10-30 03:55:03.877 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css?v=rYKnG-JB9M2x-H4nVgrp-vEkdVLuLY8MBOpZDywim-4 - -
+2023-10-30 03:55:03.877 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 03:55:03.877 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 03:55:03.878 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2798ms
+2023-10-30 03:55:03.878 +01:00 [Information] The file "/css/style.css" was not modified
+2023-10-30 03:55:03.878 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css?v=rYKnG-JB9M2x-H4nVgrp-vEkdVLuLY8MBOpZDywim-4 - - - 304 - text/css 0.5055ms
+2023-10-30 03:55:03.880 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.9746ms
+2023-10-30 03:55:04.719 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Topic/TopicDetails/3 - -
+2023-10-30 03:55:04.722 +01:00 [Information] Executing endpoint '"Forum.Controllers.TopicController.TopicDetails (Forum)"'
+2023-10-30 03:55:04.722 +01:00 [Information] Route matched with "{action = \"TopicDetails\", controller = \"Topic\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TopicDetails(Int32)" on controller "Forum.Controllers.TopicController" ("Forum").
+2023-10-30 03:55:04.724 +01:00 [Information] Executing ViewResult, running view "TopicDetails".
+2023-10-30 03:55:04.734 +01:00 [Information] Executed ViewResult - view "TopicDetails" executed in 9.689ms.
+2023-10-30 03:55:04.734 +01:00 [Information] Executed action "Forum.Controllers.TopicController.TopicDetails (Forum)" in 11.9675ms
+2023-10-30 03:55:04.734 +01:00 [Information] Executed endpoint '"Forum.Controllers.TopicController.TopicDetails (Forum)"'
+2023-10-30 03:55:04.735 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Topic/TopicDetails/3 - - - 200 - text/html;+charset=utf-8 15.8109ms
+2023-10-30 03:55:04.742 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 03:55:04.742 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 03:55:04.742 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3979ms
+2023-10-30 03:55:04.745 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.0390ms
+2023-10-30 03:55:05.319 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Post/CreatePost?topicId=3 - -
+2023-10-30 03:55:05.321 +01:00 [Information] Executing endpoint '"Forum.Controllers.PostController.CreatePost (Forum)"'
+2023-10-30 03:55:05.321 +01:00 [Information] Route matched with "{action = \"CreatePost\", controller = \"Post\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreatePost(Int32)" on controller "Forum.Controllers.PostController" ("Forum").
+2023-10-30 03:55:05.322 +01:00 [Information] Executing ViewResult, running view "CreatePost".
+2023-10-30 03:55:05.327 +01:00 [Information] Executed ViewResult - view "CreatePost" executed in 5.3041ms.
+2023-10-30 03:55:05.327 +01:00 [Information] Executed action "Forum.Controllers.PostController.CreatePost (Forum)" in 5.5329ms
+2023-10-30 03:55:05.327 +01:00 [Information] Executed endpoint '"Forum.Controllers.PostController.CreatePost (Forum)"'
+2023-10-30 03:55:05.328 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Post/CreatePost?topicId=3 - - - 200 - text/html;+charset=utf-8 9.7180ms
+2023-10-30 03:55:05.336 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css?v=rYKnG-JB9M2x-H4nVgrp-vEkdVLuLY8MBOpZDywim-4 - -
+2023-10-30 03:55:05.336 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 03:55:05.336 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 03:55:05.336 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3736ms
+2023-10-30 03:55:05.336 +01:00 [Information] The file "/css/style.css" was not modified
+2023-10-30 03:55:05.336 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css?v=rYKnG-JB9M2x-H4nVgrp-vEkdVLuLY8MBOpZDywim-4 - - - 304 - text/css 0.4593ms
+2023-10-30 03:55:05.338 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.7098ms
+2023-10-30 03:55:59.497 +01:00 [Information] Request starting HTTP/2 POST https://localhost:7205/Post/Createpost?topicId=3 application/x-www-form-urlencoded 526
+2023-10-30 03:55:59.506 +01:00 [Information] Executing endpoint '"Forum.Controllers.PostController.CreatePost (Forum)"'
+2023-10-30 03:55:59.511 +01:00 [Information] Route matched with "{action = \"CreatePost\", controller = \"Post\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePost(Forum.ViewModels.PostCommentViewModel)" on controller "Forum.Controllers.PostController" ("Forum").
+2023-10-30 03:55:59.647 +01:00 [Information] Attempting to create a new post and comment with the following data: "{
+  \"$id\": \"1\",
+  \"Post\": {
+    \"$id\": \"2\",
+    \"PostId\": 11,
+    \"TopicId\": 3,
+    \"UserName\": \"Ben\",
+    \"PostTitle\": \"Skiiing\",
+    \"PostTime\": \"2023-10-30T03:55:59.5237987+01:00\",
+    \"Topic\": null,
+    \"Comments\": null,
+    \"LatestComment\": null
+  },
+  \"Comment\": {
+    \"$id\": \"3\",
+    \"CommentId\": 0,
+    \"PostId\": 11,
+    \"UserName\": \"Ben\",
+    \"CommentDescription\": \"Hi, I wanna Ski in Oslo, which what skis should I buy?\r\n\r\nMuch love from Belgum ( I am from Belgum (I am staying In Norway now tho))!\r\n\r\nWhen will the snow come by the way?\r\n\r\nMuch love, Ben.\",
+    \"CommentTime\": \"2023-10-30T03:55:59.5237987+01:00\",
+    \"Post\": null
+  }
+}"
+2023-10-30 03:55:59.655 +01:00 [Information] Executing RedirectResult, redirecting to "/Topic/TopicDetails/3".
+2023-10-30 03:55:59.655 +01:00 [Information] Executed action "Forum.Controllers.PostController.CreatePost (Forum)" in 144.5019ms
+2023-10-30 03:55:59.655 +01:00 [Information] Executed endpoint '"Forum.Controllers.PostController.CreatePost (Forum)"'
+2023-10-30 03:55:59.656 +01:00 [Information] Request finished HTTP/2 POST https://localhost:7205/Post/Createpost?topicId=3 application/x-www-form-urlencoded 526 - 302 0 - 159.4001ms
+2023-10-30 03:55:59.658 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Topic/TopicDetails/3 - -
+2023-10-30 03:55:59.660 +01:00 [Information] Executing endpoint '"Forum.Controllers.TopicController.TopicDetails (Forum)"'
+2023-10-30 03:55:59.660 +01:00 [Information] Route matched with "{action = \"TopicDetails\", controller = \"Topic\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TopicDetails(Int32)" on controller "Forum.Controllers.TopicController" ("Forum").
+2023-10-30 03:55:59.662 +01:00 [Information] Executing ViewResult, running view "TopicDetails".
+2023-10-30 03:55:59.671 +01:00 [Information] Executed ViewResult - view "TopicDetails" executed in 9.8141ms.
+2023-10-30 03:55:59.671 +01:00 [Information] Executed action "Forum.Controllers.TopicController.TopicDetails (Forum)" in 11.2912ms
+2023-10-30 03:55:59.671 +01:00 [Information] Executed endpoint '"Forum.Controllers.TopicController.TopicDetails (Forum)"'
+2023-10-30 03:55:59.673 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Topic/TopicDetails/3 - - - 200 - text/html;+charset=utf-8 14.9118ms
+2023-10-30 03:55:59.681 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css?v=rYKnG-JB9M2x-H4nVgrp-vEkdVLuLY8MBOpZDywim-4 - -
+2023-10-30 03:55:59.681 +01:00 [Information] The file "/css/style.css" was not modified
+2023-10-30 03:55:59.682 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 03:55:59.682 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 03:55:59.682 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css?v=rYKnG-JB9M2x-H4nVgrp-vEkdVLuLY8MBOpZDywim-4 - - - 304 - text/css 0.6661ms
+2023-10-30 03:55:59.682 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.4081ms
+2023-10-30 03:55:59.684 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.6697ms
+2023-10-30 03:56:01.326 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Post/PostDetails/11 - -
+2023-10-30 03:56:01.328 +01:00 [Information] Executing endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-30 03:56:01.328 +01:00 [Information] Route matched with "{action = \"PostDetails\", controller = \"Post\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostDetails(Int32)" on controller "Forum.Controllers.PostController" ("Forum").
+2023-10-30 03:56:01.330 +01:00 [Information] Executing ViewResult, running view "PostDetails".
+2023-10-30 03:56:01.340 +01:00 [Information] Executed ViewResult - view "PostDetails" executed in 10.5003ms.
+2023-10-30 03:56:01.340 +01:00 [Information] Executed action "Forum.Controllers.PostController.PostDetails (Forum)" in 12.2888ms
+2023-10-30 03:56:01.340 +01:00 [Information] Executed endpoint '"Forum.Controllers.PostController.PostDetails (Forum)"'
+2023-10-30 03:56:01.341 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Post/PostDetails/11 - - - 200 - text/html;+charset=utf-8 15.6791ms
+2023-10-30 03:56:01.349 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css - -
+2023-10-30 03:56:01.349 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 03:56:01.349 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2685ms
+2023-10-30 03:56:01.349 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_vs/browserLink - -
+2023-10-30 03:56:01.349 +01:00 [Information] The file "/css/style.css" was not modified
+2023-10-30 03:56:01.350 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css - - - 304 - text/css 1.1113ms
+2023-10-30 03:56:01.354 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.6036ms

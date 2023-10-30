@@ -29,10 +29,10 @@ namespace Forum.Controllers
                 return View("Error");
             }
 
-            posts = posts.OrderByDescending(p => p.PostTime); //Sort the posts by date
+            posts = posts.OrderByDescending(p => p.PostTime = p.LatestComment.CommentTime);
             //Creating a new postListViewModel
             var postListViewModel = new PostListViewModel(
-                posts: posts.Take(8), //Take the first 8 posts from posts
+                posts: posts.Take(8), //the models posts is equal to posts gotten with the getall method.
                 currentViewName: "Index"
             );
 

@@ -21,17 +21,6 @@ namespace Forum.Controllers
             _logger = logger;
         }
 
-        public async Task<IActionResult>TopicTable()
-        {
-            var topics = await _topicRepository.GetAll();
-            if (topics == null)
-            {
-                _logger.LogError("[TopicController] Topic list not found while executing _topicRepository.GetAll()");
-            }
-                var threadListViewModel = new TopicListViewModel(topics, "Table");
-                return View(threadListViewModel);
-        }
-
         [HttpGet]
         [Authorize(Roles = "SuperAdmin")]
         public IActionResult CreateTopic(int roomId)

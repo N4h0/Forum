@@ -28,18 +28,6 @@ namespace Forum.Controllers
             _logger = logger;
             _userManager = userManager;
         }
-      
-
-        public async Task<IActionResult> PostTable()
-        {
-            var posts = await _postRepository.GetAll();
-            if (posts == null)
-            {
-                _logger.LogError("[PostController] Post list not found while executing _postRepository.GetAll()");
-            }
-            var postListViewModel = new PostListViewModel(posts, "Table");
-            return View(postListViewModel);
-        }
 
         [HttpGet] //Called when clicking on the CreatePost hypelink under TopicDetails. CreatePost is the name of the method (here) and view (CreatePost.cshtml).
         [Authorize]

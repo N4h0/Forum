@@ -24,13 +24,6 @@ namespace Forum.Controllers
             _logger = logger;
         }
 
-        public async Task<IActionResult> RoomTable()
-        {
-            var rooms = await _roomRepository.GetAll();
-            var roomListViewModel = new RoomListViewModel(rooms);
-            return View(roomListViewModel);
-        }
-
         public async Task<IActionResult> RoomDetails(int Id)
         {
 
