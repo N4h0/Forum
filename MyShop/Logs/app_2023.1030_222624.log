@@ -1,0 +1,111 @@
+2023-10-30 22:26:25.414 +01:00 [Information] User profile is available. Using '"C:\Users\Johan\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-30 22:26:26.069 +01:00 [Information] Now listening on: "https://localhost:7205"
+2023-10-30 22:26:26.070 +01:00 [Information] Now listening on: "http://localhost:5112"
+2023-10-30 22:26:26.075 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-30 22:26:26.076 +01:00 [Information] Hosting environment: "Development"
+2023-10-30 22:26:26.077 +01:00 [Information] Content root path: "C:\Users\Johan\Source\Repos\N4h0\Forum\MyShop\"
+2023-10-30 22:26:26.715 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-30 22:26:26.762 +01:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 22:26:26.772 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-30 22:26:26.814 +01:00 [Information] Executing ViewResult, running view "Index".
+2023-10-30 22:26:26.985 +01:00 [Information] Executed ViewResult - view "Index" executed in 172.0498ms.
+2023-10-30 22:26:26.986 +01:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 213.837ms
+2023-10-30 22:26:26.986 +01:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 22:26:26.994 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 281.3359ms
+2023-10-30 22:26:27.003 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - -
+2023-10-30 22:26:27.003 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/lib/bootstrap/js/bootstrap.js - -
+2023-10-30 22:26:27.003 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/formula1.jpg - -
+2023-10-30 22:26:27.003 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/css/style.css?v=kzm_mj_CkXg8n4wnlmzNMYFj30l_OhQ9L9H7sOzbgVs - -
+2023-10-30 22:26:27.003 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/fotball.jpg - -
+2023-10-30 22:26:27.003 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/lib/jquery-validate/jquery.validate.js - -
+2023-10-30 22:26:27.009 +01:00 [Information] The file "/images/fotball.jpg" was not modified
+2023-10-30 22:26:27.009 +01:00 [Information] The file "/lib/bootstrap/js/bootstrap.js" was not modified
+2023-10-30 22:26:27.009 +01:00 [Information] The file "/images/formula1.jpg" was not modified
+2023-10-30 22:26:27.009 +01:00 [Information] The file "/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" was not modified
+2023-10-30 22:26:27.009 +01:00 [Information] The file "/css/style.css" was not modified
+2023-10-30 22:26:27.009 +01:00 [Information] The file "/lib/jquery-validate/jquery.validate.js" was not modified
+2023-10-30 22:26:27.009 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/css/style.css?v=kzm_mj_CkXg8n4wnlmzNMYFj30l_OhQ9L9H7sOzbgVs - - - 304 - text/css 6.2612ms
+2023-10-30 22:26:27.009 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/lib/jquery-validate/jquery.validate.js - - - 304 - application/javascript 6.1940ms
+2023-10-30 22:26:27.009 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/lib/bootstrap/js/bootstrap.js - - - 304 - application/javascript 6.3017ms
+2023-10-30 22:26:27.009 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/formula1.jpg - - - 304 - image/jpeg 6.2632ms
+2023-10-30 22:26:27.009 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/fotball.jpg - - - 304 - image/jpeg 6.2121ms
+2023-10-30 22:26:27.009 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - - - 304 - application/javascript 6.3060ms
+2023-10-30 22:26:27.025 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/vacation.jpg - -
+2023-10-30 22:26:27.026 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/mosque.jpg - -
+2023-10-30 22:26:27.026 +01:00 [Information] The file "/images/vacation.jpg" was not modified
+2023-10-30 22:26:27.026 +01:00 [Information] The file "/images/mosque.jpg" was not modified
+2023-10-30 22:26:27.026 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/vacation.jpg - - - 304 - image/jpeg 1.1266ms
+2023-10-30 22:26:27.026 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/mosque.jpg - - - 304 - image/jpeg 0.5535ms
+2023-10-30 22:26:27.030 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/cyberS.jpg - -
+2023-10-30 22:26:27.030 +01:00 [Information] The file "/images/cyberS.jpg" was not modified
+2023-10-30 22:26:27.030 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/cyberS.jpg - - - 304 - image/jpeg 0.2142ms
+2023-10-30 22:26:27.036 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 22:26:27.039 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 2.7499ms
+2023-10-30 22:26:27.044 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/images/skiEquipments.jpg - -
+2023-10-30 22:26:27.044 +01:00 [Information] The file "/images/skiEquipments.jpg" was not modified
+2023-10-30 22:26:27.044 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/images/skiEquipments.jpg - - - 304 - image/jpeg 0.2646ms
+2023-10-30 22:26:28.135 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/CategoryTable - -
+2023-10-30 22:26:28.138 +01:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CategoryTable (Forum)"'
+2023-10-30 22:26:28.139 +01:00 [Information] Route matched with "{action = \"CategoryTable\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CategoryTable()" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-30 22:26:28.150 +01:00 [Information] Executing ViewResult, running view "CategoryTable".
+2023-10-30 22:26:28.157 +01:00 [Information] Executed ViewResult - view "CategoryTable" executed in 7.0195ms.
+2023-10-30 22:26:28.157 +01:00 [Information] Executed action "Forum.Controllers.CategoryController.CategoryTable (Forum)" in 17.5714ms
+2023-10-30 22:26:28.157 +01:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CategoryTable (Forum)"'
+2023-10-30 22:26:28.157 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/CategoryTable - - - 200 - text/html;+charset=utf-8 22.0210ms
+2023-10-30 22:26:28.168 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 22:26:28.168 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.4166ms
+2023-10-30 22:26:30.750 +01:00 [Information] Request starting HTTP/2 POST https://localhost:7205/Identity/Account/Logout?returnUrl=%2F application/x-www-form-urlencoded 225
+2023-10-30 22:26:30.761 +01:00 [Information] Executing endpoint '"/Account/Logout"'
+2023-10-30 22:26:30.771 +01:00 [Information] Route matched with "{page = \"/Account/Logout\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Logout"
+2023-10-30 22:26:30.789 +01:00 [Information] Executing handler method "Forum.Areas.Identity.Pages.Account.LogoutModel.OnPost" - ModelState is Valid
+2023-10-30 22:26:30.793 +01:00 [Information] AuthenticationScheme: "Identity.Application" signed out.
+2023-10-30 22:26:30.794 +01:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2023-10-30 22:26:30.794 +01:00 [Information] AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+2023-10-30 22:26:30.795 +01:00 [Information] User logged out.
+2023-10-30 22:26:30.795 +01:00 [Information] Executed handler method "OnPost", returned result "Microsoft.AspNetCore.Mvc.LocalRedirectResult".
+2023-10-30 22:26:30.795 +01:00 [Information] Executing LocalRedirectResult, redirecting to "/".
+2023-10-30 22:26:30.795 +01:00 [Information] Executed page "/Account/Logout" in 24.2819ms
+2023-10-30 22:26:30.795 +01:00 [Information] Executed endpoint '"/Account/Logout"'
+2023-10-30 22:26:30.796 +01:00 [Information] Request finished HTTP/2 POST https://localhost:7205/Identity/Account/Logout?returnUrl=%2F application/x-www-form-urlencoded 225 - 302 0 - 45.7536ms
+2023-10-30 22:26:30.799 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-30 22:26:30.800 +01:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 22:26:30.800 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-30 22:26:30.803 +01:00 [Information] Executing ViewResult, running view "Index".
+2023-10-30 22:26:30.823 +01:00 [Information] Executed ViewResult - view "Index" executed in 20.3287ms.
+2023-10-30 22:26:30.823 +01:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 23.3192ms
+2023-10-30 22:26:30.823 +01:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 22:26:30.823 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 23.7240ms
+2023-10-30 22:26:30.838 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 22:26:30.838 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.2895ms
+2023-10-30 22:26:31.582 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/CategoryTable - -
+2023-10-30 22:26:31.583 +01:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CategoryTable (Forum)"'
+2023-10-30 22:26:31.583 +01:00 [Information] Route matched with "{action = \"CategoryTable\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CategoryTable()" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-30 22:26:31.586 +01:00 [Information] Executing ViewResult, running view "CategoryTable".
+2023-10-30 22:26:31.587 +01:00 [Information] Executed ViewResult - view "CategoryTable" executed in 1.1652ms.
+2023-10-30 22:26:31.587 +01:00 [Information] Executed action "Forum.Controllers.CategoryController.CategoryTable (Forum)" in 4.2225ms
+2023-10-30 22:26:31.587 +01:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CategoryTable (Forum)"'
+2023-10-30 22:26:31.587 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/CategoryTable - - - 200 - text/html;+charset=utf-8 5.7357ms
+2023-10-30 22:26:31.603 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 22:26:31.604 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.3981ms
+2023-10-30 22:26:32.905 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/Category/CategoryDetails/1 - -
+2023-10-30 22:26:32.905 +01:00 [Information] Executing endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-30 22:26:32.907 +01:00 [Information] Route matched with "{action = \"CategoryDetails\", controller = \"Category\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CategoryDetails(Int32)" on controller "Forum.Controllers.CategoryController" ("Forum").
+2023-10-30 22:26:32.912 +01:00 [Information] [CategoryController] Id passed to categorydetails: 1.
+2023-10-30 22:26:32.913 +01:00 [Information] [CategoryRep] Getting the category with id: 1: 
+2023-10-30 22:26:32.918 +01:00 [Information] Executing ViewResult, running view "CategoryDetails".
+2023-10-30 22:26:32.939 +01:00 [Information] Executed ViewResult - view "CategoryDetails" executed in 21.2296ms.
+2023-10-30 22:26:32.939 +01:00 [Information] Executed action "Forum.Controllers.CategoryController.CategoryDetails (Forum)" in 32.2706ms
+2023-10-30 22:26:32.939 +01:00 [Information] Executed endpoint '"Forum.Controllers.CategoryController.CategoryDetails (Forum)"'
+2023-10-30 22:26:32.939 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/Category/CategoryDetails/1 - - - 200 - text/html;+charset=utf-8 34.7995ms
+2023-10-30 22:26:32.955 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 22:26:32.955 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.1643ms
+2023-10-30 22:26:34.807 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/ - -
+2023-10-30 22:26:34.808 +01:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 22:26:34.808 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-30 22:26:34.811 +01:00 [Information] Executing ViewResult, running view "Index".
+2023-10-30 22:26:34.834 +01:00 [Information] Executed ViewResult - view "Index" executed in 23.2347ms.
+2023-10-30 22:26:34.834 +01:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 26.8616ms
+2023-10-30 22:26:34.834 +01:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 22:26:34.835 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/ - - - 200 - text/html;+charset=utf-8 27.5431ms
+2023-10-30 22:26:34.849 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 22:26:34.849 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7205/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.1497ms
