@@ -49,12 +49,6 @@
             <!-- Add a wrapper div for each comment -->
             <table class='table table-striped'>
                 <tr>
-                    @if (User.IsInRole("SuperAdmin"))
-                    {
-                        <th class="bg-dark text-light"></th>
-                    }
-                </tr>
-                <tr>
                     <td>
                         <span>@Comment.CommentDescription</span> <!-- Display the comment description -->
                     </td>
