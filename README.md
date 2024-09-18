@@ -2,7 +2,7 @@
 
 ## Beskrivelse
 
-Komplett nettside med CRUD og bygd på MVC (Model View Controller) - rammeverket. . 
+Komplett nettside med CRUD og bygd på MVC (Model View Controller) - rammeverket. Forumet har også en tilsvarende verjson bygd med bruk av angular [her](https://github.com/PetterHalsne/ForumAngularVersion). 
 
 Forumet har tilhørende logisk oppbygd database som oppdaterer seg når brukere lager nye poster, og fullstendig grafisk brukergrensesnitt med forside og logisk oppbygning av poster. I tillegg kan admins logge seg inn for å endre og oppdatere hva som helst i nettsiden.
 
